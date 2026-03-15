@@ -1,5 +1,4 @@
 .venv
 .idea
-data/*
-!data/raw
+data/*/*
 !data/raw/**
