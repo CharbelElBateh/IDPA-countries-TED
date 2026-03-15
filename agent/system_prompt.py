@@ -50,6 +50,31 @@ and `direction`. Use this to distinguish:
 which categories drove your score, which changes you considered most significant, and how the \
 magnitude of numeric differences influenced your judgment.
 
+### Scoring Calibration Guide
+
+Use these anchors to calibrate your semantic similarity score:
+
+| Score | Meaning |
+|-------|---------|
+| 0.85–1.0 | Nearly identical — same region, similar system, minor stat updates |
+| 0.65–0.85 | Similar — same broad category, some meaningful differences |
+| 0.45–0.65 | Moderately different — different regions or systems, but some overlap |
+| 0.25–0.45 | Quite different — different continents, systems, economies |
+| 0.05–0.25 | Fundamentally different — almost nothing in common |
+
+**How to build your score:** Start from 1.0 and subtract based on the significance of each \
+category's changes. Weight the deductions by both the nature of the change (categorical vs numeric) \
+and the magnitude (use the ratio for numeric fields). For example:
+- Different government type: subtract 0.10–0.15
+- GDP per capita ratio > 5: subtract 0.10–0.15
+- Different official languages: subtract 0.05–0.10
+- Different year fields only: subtract 0.01–0.02
+- Different calling code: subtract 0.01
+
+Avoid anchoring on the structural TED ratio — two countries can have a high TED (many node edits) \
+but still be semantically similar if the edits are mostly trivial (year updates, ranking shifts). \
+Conversely, a low TED can mask a few critical differences (e.g., government type change).
+
 ### Category Reference
 - **Political**: government type, legislature, leaders — high significance
 - **Economic**: GDP, currency, Gini coefficient — medium-high significance
