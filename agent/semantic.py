@@ -4,7 +4,13 @@ Categorization (mapping fields to semantic categories) is deterministic.
 Importance weighting and semantic scoring are left to the LLM — the agent
 receives the categorized change list and applies its own judgment about
 which changes are fundamental vs trivial.
+
+For numeric fields (GDP, population, area, etc.) we extract the numeric
+values and compute a magnitude ratio so the LLM can distinguish a small
+update (1B → 1.2B, ratio 1.2) from a massive gap (1B → 50B, ratio 50).
 """
+
+import re
 
 from classes.EditScript import EditScript
 from classes.Tree import Tree
@@ -38,10 +44,66 @@ def _get_category(field_name: str) -> str:
     return "other"
 
 
+def _parse_number(text: str) -> float | None:
+    """Try to extract a single numeric value from a string.
+
+    Handles formats like: "1,234,567", "726.6", "$11,793", "0.59", "8,796,001".
+    Returns None if the text doesn't look like a single number.
+    """
+    # Strip common prefixes/suffixes (currency symbols, %, etc.)
+    cleaned = re.sub(r'[^\d.,\-]', '', text.strip())
+    if not cleaned:
+        return None
+    # Remove thousands separators (commas in "1,234,567")
+    cleaned = cleaned.replace(',', '')
+    try:
+        return float(cleaned)
+    except ValueError:
+        return None
+
+
+def _numeric_magnitude(from_val: str, to_val: str) -> dict | None:
+    """If both values are numeric, compute magnitude info for the LLM.
+
+    Returns dict with from_num, to_num, ratio, direction, or None if
+    either value isn't numeric.
+    """
+    from_num = _parse_number(from_val)
+    to_num = _parse_number(to_val)
+    if from_num is None or to_num is None:
+        return None
+
+    # Avoid division by zero
+    if from_num == 0 and to_num == 0:
+        return {"from_num": 0, "to_num": 0, "ratio": 1.0, "direction": "same"}
+
+    if from_num == 0:
+        ratio = float('inf')
+    else:
+        ratio = to_num / from_num
+
+    if ratio > 1:
+        direction = "increase"
+    elif ratio < 1:
+        direction = "decrease"
+    else:
+        direction = "same"
+
+    return {
+        "from_num": from_num,
+        "to_num": to_num,
+        "ratio": round(ratio, 3),
+        "abs_diff": round(abs(to_num - from_num), 3),
+        "direction": direction,
+    }
+
+
 def categorize_changes(edit_script: EditScript) -> dict[str, list[dict]]:
     """Categorize edit script actions by semantic category.
 
-    Returns: {category: [{op_type, field, label, from_val, to_val, value}, ...]}
+    Returns: {category: [{op_type, field, label, from_val, to_val, value, magnitude?}, ...]}
+    For relabel ops on numeric values, includes a 'magnitude' dict with
+    from_num, to_num, ratio, abs_diff, and direction.
     """
     categories: dict[str, list[dict]] = {}
 
@@ -57,8 +119,14 @@ def categorize_changes(edit_script: EditScript) -> dict[str, list[dict]]:
         }
 
         if action.op_type == "relabel":
-            change["from_val"] = action.node.label
-            change["to_val"] = action.args.get("new_label", "")
+            from_val = action.node.label
+            to_val = action.args.get("new_label", "")
+            change["from_val"] = from_val
+            change["to_val"] = to_val
+            # Annotate with numeric magnitude if both sides are numbers
+            mag = _numeric_magnitude(from_val, to_val)
+            if mag:
+                change["magnitude"] = mag
         elif action.op_type in ("insert", "delete"):
             change["value"] = action.node.label
 

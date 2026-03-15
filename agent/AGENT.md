@@ -92,6 +92,24 @@ Deterministic mapping of edit operations to semantic domains:
 
 **Importance weighting is NOT hardcoded.** The categorized changes are returned to the LLM, which applies its own judgment about significance. This means the semantic analysis adapts to context — the LLM can reason that "Lebanon and Syria sharing Arabic as a language is expected, but Switzerland and Lebanon both being republics is notable."
 
+**Numeric magnitude detection.** For relabel operations where both the old and new values are numeric (GDP, population, area, HDI, Gini, etc.), the tool automatically parses the numbers and includes a `magnitude` object:
+
+```json
+{
+  "from_val": "$11,793",
+  "to_val": "$97,660",
+  "magnitude": {
+    "from_num": 11793.0,
+    "to_num": 97660.0,
+    "ratio": 8.281,
+    "abs_diff": 85867.0,
+    "direction": "increase"
+  }
+}
+```
+
+This lets the LLM distinguish a trivial year update (2024→2025, ratio 1.0) from a massive economic gap (GDP per capita ratio 8x). A ratio close to 1.0 means near-identical values; a ratio of 5+ signals a fundamental difference.
+
 ### `llm_client.py` — LLM Abstraction
 
 Uses [litellm](https://github.com/BerriAI/litellm) for provider-agnostic API calls:
