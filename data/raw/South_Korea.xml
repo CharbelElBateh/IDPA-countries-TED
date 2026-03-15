@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="South Korea">
+  <conventional_long_name>Republic of Korea</conventional_long_name>
+  <common_name>South Korea</common_name>
+  <native_name>'' ''</native_name>
+  <other_symbol_type>National Seal:</other_symbol_type>
+  <other_symbol>85px</other_symbol>
+  <symbol_type>Emblem</symbol_type>
+  <anthem>"Patriotic Song"</anthem>
+  <capital>Seoul</capital>
+  <largest_city>capital</largest_city>
+  <official_languages>KoreanKorean Sign Language</official_languages>
+  <languages_type>Official script</languages_type>
+  <languages>Hangul</languages>
+  <ethnic_groups>94.8% Korean, 5.2% Others</ethnic_groups>
+  <ethnic_groups_year>2024</ethnic_groups_year>
+  <religion>51% No religion, 31% Christianity, 20% Protestant, 11% Catholic, 17% Buddhism, 2% Others</religion>
+  <religion_year>2024</religion_year>
+  <demonym>South Korean, Korean</demonym>
+  <government_type>Unitary presidential republic</government_type>
+  <legislature>National Assembly</legislature>
+  <sovereignty_type>Establishment history</sovereignty_type>
+  <area_km2>100,363</area_km2>
+  <area_rank>107th</area_rank>
+  <area_sq_mi>38,770</area_sq_mi>
+  <percent_water>0.3</percent_water>
+  <population_estimate>52,081,799</population_estimate>
+  <population_estimate_year>2024</population_estimate_year>
+  <population_estimate_rank>29th</population_estimate_rank>
+  <population_density_km2>507</population_density_km2>
+  <population_density_rank>27th</population_density_rank>
+  <GDP_PPP>$3.363 trillion</GDP_PPP>
+  <GDP_PPP_year>2025</GDP_PPP_year>
+  <GDP_PPP_rank>14th</GDP_PPP_rank>
+  <GDP_PPP_per_capita>$65,080</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>29th</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$1.859 trillion</GDP_nominal>
+  <GDP_nominal_year>2025</GDP_nominal_year>
+  <GDP_nominal_rank>14th</GDP_nominal_rank>
+  <GDP_nominal_per_capita>$35,962</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>33rd</GDP_nominal_per_capita_rank>
+  <Gini>33.3</Gini>
+  <Gini_year>2021</Gini_year>
+  <Gini_change>decrease</Gini_change>
+  <HDI>0.937</HDI>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI_rank>20th</HDI_rank>
+  <currency>Korean Republic won (₩)</currency>
+  <currency_code>KRW</currency_code>
+  <time_zone>Korea Standard Time</time_zone>
+  <utc_offset>+9</utc_offset>
+  <calling_code>+82</calling_code>
+  <cctld>.kr, .한국</cctld>
+  <established>
+    <event>
+      <label>Provisional Government in-exile</label>
+      <date>11 April 1919</date>
+    </event>
+    <event>
+      <label>American administration south of the 38th parallel</label>
+      <date>8 September 1945</date>
+    </event>
+    <event>
+      <label>Constitution adopted</label>
+      <date>17 July 1948</date>
+    </event>
+    <event>
+      <label>ROK established</label>
+      <date>15 August 1948</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>President</title>
+      <name>Lee Jae Myung</name>
+    </leader>
+    <leader>
+      <title>Prime Minister</title>
+      <name>Kim Min-seok</name>
+    </leader>
+    <leader>
+      <title>Speaker of the National Assembly</title>
+      <name>Woo Won-shik</name>
+    </leader>
+    <leader>
+      <title>Chief Justice of the Supreme Court</title>
+      <name>Cho Hee-dae</name>
+    </leader>
+    <leader>
+      <title>President of the Constitutional Court</title>
+      <name>Kim Sanghwan</name>
+    </leader>
+  </leaders>
+</country>

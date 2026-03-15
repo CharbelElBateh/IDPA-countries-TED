@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Fiji">
+  <conventional_long_name>Republic of Fiji</conventional_long_name>
+  <native_name>फ़िजी गणराज्य; (Fiji Hindi)</native_name>
+  <common_name>Fiji</common_name>
+  <flag>Flag of Fiji</flag>
+  <flag_type>Flag</flag_type>
+  <symbol>Coat of arms of Fiji</symbol>
+  <symbol_type>Coat of arms</symbol_type>
+  <national_motto>"Fear God and honour the King"</national_motto>
+  <national_anthem>"God Bless Fiji"</national_anthem>
+  <national_languages>Fijian, Chapter 2, Section 31 - (3) Conversational and contemporary ''iTaukei'' and Fiji Hindi languages shall be taught as compulsory subjects in all primary schools., English, Chapter 1.3.3 – This Constitution is to be adopted in the English language and translations in the iTaukei and Hindi languages are to be made available., Standard Hindi, Fiji Hindi *English * Standard Hindi * Fiji Hindi</national_languages>
+  <regional_languages>Rotuman</regional_languages>
+  <demonym>Fijian</demonym>
+  <capital>Suva</capital>
+  <largest_city>capital</largest_city>
+  <government_type>Unitary parliamentary republic</government_type>
+  <legislature>Parliament</legislature>
+  <area_rank>151st</area_rank>
+  <area_km2>18,274</area_km2>
+  <area_sq_mi>7,056</area_sq_mi>
+  <percent_water>negligible</percent_water>
+  <population_estimate>926,276</population_estimate>
+  <population_estimate_rank>161st</population_estimate_rank>
+  <population_estimate_year>2018</population_estimate_year>
+  <population_density_km2>46.4</population_density_km2>
+  <population_density_sq_mi>120.3</population_density_sq_mi>
+  <population_density_rank>148th</population_density_rank>
+  <population_census>884,887</population_census>
+  <population_census_year>2017</population_census_year>
+  <ethnic_groups>no wrap, 56.8% Indigenous Fijians, 37.5% Indo-Fijians, 1.2% Rotumans, 4.5% others</ethnic_groups>
+  <ethnic_groups_year>2016</ethnic_groups_year>
+  <GDP_PPP>$15.152 billion</GDP_PPP>
+  <GDP_PPP_year>2023</GDP_PPP_year>
+  <GDP_PPP_rank>158th</GDP_PPP_rank>
+  <GDP_PPP_per_capita>$16,563</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>102nd</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$5.511 billion</GDP_nominal>
+  <GDP_nominal_year>2023</GDP_nominal_year>
+  <GDP_nominal_rank>164th</GDP_nominal_rank>
+  <GDP_nominal_per_capita>$6,024</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>106th</GDP_nominal_per_capita_rank>
+  <sovereignty_type>Independence</sovereignty_type>
+  <sovereignty_note>from the United Kingdom</sovereignty_note>
+  <Gini_year>2019</Gini_year>
+  <Gini_change>decrease</Gini_change>
+  <Gini>30.7</Gini>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI>0.731</HDI>
+  <HDI_rank>111th</HDI_rank>
+  <date_format>dd/mm/yyyy</date_format>
+  <currency>Fijian dollar</currency>
+  <currency_code>FJD</currency_code>
+  <time_zone>FJT</time_zone>
+  <utc_offset>+12</utc_offset>
+  <drives_on>left</drives_on>
+  <calling_code>+679</calling_code>
+  <cctld>.fj</cctld>
+  <established>
+    <event>
+      <label>Independence</label>
+      <date>10 October 1970</date>
+    </event>
+    <event>
+      <label>Republic</label>
+      <date>6 October 1987</date>
+    </event>
+    <event>
+      <label/>
+      <date>6 September 2013</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>President</title>
+      <name>Naiqama Lalabalavu</name>
+    </leader>
+    <leader>
+      <title>Prime Minister</title>
+      <name>Sitiveni Rabuka</name>
+    </leader>
+    <leader>
+      <title>Deputy Prime Minister</title>
+      <name>Viliame Gavoka</name>
+    </leader>
+    <leader>
+      <title>Parliament Speaker</title>
+      <name>Filimone Jitoko</name>
+    </leader>
+    <leader>
+      <title>Chief Justice</title>
+      <name>Salesi Temo</name>
+    </leader>
+  </leaders>
+</country>

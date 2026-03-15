@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Barbados">
+  <common_name>Barbados</common_name>
+  <national_motto>"Pride and Industry"</national_motto>
+  <national_anthem>"National Anthem of Barbados" File:United States Navy Band - In Plenty and In Time of Need.ogg</national_anthem>
+  <official_languages>English</official_languages>
+  <languages_type>Vernacular language</languages_type>
+  <languages>Bajan Creole</languages>
+  <ethnic_groups_year>2020</ethnic_groups_year>
+  <religion_year>2020</religion_year>
+  <capital>Bridgetown</capital>
+  <largest_city>capital</largest_city>
+  <demonym>Barbadian, Bajan</demonym>
+  <government_type>Unitary parliamentary republic</government_type>
+  <legislature>Parliament</legislature>
+  <upper_house>Senate</upper_house>
+  <lower_house>House of Assembly</lower_house>
+  <sovereignty_type>Independence</sovereignty_type>
+  <sovereignty_note>from the United Kingdom</sovereignty_note>
+  <area_km2>439</area_km2>
+  <area_sq_mi>166</area_sq_mi>
+  <area_rank>183rd</area_rank>
+  <percent_water>Negligible</percent_water>
+  <population_estimate>281,998</population_estimate>
+  <population_estimate_rank>174th</population_estimate_rank>
+  <population_estimate_year>2023</population_estimate_year>
+  <population_census>269,090</population_census>
+  <population_census_rank>174th</population_census_rank>
+  <population_census_year>2021</population_census_year>
+  <population_density_km2>660</population_density_km2>
+  <population_density_sq_mi>1,704</population_density_sq_mi>
+  <population_density_rank>17th</population_density_rank>
+  <GDP_PPP>$5.436 billion</GDP_PPP>
+  <GDP_PPP_year>2023</GDP_PPP_year>
+  <GDP_PPP_rank>175th</GDP_PPP_rank>
+  <GDP_PPP_per_capita>$18,738</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>90th</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$6.220 billion</GDP_nominal>
+  <GDP_nominal_year>2023</GDP_nominal_year>
+  <GDP_nominal_rank>165th</GDP_nominal_rank>
+  <GDP_nominal_per_capita>$21,442</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>50th</GDP_nominal_per_capita_rank>
+  <Gini>34.1</Gini>
+  <Gini_year>2016</Gini_year>
+  <Gini_change>decrease</Gini_change>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI>0.811</HDI>
+  <HDI_rank>69th</HDI_rank>
+  <currency>Barbadian dollar ($)</currency>
+  <currency_code>BBD</currency_code>
+  <time_zone>AST</time_zone>
+  <utc_offset>−04:00</utc_offset>
+  <drives_on>Left</drives_on>
+  <calling_code>+1</calling_code>
+  <cctld>.bb</cctld>
+  <established>
+    <event>
+      <label>Part of the West Indies Federation</label>
+      <date>3 January 1958 – 31 May 1962</date>
+    </event>
+    <event>
+      <label>Barbados Independence Act 1966 as a Commonwealth realm</label>
+      <date>30 November 1966</date>
+    </event>
+    <event>
+      <label>Admitted to the UN</label>
+      <date>7 December 1966</date>
+    </event>
+    <event>
+      <label>Joined CARICOM at the Treaty of Chaguaramas</label>
+      <date>1 August 1973</date>
+    </event>
+    <event>
+      <label/>
+      <date>30 November 2021</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>President</title>
+      <name>Jeffrey Bostic</name>
+    </leader>
+    <leader>
+      <title>Prime Minister</title>
+      <name>Mia Mottley</name>
+    </leader>
+  </leaders>
+</country>

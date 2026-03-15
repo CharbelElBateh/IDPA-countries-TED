@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Hungary">
+  <conventional_long_name>Hungary</conventional_long_name>
+  <common_name>Hungary</common_name>
+  <symbol_width>50px</symbol_width>
+  <national_anthem>( )File:Hungarian national anthem, performed by the United States Navy Band (1997 arrangement).mp3</national_anthem>
+  <capital>Budapest</capital>
+  <largest_city>capital</largest_city>
+  <official_languages>Hungarian</official_languages>
+  <ethnic_groups>97.7% Hungarian, 2.4% Romani, 1.2% German, 1.3% other</ethnic_groups>
+  <ethnic_groups_year>2022 census</ethnic_groups_year>
+  <religion_year>2022 census</religion_year>
+  <demonym>Hungarian</demonym>
+  <government_type>Unitary parliamentary republic</government_type>
+  <legislature>National Assembly</legislature>
+  <sovereignty_type>Formation</sovereignty_type>
+  <area_km2>93,030</area_km2>
+  <area_rank>108th</area_rank>
+  <area_sq_mi>35,919</area_sq_mi>
+  <percent_water>3.7</percent_water>
+  <population_census_year>2022</population_census_year>
+  <population_census>9,603,634</population_census>
+  <population_estimate>9,584,627</population_estimate>
+  <population_estimate_year>January 2024</population_estimate_year>
+  <population_estimate_rank>95th</population_estimate_rank>
+  <population_density_rank>111th</population_density_rank>
+  <GDP_PPP>$460.380 billion</GDP_PPP>
+  <GDP_PPP_year>2025</GDP_PPP_year>
+  <GDP_PPP_rank>56th</GDP_PPP_rank>
+  <GDP_PPP_per_capita>$48,160</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>46th</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$247.760 billion</GDP_nominal>
+  <GDP_nominal_year>2025</GDP_nominal_year>
+  <GDP_nominal_rank>56th</GDP_nominal_rank>
+  <GDP_nominal_per_capita>$25,920</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>50th</GDP_nominal_per_capita_rank>
+  <Gini>29.0</Gini>
+  <Gini_year>2023</Gini_year>
+  <Gini_change>increase</Gini_change>
+  <HDI>0.870</HDI>
+  <HDI_rank>46th</HDI_rank>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <currency>Forint</currency>
+  <currency_code>HUF</currency_code>
+  <time_zone>CET</time_zone>
+  <utc_offset>+1</utc_offset>
+  <utc_offset_DST>+2</utc_offset_DST>
+  <time_zone_DST>CEST</time_zone_DST>
+  <calling_code>+36</calling_code>
+  <patron_saint>Saint Stephen</patron_saint>
+  <cctld>.hu</cctld>
+  <established>
+    <event>
+      <label>Hungarian conquest of the Carpathian Basin</label>
+      <date>862–895</date>
+    </event>
+    <event>
+      <label>Principality of Hungary</label>
+      <date>895</date>
+    </event>
+    <event>
+      <label>Christian Kingdom</label>
+      <date>25 December 1000</date>
+    </event>
+    <event>
+      <label>Golden Bull of 1222</label>
+      <date>24 April 1222</date>
+    </event>
+    <event>
+      <label/>
+      <date>29 August 1526</date>
+    </event>
+    <event>
+      <label/>
+      <date>2 September 1686</date>
+    </event>
+    <event>
+      <label/>
+      <date>15 March 1848</date>
+    </event>
+    <event>
+      <label>Austria-Hungary</label>
+      <date>30 March 1867</date>
+    </event>
+    <event>
+      <label>Treaty of Trianon</label>
+      <date>4 June 1920</date>
+    </event>
+    <event>
+      <label>Third Republic</label>
+      <date>23 October 1989</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>President</title>
+      <name>Tamás Sulyok</name>
+    </leader>
+    <leader>
+      <title>Prime Minister</title>
+      <name>Viktor Orbán</name>
+    </leader>
+    <leader>
+      <title>Speaker</title>
+      <name>László Kövér</name>
+    </leader>
+  </leaders>
+</country>

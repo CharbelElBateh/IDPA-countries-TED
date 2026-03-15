@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Peru">
+  <conventional_long_name>Republic of Peru</conventional_long_name>
+  <common_name>Peru</common_name>
+  <name>*</name>
+  <other_symbol>100px Great Seal of the State</other_symbol>
+  <other_symbol_type>National seal</other_symbol_type>
+  <national_motto>"Firm and Happy for the Union" Firme y feliz por la unión</national_motto>
+  <national_anthem>"National Anthem of Peru" Himno Nacional del Perú</national_anthem>
+  <march>"March of Flags" Marcha de Banderas</march>
+  <capital>Lima</capital>
+  <largest_city>capital</largest_city>
+  <official_languages>Spanish</official_languages>
+  <languages_type>Co-official languages</languages_type>
+  <languages>Quechua, Aymara, Other Indigenous languages</languages>
+  <ethnic_groups>60.20% Mestizo, 25.75% Native, 5.89% White, 3.57% Black, 0.16% East Asian, 1.10% other, 3.32% no answer</ethnic_groups>
+  <ethnic_groups_year>2017</ethnic_groups_year>
+  <demonym>Peruvian</demonym>
+  <government_type>Unitary semi-presidential republic</government_type>
+  <legislature>Congress of the Republic</legislature>
+  <sovereignty_type>Independence</sovereignty_type>
+  <sovereignty_note>from Spain</sovereignty_note>
+  <area_km2>1,285,216</area_km2>
+  <area_rank>19th</area_rank>
+  <area_sq_mi>496,225</area_sq_mi>
+  <percent_water>0.41</percent_water>
+  <population_estimate>34,352,720</population_estimate>
+  <population_estimate_year>2023</population_estimate_year>
+  <population_estimate_rank>43rd</population_estimate_rank>
+  <population_density_km2>23</population_density_km2>
+  <population_density_sq_mi>57</population_density_sq_mi>
+  <population_density_rank>198th</population_density_rank>
+  <GDP_PPP>$653.090 billion</GDP_PPP>
+  <GDP_PPP_year>2025</GDP_PPP_year>
+  <GDP_PPP_rank>47th</GDP_PPP_rank>
+  <GDP_PPP_per_capita>$18,980</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>99th</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$318.480 billion</GDP_nominal>
+  <GDP_nominal_year>2025</GDP_nominal_year>
+  <GDP_nominal_rank>47th</GDP_nominal_rank>
+  <GDP_nominal_per_capita>$9,260</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>86th</GDP_nominal_per_capita_rank>
+  <Gini>40.2</Gini>
+  <Gini_year>2022</Gini_year>
+  <Gini_change>decrease</Gini_change>
+  <HDI>0.794</HDI>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI_rank>79th</HDI_rank>
+  <currency>Peruvian sol</currency>
+  <currency_code>PEN</currency_code>
+  <time_zone>PET</time_zone>
+  <utc_offset>−05:00</utc_offset>
+  <date_format>dd/mm/yyyy (CE)</date_format>
+  <drives_on>right</drives_on>
+  <calling_code>+51</calling_code>
+  <iso3166code>PE</iso3166code>
+  <cctld>.pe</cctld>
+  <religion>94.5% Christianity, 76.0% Catholicism, 18.5% other Christian, 5.1% no religion, 0.4% other</religion>
+  <religion_year>2017</religion_year>
+  <established>
+    <event>
+      <label>Declared</label>
+      <date>28 July 1821</date>
+    </event>
+    <event>
+      <label>Consolidated</label>
+      <date>9 December 1824</date>
+    </event>
+    <event>
+      <label>Recognized</label>
+      <date>14 August 1879</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>President</title>
+      <name>José María Balcázar</name>
+    </leader>
+    <leader>
+      <title>First Vice President</title>
+      <name>''Vacant''</name>
+    </leader>
+    <leader>
+      <title>Prime Minister</title>
+      <name>Denisse Miralles</name>
+    </leader>
+    <leader>
+      <title>President of Congress</title>
+      <name>Fernando Rospigliosi (acting)</name>
+    </leader>
+  </leaders>
+</country>

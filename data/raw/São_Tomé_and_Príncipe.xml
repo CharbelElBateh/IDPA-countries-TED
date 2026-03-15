@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="São Tomé and Príncipe">
+  <conventional_long_name>Democratic Republic of</conventional_long_name>
+  <common_name>São Tomé and Príncipe</common_name>
+  <national_motto>("Unity, Discipline, Labour")</national_motto>
+  <national_anthem>("Total Independence")</national_anthem>
+  <languages_type>Official language</languages_type>
+  <languages>Portuguese</languages>
+  <regional_languages>Forro Creole, Angolar Creole, Principense Creole</regional_languages>
+  <demonym>São Toméan, Santomean</demonym>
+  <capital>São Tomé</capital>
+  <largest_city>capital</largest_city>
+  <government_type>Unitary semi-presidential republic</government_type>
+  <legislature>National Assembly</legislature>
+  <sovereignty_type>Independence</sovereignty_type>
+  <sovereignty_note>from Portugal</sovereignty_note>
+  <area_km2>964</area_km2>
+  <area_sq_mi>372</area_sq_mi>
+  <area_rank>171st</area_rank>
+  <percent_water>negligible</percent_water>
+  <population_estimate>220,372</population_estimate>
+  <population_estimate_year>2023</population_estimate_year>
+  <population_estimate_rank>175th</population_estimate_rank>
+  <population_density_km2>199.7</population_density_km2>
+  <population_density_rank>69th</population_density_rank>
+  <GDP_PPP_year>2024</GDP_PPP_year>
+  <GDP_PPP>$1 billion</GDP_PPP>
+  <GDP_PPP_per_capita>$4,238</GDP_PPP_per_capita>
+  <GDP_nominal>$751 million</GDP_nominal>
+  <GDP_nominal_year>2024</GDP_nominal_year>
+  <GDP_nominal_per_capita>$3,167</GDP_nominal_per_capita>
+  <Gini_year>2017</Gini_year>
+  <Gini_change>increase</Gini_change>
+  <Gini>40.7</Gini>
+  <HDI>0.637</HDI>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI_rank>141st</HDI_rank>
+  <currency>Dobra</currency>
+  <currency_code>STN</currency_code>
+  <utc_offset>+0</utc_offset>
+  <time_zone>GMT</time_zone>
+  <date_format>dd/mm/yyyy</date_format>
+  <drives_on>right</drives_on>
+  <calling_code>+239</calling_code>
+  <iso3166code>ST</iso3166code>
+  <cctld>.st</cctld>
+  <religion_year>2020</religion_year>
+  <established>
+    <event>
+      <label>Granted</label>
+      <date>12 July 1975</date>
+    </event>
+    <event>
+      <label>Admitted to the United Nations</label>
+      <date>16 September 1975</date>
+    </event>
+    <event>
+      <label>Constitutional reform</label>
+      <date>22 August 1990</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>President</title>
+      <name>Carlos Vila Nova</name>
+    </leader>
+    <leader>
+      <title>Prime Minister</title>
+      <name>Américo Ramos</name>
+    </leader>
+  </leaders>
+</country>

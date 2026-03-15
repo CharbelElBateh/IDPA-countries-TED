@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Czech Republic">
+  <conventional_long_name>Czech Republic</conventional_long_name>
+  <common_name>Czechia</common_name>
+  <linking_name>the Czech Republic</linking_name>
+  <national_motto>"Truth prevails"</national_motto>
+  <national_anthem>"Where My Home Is"File:Czech anthem.ogg</national_anthem>
+  <capital>Prague</capital>
+  <largest_city>capital</largest_city>
+  <languages_type>Official language</languages_type>
+  <official_languages>Czech</official_languages>
+  <languages2_type>Officially recognized minority languages</languages2_type>
+  <languages2>Belarusian and Vietnamese since 4 July 2013. Article 25 of the Czech Charter of Fundamental Rights and Freedoms ensures the right of the national and ethnic minorities to education and communication with the authorities in their own language. Act No. 500/2004 Coll. (''The Administrative Rule'') in its paragraph 16 (4) (''Procedural Language'') ensures that a citizen of the Czech Republic who belongs to a national or an ethnic minority, which traditionally and on a long-term basis lives within the territory of the Czech Republic, has the right to address an administrative agency and proceed before it in the language of the minority. If the administrative agency has no employee with knowledge of the language, the agency is bound to obtain a translator at the agency's own expense. According to Act No. 273/2001 (''Concerning the Rights of Members of Minorities'') paragraph 9 (''The right to use language of a national minority in dealing with authorities and in front of the courts of law'') the same also applies to members of national minorities in the courts of law.</languages2>
+  <ethnic_groups_year>2021</ethnic_groups_year>
+  <religion_year>2021</religion_year>
+  <demonym>Czech</demonym>
+  <government_type>Unitary parliamentary republic</government_type>
+  <legislature>Parliament</legislature>
+  <upper_house>Senate</upper_house>
+  <lower_house>Chamber of Deputies</lower_house>
+  <sovereignty_type>Establishment</sovereignty_type>
+  <area_km2>78,871</area_km2>
+  <area_rank>115th</area_rank>
+  <area_sq_mi>30,452</area_sq_mi>
+  <percent_water>2.16 (as of 2022)</percent_water>
+  <population_estimate>10,900,555</population_estimate>
+  <population_census>10,524,167</population_census>
+  <population_estimate_year>2024</population_estimate_year>
+  <population_estimate_rank>85th</population_estimate_rank>
+  <population_census_year>2021</population_census_year>
+  <population_density_km2>133</population_density_km2>
+  <population_density_sq_mi>345</population_density_sq_mi>
+  <population_density_rank>91st</population_density_rank>
+  <GDP_PPP>$619.881&amp;nbsp;billion</GDP_PPP>
+  <GDP_PPP_year>2024</GDP_PPP_year>
+  <GDP_PPP_rank>46th</GDP_PPP_rank>
+  <GDP_PPP_per_capita>$56,686</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>38th</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$342.992&amp;nbsp;billion</GDP_nominal>
+  <GDP_nominal_year>2024</GDP_nominal_year>
+  <GDP_nominal_rank>47th</GDP_nominal_rank>
+  <GDP_nominal_per_capita>$31,365</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>38th</GDP_nominal_per_capita_rank>
+  <Gini>24.4</Gini>
+  <Gini_year>2023</Gini_year>
+  <Gini_change>decrease</Gini_change>
+  <HDI>0.915</HDI>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI_rank>29th</HDI_rank>
+  <currency>Czech koruna</currency>
+  <currency_code>CZK</currency_code>
+  <time_zone>CET</time_zone>
+  <utc_offset>+1</utc_offset>
+  <utc_offset_DST>+2</utc_offset_DST>
+  <time_zone_DST>CEST</time_zone_DST>
+  <date_format>d. m. yyyy</date_format>
+  <drives_on>right</drives_on>
+  <calling_code>+420</calling_code>
+  <patron_saint>St. Wenceslaus</patron_saint>
+  <iso3166code>CZ</iso3166code>
+  <cctld>.cz</cctld>
+  <flag_p1>Flag of the Czech Republic.svg</flag_p1>
+  <established>
+    <event>
+      <label>Duchy of Bohemia</label>
+      <date>870</date>
+    </event>
+    <event>
+      <label/>
+      <date>1198</date>
+    </event>
+    <event>
+      <label>Czechoslovakia</label>
+      <date>28 October 1918</date>
+    </event>
+    <event>
+      <label>Czech Republic</label>
+      <date>1 January 1993</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>President</title>
+      <name>Petr Pavel</name>
+    </leader>
+    <leader>
+      <title>Prime Minister</title>
+      <name>Andrej Babiš</name>
+    </leader>
+  </leaders>
+</country>

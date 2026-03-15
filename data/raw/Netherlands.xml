@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Netherlands">
+  <name>Netherlands</name>
+  <settlement_type>Constituent country in the Kingdom of the Netherlands</settlement_type>
+  <flag_size>125</flag_size>
+  <flag_link>Flag of the Netherlands</flag_link>
+  <seal_size>95</seal_size>
+  <seal_type>Coat of arms</seal_type>
+  <seal_link>Coat of arms of the Netherlands</seal_link>
+  <motto>(''"I will maintain"'')</motto>
+  <anthem>(''"William"'')</anthem>
+  <subdivision_type>Sovereign state</subdivision_type>
+  <subdivision_name>Kingdom of the Netherlands</subdivision_name>
+  <established_title>Before independence</established_title>
+  <established_date>Spanish Netherlands</established_date>
+  <established_title2>Act of Abjuration</established_title2>
+  <established_title3>Peace of Münster</established_title3>
+  <established_title4>United Kingdom of the Netherlands</established_title4>
+  <established_title5>Liberation Day</established_title5>
+  <established_title6>Kingdom Charter</established_title6>
+  <established_title7>Caribbean reorganisation</established_title7>
+  <official_languages>Dutch</official_languages>
+  <languages_type>Regional languages</languages_type>
+  <languages_sub>yes</languages_sub>
+  <languages>West Frisian, Papiamento, English, name, =, co-official_languages</languages>
+  <languages2_type>Recognised languages</languages2_type>
+  <languages2_sub>yes</languages2_sub>
+  <languages2>Dutch Low Saxon, Dutch Sign Language, Limburgish, Sinte Romani, Yiddish, name, =, recognised_languages, Having ratified the European Charter for Regional or Minority Languages in 1996, the Dutch government recognises Dutch Low Saxon, Limburgish, Sinte Romani and Yiddish as regional or non-territorial minority languages., On 1 July 2021, Dutch Sign Language received the status of recognised language. On 1 July 2021, Dutch Sign Language received the status of recognised language.</languages2>
+  <demonym>Dutch</demonym>
+  <capital>Amsterdam</capital>
+  <largest_city>capital</largest_city>
+  <admin_center_type>Government seat</admin_center_type>
+  <ethnic_groups_year>2024</ethnic_groups_year>
+  <religion_year>2024</religion_year>
+  <government_type>Unitary parliamentary constitutional monarchy</government_type>
+  <national_representation>European Parliament</national_representation>
+  <national_representation_type1>Netherlands constituency</national_representation_type1>
+  <national_representation1>31 seats</national_representation1>
+  <legislature>States General</legislature>
+  <upper_house>Senate</upper_house>
+  <lower_house>House of Representatives</lower_house>
+  <area_km2>41865</area_km2>
+  <area_rank>134th</area_rank>
+  <area_sq_mi>16039</area_sq_mi>
+  <percent_water>18.41</percent_water>
+  <elevation_max_m>870</elevation_max_m>
+  <elevation_max_point>Mount Scenery</elevation_max_point>
+  <population_census>18,044,027</population_census>
+  <population_census_year>2025</population_census_year>
+  <population_census_rank>69th</population_census_rank>
+  <population_density_km2>541</population_density_km2>
+  <population_density_rank>26th</population_density_rank>
+  <GDP_PPP>$1.581 trillion</GDP_PPP>
+  <GDP_PPP_year>2026</GDP_PPP_year>
+  <GDP_PPP_rank>28th</GDP_PPP_rank>
+  <GDP_PPP_per_capita>$87,173</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>10th</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$1.326 trillion</GDP_nominal>
+  <GDP_nominal_year>2026</GDP_nominal_year>
+  <GDP_nominal_rank>18th</GDP_nominal_rank>
+  <GDP_nominal_per_capita>$73,091</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>10th</GDP_nominal_per_capita_rank>
+  <Gini>26.4</Gini>
+  <Gini_year>2021</Gini_year>
+  <Gini_change>decrease</Gini_change>
+  <HDI>0.955</HDI>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI_rank>8th</HDI_rank>
+  <currency>Euro (€) (EUR), United States dollar (US$) (USD), The euro is used in the European part of the Netherlands and replaced the Dutch guilder in 2002. The United States dollar is used in the Caribbean Netherlands and replaced the Netherlands Antillean guilder in 2011.</currency>
+  <utc_offset_list>UTC+01:00 (CET), UTC−04:00 (AST)</utc_offset_list>
+  <utc_offset_list_DST>UTC+02:00 (CEST), UTC−04:00 (AST)</utc_offset_list_DST>
+  <calling_code>+31, +599</calling_code>
+  <cctld>.nl, .bq</cctld>
+  <date_format>dd-mm-yyyy</date_format>
+  <drives_on>Right</drives_on>
+  <established>
+    <event>
+      <date>26 July 1581</date>
+    </event>
+    <event>
+      <date>30 January 1648</date>
+    </event>
+    <event>
+      <date>16 March 1815</date>
+    </event>
+    <event>
+      <date>5 May 1945</date>
+    </event>
+    <event>
+      <date>15 December 1954</date>
+    </event>
+    <event>
+      <date>10 October 2010</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>Monarch</title>
+      <name>Willem-Alexander</name>
+    </leader>
+    <leader>
+      <title>Prime Minister</title>
+      <name>Rob Jetten</name>
+    </leader>
+  </leaders>
+</country>

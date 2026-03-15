@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Honduras">
+  <conventional_long_name>Republic of Honduras</conventional_long_name>
+  <common_name>Honduras</common_name>
+  <national_motto>"Free, Sovereign and Independent"</national_motto>
+  <national_anthem>"National Anthem of Honduras"</national_anthem>
+  <map_caption>Location of Honduras</map_caption>
+  <capital>Tegucigalpa</capital>
+  <largest_city>Tegucigalpa</largest_city>
+  <official_languages>Spanish</official_languages>
+  <ethnic_groups>82.93% Mestizo, 7.87% White, 7.25% Indigenous, 1.39% Black, 0.55% other</ethnic_groups>
+  <ethnic_groups_year>2013</ethnic_groups_year>
+  <religion_year>2020</religion_year>
+  <demonym>Honduran, Catracho</demonym>
+  <government_type>Unitary presidential republic</government_type>
+  <legislature>National Congress</legislature>
+  <sovereignty_type>Independence</sovereignty_type>
+  <area_km2>112,492</area_km2>
+  <area_rank>101st</area_rank>
+  <area_sq_mi>43,278</area_sq_mi>
+  <population_estimate_year>2023</population_estimate_year>
+  <population_estimate_rank>95th</population_estimate_rank>
+  <population_density_km2>85</population_density_km2>
+  <population_density_sq_mi>221</population_density_sq_mi>
+  <GDP_PPP>$86.290 billion</GDP_PPP>
+  <GDP_PPP_year>2025</GDP_PPP_year>
+  <GDP_PPP_per_capita>$7,960</GDP_PPP_per_capita>
+  <GDP_nominal>$39.450 billion</GDP_nominal>
+  <GDP_nominal_year>2025</GDP_nominal_year>
+  <GDP_nominal_per_capita>$3,640</GDP_nominal_per_capita>
+  <Gini>52.1</Gini>
+  <Gini_year>2018</Gini_year>
+  <Gini_change>increase</Gini_change>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI>0.645</HDI>
+  <HDI_rank>139th</HDI_rank>
+  <currency>Lempira</currency>
+  <currency_code>HNL</currency_code>
+  <time_zone>CST</time_zone>
+  <utc_offset>−6</utc_offset>
+  <drives_on>right</drives_on>
+  <calling_code>+504</calling_code>
+  <cctld>.hn</cctld>
+  <footnote_a>"Libre, soberana e independiente" is the official motto, by congressional order, and was put on the coat of arms.</footnote_a>
+  <footnote_b>Population estimates explicitly take into account the effects of excess mortality due to AIDS; this can result in lower life expectancy, higher infant mortality and death rates, lower population and growth rates, and changes in the distribution of population by age and sex than would otherwise be expected, as of July 2007.</footnote_b>
+  <established>
+    <event>
+      <label>from Spain</label>
+      <date>15 September 1821</date>
+    </event>
+    <event>
+      <label/>
+      <date>1 July 1823</date>
+    </event>
+    <event>
+      <label>Declared, as Honduras, from the Federal Republic of Central America</label>
+      <date>5 November 1838</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>President</title>
+      <name>Nasry Asfura</name>
+    </leader>
+    <leader>
+      <title>Vice Presidents</title>
+      <name>María Antonieta MejíaCarlos Flores GuifarroDiana Herrera</name>
+    </leader>
+    <leader>
+      <title>President of National Congress</title>
+      <name>Tomás Zambrano</name>
+    </leader>
+  </leaders>
+</country>

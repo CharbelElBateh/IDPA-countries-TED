@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Guinea">
+  <conventional_long_name>Republic of Guinea</conventional_long_name>
+  <common_name>Guinea</common_name>
+  <symbol_type>Coat of arms</symbol_type>
+  <national_anthem>"Liberty"</national_anthem>
+  <capital>Conakry</capital>
+  <largest_city>Conakry</largest_city>
+  <official_languages>French</official_languages>
+  <languages_type>Spoken languages</languages_type>
+  <ethnic_groups>33.4% Fula, 29.4% Mandinka, 21.2% Susu, 7.8% Kpelle, 6.2% Kissi, 1.6% Loma, 0.4% others</ethnic_groups>
+  <ethnic_groups_year>2018 est.</ethnic_groups_year>
+  <demonym>Guinean</demonym>
+  <government_type>Unitary one-party presidential republic</government_type>
+  <legislature>National Council of the Transition</legislature>
+  <sovereignty_type>Independence from France</sovereignty_type>
+  <area_km2>245,857</area_km2>
+  <area_rank>77th</area_rank>
+  <area_sq_mi>94,926</area_sq_mi>
+  <percent_water>negligible</percent_water>
+  <population_estimate>13,986,179</population_estimate>
+  <population_estimate_year>2024</population_estimate_year>
+  <population_estimate_rank>75th</population_estimate_rank>
+  <population_density_km2>40.9</population_density_km2>
+  <population_density_sq_mi>106.1</population_density_sq_mi>
+  <GDP_PPP>$75.050 billion</GDP_PPP>
+  <GDP_PPP_rank>111th</GDP_PPP_rank>
+  <GDP_PPP_year>2025</GDP_PPP_year>
+  <GDP_PPP_per_capita>$4,075</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>155th</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$30.090 billion</GDP_nominal>
+  <GDP_nominal_rank>110th</GDP_nominal_rank>
+  <GDP_nominal_year>2025</GDP_nominal_year>
+  <GDP_nominal_per_capita>$1,670</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>151st</GDP_nominal_per_capita_rank>
+  <Gini>33.7</Gini>
+  <Gini_year>2012</Gini_year>
+  <HDI>0.500</HDI>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI_rank>181st</HDI_rank>
+  <currency>Guinean franc</currency>
+  <currency_code>GNF</currency_code>
+  <utc_offset>±00:00</utc_offset>
+  <time_zone>GMT</time_zone>
+  <calling_code>+224</calling_code>
+  <iso3166code>GN</iso3166code>
+  <cctld>.gn</cctld>
+  <religion_year>2022</religion_year>
+  <population_density_rank>164th</population_density_rank>
+  <established>
+    <event>
+      <label>Futa Jallon</label>
+      <date>1725–1912</date>
+    </event>
+    <event>
+      <label>Wassoulou Empire</label>
+      <date>1878–1898</date>
+    </event>
+    <event>
+      <label>French Guinea under the constituent of French West Africa</label>
+      <date>1891–1958</date>
+    </event>
+    <event>
+      <label>1958 Guinean constitutional referendum</label>
+      <date>28 September 1958</date>
+    </event>
+    <event>
+      <label>Independence</label>
+      <date>2 October 1958</date>
+    </event>
+    <event>
+      <label>Coup d'etat</label>
+      <date>3 April 1984</date>
+    </event>
+    <event>
+      <label>2008 Guinean coup d'état</label>
+      <date>23 December 2008</date>
+    </event>
+    <event>
+      <label>2021 Guinean coup d'état</label>
+      <date>5 September 2021</date>
+    </event>
+    <event>
+      <label>Current constitution</label>
+      <date>21 September 2025</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>President</title>
+      <name>Mamady Doumbouya</name>
+    </leader>
+    <leader>
+      <title>Prime Minister</title>
+      <name>Bah Oury</name>
+    </leader>
+    <leader>
+      <title>Speaker of Parliament</title>
+    </leader>
+    <leader>
+      <title/>
+    </leader>
+  </leaders>
+</country>

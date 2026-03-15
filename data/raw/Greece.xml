@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Greece">
+  <languages_type>Official language</languages_type>
+  <conventional_long_name>Hellenic Republic</conventional_long_name>
+  <common_name>Greece</common_name>
+  <national_motto>(English: "Freedom or Death")</national_motto>
+  <national_anthem>(English: "Hymn to Liberty")</national_anthem>
+  <capital>Athens</capital>
+  <largest_city>capital</largest_city>
+  <languages>Greek</languages>
+  <religion>93% Christianity, 90% Greek Orthodoxy (official), 4% No religion, 2% Islam, 1% Others</religion>
+  <religion_year>2017</religion_year>
+  <demonym>Greek, Hellene</demonym>
+  <government_type>Unitary parliamentary republic</government_type>
+  <legislature>Hellenic Parliament</legislature>
+  <sovereignty_type>Establishment history</sovereignty_type>
+  <area_km2>131,957</area_km2>
+  <area_rank>95th</area_rank>
+  <area_sq_mi>50,949</area_sq_mi>
+  <percent_water>1.51 (2015)</percent_water>
+  <population_estimate>10,372,335 (1 January 2025)</population_estimate>
+  <population_estimate_year>2025</population_estimate_year>
+  <population_estimate_rank>90th</population_estimate_rank>
+  <population_census>10,432,481</population_census>
+  <population_census_year>2021</population_census_year>
+  <population_density_km2>78.9</population_density_km2>
+  <population_density_rank>136th</population_density_rank>
+  <population_density_sq_mi>204.4</population_density_sq_mi>
+  <GDP_PPP>$466.945 billion</GDP_PPP>
+  <GDP_PPP_year>2025</GDP_PPP_year>
+  <GDP_PPP_rank>54th</GDP_PPP_rank>
+  <GDP_PPP_per_capita>$44,985</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>48th</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$282.019 billion</GDP_nominal>
+  <GDP_nominal_year>2025</GDP_nominal_year>
+  <GDP_nominal_rank>50th</GDP_nominal_rank>
+  <GDP_nominal_per_capita>$27,170</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>45th</GDP_nominal_per_capita_rank>
+  <Gini>31.8</Gini>
+  <Gini_year>2024</Gini_year>
+  <Gini_change>steady</Gini_change>
+  <HDI>0.908</HDI>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI_rank>34th</HDI_rank>
+  <currency>Euro (€)</currency>
+  <currency_code>EUR</currency_code>
+  <time_zone>EET</time_zone>
+  <utc_offset>+02:00</utc_offset>
+  <utc_offset_DST>+03:00</utc_offset_DST>
+  <time_zone_DST>EEST</time_zone_DST>
+  <drives_on>Right</drives_on>
+  <calling_code>+30</calling_code>
+  <cctld>.gr, .ελ, The .eu domain is also used, shared with other European Union member states.</cctld>
+  <established>
+    <event>
+      <label>Greek War of Independence against the Ottoman Empire</label>
+      <date>(traditional starting date)</date>
+    </event>
+    <event>
+      <label>Official declaration</label>
+      <date/>
+    </event>
+    <event>
+      <label>Recognition</label>
+      <date/>
+    </event>
+    <event>
+      <label>Third Hellenic Republic</label>
+      <date/>
+    </event>
+    <event>
+      <label>Current constitution</label>
+      <date/>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>President</title>
+      <name>Konstantinos Tasoulas</name>
+    </leader>
+    <leader>
+      <title>Prime Minister</title>
+      <name>Kyriakos Mitsotakis</name>
+    </leader>
+    <leader>
+      <title>President of the Parliament</title>
+      <name>Nikitas Kaklamanis</name>
+    </leader>
+  </leaders>
+</country>

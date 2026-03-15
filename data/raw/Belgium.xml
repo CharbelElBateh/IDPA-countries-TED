@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Belgium">
+  <conventional_long_name>Kingdom of Belgium</conventional_long_name>
+  <native_name>native name, nl, Koninkrijk België, native name, fr, Royaume de Belgique, native name, de, Königreich Belgien</native_name>
+  <common_name>Belgium</common_name>
+  <symbol_type>Coat of arms</symbol_type>
+  <national_motto>native phrase, nl, Eendracht maakt macht, native phrase, fr, L'union fait la force, native phrase, de, Einigkeit macht stark</national_motto>
+  <national_anthem>''La Brabançonne'', ''The Brabantian'', File:La Brabançonne.oga</national_anthem>
+  <official_languages>Dutch, French, German</official_languages>
+  <religion>59% no religion, 34% Christianity, 31% Catholicism, 3% other Christian, 6% Islam, 1% other * 6% Islam * 1% other</religion>
+  <religion_year>2023</religion_year>
+  <capital>City of Brussels</capital>
+  <largest_city>Brussels-Capital Region</largest_city>
+  <government_type>Federal parliamentary constitutional monarchy</government_type>
+  <legislature>Federal Parliament</legislature>
+  <upper_house>Senate</upper_house>
+  <lower_house>Chamber of Representatives</lower_house>
+  <area_km2>30,689</area_km2>
+  <area_sq_mi>11,849</area_sq_mi>
+  <area_rank>136th</area_rank>
+  <percent_water>0.64 (2022)</percent_water>
+  <population_census>11,825,551</population_census>
+  <population_census_year>2025</population_census_year>
+  <population_estimate_rank>82nd</population_estimate_rank>
+  <population_density_km2>385</population_density_km2>
+  <population_density_rank>35th</population_density_rank>
+  <ethnic_groups>13.8% non-Belgian</ethnic_groups>
+  <ethnic_groups_year>2025</ethnic_groups_year>
+  <GDP_PPP>$889.833 billion</GDP_PPP>
+  <GDP_PPP_year>2025</GDP_PPP_year>
+  <GDP_PPP_rank>37th</GDP_PPP_rank>
+  <GDP_PPP_per_capita>$75,187</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>20th</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$689.364 billion</GDP_nominal>
+  <GDP_nominal_year>2025</GDP_nominal_year>
+  <GDP_nominal_rank>23rd</GDP_nominal_rank>
+  <GDP_nominal_per_capita>$58,248</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>16th</GDP_nominal_per_capita_rank>
+  <Gini_year>2022</Gini_year>
+  <Gini_change>increase</Gini_change>
+  <Gini>24.9</Gini>
+  <HDI>0.951</HDI>
+  <HDI_rank>10th</HDI_rank>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <sovereignty_type>Independence</sovereignty_type>
+  <sovereignty_note>from the Netherlands</sovereignty_note>
+  <currency>Euro (€)</currency>
+  <currency_code>EUR</currency_code>
+  <time_zone>CET</time_zone>
+  <utc_offset>+1</utc_offset>
+  <time_zone_DST>CEST</time_zone_DST>
+  <utc_offset_DST>+2</utc_offset_DST>
+  <drives_on>Right</drives_on>
+  <calling_code>+32</calling_code>
+  <cctld>.be</cctld>
+  <established>
+    <event>
+      <label>Declared</label>
+      <date>4 October 1830</date>
+    </event>
+    <event>
+      <label>Recognized</label>
+      <date>19 April 1839</date>
+    </event>
+    <event>
+      <label>Federal state</label>
+      <date>1970</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>Monarch</title>
+      <name>Philippe</name>
+    </leader>
+    <leader>
+      <title>Prime Minister</title>
+      <name>Bart De Wever</name>
+    </leader>
+  </leaders>
+</country>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Moldova">
+  <conventional_long_name>Republic of Moldova</conventional_long_name>
+  <common_name>Moldova</common_name>
+  <national_anthem>"Our language"</national_anthem>
+  <map_caption>Location of Moldova in Europe (green)and its uncontrolled territory of Transnistria (light green)</map_caption>
+  <capital>Chișinău</capital>
+  <largest_city>capital</largest_city>
+  <languages_type>Official language</languages_type>
+  <languages>Romanian</languages>
+  <languages2_type>Recognised minoritylanguages</languages2_type>
+  <ethnic_groups>* 8.0% Romanians * 5.1% Ukrainians * 4.0% Gagauz * 3.4% Russians * 1.6% Bulgarians * 1.1% other</ethnic_groups>
+  <ethnic_groups_year>2024; excl. Transnistria</ethnic_groups_year>
+  <religion_year>2024; excl. Transnistria</religion_year>
+  <demonym>Moldovan</demonym>
+  <government_type>Unitary parliamentary republic</government_type>
+  <legislature>Parliament</legislature>
+  <sovereignty_type>Formation</sovereignty_type>
+  <area_km2>33,843</area_km2>
+  <area_rank>135th</area_rank>
+  <area_sq_mi>13,067</area_sq_mi>
+  <percent_water>1.4 (incl. Transnistria)</percent_water>
+  <population_estimate>2,381,325</population_estimate>
+  <population_estimate_year>January 2025</population_estimate_year>
+  <population_census>2,409,207</population_census>
+  <population_census_year>2024</population_census_year>
+  <population_estimate_rank>140th</population_estimate_rank>
+  <GDP_PPP>$48.511 billion</GDP_PPP>
+  <GDP_PPP_year>2026</GDP_PPP_year>
+  <GDP_PPP_rank>135th</GDP_PPP_rank>
+  <GDP_PPP_per_capita>$20,731</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>93th</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$21.024 billion</GDP_nominal>
+  <GDP_nominal_year>2026</GDP_nominal_year>
+  <GDP_nominal_rank>129th</GDP_nominal_rank>
+  <GDP_nominal_per_capita>$8,984</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>89th</GDP_nominal_per_capita_rank>
+  <Gini>25.7</Gini>
+  <Gini_year>2021</Gini_year>
+  <Gini_change>decrease</Gini_change>
+  <HDI>0.785</HDI>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI_rank>86th</HDI_rank>
+  <currency>Moldovan leu</currency>
+  <currency_code>MDL</currency_code>
+  <time_zone>EET</time_zone>
+  <utc_offset>+2</utc_offset>
+  <utc_offset_DST>+3</utc_offset_DST>
+  <time_zone_DST>EEST</time_zone_DST>
+  <drives_on>right</drives_on>
+  <calling_code>+373</calling_code>
+  <cctld>.md</cctld>
+  <footnote_a>Date of proclamation. Independence subsequently finalized with the dissolution of the USSR in December 1991.</footnote_a>
+  <established>
+    <event>
+      <label>Principality of Moldavia</label>
+      <date>1346</date>
+    </event>
+    <event>
+      <label>Bessarabia Governorate</label>
+      <date>1812</date>
+    </event>
+    <event>
+      <label>Moldavian Democratic Republic</label>
+      <date>15 December 1917</date>
+    </event>
+    <event>
+      <label>Union with Romania</label>
+      <date>9 April 1918</date>
+    </event>
+    <event>
+      <label>Moldavian ASSR</label>
+      <date>12 October 1924</date>
+    </event>
+    <event>
+      <label>Moldavian SSR</label>
+      <date>2 August 1940</date>
+    </event>
+    <event>
+      <label>Transnistria War</label>
+      <date>2 November 1990</date>
+    </event>
+    <event>
+      <label>the Soviet Union</label>
+      <date>27 August 1991a</date>
+    </event>
+    <event>
+      <label>Constitution adopted</label>
+      <date>29 July 1994</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>President</title>
+      <name>Maia Sandu</name>
+    </leader>
+    <leader>
+      <title>Prime Minister</title>
+      <name>Alexandru Munteanu</name>
+    </leader>
+    <leader>
+      <title>President of the Parliament</title>
+      <name>Igor Grosu</name>
+    </leader>
+  </leaders>
+</country>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Belize">
+  <conventional_long_name>Belize</conventional_long_name>
+  <common_name>Belize</common_name>
+  <native_name>(Belizean Creole) (Spanish) (Q'eqchi' Mayan) (Yucatec Mayan)</native_name>
+  <symbol_type>Coat of arms</symbol_type>
+  <national_motto>"Under the shade I flourish"</national_motto>
+  <royal_anthem>"God Save the King"File:United States Navy Band - God Save the King.oga</royal_anthem>
+  <national_anthem>"Land of the Free"</national_anthem>
+  <capital>Belmopan</capital>
+  <largest_city>Belize City</largest_city>
+  <official_languages>English</official_languages>
+  <religion_year>2022</religion_year>
+  <demonym>Belizean</demonym>
+  <government_type>Unitary parliamentary constitutional monarchy</government_type>
+  <legislature>National Assembly</legislature>
+  <upper_house>Senate</upper_house>
+  <lower_house>House of Representatives</lower_house>
+  <sovereignty_type>Independence</sovereignty_type>
+  <sovereignty_note>from the United Kingdom</sovereignty_note>
+  <area_km2>22966</area_km2>
+  <area_rank>147th</area_rank>
+  <percent_water>0.8</percent_water>
+  <population_census>397,483</population_census>
+  <population_census_year>2022</population_census_year>
+  <population_estimate_rank>170</population_estimate_rank>
+  <population_density_km2>17.31</population_density_km2>
+  <GDP_PPP>$6.414 billion</GDP_PPP>
+  <GDP_PPP_year>2025</GDP_PPP_year>
+  <GDP_PPP_rank>180th</GDP_PPP_rank>
+  <GDP_PPP_per_capita>$15,363</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>123rd</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$3.488 billion</GDP_nominal>
+  <GDP_nominal_rank>179th</GDP_nominal_rank>
+  <GDP_nominal_year>2025</GDP_nominal_year>
+  <GDP_nominal_per_capita>$8,355</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>98th</GDP_nominal_per_capita_rank>
+  <Gini>53.1</Gini>
+  <Gini_year>2013</Gini_year>
+  <HDI>0.721</HDI>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI_rank>115th</HDI_rank>
+  <currency>Belize dollar ($)</currency>
+  <currency_code>BZD</currency_code>
+  <calling_code>+501</calling_code>
+  <time_zone>CST</time_zone>
+  <utc_offset>−06:00</utc_offset>
+  <drives_on>right</drives_on>
+  <date_format>/ / (AD)</date_format>
+  <cctld>.bz</cctld>
+  <languages_type>Spoken languages</languages_type>
+  <languages>Belizean Creole, Spanish, Mayan</languages>
+  <ethnic_groups_year>2010</ethnic_groups_year>
+  <established>
+    <event>
+      <label>Self-governance</label>
+      <date>January 1964</date>
+    </event>
+    <event>
+      <label>Realm</label>
+      <date>21 September 1981</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>Monarch</title>
+      <name/>
+    </leader>
+    <leader>
+      <title>Governor-General</title>
+      <name>Froyla Tzalam</name>
+    </leader>
+    <leader>
+      <title>Prime Minister</title>
+      <name>Johnny Briceño</name>
+    </leader>
+  </leaders>
+</country>

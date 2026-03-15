@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Georgia (country)">
+  <conventional_long_name>Georgia</conventional_long_name>
+  <common_name>Georgia</common_name>
+  <linking_name>Georgia (country)</linking_name>
+  <national_motto>"Strength is in Unity"</national_motto>
+  <national_anthem>"Freedom"</national_anthem>
+  <capital>Tbilisi</capital>
+  <largest_city>capital</largest_city>
+  <official_languages>Georgian</official_languages>
+  <recognized_regional_languages>Abkhaz</recognized_regional_languages>
+  <languages_type>Spoken languages</languages_type>
+  <ethnic_groups_year>2014</ethnic_groups_year>
+  <religion_year>2014</religion_year>
+  <demonym>Georgian</demonym>
+  <government_type>Unitary parliamentary republic</government_type>
+  <legislature>Parliament</legislature>
+  <sovereignty_type>Establishment history</sovereignty_type>
+  <area_km2>69,700</area_km2>
+  <area_rank>119th</area_rank>
+  <area_sq_mi>26,911</area_sq_mi>
+  <population_census>3,657,000</population_census>
+  <population_census_year>2024</population_census_year>
+  <population_census_rank>129th</population_census_rank>
+  <population_density_km2>56.3</population_density_km2>
+  <population_density_sq_mi>145.9</population_density_sq_mi>
+  <population_density_rank>165th</population_density_rank>
+  <GDP_PPP>$123,049 billion</GDP_PPP>
+  <GDP_PPP_year>2026</GDP_PPP_year>
+  <GDP_PPP_rank>98th</GDP_PPP_rank>
+  <GDP_PPP_per_capita>$33,340</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>67th</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$35.350 billion</GDP_nominal>
+  <GDP_nominal_year>2026</GDP_nominal_year>
+  <GDP_nominal_rank>103th</GDP_nominal_rank>
+  <GDP_nominal_per_capita>$10,886</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>83rd</GDP_nominal_per_capita_rank>
+  <Gini>34.2</Gini>
+  <Gini_year>2021</Gini_year>
+  <Gini_change>decrease</Gini_change>
+  <HDI>0.844</HDI>
+  <HDI_rank>57th</HDI_rank>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <currency>Georgian lari (₾)</currency>
+  <currency_code>GEL</currency_code>
+  <time_zone>GET</time_zone>
+  <utc_offset>+4</utc_offset>
+  <date_format>dd.mm.yyyy</date_format>
+  <drives_on>right</drives_on>
+  <calling_code>+995</calling_code>
+  <iso3166code>GE</iso3166code>
+  <cctld>.ge, .გე</cctld>
+  <footnote_a>Not including occupied territories</footnote_a>
+  <established>
+    <event>
+      <label/>
+      <date>13th c. BC – AD</date>
+    </event>
+    <event>
+      <label>Kingdom of Abkhazia and Kingdom of the Iberians</label>
+      <date>786–1008</date>
+    </event>
+    <event>
+      <label>Unification of Georgia</label>
+      <date>1008</date>
+    </event>
+    <event>
+      <label>The Tripartite division</label>
+      <date>1463–1810</date>
+    </event>
+    <event>
+      <label>Russian annexation</label>
+      <date>1801–1858</date>
+    </event>
+    <event>
+      <label>Independence from Russia</label>
+      <date>26 May 1918</date>
+    </event>
+    <event>
+      <label>Russian invasion</label>
+      <date>12 February 1921</date>
+    </event>
+    <event>
+      <label>Soviet annexation</label>
+      <date>25 February 1921</date>
+    </event>
+    <event>
+      <label>Declared Finalized</label>
+      <date>9 April 1991</date>
+    </event>
+    <event>
+      <label/>
+      <date>24 August 1995</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>President</title>
+      <name>Mikheil Kavelashvili Also, international platforms have disputed the legitimacy of the ''de facto'' Georgian authorities after the 2024 elections, including the European Parliament.</name>
+    </leader>
+    <leader>
+      <title>Prime Minister</title>
+      <name>Irakli Kobakhidze</name>
+    </leader>
+    <leader>
+      <title>Chairperson ofthe Parliament</title>
+      <name>Shalva Papuashvili</name>
+    </leader>
+  </leaders>
+</country>

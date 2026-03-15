@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Cambodia">
+  <conventional_long_name>Kingdom of Cambodia</conventional_long_name>
+  <common_name>Cambodia</common_name>
+  <symbol_type>Royal Arms</symbol_type>
+  <national_motto>transliteration, km, Cheat, Sasna, Preah Mohaksat, "Nation, Religion, King"</national_motto>
+  <national_anthem>transliteration, km, Noko Reach, "Royal Kingdom"</national_anthem>
+  <capital>Phnom Penh</capital>
+  <largest_city>capital</largest_city>
+  <official_languages>Khmer</official_languages>
+  <languages>Khmer</languages>
+  <languages_type>Official script</languages_type>
+  <ethnic_groups>95.4% Khmer, 2.4% Cham, 1.5% Chinese, 0.8% others</ethnic_groups>
+  <ethnic_groups_year>2019/20</ethnic_groups_year>
+  <religion>96.5% Buddhism (official), 2.6% Islam, 0.3% Christianity, 0.5% others</religion>
+  <religion_year>2024</religion_year>
+  <demonym>Cambodian</demonym>
+  <government_type>Unitary parliamentary constitutional elective monarchy under a hereditary dictatorship</government_type>
+  <legislature>Parliament</legislature>
+  <upper_house>Senate</upper_house>
+  <lower_house>National Assembly</lower_house>
+  <sovereignty_type>Formation</sovereignty_type>
+  <area_km2>181,035</area_km2>
+  <area_rank>88th</area_rank>
+  <area_sq_mi>69,898</area_sq_mi>
+  <percent_water>2.5</percent_water>
+  <population_estimate>17,638,801</population_estimate>
+  <population_estimate_year>2024</population_estimate_year>
+  <population_estimate_rank>71st</population_estimate_rank>
+  <population_density_km2>94.4</population_density_km2>
+  <population_density_sq_mi>211.8</population_density_sq_mi>
+  <GDP_PPP>$150.050 billion</GDP_PPP>
+  <GDP_PPP_year>2025</GDP_PPP_year>
+  <GDP_PPP_rank>89th</GDP_PPP_rank>
+  <GDP_PPP_per_capita>$8,650</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>131st</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$49.800 billion</GDP_nominal>
+  <GDP_nominal_year>2025</GDP_nominal_year>
+  <GDP_nominal_rank>93rd</GDP_nominal_rank>
+  <GDP_nominal_per_capita>$2,870</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>140th</GDP_nominal_per_capita_rank>
+  <Gini>23.6</Gini>
+  <Gini_year>2024</Gini_year>
+  <HDI>0.606</HDI>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI_rank>151st</HDI_rank>
+  <currency>Riel (៛) (KHR; ''de jure'' and ''de facto''), United States dollar ($) (USD; ''de facto'')</currency>
+  <utc_offset>+07:00</utc_offset>
+  <time_zone>ICT</time_zone>
+  <calling_code>+855</calling_code>
+  <cctld>.kh</cctld>
+  <established>
+    <event>
+      <label>Funan</label>
+      <date>68–550</date>
+    </event>
+    <event>
+      <label>Chenla</label>
+      <date>550–802</date>
+    </event>
+    <event>
+      <label>Khmer Empire</label>
+      <date>802–1431</date>
+    </event>
+    <event>
+      <label>Middle period</label>
+      <date>1431–1863</date>
+    </event>
+    <event>
+      <label>French protectorate</label>
+      <date>11 August 1863</date>
+    </event>
+    <event>
+      <label>Independence from France</label>
+      <date>9 November 1953</date>
+    </event>
+    <event>
+      <label>Khmer Republic</label>
+      <date>9 October 1970</date>
+    </event>
+    <event>
+      <label>Democratic Kampuchea</label>
+      <date>5 January 1976</date>
+    </event>
+    <event>
+      <label>People's Republic of Kampuchea</label>
+      <date>8 January 1979</date>
+    </event>
+    <event>
+      <label>State of Cambodia</label>
+      <date>30 April 1989</date>
+    </event>
+    <event>
+      <label>United Nations Administered Cambodia</label>
+      <date>28 February 1992</date>
+    </event>
+    <event>
+      <label>Monarchy restored</label>
+      <date>24 September 1993</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>Monarch</title>
+      <name>Norodom Sihamoni</name>
+    </leader>
+    <leader>
+      <title>Prime Minister</title>
+      <name>Hun Manet</name>
+    </leader>
+    <leader>
+      <title>President of the Senate</title>
+      <name>Hun Sen</name>
+    </leader>
+    <leader>
+      <title>President of the National Assembly</title>
+      <name>Khuon Sodary</name>
+    </leader>
+  </leaders>
+</country>

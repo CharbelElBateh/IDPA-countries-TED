@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Panama">
+  <conventional_long_name>Republic of Panama</conventional_long_name>
+  <common_name>Panama</common_name>
+  <national_motto>''Pro Mundi Beneficio'' (Latin)"For the Benefit of the World"</national_motto>
+  <national_anthem>"Hymn of the Isthmus"</national_anthem>
+  <capital>Panama City</capital>
+  <largest_city>Panama City</largest_city>
+  <official_languages>Spanish</official_languages>
+  <regional_languages>GuaymíBuglereEmberáWounaanGunaTeribeBribri</regional_languages>
+  <ethnic_groups>65.0% Mestizo (mixed White and Indigenous), 12.3% Indigenous, 9.2% Black, 6.8% Mulatto (mixed White and Black), 6.7% White</ethnic_groups>
+  <ethnic_groups_year>2020</ethnic_groups_year>
+  <demonym>Panamanian</demonym>
+  <government_type>Unitary presidential republic</government_type>
+  <legislature>National Assembly</legislature>
+  <sovereignty_type>Independence</sovereignty_type>
+  <area_km2>75,417</area_km2>
+  <area_rank>116th</area_rank>
+  <area_sq_mi>29,119</area_sq_mi>
+  <percent_water>2.9</percent_water>
+  <population_estimate>4,337,768</population_estimate>
+  <population_estimate_year>2022</population_estimate_year>
+  <population_estimate_rank>127th</population_estimate_rank>
+  <population_density_km2>56</population_density_km2>
+  <population_density_sq_mi>145</population_density_sq_mi>
+  <population_density_rank>122nd</population_density_rank>
+  <GDP_PPP>$195.279 billion</GDP_PPP>
+  <GDP_PPP_year>2025</GDP_PPP_year>
+  <GDP_PPP_rank>80th</GDP_PPP_rank>
+  <GDP_PPP_per_capita>$42,772</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>50th</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$91.731 billion</GDP_nominal>
+  <GDP_nominal_year>2025</GDP_nominal_year>
+  <GDP_nominal_rank>77th</GDP_nominal_rank>
+  <GDP_nominal_per_capita>$20,092</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>55th</GDP_nominal_per_capita_rank>
+  <Gini>48.9</Gini>
+  <Gini_year>2023</Gini_year>
+  <Gini_change>decrease</Gini_change>
+  <HDI>0.839</HDI>
+  <HDI_rank>59th</HDI_rank>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <currency>Balboa (PAB), nowrap, United States dollar (USD)</currency>
+  <time_zone>EST</time_zone>
+  <utc_offset>−5</utc_offset>
+  <date_format>mm/dd/yyyydd/mm/yyyy</date_format>
+  <drives_on>Right</drives_on>
+  <calling_code>+507</calling_code>
+  <iso3166code>PA</iso3166code>
+  <cctld>.pa</cctld>
+  <religion_year>2020</religion_year>
+  <established>
+    <event>
+      <label>from Spanish Empire</label>
+      <date>November 28, 1821</date>
+    </event>
+    <event>
+      <label>union with Gran Colombia</label>
+      <date>December 1821</date>
+    </event>
+    <event>
+      <label>from Republic of Colombia</label>
+      <date>November 3, 1903</date>
+    </event>
+    <event>
+      <label>Current constitution</label>
+      <date>October 11, 1972</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>President</title>
+      <name>José Raúl Mulino</name>
+    </leader>
+    <leader>
+      <title>Vice President</title>
+      <name>''Vacant''</name>
+    </leader>
+  </leaders>
+</country>

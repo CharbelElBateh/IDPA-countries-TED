@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Laos">
+  <conventional_long_name>Lao People's Democratic Republic</conventional_long_name>
+  <common_name>Laos</common_name>
+  <native_name>native name, lo, ສາທາລະນະລັດ ປະຊາທິປະໄຕ ປະຊາຊົນລາວ, transliteration, engvar, =, gb, lo, Sathalanalat Paxathipatai Paxaxon Lao</native_name>
+  <symbol_type>Emblem</symbol_type>
+  <national_motto>"Peace, Independence, Democracy, Unity and Prosperity"</national_motto>
+  <national_anthem>"Lao National Anthem"</national_anthem>
+  <capital>Vientiane</capital>
+  <largest_city>capital</largest_city>
+  <official_languages>Lao</official_languages>
+  <languages_type>Spoken languages</languages_type>
+  <languages>Lao, Khmu, Hmong, Phu Thai, Tai</languages>
+  <ethnic_groups>53.2% Lao, 11% Khmu, 9.2% Hmong, 3.4% Phu Thai, 3.1% Tai, 2.5% Makong, 2.2% Katang, 2.0% Lue, 1.8% Akha, 11.6% other, Including over 100 smaller ethnic groups</ethnic_groups>
+  <ethnic_groups_year>2015</ethnic_groups_year>
+  <demonym>Laotian</demonym>
+  <government_type>Unitary communist state</government_type>
+  <legislature>National Assembly</legislature>
+  <sovereignty_type>Formation</sovereignty_type>
+  <area_km2>236,800</area_km2>
+  <area_rank>82nd</area_rank>
+  <area_sq_mi>91,428.991</area_sq_mi>
+  <percent_water>2</percent_water>
+  <population_estimate>7,953,556</population_estimate>
+  <population_estimate_year>2024</population_estimate_year>
+  <population_estimate_rank>103rd</population_estimate_rank>
+  <population_density_km2>33.21</population_density_km2>
+  <population_density_rank>183rd</population_density_rank>
+  <GDP_PPP>$78.850 billion</GDP_PPP>
+  <GDP_PPP_year>2025</GDP_PPP_year>
+  <GDP_PPP_rank>108th</GDP_PPP_rank>
+  <GDP_PPP_per_capita>$10,120</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>126th</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$16.320 billion</GDP_nominal>
+  <GDP_nominal_year>2025</GDP_nominal_year>
+  <GDP_nominal_rank>138th</GDP_nominal_rank>
+  <GDP_nominal_per_capita>$2,100</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>150th</GDP_nominal_per_capita_rank>
+  <Gini>36.4</Gini>
+  <Gini_year>2012</Gini_year>
+  <HDI>0.617</HDI>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>decrease</HDI_change>
+  <HDI_rank>147th</HDI_rank>
+  <currency>Kip (₭)</currency>
+  <currency_code>LAK</currency_code>
+  <time_zone>ICT</time_zone>
+  <utc_offset>+7</utc_offset>
+  <calling_code>+856</calling_code>
+  <cctld>.la</cctld>
+  <religion>66.0% Buddhism, 30.7% Tai folk religion, 1.5% Christianity, 1.8% other / none</religion>
+  <established>
+    <event>
+      <label>Kingdom of Lan Xang</label>
+      <date>1353–1707</date>
+    </event>
+    <event>
+      <label>Kingdoms of Luang Prabang, Vientiane and Champasak</label>
+      <date>1707–1778</date>
+    </event>
+    <event>
+      <label>Vassals of Siam</label>
+      <date>1778–1893</date>
+    </event>
+    <event>
+      <label>French protectorate</label>
+      <date>1893–1953</date>
+    </event>
+    <event>
+      <label>Lao Issara</label>
+      <date>1945–1949</date>
+    </event>
+    <event>
+      <label>Unified Kingdom</label>
+      <date>11 May 1947</date>
+    </event>
+    <event>
+      <label>Independence from France</label>
+      <date>22 October 1953</date>
+    </event>
+    <event>
+      <label>Communist state established</label>
+      <date>2 December 1975</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>General Secretary of the LPRP and President</title>
+      <name>Thongloun Sisoulith</name>
+    </leader>
+    <leader>
+      <title>Prime Minister</title>
+      <name>Sonexay Siphandone</name>
+    </leader>
+    <leader>
+      <title>Vice President</title>
+      <name>Bounthong ChitmanyPany Yathotou</name>
+    </leader>
+    <leader>
+      <title>President of the National Assembly</title>
+      <name>Saysomphone Phomvihane</name>
+    </leader>
+    <leader>
+      <title>Chief Justice</title>
+      <name>Viengthong Siphandone</name>
+    </leader>
+  </leaders>
+</country>

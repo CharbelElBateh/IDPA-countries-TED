@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Dominican Republic">
+  <conventional_long_name>Dominican Republic</conventional_long_name>
+  <common_name>the Dominican Republic</common_name>
+  <national_motto>"God, Homeland, Freedom"</national_motto>
+  <national_anthem>''Quisqueyanos valientes''</national_anthem>
+  <capital>Santo Domingo</capital>
+  <largest_city>capital</largest_city>
+  <official_languages>Spanish</official_languages>
+  <languages2>''See below''</languages2>
+  <languages2_type>Other languages</languages2_type>
+  <ethnic_groups_year>2022</ethnic_groups_year>
+  <religion>74.6% Christianity, 52.5% Catholicism, 21.0% Protestantism, 1.1% other Christian, 22.0% no religion, 1.4% other, 2.0% unspecified</religion>
+  <religion_year>2020</religion_year>
+  <demonym>DominicanQuisqueyan (colloquial)</demonym>
+  <government_type>Unitary presidential republic</government_type>
+  <legislature>Congress</legislature>
+  <upper_house>Senate</upper_house>
+  <lower_house>Chamber of Deputies</lower_house>
+  <sovereignty_type>Formation</sovereignty_type>
+  <area_km2>48,671</area_km2>
+  <area_rank>128th</area_rank>
+  <percent_water>0.7</percent_water>
+  <population_estimate>11,532,151</population_estimate>
+  <population_estimate_year>2025</population_estimate_year>
+  <population_estimate_rank>88th</population_estimate_rank>
+  <population_density_km2>220</population_density_km2>
+  <population_density_sq_mi>501.5</population_density_sq_mi>
+  <population_density_rank>64th</population_density_rank>
+  <GDP_PPP>$334.292 billion</GDP_PPP>
+  <GDP_PPP_year>2025</GDP_PPP_year>
+  <GDP_PPP_rank>64th</GDP_PPP_rank>
+  <GDP_PPP_per_capita>$30,710</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>67th</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$135.545 billion</GDP_nominal>
+  <GDP_nominal_year>2025</GDP_nominal_year>
+  <GDP_nominal_rank>64th</GDP_nominal_rank>
+  <GDP_nominal_per_capita>$12,452</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>74th</GDP_nominal_per_capita_rank>
+  <Gini>39</Gini>
+  <Gini_year>2024</Gini_year>
+  <Gini_change>increase</Gini_change>
+  <HDI>0.776</HDI>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI_rank>89th</HDI_rank>
+  <currency>Dominican peso</currency>
+  <currency_code>DOP</currency_code>
+  <time_zone>AST</time_zone>
+  <utc_offset>-04:00</utc_offset>
+  <date_format>or</date_format>
+  <drives_on>Right</drives_on>
+  <calling_code>+1</calling_code>
+  <cctld>.do</cctld>
+  <footnotes>Sources for area, capital, coat of arms, coordinates, flag, language, motto and names:&amp;nbsp; For an alternate area figure of , calling code 809 and Internet TLD:&amp;nbsp;</footnotes>
+  <established>
+    <event>
+      <label>Ephemeral Independence</label>
+      <date>1821–1822</date>
+    </event>
+    <event>
+      <label>First Republic</label>
+      <date>1844–1861</date>
+    </event>
+    <event>
+      <label>Second Republic</label>
+      <date>1865–1916</date>
+    </event>
+    <event>
+      <label>Third Republic</label>
+      <date>1924–1965</date>
+    </event>
+    <event>
+      <label>Fourth Republic</label>
+      <date>1966–present</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>President</title>
+      <name>Luis Abinader</name>
+    </leader>
+    <leader>
+      <title>Vice President</title>
+      <name>Raquel Peña</name>
+    </leader>
+  </leaders>
+</country>

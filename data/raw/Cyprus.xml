@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Cyprus">
+  <languages_type>Minority languages</languages_type>
+  <languages2_type>Vernaculars</languages2_type>
+  <conventional_long_name>Republic of Cyprus</conventional_long_name>
+  <native_name>native name, el, Κυπριακή Δημοκρατία, italics, =, off, native name, tr, Kıbrıs Cumhuriyeti</native_name>
+  <common_name>Cyprus</common_name>
+  <national_anthem>(English: "Hymn to Liberty")</national_anthem>
+  <map_caption2>Territory administered by the Republic of Cyprus</map_caption2>
+  <capital>Nicosia</capital>
+  <largest_city>capital</largest_city>
+  <official_languages>Greek, Turkish</official_languages>
+  <languages>Armenian, Cypriot Arabic</languages>
+  <languages2>Cypriot Greek, Cypriot Turkish</languages2>
+  <ethnic_groups>item_style, =, line-height:initial;, Greek Cypriots, Turkish Cypriots, Armenian Cypriots, Maronite Cypriots</ethnic_groups>
+  <demonym>Cypriot</demonym>
+  <religion_year>2020; including Northern Cyprus</religion_year>
+  <government_type>Unitary presidential republic</government_type>
+  <sovereignty_type>Independence</sovereignty_type>
+  <area_km2>9,251</area_km2>
+  <area_rank>162nd</area_rank>
+  <area_sq_mi>3,572</area_sq_mi>
+  <percent_water>0.11</percent_water>
+  <population_census>923,272</population_census>
+  <population_census_year>2021</population_census_year>
+  <population_density_km2>123.4</population_density_km2>
+  <population_density_rank>82nd</population_density_rank>
+  <population_density_sq_mi>319.5</population_density_sq_mi>
+  <GDP_PPP>$61.501 billion</GDP_PPP>
+  <GDP_PPP_year>2025</GDP_PPP_year>
+  <GDP_PPP_rank>126th</GDP_PPP_rank>
+  <GDP_PPP_per_capita>$65,304</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>28th</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$39.943 billion</GDP_nominal>
+  <GDP_nominal_year>2025</GDP_nominal_year>
+  <GDP_nominal_rank>102nd</GDP_nominal_rank>
+  <GDP_nominal_per_capita>$42,413</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>28th</GDP_nominal_per_capita_rank>
+  <Gini>29.4</Gini>
+  <Gini_year>2022</Gini_year>
+  <Gini_change>steady</Gini_change>
+  <HDI>0.913</HDI>
+  <HDI_rank>32nd</HDI_rank>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <currency>Euro (€)</currency>
+  <currency_code>EUR</currency_code>
+  <time_zone>EET</time_zone>
+  <utc_offset>+02:00</utc_offset>
+  <utc_offset_DST>+03:00</utc_offset_DST>
+  <time_zone_DST>EEST</time_zone_DST>
+  <drives_on>left</drives_on>
+  <calling_code>+357</calling_code>
+  <cctld>.cy</cctld>
+  <established>
+    <event>
+      <label>London-Zürich Agreements</label>
+      <date>19 February 1959</date>
+    </event>
+    <event>
+      <label>Independence proclaimed</label>
+      <date>16 August 1960</date>
+    </event>
+    <event>
+      <label>Independence Day</label>
+      <date>1 October 1960</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>President</title>
+      <name>Nikos Christodoulides</name>
+    </leader>
+    <leader>
+      <title>Vice-President</title>
+      <name>Vacant</name>
+    </leader>
+    <leader>
+      <title>President of the House of Representatives</title>
+      <name>Annita Demetriou</name>
+    </leader>
+  </leaders>
+</country>

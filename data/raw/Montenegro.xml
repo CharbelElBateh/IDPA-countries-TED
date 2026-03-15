@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Montenegro">
+  <conventional_long_name>Montenegro</conventional_long_name>
+  <common_name>Montenegro</common_name>
+  <native_name>native name, cnr, lang-cnr-Latn-Cyrl, Crna Gora, Црна Гора, label, =, none, native name, sr, lang-sh-Latn-Cyrl, Crna Gora, Црна Гора, label, =, none, native name, bs, Crna Gora, native name, hr, Crna Gora, native name, sq, Mali i Zi</native_name>
+  <national_anthem>( )center</national_anthem>
+  <capital>Podgorica</capital>
+  <largest_city>capital</largest_city>
+  <official_languages>Montenegrin</official_languages>
+  <languages2_type>Languages in official use</languages2_type>
+  <languages2>Albanian, Bosnian, Croatian, Serbian</languages2>
+  <ethnic_groups>41.1% Montenegrins, 32.9% Serbs, 11.1% Bosniaks or Muslims, 5.0% Albanians, 2.1% Russians, 5.8% others or undeclared</ethnic_groups>
+  <ethnic_groups_year>2023 census</ethnic_groups_year>
+  <religion_year>2023 census</religion_year>
+  <demonym>Montenegrin</demonym>
+  <government_type>Unitary parliamentary republic</government_type>
+  <legislature>Parliament</legislature>
+  <sovereignty_type>Establishment history</sovereignty_type>
+  <area_rank>156th</area_rank>
+  <area_km2>13883</area_km2>
+  <percent_water>3.1</percent_water>
+  <population_census>623,633</population_census>
+  <population_estimate>623,327</population_estimate>
+  <population_census_year>2023</population_census_year>
+  <population_estimate_year>January 2025</population_estimate_year>
+  <population_estimate_rank>164th</population_estimate_rank>
+  <population_density_km2>43.6</population_density_km2>
+  <population_density_sq_mi>124</population_density_sq_mi>
+  <population_density_rank>173rd</population_density_rank>
+  <GDP_PPP>$21.480 billion</GDP_PPP>
+  <GDP_PPP_year>2025</GDP_PPP_year>
+  <GDP_PPP_rank>149th</GDP_PPP_rank>
+  <GDP_PPP_per_capita>$34,410</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>63rd</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$9.350 billion</GDP_nominal>
+  <GDP_nominal_year>2025</GDP_nominal_year>
+  <GDP_nominal_rank>153rd</GDP_nominal_rank>
+  <GDP_nominal_per_capita>$14,990</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>73rd</GDP_nominal_per_capita_rank>
+  <Gini_year>2023</Gini_year>
+  <Gini_change>decrease</Gini_change>
+  <Gini>29.4</Gini>
+  <HDI>0.862</HDI>
+  <HDI_rank>48th</HDI_rank>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <currency>Euro (€)a</currency>
+  <currency_code>EUR</currency_code>
+  <time_zone>CET</time_zone>
+  <utc_offset>+1</utc_offset>
+  <utc_offset_DST>+2</utc_offset_DST>
+  <time_zone_DST>CEST</time_zone_DST>
+  <calling_code>+382</calling_code>
+  <cctld>.me</cctld>
+  <footnote_a>Adopted unilaterally; Montenegro is not a member of the Eurozone.</footnote_a>
+  <established>
+    <event>
+      <label>Duklja</label>
+      <date>10th century</date>
+    </event>
+    <event>
+      <label>Zeta</label>
+      <date>1356</date>
+    </event>
+    <event>
+      <label>Prince-Bishopric of Montenegro</label>
+      <date>1516</date>
+    </event>
+    <event>
+      <label>Principality of Montenegro</label>
+      <date>13 March 1852</date>
+    </event>
+    <event>
+      <label>Treaty of Berlin</label>
+      <date>13 July 1878</date>
+    </event>
+    <event>
+      <label>Kingdom of Montenegro</label>
+      <date>28 August 1910</date>
+    </event>
+    <event>
+      <label>Kingdom of Yugoslavia</label>
+      <date>26 November 1918</date>
+    </event>
+    <event>
+      <label>SFR Yugoslavia</label>
+      <date>29 November 1945</date>
+    </event>
+    <event>
+      <label>Serbia and Montenegro</label>
+      <date>27 April 1992</date>
+    </event>
+    <event>
+      <label>Independence declared</label>
+      <date>3 June 2006</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>President</title>
+      <name>Jakov Milatović</name>
+    </leader>
+    <leader>
+      <title>Prime Minister</title>
+      <name>Milojko Spajić</name>
+    </leader>
+    <leader>
+      <title>President of the Parliament</title>
+      <name>Andrija Mandić</name>
+    </leader>
+  </leaders>
+</country>

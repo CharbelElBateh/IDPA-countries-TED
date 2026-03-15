@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Poland">
+  <conventional_long_name>Republic of Poland</conventional_long_name>
+  <common_name>Poland</common_name>
+  <flag_border>Flag of Poland (normative).svgize</flag_border>
+  <national_anthem>''Poland Is Not Yet Lost''</national_anthem>
+  <demonym>Polish, Pole</demonym>
+  <capital>Warsaw</capital>
+  <largest_city>capital</largest_city>
+  <languages_type>Official language</languages_type>
+  <languages>Polish</languages>
+  <population_census>37,893,970</population_census>
+  <population_census_year>2026</population_census_year>
+  <population_census_rank>38th</population_census_rank>
+  <population_density_km2>126</population_density_km2>
+  <population_density_sq_mi>315.9</population_density_sq_mi>
+  <population_density_rank>98th</population_density_rank>
+  <ethnic_groups_year>2021</ethnic_groups_year>
+  <religion_year>2021</religion_year>
+  <government_type>Unitary parliamentary republic</government_type>
+  <legislature>Parliament</legislature>
+  <upper_house>Senate</upper_house>
+  <lower_house>Sejm</lower_house>
+  <sovereignty_type>Formation</sovereignty_type>
+  <area_km2>312696</area_km2>
+  <area_rank>69th</area_rank>
+  <area_sq_mi>121,209.44</area_sq_mi>
+  <percent_water>1.48 (2015)</percent_water>
+  <GDP_PPP>$2.019 trillion</GDP_PPP>
+  <GDP_PPP_year>2025</GDP_PPP_year>
+  <GDP_PPP_rank>19th</GDP_PPP_rank>
+  <GDP_PPP_per_capita>$55,340</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>37th</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$1.039 trillion</GDP_nominal>
+  <GDP_nominal_year>2025</GDP_nominal_year>
+  <GDP_nominal_rank>20th</GDP_nominal_rank>
+  <GDP_nominal_per_capita>$28,484</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>44th</GDP_nominal_per_capita_rank>
+  <Gini>26.3</Gini>
+  <Gini_year>2022</Gini_year>
+  <Gini_change>decrease</Gini_change>
+  <HDI>0.906</HDI>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI_rank>35th</HDI_rank>
+  <currency>Złoty</currency>
+  <currency_code>PLN</currency_code>
+  <time_zone>CET</time_zone>
+  <utc_offset>+1</utc_offset>
+  <utc_offset_DST>+2</utc_offset_DST>
+  <time_zone_DST>CEST</time_zone_DST>
+  <date_format>dd.mm.yyyy (CE)</date_format>
+  <drives_on>right</drives_on>
+  <calling_code>+48</calling_code>
+  <cctld>.pl</cctld>
+  <footnote_a>Also .eu, shared with other European Union member states</footnote_a>
+  <established>
+    <event>
+      <label>Baptism of Poland</label>
+      <date>14 April 966</date>
+    </event>
+    <event>
+      <label/>
+      <date>18 April 1025</date>
+    </event>
+    <event>
+      <label>Polish–Lithuanian Commonwealth</label>
+      <date>1 July 1569</date>
+    </event>
+    <event>
+      <label/>
+      <date>11 November 1918</date>
+    </event>
+    <event>
+      <label/>
+      <date>17 September 1939</date>
+    </event>
+    <event>
+      <label/>
+      <date>22 July 1944</date>
+    </event>
+    <event>
+      <label/>
+      <date/>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>President</title>
+      <name/>
+    </leader>
+    <leader>
+      <title>Prime Minister</title>
+      <name>Donald Tusk</name>
+    </leader>
+  </leaders>
+</country>

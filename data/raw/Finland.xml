@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Finland">
+  <conventional_long_name>Republic of Finland</conventional_long_name>
+  <common_name>Finland</common_name>
+  <native_name>native name, fi, Suomen tasavalta, native name, sv, Republiken Finland</native_name>
+  <national_anthem>( )center</national_anthem>
+  <capital>Helsinki</capital>
+  <largest_city>capital</largest_city>
+  <official_languages>Finnish, Swedish</official_languages>
+  <recognized_national_languages>Sámi, Karelian, Finnish Kalo, Finnish Sign Language, Finland-Swedish Sign Language</recognized_national_languages>
+  <ethnic_groups>88.9% Finns, notetag, Includes Finland-Swedes, Romani, Tatar and Sámi people., 11.1% others</ethnic_groups>
+  <ethnic_groups_year>2024</ethnic_groups_year>
+  <religion_year>2024</religion_year>
+  <demonym>Finnish, Finn</demonym>
+  <government_type>Unitary parliamentary republic</government_type>
+  <legislature>Parliament</legislature>
+  <sovereignty_type>Independence</sovereignty_type>
+  <sovereignty_note>from Soviet Russia</sovereignty_note>
+  <area_km2>338,455</area_km2>
+  <area_rank>65th</area_rank>
+  <area_sq_mi>130,596</area_sq_mi>
+  <percent_water>9.71 (2015)</percent_water>
+  <population_census>5,635,971</population_census>
+  <population_census_year>2024</population_census_year>
+  <population_estimate_rank>114th</population_estimate_rank>
+  <population_density_km2>18.4</population_density_km2>
+  <population_density_sq_mi>41</population_density_sq_mi>
+  <population_density_rank>210th</population_density_rank>
+  <GDP_PPP>$373.16 billion</GDP_PPP>
+  <GDP_PPP_year>2025</GDP_PPP_year>
+  <GDP_PPP_rank>61st</GDP_PPP_rank>
+  <GDP_PPP_per_capita>$66,500</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>23rd</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$303.95 billion</GDP_nominal>
+  <GDP_nominal_year>2025</GDP_nominal_year>
+  <GDP_nominal_rank>46th</GDP_nominal_rank>
+  <GDP_nominal_per_capita>$54,160</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>19th</GDP_nominal_per_capita_rank>
+  <Gini>26.6</Gini>
+  <Gini_year>2023</Gini_year>
+  <Gini_change>steady</Gini_change>
+  <HDI>0.948</HDI>
+  <HDI_rank>12th</HDI_rank>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <currency>Euro (€)</currency>
+  <currency_code>EUR</currency_code>
+  <time_zone>EET</time_zone>
+  <utc_offset>+2</utc_offset>
+  <utc_offset_DST>+3</utc_offset_DST>
+  <time_zone_DST>EEST</time_zone_DST>
+  <date_format>. .</date_format>
+  <calling_code>+358</calling_code>
+  <cctld>.fi, .axa</cctld>
+  <footnote_a>The .ax domain is used in Åland.</footnote_a>
+  <established>
+    <event>
+      <label>Establishment of Grand Duchy of Finland</label>
+      <date>29 March 1809 (from Sweden)</date>
+    </event>
+    <event>
+      <label>Declaration of independence</label>
+      <date>6 December 1917</date>
+    </event>
+    <event>
+      <label>Constitution established</label>
+      <date>17 July 1919</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>President</title>
+      <name>Alexander Stubb</name>
+    </leader>
+    <leader>
+      <title>Prime Minister</title>
+      <name>Petteri Orpo</name>
+    </leader>
+    <leader>
+      <title>Speaker of the Parliament</title>
+      <name>Jussi Halla-aho</name>
+    </leader>
+  </leaders>
+</country>

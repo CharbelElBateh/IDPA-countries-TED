@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Bangladesh">
+  <conventional_long_name>People's Republic of Bangladesh</conventional_long_name>
+  <common_name>Bangladesh</common_name>
+  <symbol_type>Emblem</symbol_type>
+  <other_symbol>100px|Seal of the Government of Bangladesh</other_symbol>
+  <other_symbol_type>Government Seal</other_symbol_type>
+  <national_anthem>(Bengali) "My Golden Bengal"center</national_anthem>
+  <capital>Dhaka</capital>
+  <largest_city>capital</largest_city>
+  <languages_type>Official language</languages_type>
+  <languages>Bengali</languages>
+  <languages2_type>Other common language</languages2_type>
+  <religion_year>2022</religion_year>
+  <languages2>English</languages2>
+  <ethnic_groups>99% Bengali</ethnic_groups>
+  <ethnic_groups_year>2022</ethnic_groups_year>
+  <demonym>Bangladeshi</demonym>
+  <government_type>Unitary parliamentary republic</government_type>
+  <legislature>Jatiya Sangsad</legislature>
+  <sovereignty_note>from Pakistan</sovereignty_note>
+  <sovereignty_type>Independence</sovereignty_type>
+  <area_km2>148,460</area_km2>
+  <area_rank>93rd</area_rank>
+  <area_sq_mi>57320</area_sq_mi>
+  <percent_water>6.4</percent_water>
+  <population_estimate>173,562,364</population_estimate>
+  <population_census>169,828,911</population_census>
+  <population_estimate_year>2024</population_estimate_year>
+  <population_estimate_rank>8th</population_estimate_rank>
+  <population_census_year>2022</population_census_year>
+  <population_census_rank>8th</population_census_rank>
+  <population_density_km2>1,165</population_density_km2>
+  <population_density_sq_mi>3,020</population_density_sq_mi>
+  <population_density_rank>13th</population_density_rank>
+  <GDP_PPP>$1.9 trillion</GDP_PPP>
+  <GDP_PPP_year>2026</GDP_PPP_year>
+  <GDP_PPP_rank>25th</GDP_PPP_rank>
+  <GDP_PPP_per_capita>$10,260</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>125th</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$519.024 billion</GDP_nominal>
+  <GDP_nominal_year>2026</GDP_nominal_year>
+  <GDP_nominal_rank>34th</GDP_nominal_rank>
+  <GDP_nominal_per_capita>$2,960</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>145th</GDP_nominal_per_capita_rank>
+  <Gini>33.4</Gini>
+  <Gini_year>2025</Gini_year>
+  <Gini_change>decrease</Gini_change>
+  <HDI>0.685</HDI>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <currency>Taka ( )</currency>
+  <currency_code>BDT</currency_code>
+  <time_zone>BST</time_zone>
+  <utc_offset>+6</utc_offset>
+  <date_format>dd/mm/yyyy</date_format>
+  <drives_on>Left</drives_on>
+  <calling_code>+880</calling_code>
+  <cctld>.bd, lang, bn, .বাংলা</cctld>
+  <established>
+    <event>
+      <label>East Bengal</label>
+      <date>15 August 1947</date>
+    </event>
+    <event>
+      <label>East Pakistan</label>
+      <date>14 October 1955</date>
+    </event>
+    <event>
+      <label>Proclamation of independence</label>
+      <date>26 March 1971</date>
+    </event>
+    <event>
+      <label>Provisional government</label>
+      <date>10 April 1971</date>
+    </event>
+    <event>
+      <label>Victory in the Liberation War</label>
+      <date>16 December 1971</date>
+    </event>
+    <event>
+      <label>Current constitution</label>
+      <date>16 December 1972</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>President</title>
+      <name>Mohammed Shahabuddin</name>
+    </leader>
+    <leader>
+      <title>Prime Minister</title>
+      <name>Tarique Rahman</name>
+    </leader>
+    <leader>
+      <title>Chief Justice</title>
+      <name>Zubayer Rahman Chowdhury</name>
+    </leader>
+  </leaders>
+</country>

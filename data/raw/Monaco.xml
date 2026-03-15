@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Monaco">
+  <conventional_long_name>Principality of Monaco</conventional_long_name>
+  <common_name>Monaco</common_name>
+  <flag_size>120</flag_size>
+  <national_motto>( Deo Juvante )</national_motto>
+  <national_anthem>" "( )File:Monaco National Anthem.ogg</national_anthem>
+  <capital>Monaco</capital>
+  <largest_settlement>Monte Carlo</largest_settlement>
+  <largest_settlement_type>quarter</largest_settlement_type>
+  <official_languages>French (Meridional)</official_languages>
+  <languages_type>Common languages</languages_type>
+  <languages>Italian, Monégasque, Ligurian</languages>
+  <ethnic_groups>Monégasques, French, Italians, Occitans</ethnic_groups>
+  <religion>86.0% Christianity, 80.9% Catholicism (official), ., 5.1% other Christian, 11.7% no religion, 1.7% Judaism, 0.4% Islam, 0.2% other</religion>
+  <demonym>Monégasque</demonym>
+  <government_type>Unitary parliamentary semi-constitutional monarchy</government_type>
+  <legislature>National Council</legislature>
+  <sovereignty_type>Independence</sovereignty_type>
+  <area_km2>2.084</area_km2>
+  <area_rank>194th</area_rank>
+  <area_sq_mi>0.80</area_sq_mi>
+  <percent_water>negligible</percent_water>
+  <population_census>38,423</population_census>
+  <population_census_year>2024</population_census_year>
+  <population_census_rank>190th</population_census_rank>
+  <population_density_km2>18,446</population_density_km2>
+  <population_density_sq_mi>47,775</population_density_sq_mi>
+  <population_density_rank>1st</population_density_rank>
+  <GDP_PPP>$8.924 billion</GDP_PPP>
+  <GDP_PPP_year>2024</GDP_PPP_year>
+  <GDP_PPP_rank>165th</GDP_PPP_rank>
+  <GDP_PPP_per_capita>$270,100</GDP_PPP_per_capita>
+  <GDP_nominal>$10.434 billion</GDP_nominal>
+  <GDP_nominal_year>2024</GDP_nominal_year>
+  <GDP_nominal_per_capita>$315,800</GDP_nominal_per_capita>
+  <currency>Euro (€)</currency>
+  <currency_code>EUR</currency_code>
+  <time_zone>CET</time_zone>
+  <utc_offset>+1</utc_offset>
+  <utc_offset_DST>+2</utc_offset_DST>
+  <time_zone_DST>CEST</time_zone_DST>
+  <date_format>dd/mm/yyyy</date_format>
+  <drives_on>right</drives_on>
+  <calling_code>+377</calling_code>
+  <cctld>.mc</cctld>
+  <footnote_a>Government offices are located in the Monaco-Ville quarter.</footnote_a>
+  <footnote_b>GDP per capita calculations include non-resident workers from France and Italy.</footnote_b>
+  <established>
+    <event>
+      <label>House of Grimaldi (under the sovereignty of the Republic of Genoa)</label>
+      <date>8 January 1297</date>
+    </event>
+    <event>
+      <label>from the French Empire</label>
+      <date>17 May 1814</date>
+    </event>
+    <event>
+      <label>from occupation of the Sixth Coalition</label>
+      <date>17 June 1814</date>
+    </event>
+    <event>
+      <label>Franco-Monégasque Treaty</label>
+      <date>11 February 1861</date>
+    </event>
+    <event>
+      <label>Constitution</label>
+      <date>5 January 1911</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>Monarch</title>
+      <name>Albert II</name>
+    </leader>
+    <leader>
+      <title>Minister of State</title>
+      <name>Christophe Mirmand</name>
+    </leader>
+  </leaders>
+</country>

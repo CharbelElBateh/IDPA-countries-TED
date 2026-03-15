@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Mauritius">
+  <conventional_long_name>Republic of Mauritius</conventional_long_name>
+  <native_name>native name, fr, République de Maurice, native name, mfe, Repiblik Moris</native_name>
+  <common_name>Mauritius</common_name>
+  <map_caption>Islands of the Republic of Mauritius</map_caption>
+  <map_caption2>* Islands of Mauritius labelled in black.* ''Tromelin Island'' (part of the French Southern and Antarctic Lands, claimed by Mauritius).* ''The Chagos Archipelago'' (the British Indian Ocean Territory) are set to be transferred to Mauritius in 2026.</map_caption2>
+  <national_motto>"Star and Key of the Indian Ocean"</national_motto>
+  <national_anthem>"Motherland"File:Motherland_(instrumental).ogg</national_anthem>
+  <capital>Port Louis</capital>
+  <languages2_type>Language spoken at home</languages2_type>
+  <languages2>90.0% Mauritian Creole, 5.1% Bhojpuri, 4.4% French, 0.6% English</languages2>
+  <official_languages>None (''de jure'') English, French (''de facto'')</official_languages>
+  <ethnic_groups>67% Indian, 28% Creole, 3% Chinese, 2% French</ethnic_groups>
+  <religion_year>2022</religion_year>
+  <demonym>Mauritian</demonym>
+  <largest_city>Port Louis</largest_city>
+  <government_type>Unitary parliamentary republic</government_type>
+  <legislature>National Assembly</legislature>
+  <sovereignty_type>Independence</sovereignty_type>
+  <sovereignty_note>from the United Kingdom</sovereignty_note>
+  <area_rank>169th</area_rank>
+  <area_km2>2040</area_km2>
+  <percent_water>0.07</percent_water>
+  <population_census>1,235,260</population_census>
+  <population_census_year>2022</population_census_year>
+  <population_density_km2>605.5</population_density_km2>
+  <population_density_rank>18th</population_density_rank>
+  <GDP_PPP>$42.810 billion</GDP_PPP>
+  <GDP_PPP_rank>137th</GDP_PPP_rank>
+  <GDP_PPP_year>2025</GDP_PPP_year>
+  <GDP_PPP_per_capita>$33,954</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>60th</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$16.515 billion</GDP_nominal>
+  <GDP_nominal_year>2025</GDP_nominal_year>
+  <GDP_nominal_rank>133rd</GDP_nominal_rank>
+  <GDP_nominal_per_capita>$13,099</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>69th</GDP_nominal_per_capita_rank>
+  <Gini_year>2017</Gini_year>
+  <Gini>36.8</Gini>
+  <HDI>0.806</HDI>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI_rank>73rd</HDI_rank>
+  <currency>Mauritian rupee</currency>
+  <currency_code>MUR</currency_code>
+  <time_zone>MUT</time_zone>
+  <utc_offset>+4</utc_offset>
+  <date_format>dd/mm/yyyy (AD)</date_format>
+  <drives_on>left</drives_on>
+  <calling_code>+230</calling_code>
+  <cctld>.mu</cctld>
+  <established>
+    <event>
+      <label>Constitution of Mauritius</label>
+      <date>12 March 1968</date>
+    </event>
+    <event>
+      <label>Republic</label>
+      <date>12 March 1992</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>President</title>
+      <name>Dharam Gokhool</name>
+    </leader>
+    <leader>
+      <title>Vice-President</title>
+      <name>Robert Hungley</name>
+    </leader>
+    <leader>
+      <title>Prime Minister</title>
+      <name>Navin Ramgoolam</name>
+    </leader>
+    <leader>
+      <title>Deputy Prime Minister</title>
+      <name>Paul Bérenger</name>
+    </leader>
+    <leader>
+      <title>Speaker of the National Assembly</title>
+      <name>Shirin Aumeeruddy-Cziffra</name>
+    </leader>
+  </leaders>
+</country>

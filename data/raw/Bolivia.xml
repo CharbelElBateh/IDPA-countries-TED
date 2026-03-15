@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Bolivia">
+  <conventional_long_name>Plurinational State of Bolivia</conventional_long_name>
+  <native_name>native name, es, Estado Plurinacional de Bolivia, native name, qu, Puliwya Achka Aylluska Mamallaqta, nativename, ay, Wuliwya Walja Ayllunakana Marka, native name, gn, Tetã Hetate'ýigua Volívia</native_name>
+  <common_name>Bolivia</common_name>
+  <name>*</name>
+  <flag_alt>Horizontal tricolor (red, yellow, and green from top to bottom)</flag_alt>
+  <flag_alt2>7 × 7 square patchwork with the (top left to bottom right) diagonals forming colored stripes (green, blue, purple, red, orange, yellow, white, green, blue, purple, red, orange, yellow, from top right to bottom left)</flag_alt2>
+  <other_symbol>100px|</other_symbol>
+  <other_symbol_type>Dual flag:</other_symbol_type>
+  <national_anthem>"National Anthem of Bolivia"center</national_anthem>
+  <capital>Sucre</capital>
+  <largest_city>Santa Cruz</largest_city>
+  <official_languages>Spanish, Quechua, Aymara, Guarani, Other indigenous languages</official_languages>
+  <religion_year>2020</religion_year>
+  <religion>92.8% Christianity, 81.4% Catholicism, 11.4% other Christian, 6.5% no religion, 0.7% other</religion>
+  <demonym>Bolivian</demonym>
+  <government_type>Unitary presidential republic</government_type>
+  <legislature>Plurinational Legislative Assembly</legislature>
+  <upper_house>Chamber of Senators</upper_house>
+  <lower_house>Chamber of Deputies</lower_house>
+  <sovereignty_type>Independence</sovereignty_type>
+  <sovereignty_note>from Spain</sovereignty_note>
+  <area_km2>1,098,581</area_km2>
+  <area_rank>27th</area_rank>
+  <area_sq_mi>424,163</area_sq_mi>
+  <percent_water>1.29</percent_water>
+  <population_census>11,365,333</population_census>
+  <population_census_year>2024</population_census_year>
+  <population_census_rank>84th</population_census_rank>
+  <population_density_km2>10.4</population_density_km2>
+  <population_density_sq_mi>26,9</population_density_sq_mi>
+  <population_density_rank>224th</population_density_rank>
+  <FR_total_population_estimate_year>124,428,245 (2019)</FR_total_population_estimate_year>
+  <GDP_PPP>$144.098&amp;nbsp;billion</GDP_PPP>
+  <GDP_PPP_rank>94th</GDP_PPP_rank>
+  <GDP_PPP_year>2025</GDP_PPP_year>
+  <GDP_PPP_per_capita>$11,574</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>120th</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$56.339 billion &amp;nbsp;</GDP_nominal>
+  <GDP_nominal_rank>94th</GDP_nominal_rank>
+  <GDP_nominal_year>2025</GDP_nominal_year>
+  <GDP_nominal_per_capita>$4,525</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>126th</GDP_nominal_per_capita_rank>
+  <Gini>40.9</Gini>
+  <Gini_year>2021</Gini_year>
+  <Gini_change>decrease</Gini_change>
+  <HDI>0.733</HDI>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI_rank>108th</HDI_rank>
+  <currency>Boliviano</currency>
+  <currency_code>BOB</currency_code>
+  <time_zone>BOT</time_zone>
+  <utc_offset>−04:00</utc_offset>
+  <date_format>dd/mm/yyyy</date_format>
+  <drives_on>right</drives_on>
+  <calling_code>+591</calling_code>
+  <cctld>.bo</cctld>
+  <established>
+    <event>
+      <label>Declared</label>
+      <date>6 August 1825</date>
+    </event>
+    <event>
+      <label>Recognized</label>
+      <date>21 July 1847</date>
+    </event>
+    <event>
+      <label>Current constitution</label>
+      <date>7 February 2009</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>President</title>
+      <name>Rodrigo Paz</name>
+    </leader>
+    <leader>
+      <title>Vice President</title>
+      <name>Edmand Lara</name>
+    </leader>
+    <leader>
+      <title>President of the Senate</title>
+      <name>Diego Ávila</name>
+    </leader>
+    <leader>
+      <title>President of the Chamber of Deputies</title>
+      <name>Roberto Castro Salazar</name>
+    </leader>
+  </leaders>
+</country>

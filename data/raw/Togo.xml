@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Togo">
+  <conventional_long_name>Togolese Republic</conventional_long_name>
+  <common_name>Togo</common_name>
+  <symbol_type>Coat of arms</symbol_type>
+  <national_motto>( )</national_motto>
+  <national_anthem>( )</national_anthem>
+  <capital>Lomé</capital>
+  <largest_city>Lomé</largest_city>
+  <official_languages>French</official_languages>
+  <languages_type>Spoken languages</languages_type>
+  <ethnic_groups>non-African (5.6%)</ethnic_groups>
+  <religion_year>2025</religion_year>
+  <demonym>Togolese</demonym>
+  <government_type>Unitary parliamentary republic</government_type>
+  <legislature>Parliament</legislature>
+  <upper_house>Senate</upper_house>
+  <lower_house>National Assembly</lower_house>
+  <sovereignty_type>Establishment history</sovereignty_type>
+  <area_km2>56,785</area_km2>
+  <area_rank>123rd</area_rank>
+  <area_sq_mi>22,008</area_sq_mi>
+  <percent_water>4.2</percent_water>
+  <population_census>8,095,498</population_census>
+  <population_census_year>2022</population_census_year>
+  <population_estimate>9,583,381</population_estimate>
+  <population_estimate_year>2024</population_estimate_year>
+  <population_estimate_rank>101st</population_estimate_rank>
+  <population_density_km2>125.9</population_density_km2>
+  <population_density_sq_mi>243</population_density_sq_mi>
+  <GDP_PPP>$33.050 billion</GDP_PPP>
+  <GDP_PPP_year>2025</GDP_PPP_year>
+  <GDP_PPP_rank>147th</GDP_PPP_rank>
+  <GDP_PPP_per_capita>$3,470</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>166th</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$10.020 billion</GDP_nominal>
+  <GDP_nominal_year>2025</GDP_nominal_year>
+  <GDP_nominal_rank>151st</GDP_nominal_rank>
+  <GDP_nominal_per_capita>$1,050</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>171st</GDP_nominal_per_capita_rank>
+  <Gini>43.1</Gini>
+  <Gini_year>2015</Gini_year>
+  <Gini_change>decrease</Gini_change>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI>0.571</HDI>
+  <HDI_rank>161st</HDI_rank>
+  <currency>West African CFA franc</currency>
+  <currency_code>XOF</currency_code>
+  <utc_offset>+00:00</utc_offset>
+  <time_zone>GMT</time_zone>
+  <date_format>dd/mm/yyyy</date_format>
+  <drives_on>right</drives_on>
+  <calling_code>+228</calling_code>
+  <cctld>.tg</cctld>
+  <footnote_a>Such as Ewe, Mina and Aja.</footnote_a>
+  <footnote_b>Largest are the Ewe, Mina, Kotokoli Tem and Kabyè.</footnote_b>
+  <footnote_c>Mostly European, Indian &amp; Syrian-Lebanese.</footnote_c>
+  <footnote_d>Estimates for this country explicitly take into account the effects of excess mortality due to AIDS; this can result in lower life expectancy, higher infant mortality and death rates, lower population and growth rates, and changes in the distribution of population by age and sex than would otherwise be expected.</footnote_d>
+  <footnote_e>Rankings based on 2017 figures ([https://web.archive.org/web/20260118042609/https://www.cia.gov/the-world-factbook/countries/togo/ ''CIA World Factbook'' – "Togo"])</footnote_e>
+  <established>
+    <event>
+      <label>German Togoland</label>
+      <date>5 July 1884</date>
+    </event>
+    <event>
+      <label>French Togoland</label>
+      <date>27 August 1914</date>
+    </event>
+    <event>
+      <label>Independence from France</label>
+      <date>27 April 1960</date>
+    </event>
+    <event>
+      <label>Admission to the UNO</label>
+      <date>20 September 1960</date>
+    </event>
+    <event>
+      <label>Current constitution</label>
+      <date>6 May 2024</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>President</title>
+      <name>Jean-Lucien Savi de Tové</name>
+    </leader>
+    <leader>
+      <title>Prime Minister</title>
+      <name>Faure Gnassingbé</name>
+    </leader>
+  </leaders>
+</country>

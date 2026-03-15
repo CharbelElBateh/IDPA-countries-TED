@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Madagascar">
+  <conventional_long_name>Republic of Madagascar</conventional_long_name>
+  <common_name>Madagascar</common_name>
+  <native_name>Native name, mg, Repoblikan'i Madagasikara, Native name, fr, République de Madagascar</native_name>
+  <symbol_type>Emblem</symbol_type>
+  <national_motto>Nowrap, Native phrase, mg, Fitiavana, Tanindrazana, Fandrosoana, nolink, =, yes, Native phrase, fr, Amour, Patrie, Progrès, nolink, =, yes, "Love, Fatherland, Progress"</national_motto>
+  <national_anthem>"Oh, land of our beloved ancestors!"</national_anthem>
+  <capital>Antananarivo</capital>
+  <largest_city>Antananarivo</largest_city>
+  <official_languages>Malagasy, French</official_languages>
+  <ethnic_groups>26% Merina, 15% Betsimisaraka, 12% Betsileo, 7% Tsimihety, 6% Sakalava, 5% Antaisaka, 5% Antandroy, 24% others</ethnic_groups>
+  <ethnic_groups_year>2017</ethnic_groups_year>
+  <religion>84.7% Christianity, 45.8% Protestantism, 38.1% Catholicism, 0.8% other Christian, 7.3% no religion, 4.7% traditional faiths, 3.1% Islam, 0.3% others</religion>
+  <religion_year>2020</religion_year>
+  <demonym>Malagasy</demonym>
+  <government_type>Unitary semi-presidential republic under a transitional government</government_type>
+  <legislature>Parliament</legislature>
+  <upper_house>Senate (suspended)</upper_house>
+  <lower_house>National Assembly</lower_house>
+  <sovereignty_type>Formation</sovereignty_type>
+  <area_km2>592,796</area_km2>
+  <area_rank>46th</area_rank>
+  <area_sq_mi>226,597</area_sq_mi>
+  <percent_water>0.9%</percent_water>
+  <population_estimate>31,964,956</population_estimate>
+  <population_estimate_year>2024</population_estimate_year>
+  <population_estimate_rank>49th</population_estimate_rank>
+  <population_density_km2>55</population_density_km2>
+  <population_density_sq_mi>141.1</population_density_sq_mi>
+  <population_density_rank>164th</population_density_rank>
+  <GDP_PPP>$68.110 billion</GDP_PPP>
+  <GDP_PPP_year>2026</GDP_PPP_year>
+  <GDP_PPP_rank>117th</GDP_PPP_rank>
+  <GDP_PPP_per_capita>$2,110</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>182nd</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$21.090 billion</GDP_nominal>
+  <GDP_nominal_rank>139th</GDP_nominal_rank>
+  <GDP_nominal_year>2026</GDP_nominal_year>
+  <GDP_nominal_per_capita>$652</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>188th</GDP_nominal_per_capita_rank>
+  <Gini>42.6</Gini>
+  <Gini_year>2012</Gini_year>
+  <Gini_change>decrease</Gini_change>
+  <HDI>0.487</HDI>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>steady</HDI_change>
+  <HDI_rank>183rd</HDI_rank>
+  <currency>Ariary</currency>
+  <currency_code>MGA</currency_code>
+  <time_zone>EAT</time_zone>
+  <utc_offset>+3</utc_offset>
+  <date_format>dd/mm/yyyy</date_format>
+  <drives_on>right</drives_on>
+  <calling_code>+261</calling_code>
+  <cctld>.mg</cctld>
+  <area_water_km2>5501</area_water_km2>
+  <established>
+    <event>
+      <label>Kingdom</label>
+      <date/>
+    </event>
+    <event>
+      <label>French protectorate</label>
+      <date/>
+    </event>
+    <event>
+      <label>French colony</label>
+      <date>6 August 1896</date>
+    </event>
+    <event>
+      <label>Republic proclaimed</label>
+      <date>14 October 1958</date>
+    </event>
+    <event>
+      <label>Declaration of independence</label>
+      <date>26 June 1960</date>
+    </event>
+    <event>
+      <label>Referendum</label>
+      <date>21 December 1975</date>
+    </event>
+    <event>
+      <label>Socialist state</label>
+      <date>30 December 1975 – 12 January 1992</date>
+    </event>
+    <event>
+      <label>Third Republic</label>
+      <date>12 January 1992 – 11 December 2010</date>
+    </event>
+    <event>
+      <label>Referendum</label>
+      <date>17 November 2010</date>
+    </event>
+    <event>
+      <label>Current constitution</label>
+      <date>11 December 2010</date>
+    </event>
+    <event>
+      <label>2025 Malagasy protests</label>
+      <date>25 September – 14 October 2025</date>
+    </event>
+    <event>
+      <label>Coup d'etat</label>
+      <date>12–14 October 2025</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>President</title>
+      <name>Michael Randrianirina</name>
+    </leader>
+    <leader>
+      <title>Prime Minister</title>
+      <name>Vacant</name>
+    </leader>
+  </leaders>
+</country>

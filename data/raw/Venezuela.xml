@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Venezuela">
+  <conventional_long_name>Bolivarian Republic of Venezuela</conventional_long_name>
+  <common_name>Venezuela</common_name>
+  <national_motto>( )</national_motto>
+  <national_anthem>( )</national_anthem>
+  <capital>Caracas</capital>
+  <largest_city>Caracas</largest_city>
+  <official_languages>Spanish</official_languages>
+  <ethnic_groups>51.6% Moreno, 43.6% White, 3.6% Black, 1.2% other</ethnic_groups>
+  <ethnic_groups_year>2011</ethnic_groups_year>
+  <religion>92.6% Christianity, 80.5% Catholicism, 11.2% Protestantism, 0.9% other Christian, 5.5% no religion, 1.1% Spiritism, Birongo, 0.8% other</religion>
+  <religion_year>2020</religion_year>
+  <demonym>Venezuelan</demonym>
+  <government_type>Federal presidential republic under an authoritarian dictatorship</government_type>
+  <legislature>National Assembly</legislature>
+  <sovereignty_type>Independence</sovereignty_type>
+  <sovereignty_note>from Spain</sovereignty_note>
+  <area_km2>916,445</area_km2>
+  <area_rank>32nd</area_rank>
+  <area_sq_mi>353,841</area_sq_mi>
+  <percent_water>3.2%</percent_water>
+  <population_estimate>31,800,000</population_estimate>
+  <population_estimate_year>2025</population_estimate_year>
+  <population_estimate_rank>53rd</population_estimate_rank>
+  <population_density_km2>32</population_density_km2>
+  <population_density_sq_mi>87.42</population_density_sq_mi>
+  <population_density_rank>184th</population_density_rank>
+  <GDP_PPP>$234.340 billion</GDP_PPP>
+  <GDP_PPP_year>2025</GDP_PPP_year>
+  <GDP_PPP_rank>77th</GDP_PPP_rank>
+  <GDP_PPP_per_capita>$8,790</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>133rd</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$82.770 billion</GDP_nominal>
+  <GDP_nominal_year>2025</GDP_nominal_year>
+  <GDP_nominal_rank>69th</GDP_nominal_rank>
+  <GDP_nominal_per_capita>$3,100</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>127th</GDP_nominal_per_capita_rank>
+  <Gini>44.8</Gini>
+  <Gini_year>2013</Gini_year>
+  <Gini_change>increase</Gini_change>
+  <HDI>0.709</HDI>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI_rank>121st</HDI_rank>
+  <currency>Venezuelan bolívar (VED) (official)</currency>
+  <time_zone>VET</time_zone>
+  <utc_offset>−04:00</utc_offset>
+  <date_format>dd/mm/yyyy (CE)</date_format>
+  <drives_on>right</drives_on>
+  <calling_code>+58</calling_code>
+  <cctld>.ve</cctld>
+  <footnote_a>The "Bolivarian Republic of Venezuela" has been the full official title since the adoption of the Constitution of 1999, when the state was renamed in honor of Simón Bolívar.</footnote_a>
+  <footnote_b>The Constitution also recognizes all indigenous languages spoken in the country.</footnote_b>
+  <footnote_c>Some important subgroups include those of Spanish, Portuguese, Italian, Amerindian, African, Arab and German descent.</footnote_c>
+  <footnote_d>Area totals include only Venezuelan-administered territory.</footnote_d>
+  <footnote_e>On 1 October 2021, a new bolivar was introduced, the ''Bolívar digital'' (ISO 4217 code VED) worth 1,000,000 VES.</footnote_e>
+  <established>
+    <event>
+      <label>Declared</label>
+      <date>5 July 1811</date>
+    </event>
+    <event>
+      <label/>
+      <date>13 January 1830</date>
+    </event>
+    <event>
+      <label>Recognized</label>
+      <date>29 March 1845</date>
+    </event>
+    <event>
+      <label/>
+      <date>20 December 1999</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>President</title>
+      <name>Delcy Rodríguez (acting)Nicolás Maduro (de jure) Both Rodríguez and Maduro have asserted that the latter remains the legal officeholder.</name>
+    </leader>
+    <leader>
+      <title>Vice President</title>
+      <name>''Vacant''</name>
+    </leader>
+  </leaders>
+</country>

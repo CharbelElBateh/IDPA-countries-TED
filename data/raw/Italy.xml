@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Italy">
+  <conventional_long_name>Italian Republic</conventional_long_name>
+  <common_name>Italy</common_name>
+  <symbol_type>Emblem</symbol_type>
+  <national_anthem>" ""The Song of the Italians"</national_anthem>
+  <capital>Rome</capital>
+  <largest_city>capital</largest_city>
+  <languages_type>Native languages</languages_type>
+  <languages>See main article</languages>
+  <official_languages>Italiana 91% Italian, 9% other</official_languages>
+  <religion_year>2020</religion_year>
+  <demonym>Italian</demonym>
+  <government_type>Unitary parliamentary republic</government_type>
+  <legislature>Parliament</legislature>
+  <upper_house>Senate of the Republic</upper_house>
+  <lower_house>Chamber of Deputies</lower_house>
+  <sovereignty_type>Historical polities</sovereignty_type>
+  <area_km2>301,340</area_km2>
+  <area_rank>71st</area_rank>
+  <area_sq_mi>116,347</area_sq_mi>
+  <percent_water>1.24 (2015)</percent_water>
+  <population_estimate>58,915,561</population_estimate>
+  <population_estimate_year>2025</population_estimate_year>
+  <population_estimate_rank>25th</population_estimate_rank>
+  <population_density_km2>195.5</population_density_km2>
+  <population_density_sq_mi>auto</population_density_sq_mi>
+  <population_density_rank>72nd</population_density_rank>
+  <GDP_PPP>$3.719&amp;nbsp;trillion</GDP_PPP>
+  <GDP_PPP_year>2025</GDP_PPP_year>
+  <GDP_PPP_rank>11th</GDP_PPP_rank>
+  <GDP_PPP_per_capita>$63,076</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>29th</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$2.423&amp;nbsp;trillion</GDP_nominal>
+  <GDP_nominal_year>2025</GDP_nominal_year>
+  <GDP_nominal_rank>8th</GDP_nominal_rank>
+  <GDP_nominal_per_capita>$41,091</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>27th</GDP_nominal_per_capita_rank>
+  <Gini>32.5</Gini>
+  <Gini_year>2020</Gini_year>
+  <Gini_change>decrease</Gini_change>
+  <HDI>0.915</HDI>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI_rank>29th</HDI_rank>
+  <currency>Euro (€)b</currency>
+  <currency_code>EUR</currency_code>
+  <time_zone>CET</time_zone>
+  <utc_offset>+1</utc_offset>
+  <utc_offset_DST>+2</utc_offset_DST>
+  <time_zone_DST>CEST</time_zone_DST>
+  <calling_code>+39 c</calling_code>
+  <cctld>.it</cctld>
+  <footnote_a>German is co-official in South Tyrol and Friuli-Venezia Giulia; French is co-official in the Aosta Valley; Slovene is co-official in the province of Trieste, the province of Gorizia, and Friuli-Venezia Giulia; Ladin is co-official in South Tyrol, in Trentino and in other northern areas; Friulian is co-official in Friuli-Venezia Giulia; Sardinian is co-official in Sardinia.</footnote_a>
+  <footnote_b>Before 2002, the Italian lira. The euro is accepted in Campione d'Italia, but its official currency is the Swiss franc.</footnote_b>
+  <footnote_c>To call Campione d'Italia, it is necessary to use the Swiss code +41.</footnote_c>
+  <established>
+    <event>
+      <label>Italic peoples</label>
+      <date>Antiquity</date>
+    </event>
+    <event>
+      <label>Ancient RomeRoman Italy</label>
+      <date>753 BC–476 AD</date>
+    </event>
+    <event>
+      <label>Roman-Barbarian kingdomsByzantine Italy</label>
+      <date>Early Middle Ages</date>
+    </event>
+    <event>
+      <label>Italian city-states and regional polities</label>
+      <date>Middle Ages and Modern period</date>
+    </event>
+    <event>
+      <label>Kingdom of Italy</label>
+      <date>1861–1946</date>
+    </event>
+    <event>
+      <label>Italian Empire</label>
+      <date>1882–1960</date>
+    </event>
+    <event>
+      <label>Italian Republic</label>
+      <date/>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>President</title>
+      <name>Sergio Mattarella</name>
+    </leader>
+    <leader>
+      <title>Prime Minister</title>
+      <name>Giorgia Meloni</name>
+    </leader>
+    <leader>
+      <title>President of the Senate</title>
+      <name>Ignazio La Russa</name>
+    </leader>
+    <leader>
+      <title>President of the Chamber of Deputies</title>
+      <name>Lorenzo Fontana</name>
+    </leader>
+  </leaders>
+</country>

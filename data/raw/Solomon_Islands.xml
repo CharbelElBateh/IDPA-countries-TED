@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Solomon Islands">
+  <conventional_long_name>Solomon Islands</conventional_long_name>
+  <common_name>Solomon Islands</common_name>
+  <national_motto>"To Lead is to Serve"</national_motto>
+  <national_anthem>"God Save Our Solomon Islands"</national_anthem>
+  <capital>Honiara</capital>
+  <languages_type>Official language</languages_type>
+  <languages>English</languages>
+  <languages2_type>Lingua franca</languages2_type>
+  <languages2>Pijin</languages2>
+  <ethnic_groups>95.3% Melanesian, 3.1% Polynesian, 1.2% Micronesian, 0.4% others</ethnic_groups>
+  <ethnic_groups_year>2016</ethnic_groups_year>
+  <religion>97.4% Christianity, 78.6% Protestantism, 19.5% Catholicism, 1.9% other Christian, 1.2% folk religions, 1.4% others / none * 1.2% folk religions * 1.4% others / none</religion>
+  <religion_year>2016</religion_year>
+  <largest_city>capital</largest_city>
+  <government_type>Unitary parliamentary constitutional monarchy</government_type>
+  <legislature>National Parliament</legislature>
+  <sovereignty_type>Independence</sovereignty_type>
+  <area_rank>139th</area_rank>
+  <area_km2>28,896</area_km2>
+  <area_sq_mi>11,157</area_sq_mi>
+  <percent_water>3.2%</percent_water>
+  <population_estimate>828,857</population_estimate>
+  <population_estimate_rank>167th</population_estimate_rank>
+  <population_estimate_year>2025</population_estimate_year>
+  <population_census>721,956</population_census>
+  <population_census_year>2019</population_census_year>
+  <population_density_km2>24.2</population_density_km2>
+  <population_density_sq_mi>46.9</population_density_sq_mi>
+  <population_density_rank>192th</population_density_rank>
+  <GDP_PPP>$1.68 billion</GDP_PPP>
+  <GDP_PPP_year>2024</GDP_PPP_year>
+  <GDP_PPP_per_capita>$2,205.25</GDP_PPP_per_capita>
+  <GDP_nominal>$1.681 billion</GDP_nominal>
+  <GDP_nominal_year>2024</GDP_nominal_year>
+  <GDP_nominal_per_capita>$2,205.25</GDP_nominal_per_capita>
+  <Gini>37.1</Gini>
+  <Gini_year>2013</Gini_year>
+  <Gini_change>steady</Gini_change>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI>0.584</HDI>
+  <HDI_rank>156th</HDI_rank>
+  <demonym>Solomon IslanderSolomonese</demonym>
+  <currency>Solomon Islands dollar</currency>
+  <currency_code>SBD</currency_code>
+  <time_zone>Solomon Islands Time</time_zone>
+  <utc_offset>+11</utc_offset>
+  <time_zone_DST>Not observed</time_zone_DST>
+  <drives_on>left</drives_on>
+  <calling_code>+677</calling_code>
+  <cctld>.sb</cctld>
+  <established>
+    <event>
+      <label>from the United Kingdom</label>
+      <date>7 July 1978</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>Monarch</title>
+      <name>Charles III</name>
+    </leader>
+    <leader>
+      <title>Governor-General</title>
+      <name>David Tiva Kapu</name>
+    </leader>
+    <leader>
+      <title>Prime Minister</title>
+      <name>Jeremiah Manele</name>
+    </leader>
+  </leaders>
+</country>

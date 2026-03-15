@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Bahrain">
+  <conventional_long_name>Kingdom of Bahrain</conventional_long_name>
+  <common_name>Bahrain</common_name>
+  <symbol_type>Coat of arms</symbol_type>
+  <national_anthem>''Baḥraynunā''"Our Bahrain"center</national_anthem>
+  <capital>Manama</capital>
+  <largest_city>Manama</largest_city>
+  <languages_type>Official language</languages_type>
+  <languages>Arabic</languages>
+  <ethnic_groups>53.2% Arabs, 43.4% South Asians, 1.4% Africans, 1.1% North Americans, 0.1% others</ethnic_groups>
+  <ethnic_groups_year>2020</ethnic_groups_year>
+  <religion>74.0% Islam (official), 26.0% non-Muslim</religion>
+  <religion_year>2020</religion_year>
+  <demonym>Bahraini</demonym>
+  <government_type>Unitary semi-constitutional monarchy under an authoritarian government</government_type>
+  <legislature>National Assembly</legislature>
+  <upper_house>Consultative Council</upper_house>
+  <lower_house>Council of Representatives</lower_house>
+  <sovereignty_type>Establishment</sovereignty_type>
+  <area_km2>786.8</area_km2>
+  <area_rank>173rd</area_rank>
+  <area_sq_mi>303.1</area_sq_mi>
+  <percent_water>negligible</percent_water>
+  <population_census>1,501,635</population_census>
+  <population_estimate_rank>149th</population_estimate_rank>
+  <population_census_year>2020</population_census_year>
+  <population_density_km2>1,864</population_density_km2>
+  <population_density_sq_mi>4,828</population_density_sq_mi>
+  <population_density_rank>6th</population_density_rank>
+  <GDP_PPP>$118.060 billion</GDP_PPP>
+  <GDP_PPP_year>2026</GDP_PPP_year>
+  <GDP_PPP_rank>98th</GDP_PPP_rank>
+  <GDP_PPP_per_capita>$71,460</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>23rd</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$49.190 billion</GDP_nominal>
+  <GDP_nominal_year>2026</GDP_nominal_year>
+  <GDP_nominal_rank>95th</GDP_nominal_rank>
+  <GDP_nominal_per_capita>$29,780</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>40th</GDP_nominal_per_capita_rank>
+  <HDI>0.899</HDI>
+  <HDI_rank>38th</HDI_rank>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <currency>Bahraini dinar</currency>
+  <currency_code>BHD</currency_code>
+  <time_zone>AST</time_zone>
+  <utc_offset>+3</utc_offset>
+  <drives_on>Right</drives_on>
+  <calling_code>+973</calling_code>
+  <cctld>.bh</cctld>
+  <footnote_a>Since 17 November 1967</footnote_a>
+  <footnote_b>46% are Bahraini citizens, 4.7% are other Arabs.</footnote_b>
+  <established>
+    <event>
+      <label>Al Khalifa dynasty</label>
+      <date>1783</date>
+    </event>
+    <event>
+      <label>Declared independence</label>
+      <date>14 August 1971</date>
+    </event>
+    <event>
+      <label>Independence from United Kingdom</label>
+      <date>15 August 1971</date>
+    </event>
+    <event>
+      <label>Kingdom of Bahrain</label>
+      <date>14 February 2002</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>King</title>
+      <name>Hamad bin Isa Al Khalifa</name>
+    </leader>
+    <leader>
+      <title>Crown Prince and Prime Minister</title>
+      <name>Salman bin Hamad Al Khalifa</name>
+    </leader>
+  </leaders>
+</country>

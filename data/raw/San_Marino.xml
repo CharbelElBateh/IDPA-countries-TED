@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="San Marino">
+  <conventional_long_name>Republic of San Marino</conventional_long_name>
+  <common_name>San Marino</common_name>
+  <native_name>''Ripóbblica d' San Marein'' (Romagnol)</native_name>
+  <symbol_width>80px</symbol_width>
+  <symbol_type>Coat of arms</symbol_type>
+  <national_motto>''Libertas'' (Latin)"Freedom"</national_motto>
+  <national_anthem>"Terra di Libertà" File:Inno Nazionale della Repubblica.ogg )</national_anthem>
+  <capital>City of San Marino</capital>
+  <largest_settlement>Dogana</largest_settlement>
+  <largest_settlement_type>settlement</largest_settlement_type>
+  <official_languages>Italian</official_languages>
+  <languages2>Romagnol</languages2>
+  <languages2_type>Other languages</languages2_type>
+  <religion>90.3% Catholicism (2022) 7.5% no religion1.1% Other Christian denominations (2022) 0.1% Judaism0.46% Islam (2015) 0.34% other</religion>
+  <demonym>Sammarinese</demonym>
+  <government_type>Unitary parliamentary diarchic directorial republic</government_type>
+  <legislature>Grand and General Council</legislature>
+  <sovereignty_type>Independence</sovereignty_type>
+  <area_km2>61.19</area_km2>
+  <area_rank>191st</area_rank>
+  <percent_water>0.0059%</percent_water>
+  <population_estimate>34,172</population_estimate>
+  <population_estimate_year>2026</population_estimate_year>
+  <population_estimate_rank>191st</population_estimate_rank>
+  <population_density_km2>579</population_density_km2>
+  <population_density_rank>24th</population_density_rank>
+  <GDP_PPP>$2.978 billion</GDP_PPP>
+  <GDP_PPP_year>2024</GDP_PPP_year>
+  <GDP_PPP_rank>176th</GDP_PPP_rank>
+  <GDP_PPP_per_capita>$86,989</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>12th</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$2.034 billion</GDP_nominal>
+  <GDP_nominal_year>2024</GDP_nominal_year>
+  <GDP_nominal_rank>171st</GDP_nominal_rank>
+  <GDP_nominal_per_capita>$59,405</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>12th</GDP_nominal_per_capita_rank>
+  <HDI>0.915</HDI>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI_rank>29th</HDI_rank>
+  <currency>Euro (€)</currency>
+  <currency_code>EUR</currency_code>
+  <time_zone>CET</time_zone>
+  <utc_offset>+01</utc_offset>
+  <utc_offset_DST>+02</utc_offset_DST>
+  <time_zone_DST>CEST</time_zone_DST>
+  <drives_on>right</drives_on>
+  <calling_code>+378 (+39 0549 calling via Italy)</calling_code>
+  <patron_saint>Saint MarinusSaint Agatha</patron_saint>
+  <cctld>.sm</cctld>
+  <footnotes>Sources:</footnotes>
+  <established>
+    <event>
+      <label>From the Roman Empire</label>
+      <date>3 September 301 (traditional)</date>
+    </event>
+    <event>
+      <label>From the Papal States</label>
+      <date>1291</date>
+    </event>
+    <event>
+      <label>Constitution</label>
+      <date/>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>Captains Regent</title>
+      <name>Matteo Rossi, Lorenzo Bugli</name>
+    </leader>
+    <leader>
+      <title>Secretary of State for Foreign and Political Affairs</title>
+      <name>Luca Beccari</name>
+    </leader>
+  </leaders>
+</country>

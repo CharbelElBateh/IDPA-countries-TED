@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Dominica">
+  <conventional_long_name>Commonwealth of Dominica</conventional_long_name>
+  <common_name>Dominica</common_name>
+  <native_name>native name, crb, Waitukubuli, ''Komwèl Donmnik'', small, (Dominican Creole French), native name, aig, Kamanwel a Domineeka, paren, =, omit, (Kokoy) * ''Komwèl Donmnik'' * (Kokoy)</native_name>
+  <national_motto>"Apres Bondie, C'est La Ter" (Dominican Creole French) "Post Deum terra est" (Latin) "After God is the earth"</national_motto>
+  <national_anthem>"Isle of Beauty, Isle of Splendour"</national_anthem>
+  <map2_width>250px</map2_width>
+  <capital>Roseau</capital>
+  <largest_city>capital</largest_city>
+  <official_languages>English</official_languages>
+  <languages_type>Vernacularlanguages</languages_type>
+  <languages>Dominican Creole French, Kokoy</languages>
+  <ethnic_groups>nowrap, 75% African, 19% multiracial, nowrap, 4% Kalinago, 0.8% European or other, 0.2% unspecified</ethnic_groups>
+  <ethnic_groups_year>2014</ethnic_groups_year>
+  <demonym>Dominican(pronounced )</demonym>
+  <government_type>Unitary parliamentary republic</government_type>
+  <legislature>House of Assembly</legislature>
+  <sovereignty_type>Independence</sovereignty_type>
+  <sovereignty_note>from the United Kingdom</sovereignty_note>
+  <area_km2>750</area_km2>
+  <area_rank>174th</area_rank>
+  <area_sq_mi>290</area_sq_mi>
+  <percent_water>1.6</percent_water>
+  <population_census>71,293</population_census>
+  <population_estimate_rank>186th</population_estimate_rank>
+  <population_census_year>2011</population_census_year>
+  <population_density_km2>105</population_density_km2>
+  <population_density_sq_mi>272</population_density_sq_mi>
+  <population_density_rank>95th</population_density_rank>
+  <GDP_PPP>$688 million</GDP_PPP>
+  <GDP_PPP_year>2018</GDP_PPP_year>
+  <GDP_PPP_per_capita>$9,726</GDP_PPP_per_capita>
+  <GDP_nominal>$485 million</GDP_nominal>
+  <GDP_nominal_year>2018</GDP_nominal_year>
+  <GDP_nominal_per_capita>$7,860</GDP_nominal_per_capita>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI>0.761</HDI>
+  <HDI_rank>98th</HDI_rank>
+  <currency>East Caribbean dollar</currency>
+  <currency_code>XCD</currency_code>
+  <time_zone>AST</time_zone>
+  <utc_offset>–4</utc_offset>
+  <drives_on>left</drives_on>
+  <calling_code>+1</calling_code>
+  <cctld>.dm</cctld>
+  <religion_year>2020</religion_year>
+  <established>
+    <event>
+      <label>West Indies Associated States</label>
+      <date>1 March 1967</date>
+    </event>
+    <event>
+      <label>Sovereignty and constitution</label>
+      <date>3 November 1978</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>President</title>
+      <name>Sylvanie Burton</name>
+    </leader>
+    <leader>
+      <title>Prime Minister</title>
+      <name>Roosevelt Skerrit</name>
+    </leader>
+    <leader>
+      <title>Speaker of the House of Assembly</title>
+      <name>Joseph Isaac</name>
+    </leader>
+  </leaders>
+</country>

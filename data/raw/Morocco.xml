@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Morocco">
+  <conventional_long_name>Kingdom of Morocco</conventional_long_name>
+  <common_name>Morocco</common_name>
+  <native_name>native name, ar, المملكة المغربية, italic, =, no, resize, 80%, transliteration, ar, al-Mamlakah al-Maghribiyah, native name, ber, ⵜⴰⴳⵍⴷⵉⵜ ⵏ ⵍⵎⵖⵔⵉⴱ, italic, =, no, paren, =, omit, (Tamazight), resize, 80%, transliteration, zgh, Tageldit n Lmeɣrib (Tamazight)</native_name>
+  <national_motto>"Allāh, al-Waṭan, al-Malik""God, Country, King"</national_motto>
+  <national_anthem>"an-Našīd al-Waṭanīy""Cherifian Anthem"</national_anthem>
+  <map_caption>Location of Morocco in northwest Africa</map_caption>
+  <capital>Rabat</capital>
+  <largest_city>Casablanca</largest_city>
+  <official_languages>Arabic, Tamazight</official_languages>
+  <languages_type>Spoken languages</languages_type>
+  <languages2_type>Foreign languages</languages2_type>
+  <languages2>French, The French language in Morocco is also used in official government documents and by the business community, although it has no official status: "French (often the language of business, government, and diplomacy)...", English, Spanish</languages2>
+  <ethnic_groups>See Ethnic groups</ethnic_groups>
+  <demonym>Moroccan</demonym>
+  <government_type>Unitary parliamentary semi-constitutional monarchy</government_type>
+  <legislature>Parliament</legislature>
+  <upper_house>House of Councillors</upper_house>
+  <lower_house>House of Representatives</lower_house>
+  <sovereignty_type>Establishment</sovereignty_type>
+  <area_km2>446,550</area_km2>
+  <area_rank>57th</area_rank>
+  <area_sq_mi>172,317</area_sq_mi>
+  <percent_water>0.056 (250 km )</percent_water>
+  <population_estimate>37,493,183</population_estimate>
+  <population_census>36,828,330</population_census>
+  <population_estimate_year>2024</population_estimate_year>
+  <population_estimate_rank>38th</population_estimate_rank>
+  <population_census_year>2024</population_census_year>
+  <population_density_km2>79.0</population_density_km2>
+  <population_density_sq_mi>189.3</population_density_sq_mi>
+  <GDP_PPP>$424.870 billion</GDP_PPP>
+  <GDP_PPP_year>2025</GDP_PPP_year>
+  <GDP_PPP_rank>57th</GDP_PPP_rank>
+  <GDP_PPP_per_capita>$11,270</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>122nd</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$165.840 billion</GDP_nominal>
+  <GDP_nominal_year>2025</GDP_nominal_year>
+  <GDP_nominal_rank>58th</GDP_nominal_rank>
+  <GDP_nominal_per_capita>$4,440</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>123rd</GDP_nominal_per_capita_rank>
+  <Gini>40.3</Gini>
+  <Gini_year>2015</Gini_year>
+  <HDI>0.710</HDI>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI_rank>120th</HDI_rank>
+  <currency>Moroccan dirham</currency>
+  <currency_code>MAD</currency_code>
+  <drives_on>right</drives_on>
+  <calling_code>+212</calling_code>
+  <religion_year>2020</religion_year>
+  <established>
+    <event>
+      <label>Idrisid dynasty</label>
+      <date>788</date>
+    </event>
+    <event>
+      <label>'Alawi dynasty (current dynasty)</label>
+      <date>1631</date>
+    </event>
+    <event>
+      <label>French protectorate</label>
+      <date>30 March 1912</date>
+    </event>
+    <event>
+      <label>Independence</label>
+      <date>2 March 1956</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>King</title>
+      <name>Mohammed VI</name>
+    </leader>
+    <leader>
+      <title>Prime Minister</title>
+      <name>Aziz Akhannouch</name>
+    </leader>
+  </leaders>
+</country>

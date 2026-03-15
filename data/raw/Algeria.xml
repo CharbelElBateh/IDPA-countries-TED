@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Algeria">
+  <conventional_long_name>People's Democratic Republic of Algeria</conventional_long_name>
+  <common_name>Algeria</common_name>
+  <flag_border>yes</flag_border>
+  <symbol_type>Emblem</symbol_type>
+  <national_motto>"By the people and for the people"</national_motto>
+  <national_anthem>''Qasaman''"We Pledge"</national_anthem>
+  <capital>Algiers</capital>
+  <largest_city>capital</largest_city>
+  <religion>99% Sunni Islam (official), &lt;1% others</religion>
+  <official_languages>Arabic, Berber, The Algerian constitutional amendment of 2016 officialised Berber as Algeria's second "official" language. The revised constitution also created the Algerian Academy of Amazigh Language, which is responsible for promoting Berber "in view of cementing, in the future, its official language status".</official_languages>
+  <languages_type>National vernacular</languages_type>
+  <languages>Algerian Arabic Algerian Arabic is the spoken language used by the vast majority of the population. Other Arabic dialects and minority languages are spoken regionally.</languages>
+  <languages2_type>Foreign languages</languages2_type>
+  <languages2>French English</languages2>
+  <ethnic_groups>See Ethnic groups</ethnic_groups>
+  <demonym>Algerian</demonym>
+  <government_type>Unitary semi-presidential republic</government_type>
+  <legislature>Parliament</legislature>
+  <upper_house>Council of the Nation</upper_house>
+  <lower_house>People's National Assembly</lower_house>
+  <sovereignty_type>Formation</sovereignty_type>
+  <area_km2>2381741</area_km2>
+  <area_rank>10th</area_rank>
+  <area_sq_mi>919595</area_sq_mi>
+  <population_estimate>47,400,000</population_estimate>
+  <population_estimate_year>2025</population_estimate_year>
+  <population_estimate_rank>32nd</population_estimate_rank>
+  <population_density_km2>19</population_density_km2>
+  <population_density_sq_mi>49</population_density_sq_mi>
+  <population_density_rank>206th</population_density_rank>
+  <GDP_PPP>$875.330 billion</GDP_PPP>
+  <GDP_PPP_year>2025</GDP_PPP_year>
+  <GDP_PPP_rank>40th</GDP_PPP_rank>
+  <GDP_PPP_per_capita>$18,530</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>100th</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$268.890 billion</GDP_nominal>
+  <GDP_nominal_year>2025</GDP_nominal_year>
+  <GDP_nominal_rank>49th</GDP_nominal_rank>
+  <GDP_nominal_per_capita>$5,690</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>111th</GDP_nominal_per_capita_rank>
+  <Gini>27.6</Gini>
+  <Gini_year>2011</Gini_year>
+  <HDI>0.763</HDI>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI_rank>96th</HDI_rank>
+  <currency>Algerian dinar</currency>
+  <currency_code>DZD</currency_code>
+  <time_zone>CET</time_zone>
+  <utc_offset>+1</utc_offset>
+  <calling_code>+213</calling_code>
+  <religion_year>2012</religion_year>
+  <established>
+    <event>
+      <label>Numidia</label>
+      <date>202 BC</date>
+    </event>
+    <event>
+      <label>Regency of Algiers</label>
+      <date>1516</date>
+    </event>
+    <event>
+      <label>French Algeria</label>
+      <date>5 July 1830</date>
+    </event>
+    <event>
+      <label>Independence</label>
+      <date>5 July 1962</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>President</title>
+      <name>Abdelmadjid Tebboune</name>
+    </leader>
+    <leader>
+      <title>Prime Minister</title>
+      <name>Sifi Ghrieb</name>
+    </leader>
+    <leader>
+      <title>Council President</title>
+      <name>Azouz Nasri</name>
+    </leader>
+    <leader>
+      <title>Assembly President</title>
+      <name>Ibrahim Boughali</name>
+    </leader>
+  </leaders>
+</country>

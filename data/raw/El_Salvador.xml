@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="El Salvador">
+  <conventional_long_name>Republic of El Salvador</conventional_long_name>
+  <common_name>El Salvador</common_name>
+  <national_motto>"God, Union, Liberty"</national_motto>
+  <national_anthem>"National Anthem of El Salvador"</national_anthem>
+  <capital>San Salvador</capital>
+  <largest_city>capital</largest_city>
+  <official_languages>Spanish</official_languages>
+  <languages_type>Recognized languages</languages_type>
+  <languages>Nawat</languages>
+  <ethnic_groups_year>2007</ethnic_groups_year>
+  <demonym>Salvadoran</demonym>
+  <government_type>Unitary presidential republic</government_type>
+  <legislature>Legislative Assembly</legislature>
+  <sovereignty_type>Independence</sovereignty_type>
+  <area_km2>21,041</area_km2>
+  <area_rank>149th</area_rank>
+  <area_sq_mi>8,124</area_sq_mi>
+  <percent_water>1.5</percent_water>
+  <population_census>6,029,976</population_census>
+  <population_census_year>2024</population_census_year>
+  <population_census_rank>114th</population_census_rank>
+  <population_density_km2>286.6</population_density_km2>
+  <population_density_sq_mi>742.2</population_density_sq_mi>
+  <population_density_rank>46th</population_density_rank>
+  <GDP_PPP>$88.323 billion</GDP_PPP>
+  <GDP_PPP_rank>107th</GDP_PPP_rank>
+  <GDP_PPP_year>2025</GDP_PPP_year>
+  <GDP_PPP_per_capita>$13,753</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>114th</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$37.843 billion</GDP_nominal>
+  <GDP_nominal_rank>104th</GDP_nominal_rank>
+  <GDP_nominal_year>2025</GDP_nominal_year>
+  <GDP_nominal_per_capita>$5,893</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>108th</GDP_nominal_per_capita_rank>
+  <Gini>38.8</Gini>
+  <Gini_year>2022</Gini_year>
+  <Gini_change>steady</Gini_change>
+  <HDI>0.678</HDI>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI_rank>132nd</HDI_rank>
+  <currency>United States dollar (USD; since 2001), Salvadoran colón (no longer in circulation, still legal) Bitcoin was designated as legal tender in 2021, but is no longer legal tender.</currency>
+  <time_zone>CST</time_zone>
+  <utc_offset>−6</utc_offset>
+  <drives_on>right</drives_on>
+  <calling_code>+503</calling_code>
+  <cctld>.sv</cctld>
+  <religion_year>2022</religion_year>
+  <religion>81.5% Christianity, 42.2% Catholicism, 36.6% Protestantism, 2.7% other Christian, 17% no religion, 1.5% other</religion>
+  <established>
+    <event>
+      <label>Declared from Spain</label>
+      <date>15 September 1821</date>
+    </event>
+    <event>
+      <label>Declared from the First Mexican Empire</label>
+      <date>1 July 1823</date>
+    </event>
+    <event>
+      <label/>
+      <date>30 January 1841</date>
+    </event>
+    <event>
+      <label>International recognition</label>
+      <date>18 February 1841</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>President</title>
+      <name>Nayib Bukele</name>
+    </leader>
+    <leader>
+      <title>Vice President</title>
+      <name>Félix Ulloa</name>
+    </leader>
+  </leaders>
+</country>

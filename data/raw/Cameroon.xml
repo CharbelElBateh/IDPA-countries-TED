@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Cameroon">
+  <conventional_long_name>Republic of Cameroon</conventional_long_name>
+  <common_name>Cameroon</common_name>
+  <symbol_type>Coat of arms</symbol_type>
+  <national_motto>"Peace – Work – Fatherland"</national_motto>
+  <national_anthem>"Rallying Song"</national_anthem>
+  <capital>Yaoundé</capital>
+  <largest_city>Douala</largest_city>
+  <official_languages>French English</official_languages>
+  <regional_languages>Grassfield Languages Beti Fufulde Sawa Hausa Baka Bassa Chadian Arabic Bafia Gbaya Pidgin Camfranglais Mandara</regional_languages>
+  <ethnic_groups_year>2022</ethnic_groups_year>
+  <religion_year>2022</religion_year>
+  <demonym>Cameroonian</demonym>
+  <government_type>Unitary presidential republic under a dictatorship</government_type>
+  <legislature>Parliament</legislature>
+  <upper_house>Senate</upper_house>
+  <lower_house>National Assembly</lower_house>
+  <sovereignty_type>Formation</sovereignty_type>
+  <area_km2>475,442</area_km2>
+  <area_rank>53rd</area_rank>
+  <area_sq_mi>183,569</area_sq_mi>
+  <percent_water>0.57</percent_water>
+  <population_estimate>30,987,821</population_estimate>
+  <population_estimate_year>2025</population_estimate_year>
+  <population_estimate_rank>51st</population_estimate_rank>
+  <population_density_km2>39.7</population_density_km2>
+  <population_density_sq_mi>102,8</population_density_sq_mi>
+  <GDP_PPP>$183.320 billion</GDP_PPP>
+  <GDP_PPP_year>2026</GDP_PPP_year>
+  <GDP_PPP_rank>86th</GDP_PPP_rank>
+  <GDP_PPP_per_capita>$5.960</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>147th</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$67.520 billion</GDP_nominal>
+  <GDP_nominal_rank>91st</GDP_nominal_rank>
+  <GDP_nominal_year>2026</GDP_nominal_year>
+  <GDP_nominal_per_capita>$2,200</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>152nd</GDP_nominal_per_capita_rank>
+  <Gini>42.2</Gini>
+  <Gini_year>2021</Gini_year>
+  <Gini_change>decrease</Gini_change>
+  <HDI>0.588</HDI>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI_rank>155th</HDI_rank>
+  <currency>Central African CFA franc</currency>
+  <currency_code>XAF</currency_code>
+  <time_zone>WAT</time_zone>
+  <utc_offset>+1</utc_offset>
+  <calling_code>+237</calling_code>
+  <cctld>.cm</cctld>
+  <footnote_a>These are the titles as given in the ''Constitution of the Republic of Cameroon'', Article X ( and versions). 18 January 1996. The French version of the song is sometimes called , as in Swarovski Orchestra (2004). ''National Anthems of the World''. Koch International Classics; and the English version "O Cameroon, Cradle of Our Forefathers", as in DeLancey and DeLancey 61.</footnote_a>
+  <established>
+    <event>
+      <label>German Kamerun</label>
+      <date>17 August 1884</date>
+    </event>
+    <event>
+      <label>Partition of German Kamerun between France and the United Kingdom as a League of Nations mandates by the Treaty of Versailles</label>
+      <date>28 June 1919</date>
+    </event>
+    <event>
+      <label>Independence of French Cameroons from France</label>
+      <date>1 January 1960</date>
+    </event>
+    <event>
+      <label>Independence of British Southern Cameroons from the United Kingdom and establishment of the Federal Republic of Cameroon</label>
+      <date>1 October 1961</date>
+    </event>
+    <event>
+      <label>Cameroonian constitutional referendum of 1972 and establishment of the Unitary State</label>
+      <date>20 May 1972</date>
+    </event>
+    <event>
+      <label>Current constitution</label>
+      <date>18 January 1996</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>President</title>
+      <name>Paul Biya</name>
+    </leader>
+    <leader>
+      <title>Prime Minister</title>
+      <name>Joseph Ngute</name>
+    </leader>
+    <leader>
+      <title>President of Senate</title>
+      <name>Marcel Niat Njifenji</name>
+    </leader>
+    <leader>
+      <title>President of National Assembly</title>
+      <name>Cavayé Yéguié Djibril</name>
+    </leader>
+  </leaders>
+</country>

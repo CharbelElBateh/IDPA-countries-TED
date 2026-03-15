@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="India">
+  <conventional_long_name>Republic of India</conventional_long_name>
+  <common_name>India</common_name>
+  <symbol_width>60px</symbol_width>
+  <symbol_type>State emblem</symbol_type>
+  <other_symbol_type>National song:</other_symbol_type>
+  <other_symbol>"I Bow to Thee, Mother" File:Vande Mataram on Mohan Veena.ogg</other_symbol>
+  <national_anthem>"Thou Art the Ruler of the Minds of All People" File:Jana Gana Mana instrumental.ogg</national_anthem>
+  <capital>New Delhi</capital>
+  <admin_center_type>Largest city</admin_center_type>
+  <largest_settlement>Delhi</largest_settlement>
+  <largest_settlement_type>city</largest_settlement_type>
+  <official_languages>Hindi, English, According to Part XVII of the Constitution of India, Hindi in the Devanagari script is the official language of the Union, along with English as an additional official language., sfn, National Informatics Centre, 2005, sfn, Ministry of Home Affairs 1960, States and union territories can have a different official language of their own other than Hindi or English. States and union territories can have a different official language of their own other than Hindi or English.</official_languages>
+  <regional_languages>]] Assamese, Bengali, Boro, Dogri, Gujarati, Hindi, Kannada, Kashmiri, Konkani, Maithili, Malayalam, Manipuri, Marathi, Nepali, Odia, Punjabi, Sanskrit, Santali, Sindhi, Tamil, Telugu, Urdu Kokborok, Lepcha, Mizo, Sikkimese, all the 8th scheduled languages – except Sindhi, Kashmiri and Dogri, Kashmiri and Dogri language are the official languages of Jammu and Kashmir which is currently a union territory and no longer the former state.</regional_languages>
+  <languages_type>Native languages</languages_type>
+  <languages>424 languages * Different sources give widely differing figures, primarily based on how the terms "language" and "dialect" are defined and grouped.</languages>
+  <demonym>Indian, others</demonym>
+  <government_type>Federal parliamentary republic</government_type>
+  <legislature>Parliament</legislature>
+  <upper_house>Rajya Sabha</upper_house>
+  <lower_house>Lok Sabha</lower_house>
+  <sovereignty_type>Independence</sovereignty_type>
+  <sovereignty_note>from the United Kingdom</sovereignty_note>
+  <area_km2>3,287,263</area_km2>
+  <area_rank>7th</area_rank>
+  <area_sq_mi>1,269,346</area_sq_mi>
+  <percent_water>9.6</percent_water>
+  <population_estimate>1,428,627,663</population_estimate>
+  <population_estimate_year>2023</population_estimate_year>
+  <population_estimate_rank>1st</population_estimate_rank>
+  <population_census>1,210,854,977</population_census>
+  <population_census_year>2011</population_census_year>
+  <population_census_rank>2nd</population_census_rank>
+  <population_density_rank>30th</population_density_rank>
+  <GDP_PPP_year>2025</GDP_PPP_year>
+  <GDP_PPP_rank>3rd</GDP_PPP_rank>
+  <GDP_PPP_per_capita>$12,132</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>119th</GDP_PPP_per_capita_rank>
+  <GDP_nominal_year>2025</GDP_nominal_year>
+  <GDP_nominal_rank>4th</GDP_nominal_rank>
+  <GDP_nominal_per_capita>$2,878</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>136th</GDP_nominal_per_capita_rank>
+  <Gini>25.5</Gini>
+  <Gini_year>2022</Gini_year>
+  <Gini_change>decrease</Gini_change>
+  <HDI>0.685</HDI>
+  <HDI_rank>130th</HDI_rank>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <currency>Indian rupee (₹)</currency>
+  <currency_code>INR</currency_code>
+  <time_zone>IST</time_zone>
+  <utc_offset>+05:30</utc_offset>
+  <date_format>nowrap, abbr, dd, day, -, abbr, mm, month, -, abbr, yyyy, year, See Date and time notation in India. - -</date_format>
+  <drives_on>left</drives_on>
+  <calling_code>+91</calling_code>
+  <cctld>.in (others)</cctld>
+  <religion_year>2011</religion_year>
+  <religion>79.8% Hinduism, 14.2% Islam, 2.3% Christianity, 1.7% Sikhism, 0.7% Buddhism, 0.4% Jainism, 0.23% unaffiliated, 0.65% other</religion>
+  <iso3166code>IN</iso3166code>
+  <established>
+    <event>
+      <label>Dominion</label>
+      <date>15 August 1947</date>
+    </event>
+    <event>
+      <label>Republic</label>
+      <date>26 January 1950</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>President</title>
+      <name>Droupadi Murmu</name>
+    </leader>
+    <leader>
+      <title>Vice President</title>
+      <name>C. P. Radhakrishnan</name>
+    </leader>
+    <leader>
+      <title>Prime Minister</title>
+      <name>Narendra Modi</name>
+    </leader>
+  </leaders>
+</country>

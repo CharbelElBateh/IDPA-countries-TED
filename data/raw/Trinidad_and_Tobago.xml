@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Trinidad and Tobago">
+  <conventional_long_name>Republic of Trinidad and Tobago</conventional_long_name>
+  <national_motto>"Together we aspire, together we achieve"</national_motto>
+  <national_anthem>"Forged from the Love of Liberty"File:Forged from the Love of Liberty (instrumental).ogg</national_anthem>
+  <common_name>Trinidad and Tobago</common_name>
+  <capital>Port of Spain</capital>
+  <largest_city>Port of Spain</largest_city>
+  <official_languages>English</official_languages>
+  <languages_type>Vernacular languages</languages_type>
+  <languages>''Trinidad and Tobago creole''</languages>
+  <ethnic_groups_year>2011</ethnic_groups_year>
+  <demonym>Trinidadians and Tobagonians, Trini or Trinbagonian (colloquial)</demonym>
+  <government_type>Unitary parliamentary republic</government_type>
+  <legislature>Parliament</legislature>
+  <upper_house>Senate</upper_house>
+  <lower_house>House of Representatives</lower_house>
+  <sovereignty_type>Independence</sovereignty_type>
+  <sovereignty_note>from the United Kingdom</sovereignty_note>
+  <area_km2>5,131</area_km2>
+  <area_rank>164th</area_rank>
+  <area_sq_mi>1,981</area_sq_mi>
+  <percent_water>negligible</percent_water>
+  <population_estimate>1,512,779</population_estimate>
+  <population_estimate_year>2025</population_estimate_year>
+  <population_estimate_rank>154th</population_estimate_rank>
+  <population_density_km2>294</population_density_km2>
+  <population_density_rank>34th</population_density_rank>
+  <population_density_sq_mi>761</population_density_sq_mi>
+  <GDP_PPP>$43.658 billion</GDP_PPP>
+  <GDP_PPP_rank>126th</GDP_PPP_rank>
+  <GDP_PPP_year>2023</GDP_PPP_year>
+  <GDP_PPP_per_capita>$30,718</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>58th</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$27.887 billion</GDP_nominal>
+  <GDP_nominal_rank>107th</GDP_nominal_rank>
+  <GDP_nominal_year>2023</GDP_nominal_year>
+  <GDP_nominal_per_capita>$19,621</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>47th</GDP_nominal_per_capita_rank>
+  <Gini>39.0</Gini>
+  <Gini_year>2012</Gini_year>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI>0.807</HDI>
+  <HDI_rank>72nd</HDI_rank>
+  <currency>Trinidad and Tobago dollar</currency>
+  <currency_code>TTD</currency_code>
+  <time_zone>AST</time_zone>
+  <utc_offset>-4</utc_offset>
+  <date_format>dd/mm/yyyy</date_format>
+  <drives_on>left</drives_on>
+  <calling_code>+1</calling_code>
+  <cctld>.tt</cctld>
+  <religion>55.2% Christianity, 18.2% Hinduism, 5.0% Islam, 8.3% Other, 13.3% Irreligion/Not stated</religion>
+  <religion_year>2011 Census</religion_year>
+  <established>
+    <event>
+      <label>Province of the West Indies Federation</label>
+      <date>3 January 1958 – 14 January 1962</date>
+    </event>
+    <event>
+      <label>Independence</label>
+      <date>31 August 1962</date>
+    </event>
+    <event>
+      <label>Joined the Caribbean Community at the Treaty of Chaguaramas</label>
+      <date>1 August 1973</date>
+    </event>
+    <event>
+      <label>Republic</label>
+      <date>1 August 1976</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>President</title>
+      <name>Christine Kangaloo</name>
+    </leader>
+    <leader>
+      <title>Prime Minister</title>
+      <name>Kamla Persad-Bissessar</name>
+    </leader>
+    <leader>
+      <title>House Speaker</title>
+      <name>Jagdeo Singh</name>
+    </leader>
+    <leader>
+      <title>Senate President</title>
+      <name>Wade Mark</name>
+    </leader>
+    <leader>
+      <title>Chief Justice</title>
+      <name>Ronnie Boodoosingh</name>
+    </leader>
+  </leaders>
+</country>

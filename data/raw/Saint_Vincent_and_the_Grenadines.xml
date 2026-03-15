@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Saint Vincent and the Grenadines">
+  <religion_year>2020</religion_year>
+  <languages_type>Vernacular language</languages_type>
+  <languages>Vincentian Creole</languages>
+  <conventional_long_name>Saint Vincent and the Grenadines</conventional_long_name>
+  <common_name>Saint Vincent and the Grenadines</common_name>
+  <symbol>Coat of arms of Saint Vincent and the Grenadines</symbol>
+  <symbol_type>Coat of arms</symbol_type>
+  <national_motto>"Peace and Justice"</national_motto>
+  <royal_anthem>"God Save the King" File:U.S. Navy Band - God Save the King.oga</royal_anthem>
+  <national_anthem>"Saint Vincent, Land So Beautiful"</national_anthem>
+  <official_languages>English</official_languages>
+  <ethnic_groups>66% African, 19% Mixed, 6% Indian, 4% European, 2% Kalinago, 3% others</ethnic_groups>
+  <ethnic_groups_year>2020</ethnic_groups_year>
+  <demonym>Vincentian GrenadinianSaint VincentianVincy (colloquial)</demonym>
+  <capital>Kingstown</capital>
+  <largest_city>capital</largest_city>
+  <government_type>Unitary parliamentary constitutional monarchy</government_type>
+  <legislature>House of Assembly</legislature>
+  <sovereignty_type>Independence</sovereignty_type>
+  <area_rank>184th</area_rank>
+  <area_km2>389</area_km2>
+  <percent_water>negligible</percent_water>
+  <population_estimate>110,872</population_estimate>
+  <population_estimate_rank>180th</population_estimate_rank>
+  <population_estimate_year>2022</population_estimate_year>
+  <population_census>109,991</population_census>
+  <population_census_year>2012</population_census_year>
+  <population_density_km2>307</population_density_km2>
+  <population_density_sq_mi>792</population_density_sq_mi>
+  <population_density_rank>39th</population_density_rank>
+  <GDP_PPP>$2 billion</GDP_PPP>
+  <GDP_PPP_year>2023</GDP_PPP_year>
+  <GDP_PPP_per_capita>$17,840</GDP_PPP_per_capita>
+  <GDP_nominal>$1 billion</GDP_nominal>
+  <GDP_nominal_year>2023</GDP_nominal_year>
+  <GDP_nominal_per_capita>$9,360</GDP_nominal_per_capita>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI>0.798</HDI>
+  <HDI_rank>76th</HDI_rank>
+  <currency>East Caribbean dollar</currency>
+  <currency_code>XCD</currency_code>
+  <time_zone>AST</time_zone>
+  <utc_offset>-4</utc_offset>
+  <drives_on>left</drives_on>
+  <calling_code>+1</calling_code>
+  <cctld>.vc</cctld>
+  <established>
+    <event>
+      <label>Associated State</label>
+      <date>27 October 1969</date>
+    </event>
+    <event>
+      <label>from the United Kingdom</label>
+      <date>27 October 1979</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>Monarch</title>
+      <name>Charles III</name>
+    </leader>
+    <leader>
+      <title/>
+      <name>Sir Stanley John</name>
+    </leader>
+    <leader>
+      <title>Prime Minister</title>
+      <name>Godwin Friday</name>
+    </leader>
+  </leaders>
+</country>

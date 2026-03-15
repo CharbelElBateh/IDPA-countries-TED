@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Democratic Republic of the Congo">
+  <conventional_long_name>Democratic Republic</conventional_long_name>
+  <flag_type>Flag</flag_type>
+  <symbol_type>Emblem</symbol_type>
+  <national_motto>''Justice Paix Travail''("Justice Peace Work")</national_motto>
+  <national_anthem>''Debout Congolais''("Arise, Congolese")</national_anthem>
+  <capital>Kinshasa</capital>
+  <coordinates>Country:</coordinates>
+  <largest_city>Kinshasa</largest_city>
+  <official_languages>French</official_languages>
+  <national_languages>Kikongo ya leta, The term "Kikongo" in the Constitution is actually referring to the Kituba language – which is known as ''Kikongo ya leta'' by its speakers – not the Kongo language proper. The confusion arises from the fact that the government of the DRC officially recognizes and refers to the language as "Kikongo"., Lingala, Swahili, Luba-Kasai</national_languages>
+  <religion_year>2021</religion_year>
+  <demonym>Congolese</demonym>
+  <government_type>Unitary semi-presidential republic</government_type>
+  <legislature>Parliament</legislature>
+  <upper_house>Senate</upper_house>
+  <lower_house>National Assembly</lower_house>
+  <sovereignty_type>Formation</sovereignty_type>
+  <area_km2>2,345,409</area_km2>
+  <area_rank>11th</area_rank>
+  <area_sq_mi>905,355</area_sq_mi>
+  <percent_water>3.32</percent_water>
+  <population_estimate>114,388,160</population_estimate>
+  <population_estimate_year>2025</population_estimate_year>
+  <population_estimate_rank>15th</population_estimate_rank>
+  <population_density_km2>48</population_density_km2>
+  <population_density_sq_mi>104</population_density_sq_mi>
+  <population_density_rank>168th</population_density_rank>
+  <GDP_PPP>$200.76 billion</GDP_PPP>
+  <GDP_PPP_year>2025</GDP_PPP_year>
+  <GDP_PPP_rank>79th</GDP_PPP_rank>
+  <GDP_PPP_per_capita>$1,881</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>180th</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$79.120 billion</GDP_nominal>
+  <GDP_nominal_year>2025</GDP_nominal_year>
+  <GDP_nominal_rank>83rd</GDP_nominal_rank>
+  <GDP_nominal_per_capita>$742</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>182nd</GDP_nominal_per_capita_rank>
+  <Gini>42.1</Gini>
+  <Gini_year>2012</Gini_year>
+  <Gini_change>decrease</Gini_change>
+  <HDI>0.522</HDI>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI_rank>171st</HDI_rank>
+  <currency>Congolese franc</currency>
+  <date_format>dd/mm/yyyy</date_format>
+  <drives_on>right</drives_on>
+  <calling_code>+243</calling_code>
+  <currency_code>CDF</currency_code>
+  <time_zone>WAT and CAT</time_zone>
+  <iso3166code>CD</iso3166code>
+  <cctld>.cd</cctld>
+  <established>
+    <event>
+      <label>Colonised by Leopold II of Belgium</label>
+      <date>17 November 1879</date>
+    </event>
+    <event>
+      <label>Congo Free State</label>
+      <date>1 July 1885</date>
+    </event>
+    <event>
+      <label>Belgian Congo</label>
+      <date>15 November 1908</date>
+    </event>
+    <event>
+      <label>Independence from Belgium</label>
+      <date>30 June 1960</date>
+    </event>
+    <event>
+      <label>Admitted to the United Nations</label>
+      <date>20 September 1960</date>
+    </event>
+    <event>
+      <label>Democratic Republic</label>
+      <date>1 August 1964</date>
+    </event>
+    <event>
+      <label>Republic of Zaire</label>
+      <date>27 October 1971</date>
+    </event>
+    <event>
+      <label>First Congo War</label>
+      <date>17 May 1997</date>
+    </event>
+    <event>
+      <label>Current constitution</label>
+      <date>18 February 2006</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>President</title>
+      <name>Félix Tshisekedi</name>
+    </leader>
+    <leader>
+      <title>Prime Minister</title>
+      <name>Judith Suminwa</name>
+    </leader>
+  </leaders>
+</country>

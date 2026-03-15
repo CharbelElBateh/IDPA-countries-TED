@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Kazakhstan">
+  <conventional_long_name>Republic of Kazakhstan</conventional_long_name>
+  <common_name>Kazakhstan</common_name>
+  <native_name>native name, kk, Қазақстан Республикасы Qazaqstan Respublikasy, native name, ru, Республика Казахстан</native_name>
+  <flag_width>135</flag_width>
+  <symbol_width>85</symbol_width>
+  <symbol_type>Emblem</symbol_type>
+  <national_anthem>"My Kazakhstan"</national_anthem>
+  <capital>Astana</capital>
+  <largest_city>Almaty</largest_city>
+  <official_languages>nowrap, Kazakh, name, =, language1, National language in all aspects of the whole territory of the state and in its international relations, nowrap, Russian, name, =, "language2" *</official_languages>
+  <ethnic_groups>71.3% Kazakh, 14.6% Russian, 3.3% Uzbek, 1.8% Ukrainian, 1.5% Uyghur, 1.1% German, 1.1% Tatar, 5.3% others</ethnic_groups>
+  <ethnic_groups_year>2025</ethnic_groups_year>
+  <religion>69.3% Islam, 17.2% Christianity, 2.3% no religion, 0.2% other, 11.0% unanswered</religion>
+  <religion_year>2021</religion_year>
+  <government_type>Unitary presidential republic under an authoritarian government according to the country's constitution; but it is ''de facto'' a semi-presidential republic.</government_type>
+  <legislature>Parliament</legislature>
+  <upper_house>Senate</upper_house>
+  <lower_house>Mäjilis</lower_house>
+  <sovereignty_type>Formation</sovereignty_type>
+  <area_km2>2,724,900</area_km2>
+  <area_rank>9th</area_rank>
+  <area_sq_mi>1,052,085</area_sq_mi>
+  <percent_water>1.7</percent_water>
+  <population_estimate>20,495,975</population_estimate>
+  <population_estimate_rank>65th</population_estimate_rank>
+  <population_estimate_year>2026</population_estimate_year>
+  <population_density_km2>7.44</population_density_km2>
+  <population_density_sq_mi>18</population_density_sq_mi>
+  <population_density_rank>236th</population_density_rank>
+  <GDP_PPP>$904.500 billion</GDP_PPP>
+  <GDP_PPP_year>2025</GDP_PPP_year>
+  <GDP_PPP_rank>37th</GDP_PPP_rank>
+  <GDP_PPP_per_capita>$44,450</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>49th</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$300.540 billion</GDP_nominal>
+  <GDP_nominal_year>2025</GDP_nominal_year>
+  <GDP_nominal_rank>48th</GDP_nominal_rank>
+  <GDP_nominal_per_capita>$14,770</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>64th</GDP_nominal_per_capita_rank>
+  <Gini>27.8</Gini>
+  <Gini_year>2018</Gini_year>
+  <Gini_change>increase</Gini_change>
+  <HDI>0.837</HDI>
+  <HDI_rank>60th</HDI_rank>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <currency>Tenge (₸)</currency>
+  <currency_code>KZT</currency_code>
+  <calling_code>+7</calling_code>
+  <utc_offset>+5</utc_offset>
+  <drives_on>right</drives_on>
+  <cctld>.kz, .қаз</cctld>
+  <established>
+    <event>
+      <label>Kazakh Khanate</label>
+      <date/>
+    </event>
+    <event>
+      <label>Kazakh ASSR</label>
+      <date>26 August 1920</date>
+    </event>
+    <event>
+      <label>Kazakh SSR</label>
+      <date>5 December 1936</date>
+    </event>
+    <event>
+      <label>Independence from the Soviet Union</label>
+      <date>16 December 1991</date>
+    </event>
+    <event>
+      <label>Recognized</label>
+      <date>26 December 1991</date>
+    </event>
+    <event>
+      <label>Current constitution</label>
+      <date>30 August 1995</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>President</title>
+      <name>Kassym-Jomart Tokayev</name>
+    </leader>
+    <leader>
+      <title>Prime Minister</title>
+      <name>Oljas Bektenov</name>
+    </leader>
+  </leaders>
+</country>

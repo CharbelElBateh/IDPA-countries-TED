@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Israel">
+  <conventional_long_name>State of Israel</conventional_long_name>
+  <common_name>Israel</common_name>
+  <symbol_type>Emblem</symbol_type>
+  <national_anthem>(''Hatīkvāh''; "The Hope")</national_anthem>
+  <capital>Jerusalem(limited recognition) the Czech Republic (West Jerusalem), Argentina, Honduras, Guatemala, Nauru, and the United States. If East Jerusalem is not counted, the largest city would be Tel Aviv.</capital>
+  <largest_city>capital</largest_city>
+  <languages_type>Official language</languages_type>
+  <languages>Hebrew</languages>
+  <languages2_type>Special status</languages2_type>
+  <languages2>Arabic Prior to that law's passage, Arabic had been an official language alongside Hebrew.</languages2>
+  <ethnic_groups>percentage, 7,274.2, 10,119.4, 1, Jews, percentage, 2,124.2, 10,119.4, 1, Arabs, percentage, 10,119.4-7,274.2-2,124.2, 10,119.4, 1, others Jews Arabs others</ethnic_groups>
+  <ethnic_groups_year>2025 est.</ethnic_groups_year>
+  <religion>Judaism Islam Christianity Druze faith others</religion>
+  <religion_year>2023 est.</religion_year>
+  <demonym>Israeli</demonym>
+  <government_type>Unitary parliamentary republic</government_type>
+  <legislature>Knesset</legislature>
+  <sovereignty_type>Establishment</sovereignty_type>
+  <area_km2>22,072 or 20,770</area_km2>
+  <area_sq_mi>8,470</area_sq_mi>
+  <area_rank>148th</area_rank>
+  <percent_water>2.71</percent_water>
+  <population_estimate>10,147,200</population_estimate>
+  <population_estimate_rank>93rd</population_estimate_rank>
+  <population_census>9,601,720</population_census>
+  <population_census_year>2022</population_census_year>
+  <population_density_rank>30th</population_density_rank>
+  <GDP_PPP>$567.55 billion</GDP_PPP>
+  <GDP_PPP_per_capita>$55,770</GDP_PPP_per_capita>
+  <GDP_PPP_year>2025</GDP_PPP_year>
+  <GDP_PPP_rank>48th</GDP_PPP_rank>
+  <GDP_PPP_per_capita_rank>35th</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$610.75 billion</GDP_nominal>
+  <GDP_nominal_year>2025</GDP_nominal_year>
+  <GDP_nominal_rank>26th</GDP_nominal_rank>
+  <GDP_nominal_per_capita>$60,010</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>14th</GDP_nominal_per_capita_rank>
+  <Gini_change>increase</Gini_change>
+  <Gini>37.9</Gini>
+  <Gini_year>2021</Gini_year>
+  <HDI>0.919</HDI>
+  <HDI_rank>27th</HDI_rank>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <currency>New shekel ( )</currency>
+  <currency_code>ILS</currency_code>
+  <time_zone>IST</time_zone>
+  <utc_offset>+2:00</utc_offset>
+  <time_zone_DST>IDT</time_zone_DST>
+  <utc_offset_DST>+3:00</utc_offset_DST>
+  <drives_on>right</drives_on>
+  <cctld>.il</cctld>
+  <iso3166code>IL</iso3166code>
+  <calling_code>+972</calling_code>
+  <established>
+    <event>
+      <label>Declaration of independence</label>
+      <date>14 May 1948</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>President</title>
+      <name>Isaac Herzog</name>
+    </leader>
+    <leader>
+      <title>Prime Minister</title>
+      <name>Benjamin Netanyahu</name>
+    </leader>
+    <leader>
+      <title>Knesset Speaker</title>
+      <name>Amir Ohana</name>
+    </leader>
+    <leader>
+      <title>Chief Justice</title>
+      <name>Yitzhak Amit</name>
+    </leader>
+  </leaders>
+</country>

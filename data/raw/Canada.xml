@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Canada">
+  <conventional_long_name>Canada</conventional_long_name>
+  <common_name>Canada</common_name>
+  <national_motto>"From Sea to Sea"</national_motto>
+  <national_anthem>"O Canada"</national_anthem>
+  <royal_anthem>"God Save the King"</royal_anthem>
+  <capital>Ottawa</capital>
+  <largest_city>Toronto</largest_city>
+  <official_languages>English, French</official_languages>
+  <demonym>Canadian</demonym>
+  <government_type>Federal parliamentary constitutional monarchy</government_type>
+  <legislature>Parliament</legislature>
+  <upper_house>Senate</upper_house>
+  <lower_house>House of Commons</lower_house>
+  <sovereignty_type>Independence</sovereignty_type>
+  <sovereignty_note>from the United Kingdom</sovereignty_note>
+  <area_rank>2nd</area_rank>
+  <percent_water>11.76 (2015)</percent_water>
+  <population_estimate_year>2025 Q4</population_estimate_year>
+  <population_census_year>2021</population_census_year>
+  <population_estimate_rank>37th</population_estimate_rank>
+  <population_density_km2>4.2</population_density_km2>
+  <population_density_sq_mi>10.9</population_density_sq_mi>
+  <population_density_rank>230th</population_density_rank>
+  <GDP_PPP_year>2025</GDP_PPP_year>
+  <GDP_PPP_rank>16th</GDP_PPP_rank>
+  <GDP_PPP_per_capita>$65,500</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>30th</GDP_PPP_per_capita_rank>
+  <GDP_nominal>trillion</GDP_nominal>
+  <GDP_nominal_year>2025</GDP_nominal_year>
+  <GDP_nominal_rank>10th</GDP_nominal_rank>
+  <GDP_nominal_per_capita>$54,935</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>23rd</GDP_nominal_per_capita_rank>
+  <Gini>29.2</Gini>
+  <Gini_year>2024</Gini_year>
+  <Gini_change>decrease</Gini_change>
+  <HDI>0.939</HDI>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI_rank>16th</HDI_rank>
+  <currency>Canadian dollar ($)</currency>
+  <currency_code>CAD</currency_code>
+  <utc_offset>−3.5 to −8</utc_offset>
+  <utc_offset_DST>−2.5 to −7</utc_offset_DST>
+  <calling_code>+1</calling_code>
+  <cctld>.ca</cctld>
+  <established>
+    <event>
+      <label>Confederation</label>
+      <date>July 1, 1867</date>
+    </event>
+    <event>
+      <label>Balfour Declaration</label>
+      <date>November 15, 1926</date>
+    </event>
+    <event>
+      <label>''Statute of Westminster, 1931''</label>
+      <date>December 11, 1931</date>
+    </event>
+    <event>
+      <label>Patriation</label>
+      <date>April 17, 1982</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>Monarch</title>
+      <name/>
+    </leader>
+    <leader>
+      <title/>
+      <name>Mary Simon</name>
+    </leader>
+    <leader>
+      <title>Prime Minister</title>
+      <name>Mark Carney</name>
+    </leader>
+  </leaders>
+</country>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Syria">
+  <conventional_long_name>Syrian Arab Republic</conventional_long_name>
+  <common_name>Syria</common_name>
+  <native_name>native name, ar, اَلْجُمْهُورِيَّةُ ٱلْعَرَبِيَّةُ ٱلْسُوْرِيَّة, italics, =, off, transliteration, ar, al-Jumhūriyyah al-ʿArabiyyah as-Sūriyyah</native_name>
+  <flag_border>yes</flag_border>
+  <flag_type>Flag</flag_type>
+  <symbol_width>100px</symbol_width>
+  <symbol_type>Emblem</symbol_type>
+  <national_anthem>"Ḥumāt ad-Diyār"''Guardians of the Homeland'' (''de jure'') "Fī Sabīli al-Majd"''In Pursuit of Glory'' (''de facto'')</national_anthem>
+  <capital>Damascus</capital>
+  <largest_city>capital</largest_city>
+  <official_languages>Arabic</official_languages>
+  <recognized_national_languages>Kurdish</recognized_national_languages>
+  <languages_type>Spoken languages</languages_type>
+  <ethnic_groups>80–90% Arabs9–10% Kurds1–10% others</ethnic_groups>
+  <ethnic_groups_year>2021</ethnic_groups_year>
+  <religion_year>2020</religion_year>
+  <government_type>Unitary presidential republic under a provisional government</government_type>
+  <legislature>People's Assembly</legislature>
+  <area_km2>185180</area_km2>
+  <area_rank>87th</area_rank>
+  <area_sq_mi>71479</area_sq_mi>
+  <percent_water>1.1</percent_water>
+  <population_estimate>26,019,711</population_estimate>
+  <population_estimate_year>2025</population_estimate_year>
+  <population_estimate_rank>56th</population_estimate_rank>
+  <population_density_km2>118.3</population_density_km2>
+  <population_density_sq_mi>306.5</population_density_sq_mi>
+  <population_density_rank>70th</population_density_rank>
+  <GDP_PPP_year>2021</GDP_PPP_year>
+  <GDP_PPP_per_capita>$3,300</GDP_PPP_per_capita>
+  <GDP_nominal_year>2022</GDP_nominal_year>
+  <GDP_nominal_per_capita>$800</GDP_nominal_per_capita>
+  <Gini>26.6</Gini>
+  <Gini_year>2022</Gini_year>
+  <Gini_change>decrease</Gini_change>
+  <HDI>0.564</HDI>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>decrease</HDI_change>
+  <HDI_rank>162nd</HDI_rank>
+  <currency>Syrian pound</currency>
+  <currency_code>SYP/LS</currency_code>
+  <time_zone>AST</time_zone>
+  <utc_offset>+03:00</utc_offset>
+  <date_format>dd-mm-yyyy</date_format>
+  <drives_on>right</drives_on>
+  <calling_code>+963</calling_code>
+  <iso3166code>SY</iso3166code>
+  <cctld>.syسوريا.</cctld>
+  <demonym>Syrian</demonym>
+  <established>
+    <event>
+      <label>Arab Kingdom of Syria</label>
+      <date>8 March 1920</date>
+    </event>
+    <event>
+      <label>State of Syria under French mandate</label>
+      <date>1 December 1924</date>
+    </event>
+    <event>
+      <label>First Syrian Republic</label>
+      <date>14 May 1930</date>
+    </event>
+    <event>
+      <label>End of the French mandate</label>
+      <date>17 April 1946</date>
+    </event>
+    <event>
+      <label>Part of the United Arab Republic</label>
+      <date>–</date>
+    </event>
+    <event>
+      <label>Ba'athist Syria</label>
+      <date>–</date>
+    </event>
+    <event>
+      <label>Current provisional government established</label>
+      <date/>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>President</title>
+      <name>Ahmed al-Sharaa</name>
+    </leader>
+  </leaders>
+</country>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Estonia">
+  <conventional_long_name>Republic of Estonia</conventional_long_name>
+  <common_name>Estonia</common_name>
+  <symbol_width>88px</symbol_width>
+  <national_anthem>( )</national_anthem>
+  <capital>Tallinn</capital>
+  <largest_city>capital</largest_city>
+  <languages_type>Official language</languages_type>
+  <languages>Estonian</languages>
+  <demonym>Estonian</demonym>
+  <ethnic_groups_year>2025</ethnic_groups_year>
+  <religion_year>2021</religion_year>
+  <government_type>Unitary parliamentary republic</government_type>
+  <legislature>Riigikogu</legislature>
+  <sovereignty_type>Independence</sovereignty_type>
+  <sovereignty_note>from Russian and German Empires</sovereignty_note>
+  <area_km2>45,335</area_km2>
+  <area_rank>129thd</area_rank>
+  <area_sq_mi>17,505</area_sq_mi>
+  <percent_water>4.6</percent_water>
+  <population_estimate>1,362,954</population_estimate>
+  <population_census>1,331,824</population_census>
+  <population_estimate_year>2026</population_estimate_year>
+  <population_census_year>2021</population_census_year>
+  <population_density_km2>30.3</population_density_km2>
+  <population_density_sq_mi>75</population_density_sq_mi>
+  <population_density_rank>148th</population_density_rank>
+  <GDP_PPP>$68.240 billion</GDP_PPP>
+  <GDP_PPP_year>2026</GDP_PPP_year>
+  <GDP_PPP_rank>119th</GDP_PPP_rank>
+  <GDP_PPP_per_capita>$50,758</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>42nd</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$45.00 billion</GDP_nominal>
+  <GDP_nominal_year>2026</GDP_nominal_year>
+  <GDP_nominal_rank>99th</GDP_nominal_rank>
+  <GDP_nominal_per_capita>$37,195</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>37th</GDP_nominal_per_capita_rank>
+  <Gini>30.6</Gini>
+  <Gini_year>2021</Gini_year>
+  <Gini_change>increase</Gini_change>
+  <HDI>0.905</HDI>
+  <HDI_rank>36th</HDI_rank>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <currency>Euro (€)</currency>
+  <currency_code>EUR</currency_code>
+  <time_zone>EET</time_zone>
+  <utc_offset>+02:00</utc_offset>
+  <utc_offset_DST>+03:00</utc_offset_DST>
+  <time_zone_DST>EEST</time_zone_DST>
+  <calling_code>+372</calling_code>
+  <cctld>.ee</cctld>
+  <established>
+    <event>
+      <label>Declaration of Independence</label>
+      <date>24 February 1918</date>
+    </event>
+    <event>
+      <label>German and Soviet occupations</label>
+      <date>1940–1991</date>
+    </event>
+    <event>
+      <label>Restoration of Independence</label>
+      <date>20 August 1991</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>President</title>
+      <name>Alar Karis</name>
+    </leader>
+    <leader>
+      <title>Prime Minister</title>
+      <name>Kristen Michal</name>
+    </leader>
+  </leaders>
+</country>

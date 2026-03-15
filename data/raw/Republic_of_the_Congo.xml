@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Republic of the Congo">
+  <conventional_long_name>Republic of the Congo</conventional_long_name>
+  <native_name>native name, fr, République du Congo, fontsize, =, 100%, native name, ln, Republíki ya Kongó, fontsize, =, 100%, native name, mkw, Repubilika ya Kôngo, fontsize, =, 100% * *</native_name>
+  <common_name>Congo</common_name>
+  <flag_type>Flag</flag_type>
+  <symbol_type>Coat of arms</symbol_type>
+  <national_motto>( )</national_motto>
+  <national_anthem>( )</national_anthem>
+  <official_languages>French</official_languages>
+  <national_languages>Kituba, Lingala</national_languages>
+  <demonym>Congolese, Congo</demonym>
+  <ethnic_groups>41% Bakongo, 16.9% Bateke, 13.1% Mbochi, 5.6% Sangha, 2% Mbenga Pygmies, and others</ethnic_groups>
+  <capital>Brazzaville</capital>
+  <largest_city>capital</largest_city>
+  <government_type>Unitary semi-presidential republic under a dictatorship</government_type>
+  <legislature>Parliament</legislature>
+  <upper_house>Senate</upper_house>
+  <lower_house>National Assembly</lower_house>
+  <area_km2>342,000</area_km2>
+  <area_sq_mi>132,047</area_sq_mi>
+  <area_rank>64th</area_rank>
+  <percent_water>3.3</percent_water>
+  <population_estimate>6,228,784</population_estimate>
+  <population_census>6,142,180</population_census>
+  <population_estimate_year>2023</population_estimate_year>
+  <population_estimate_rank>116th</population_estimate_rank>
+  <population_census_year>2023</population_census_year>
+  <population_density_km2>19</population_density_km2>
+  <population_density_sq_mi>46.52</population_density_sq_mi>
+  <population_density_rank>212th</population_density_rank>
+  <GDP_PPP>$42.760 billion</GDP_PPP>
+  <GDP_PPP_year>2025</GDP_PPP_year>
+  <GDP_PPP_rank>140th</GDP_PPP_rank>
+  <GDP_PPP_per_capita>$6,590</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>143rd</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$15.281&amp;nbsp;billion</GDP_nominal>
+  <GDP_nominal_year>2025</GDP_nominal_year>
+  <GDP_nominal_rank>141st</GDP_nominal_rank>
+  <GDP_nominal_per_capita>$2,360</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>151st</GDP_nominal_per_capita_rank>
+  <Gini_year>2011</Gini_year>
+  <Gini>40.2</Gini>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI>0.649</HDI>
+  <HDI_rank>138th</HDI_rank>
+  <sovereignty_type>Independence</sovereignty_type>
+  <currency>Central African CFA franc</currency>
+  <currency_code>XAF</currency_code>
+  <time_zone>WAT</time_zone>
+  <utc_offset>+1</utc_offset>
+  <calling_code>+242</calling_code>
+  <iso3166code>CG</iso3166code>
+  <cctld>.cg</cctld>
+  <religion_year>2020</religion_year>
+  <established>
+    <event>
+      <label>Republic established</label>
+      <date>28 November 1958</date>
+    </event>
+    <event>
+      <label>from France</label>
+      <date>15 August 1960</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>President</title>
+      <name>Denis Sassou Nguesso</name>
+    </leader>
+    <leader>
+      <title>Prime Minister</title>
+      <name>Anatole Collinet Makosso</name>
+    </leader>
+    <leader>
+      <title>President of Senate</title>
+      <name>Pierre Ngolo</name>
+    </leader>
+    <leader>
+      <title>President of the National Assembly</title>
+      <name>Isidore Mvouba</name>
+    </leader>
+  </leaders>
+</country>

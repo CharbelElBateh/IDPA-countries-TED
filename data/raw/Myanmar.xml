@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Myanmar">
+  <conventional_long_name>Republic of the Union of Myanmar</conventional_long_name>
+  <common_name>Myanmar</common_name>
+  <native_name>native name, my, ပြည်ထောင်စုသမ္မတမြန်မာနိုင်ငံတော်, italics, =, off, small, translit, my, Pyidaungzu thămăda myama naingngandaw</native_name>
+  <symbol_type>State Seal</symbol_type>
+  <national_anthem>"Till the End of the World"</national_anthem>
+  <capital>Naypyidaw</capital>
+  <largest_city>Yangon</largest_city>
+  <languages_type>Official languages</languages_type>
+  <languages>Burmese</languages>
+  <languages2>Chin, Kachin, Karen, Kayah, Mon, Rakhine, Shan</languages2>
+  <ethnic_groups>68.78% Bamar, 6.69% Karen, 4.61% Rakhine, 4.51% Shan, 2.19% Mon, 2.09% Chin, 1.50% Kachin, 0.39% Karenni</ethnic_groups>
+  <ethnic_groups_year>2019</ethnic_groups_year>
+  <religion_year>2014</religion_year>
+  <demonym>Burmese, Myanmar, [https://archive.org/details/grade-10-tg-english_202504 Alt URL], Myanma</demonym>
+  <government_type>Unitary assembly-independent republic under a military junta</government_type>
+  <legislature>Pyidaungsu Hluttaw (dissolved)</legislature>
+  <sovereignty_type>Formation</sovereignty_type>
+  <area_rank>39th</area_rank>
+  <area_km2>676,579</area_km2>
+  <area_sq_mi>261,227</area_sq_mi>
+  <percent_water>3.06</percent_water>
+  <population_estimate>55,770,232</population_estimate>
+  <population_estimate_year>2022</population_estimate_year>
+  <population_estimate_rank>26th</population_estimate_rank>
+  <population_density_sq_mi>217</population_density_sq_mi>
+  <population_density_rank>127th</population_density_rank>
+  <GDP_PPP>$273.200 billion</GDP_PPP>
+  <GDP_PPP_year>2025</GDP_PPP_year>
+  <GDP_PPP_rank>64th</GDP_PPP_rank>
+  <GDP_PPP_per_capita>$4,950</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>146th</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$60.560 billion</GDP_nominal>
+  <GDP_nominal_year>2025</GDP_nominal_year>
+  <GDP_nominal_rank>87th</GDP_nominal_rank>
+  <GDP_nominal_per_capita>$1,110</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>164th</GDP_nominal_per_capita_rank>
+  <Gini>30.7</Gini>
+  <Gini_year>2017</Gini_year>
+  <Gini_change>decrease</Gini_change>
+  <HDI>0.609</HDI>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI_rank>150th</HDI_rank>
+  <currency>Myanmar kyat (K)</currency>
+  <currency_code>MMK</currency_code>
+  <time_zone>MMT</time_zone>
+  <utc_offset>+06:30</utc_offset>
+  <drives_on>right</drives_on>
+  <calling_code>+95</calling_code>
+  <cctld>.mm</cctld>
+  <flag_type_article>Flag of Myanmar</flag_type_article>
+  <established>
+    <event>
+      <label>Pagan era</label>
+      <date>23 December 849</date>
+    </event>
+    <event>
+      <label>Taungoo era</label>
+      <date>16 October 1510</date>
+    </event>
+    <event>
+      <label>Konbaung era</label>
+      <date>29 February 1752</date>
+    </event>
+    <event>
+      <label>Colonial era</label>
+      <date>1 January 1886</date>
+    </event>
+    <event>
+      <label>Independence from the United Kingdom</label>
+      <date>4 January 1948</date>
+    </event>
+    <event>
+      <label>1962 coup d'état</label>
+      <date>2 March 1962</date>
+    </event>
+    <event>
+      <label>1988 coup d'état</label>
+      <date>18 September 1988</date>
+    </event>
+    <event>
+      <label>Current constitution</label>
+      <date>29 May 2008</date>
+    </event>
+    <event>
+      <label>2021 coup d'état</label>
+      <date>1 February 2021</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>President</title>
+      <name>''Vacant'' (Min Aung Hlaing serving Pro Tem On Duty)</name>
+    </leader>
+    <leader>
+      <title>SSPC Chairman</title>
+      <name>Min Aung Hlaing</name>
+    </leader>
+    <leader>
+      <title>SSPC Vice Chairman</title>
+      <name>Soe Win</name>
+    </leader>
+    <leader>
+      <title>Prime Minister</title>
+      <name>Nyo Saw</name>
+    </leader>
+  </leaders>
+</country>

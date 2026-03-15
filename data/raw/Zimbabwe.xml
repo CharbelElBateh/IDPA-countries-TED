@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Zimbabwe">
+  <conventional_long_name>Republic of Zimbabwe</conventional_long_name>
+  <common_name>Zimbabwe</common_name>
+  <national_motto>"Unity, Freedom, Work"</national_motto>
+  <national_anthem>"Blessed Be the Land of Zimbabwe" File:National_Anthem_of_Zimbabwe,_performed_by_the_Royal_Australian_Navy_Band.ogg</national_anthem>
+  <capital>Harare</capital>
+  <largest_city>Harare</largest_city>
+  <official_languages>16 languages: Chewa, Chibarwe, English, Kalanga, Khoisan, Nambya, Ndau, Ndebele, Shangani, Shona, Sotho, Tonga, Tswana, Venda, Xhosa, Zimbabwean sign language</official_languages>
+  <ethnic_groups>99.6% Indigenous African, nowrap, 0.2% European, 0.1% Coloured, 0.1% other, Includes those of Asian descent</ethnic_groups>
+  <ethnic_groups_year>2022 census</ethnic_groups_year>
+  <religion_year>2017</religion_year>
+  <demonym>Zimbabwean, Zimbo, (colloquial) (colloquial)</demonym>
+  <government_type>Unitary presidential republic</government_type>
+  <legislature>Parliament</legislature>
+  <upper_house>Senate</upper_house>
+  <lower_house>National Assembly</lower_house>
+  <sovereignty_type>Independence</sovereignty_type>
+  <area_km2>390,757</area_km2>
+  <area_rank>60th</area_rank>
+  <area_sq_mi>150,871</area_sq_mi>
+  <percent_water>1</percent_water>
+  <population_estimate>17,166,852</population_estimate>
+  <population_census>15,178,957</population_census>
+  <population_estimate_year>February 2026</population_estimate_year>
+  <population_estimate_rank>74th</population_estimate_rank>
+  <population_census_year>2022</population_census_year>
+  <population_density_km2>45</population_density_km2>
+  <population_density_sq_mi>116</population_density_sq_mi>
+  <population_density_rank>179th</population_density_rank>
+  <GDP_PPP>$93.870 billion</GDP_PPP>
+  <GDP_PPP_rank>104th</GDP_PPP_rank>
+  <GDP_PPP_year>2025</GDP_PPP_year>
+  <GDP_PPP_per_capita>$5,410</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>151st</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$53.310 billion</GDP_nominal>
+  <GDP_nominal_rank>101st</GDP_nominal_rank>
+  <GDP_nominal_year>2025</GDP_nominal_year>
+  <GDP_nominal_per_capita>$3,070</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>152nd</GDP_nominal_per_capita_rank>
+  <Gini>45.5</Gini>
+  <Gini_year>2019</Gini_year>
+  <Gini_change>increase</Gini_change>
+  <HDI>0.598</HDI>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI_rank>153rd</HDI_rank>
+  <currency>''De jure'':, Zimbabwe Gold (ZWG) ''De facto'':, United States dollar (USD), South African rand (ZAR);, Other currencies, notetag, After the Zimbabwean dollar was suspended indefinitely from 12 April 2009, the euro, United States dollar, pound sterling, South African rand, Botswana pula, Australian dollar, Chinese yuan, Indian rupee and Japanese yen have been used as legal tenders. * South African rand (ZAR); * Other currencies</currency>
+  <time_zone>CAT</time_zone>
+  <utc_offset>+2</utc_offset>
+  <date_format>dd/mm/yyyy</date_format>
+  <drives_on>left</drives_on>
+  <calling_code>+263</calling_code>
+  <cctld>.zw</cctld>
+  <established>
+    <event>
+      <label>Declared</label>
+      <date>11 November 1965</date>
+    </event>
+    <event>
+      <label>Republic</label>
+      <date>2 March 1970</date>
+    </event>
+    <event>
+      <label>Zimbabwe Rhodesia</label>
+      <date>1 June 1979</date>
+    </event>
+    <event>
+      <label>Independence recognised</label>
+      <date>18 April 1980</date>
+    </event>
+    <event>
+      <label>Current constitution</label>
+      <date>15 May 2013</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>President</title>
+      <name>Emmerson Mnangagwa</name>
+    </leader>
+    <leader>
+      <title>First Vice-President</title>
+      <name>Constantino Chiwenga</name>
+    </leader>
+    <leader>
+      <title>Second Vice-President</title>
+      <name>Kembo Mohadi</name>
+    </leader>
+  </leaders>
+</country>

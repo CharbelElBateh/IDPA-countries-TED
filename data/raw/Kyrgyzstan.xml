@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Kyrgyzstan">
+  <common_name>Kyrgyzstan</common_name>
+  <native_name>native name, ky, Кыргыз Республикасы, italics, =, off, native name, ru, Кыргызская Республика, italics, =, off</native_name>
+  <symbol_type>Emblem</symbol_type>
+  <national_anthem>Kyrgyz Respublikasynyn Mamlekettik gimni"State Anthem of the Kyrgyz Republic"</national_anthem>
+  <capital>Bishkek</capital>
+  <largest_city>capital</largest_city>
+  <official_languages>Kyrgyz (state)Russian (official)</official_languages>
+  <languages_type>Official script</languages_type>
+  <languages>Cyrillic</languages>
+  <ethnic_groups>77.8% Kyrgyz, 14.2% Uzbeks, 3.8% Russians, 1.0% Dungans, 0.9% Tajiks, 2.3% Others</ethnic_groups>
+  <ethnic_groups_year>2025</ethnic_groups_year>
+  <religion>91% Islam, 8% Christianity, 1% Others</religion>
+  <demonym>Kyrgyz, Kyrgyzstani</demonym>
+  <government_type>Unitary presidential republic</government_type>
+  <legislature>Supreme Council</legislature>
+  <sovereignty_type>Formation</sovereignty_type>
+  <area_km2>200,105</area_km2>
+  <area_rank>85th</area_rank>
+  <percent_water>3.6</percent_water>
+  <population_estimate>7.3&amp;nbsp;million</population_estimate>
+  <population_estimate_year>2025</population_estimate_year>
+  <population_estimate_rank>107th</population_estimate_rank>
+  <population_density_km2>37</population_density_km2>
+  <population_density_sq_mi>97</population_density_sq_mi>
+  <population_density_rank>109th</population_density_rank>
+  <GDP_PPP>$64.110 billion</GDP_PPP>
+  <GDP_PPP_year>2025</GDP_PPP_year>
+  <GDP_PPP_rank>128th</GDP_PPP_rank>
+  <GDP_PPP_per_capita>$8,870</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>136th</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$22.587 billion</GDP_nominal>
+  <GDP_nominal_year>2025</GDP_nominal_year>
+  <GDP_nominal_rank>126th</GDP_nominal_rank>
+  <GDP_nominal_per_capita>$3,101</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>139th</GDP_nominal_per_capita_rank>
+  <Gini>26.4</Gini>
+  <Gini_year>2022</Gini_year>
+  <Gini_change>decrease</Gini_change>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI>0.720</HDI>
+  <HDI_rank>117th</HDI_rank>
+  <currency>Kyrgyzstani som (c)</currency>
+  <currency_code>KGS</currency_code>
+  <time_zone>KGT</time_zone>
+  <utc_offset>+6</utc_offset>
+  <date_format>dd/mm/yyyy</date_format>
+  <drives_on>right</drives_on>
+  <calling_code>+996</calling_code>
+  <iso3166code>KG</iso3166code>
+  <cctld>.kg</cctld>
+  <religion_year>2026</religion_year>
+  <area_water_km2>7198</area_water_km2>
+  <established>
+    <event>
+      <label>Kyrgyz Khaganate</label>
+      <date>840</date>
+    </event>
+    <event>
+      <label>Kara-Kyrgyz Khanate</label>
+      <date>1842–1867</date>
+    </event>
+    <event>
+      <label>Annexed by the Russian Empire</label>
+      <date>1876</date>
+    </event>
+    <event>
+      <label>Kara-Kirghiz AO</label>
+      <date>14 October 1924</date>
+    </event>
+    <event>
+      <label>Kirghiz ASSR</label>
+      <date>11 February 1926</date>
+    </event>
+    <event>
+      <label>Kirghiz SSR</label>
+      <date>5 December 1936</date>
+    </event>
+    <event>
+      <label>Sovereignty declared</label>
+      <date>30 December 1990</date>
+    </event>
+    <event>
+      <label>Independence declared from USSR</label>
+      <date>31 August 1991</date>
+    </event>
+    <event>
+      <label>Independence recognized</label>
+      <date/>
+    </event>
+    <event>
+      <label>Current constitution</label>
+      <date>11 April 2021</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>President</title>
+      <name>Sadyr Japarov</name>
+    </leader>
+    <leader>
+      <title>Chairman of the Cabinet of Ministers</title>
+      <name>Adylbek Kasymaliev</name>
+    </leader>
+    <leader>
+      <title>Speaker of the Supreme Council</title>
+      <name>Marlen Mamataliev</name>
+    </leader>
+  </leaders>
+</country>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Malawi">
+  <conventional_long_name>Republic of Malawi</conventional_long_name>
+  <common_name>Malawi</common_name>
+  <native_name>&amp;nbsp;&amp;nbsp;(Chichewa) &amp;nbsp;&amp;nbsp;(Chitumbuka)</native_name>
+  <national_motto>"Unity and Freedom"</national_motto>
+  <national_anthem>Mulungu dalitsani Malaŵi</national_anthem>
+  <map_caption>Location of Malawi (dark green) in southeast Africa</map_caption>
+  <capital>Lilongwe</capital>
+  <largest_city>Lilongwe</largest_city>
+  <official_languages>English</official_languages>
+  <national_languages>''('''none''' at national level)''</national_languages>
+  <regional_languages>Chichewa, Chitumbuka</regional_languages>
+  <ethnic_groups>25.2% Chewa, 20.4% Tumbuka, 16.4% Lomwe, 15.3% Yao, 6.4% Ngoni, 5.9% Sena, 3.8% Mang'anja, 1.8% Tonga, 1.5% Ngonde, 0.6% Lambya, 0.5% Sukwa, 1.1% other</ethnic_groups>
+  <ethnic_groups_year>2024 census</ethnic_groups_year>
+  <religion_year>2018 census</religion_year>
+  <demonym>Malawian</demonym>
+  <government_type>Unitary presidential republic</government_type>
+  <legislature>National Assembly</legislature>
+  <sovereignty_type>Independence</sovereignty_type>
+  <sovereignty_note>from the United Kingdom</sovereignty_note>
+  <area_km2>118,484</area_km2>
+  <area_rank>98th</area_rank>
+  <area_sq_mi>45,747</area_sq_mi>
+  <percent_water>20.6%</percent_water>
+  <population_estimate>21,240,689</population_estimate>
+  <population_census>17,563,749</population_census>
+  <population_estimate_year>2024</population_estimate_year>
+  <population_estimate_rank>62nd</population_estimate_rank>
+  <population_census_year>2018</population_census_year>
+  <population_density_km2>153.1</population_density_km2>
+  <population_density_sq_mi>396.5</population_density_sq_mi>
+  <population_density_rank>56th</population_density_rank>
+  <GDP_PPP>$37.919 billion</GDP_PPP>
+  <GDP_PPP_year>2023</GDP_PPP_year>
+  <GDP_PPP_rank>137th</GDP_PPP_rank>
+  <GDP_PPP_per_capita>$1,668</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>186th</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$13.176 billion</GDP_nominal>
+  <GDP_nominal_year>2023</GDP_nominal_year>
+  <GDP_nominal_rank>149th</GDP_nominal_rank>
+  <GDP_nominal_per_capita>$579</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>190th</GDP_nominal_per_capita_rank>
+  <Gini>44.7</Gini>
+  <Gini_year>2016</Gini_year>
+  <Gini_change>increase</Gini_change>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI>0.517</HDI>
+  <HDI_rank>172nd</HDI_rank>
+  <currency>Malawian kwacha (D)</currency>
+  <currency_code>MWK</currency_code>
+  <drives_on>left</drives_on>
+  <date_format>dd/mm/yyyy</date_format>
+  <time_zone>CAT</time_zone>
+  <utc_offset>+2</utc_offset>
+  <calling_code>+265</calling_code>
+  <cctld>.mw</cctld>
+  <footnotes>* Population estimates for this country explicitly take into account the effects of excess mortality due to AIDS; this can result in lower life expectancy, higher infant mortality and death rates, lower population and growth rates, and changes in the distribution of population by age and sex than would otherwise be expected. * Information is drawn from the CIA ''World Factbook'' unless otherwise noted.</footnotes>
+  <established>
+    <event>
+      <label>Dominion</label>
+      <date>6 July 1964</date>
+    </event>
+    <event>
+      <label>Republic</label>
+      <date>6 July 1966</date>
+    </event>
+    <event>
+      <label>Current constitution</label>
+      <date>18 May 1994</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>President</title>
+      <name>Peter Mutharika</name>
+    </leader>
+    <leader>
+      <title>Vice-President</title>
+      <name>Jane Ansah</name>
+    </leader>
+    <leader>
+      <title>House Speaker</title>
+      <name>Sameer Suleman</name>
+    </leader>
+    <leader>
+      <title>Chief Justice</title>
+      <name>Rizine Mzikamanda</name>
+    </leader>
+  </leaders>
+</country>

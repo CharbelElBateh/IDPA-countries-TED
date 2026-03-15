@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Uganda">
+  <conventional_long_name>Republic of Uganda</conventional_long_name>
+  <common_name>Uganda</common_name>
+  <national_anthem>"Oh Uganda, Land of Beauty"</national_anthem>
+  <capital>Kampala</capital>
+  <largest_city>capital</largest_city>
+  <official_languages>English, Swahili</official_languages>
+  <languages>See ''Languages of Uganda''</languages>
+  <languages2_type>Dialect of English</languages2_type>
+  <languages2>Uglish</languages2>
+  <ethnic_groups>15.3% Baganda, 9.1% Banyankole, 8.1% Basoga, 6.4% Bakiga, 6.8% Iteso, 5.9% Langi, 4.5% Bagisu, 4.2% Acholi, 2.6% Lugbara, 37.1% others</ethnic_groups>
+  <ethnic_groups_year>2024 census</ethnic_groups_year>
+  <demonym>Ugandan</demonym>
+  <religion_year>2024 census</religion_year>
+  <government_type>Unitary presidential republic under a dictatorship</government_type>
+  <legislature>Parliament</legislature>
+  <sovereignty_type>Independence</sovereignty_type>
+  <sovereignty_note>from the United Kingdom</sovereignty_note>
+  <area_km2>241,038</area_km2>
+  <area_rank>79th</area_rank>
+  <area_sq_mi>93,065</area_sq_mi>
+  <percent_water>15.39</percent_water>
+  <population_census>= 45,905,417</population_census>
+  <population_census_year>2024</population_census_year>
+  <population_estimate_rank>34th</population_estimate_rank>
+  <population_density_km2>157.1</population_density_km2>
+  <population_density_sq_mi>406.9</population_density_sq_mi>
+  <population_density_rank>75th</population_density_rank>
+  <GDP_PPP>$187.11 billion</GDP_PPP>
+  <GDP_PPP_year>2025</GDP_PPP_year>
+  <GDP_PPP_rank>82th</GDP_PPP_rank>
+  <GDP_PPP_per_capita>$3,900</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>161st</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$64.280 billion</GDP_nominal>
+  <GDP_nominal_year>2025</GDP_nominal_year>
+  <GDP_nominal_rank>88th</GDP_nominal_rank>
+  <GDP_nominal_per_capita>$1,340</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>160th</GDP_nominal_per_capita_rank>
+  <Gini>42.0</Gini>
+  <Gini_year>2016</Gini_year>
+  <Gini_change>increase</Gini_change>
+  <HDI>0.582</HDI>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI_rank>157th</HDI_rank>
+  <currency>Ugandan shilling</currency>
+  <currency_code>UGX</currency_code>
+  <time_zone>EAT</time_zone>
+  <utc_offset>+3</utc_offset>
+  <calling_code>+256</calling_code>
+  <cctld>.ug</cctld>
+  <footnote_a>+006 from Kenya and Tanzania</footnote_a>
+  <established>
+    <event>
+      <label>Dominion</label>
+      <date>9 October 1962</date>
+    </event>
+    <event>
+      <label>Republic declared</label>
+      <date>9 October 1963</date>
+    </event>
+    <event>
+      <label>Current constitution</label>
+      <date>8 October 1995</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>President</title>
+      <name>Yoweri Museveni</name>
+    </leader>
+    <leader>
+      <title>Vice-President</title>
+      <name>Jessica Alupo</name>
+    </leader>
+    <leader>
+      <title>Prime Minister</title>
+      <name>Robinah Nabbanja</name>
+    </leader>
+  </leaders>
+</country>

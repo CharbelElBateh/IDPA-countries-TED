@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Costa Rica">
+  <conventional_long_name>Republic of Costa Rica</conventional_long_name>
+  <common_name>Costa Rica</common_name>
+  <national_motto>"May work and peace always live!"</national_motto>
+  <national_anthem>''Himno Nacional de Costa Rica''"National Anthem of Costa Rica"</national_anthem>
+  <capital>San José</capital>
+  <largest_city>capital</largest_city>
+  <official_languages>Spanish</official_languages>
+  <languages2_type>Other spoken languages</languages2_type>
+  <ethnic_groups_year>2021</ethnic_groups_year>
+  <religion_year>2021</religion_year>
+  <religion>72.6% Christianity, 47.5% Catholicism (official), 22.5% Protestantism, 2.6% other Christian, 27.0% no religion, 0.4% others</religion>
+  <demonym>Costa Rican, Tico(a)</demonym>
+  <government_type>Unitary presidential republic</government_type>
+  <legislature>Legislative Assembly</legislature>
+  <sovereignty_type>Independence from</sovereignty_type>
+  <area_km2>51179.92</area_km2>
+  <area_rank>126th</area_rank>
+  <percent_water>1.05 (as of 2015)</percent_water>
+  <population_census_year>2022</population_census_year>
+  <population_estimate>5,160,700</population_estimate>
+  <population_census>5,044,197</population_census>
+  <population_estimate_year>2026</population_estimate_year>
+  <population_estimate_rank>127th</population_estimate_rank>
+  <population_density_sq_mi>220</population_density_sq_mi>
+  <population_density_rank>107th</population_density_rank>
+  <GDP_PPP>$169.034 billion</GDP_PPP>
+  <GDP_PPP_year>2025</GDP_PPP_year>
+  <GDP_PPP_rank>90th</GDP_PPP_rank>
+  <GDP_PPP_per_capita>$31,462</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>66th</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$102.591 billion</GDP_nominal>
+  <GDP_nominal_year>2025</GDP_nominal_year>
+  <GDP_nominal_rank>85th</GDP_nominal_rank>
+  <GDP_nominal_per_capita>$19,095</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>64th</GDP_nominal_per_capita_rank>
+  <Gini>47.2</Gini>
+  <Gini_year>2022</Gini_year>
+  <Gini_change>decrease</Gini_change>
+  <HDI>0.833</HDI>
+  <HDI_rank>62nd</HDI_rank>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <currency>Costa Rican colón</currency>
+  <currency_code>CRC</currency_code>
+  <time_zone>CST</time_zone>
+  <utc_offset>−6</utc_offset>
+  <drives_on>right</drives_on>
+  <calling_code>+506</calling_code>
+  <cctld>.cr.co.cr</cctld>
+  <recognized_regional_languages>Mekatelyu, Bribri, Patois</recognized_regional_languages>
+  <established>
+    <event>
+      <label>from Spain</label>
+      <date>15 September 1821</date>
+    </event>
+    <event>
+      <label>from First Mexican Empire</label>
+      <date>1 July 1823</date>
+    </event>
+    <event>
+      <label/>
+      <date>14 November 1838</date>
+    </event>
+    <event>
+      <label>Current constitution</label>
+      <date>7 November 1949</date>
+    </event>
+    <event>
+      <label>Recognized by Spain</label>
+      <date>10 May 1850</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>President</title>
+      <name>Rodrigo Chaves</name>
+    </leader>
+    <leader>
+      <title>First Vice President</title>
+      <name>Mary Munive</name>
+    </leader>
+    <leader>
+      <title>Second Vice President</title>
+      <name>''Vacant''</name>
+    </leader>
+  </leaders>
+</country>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Denmark">
+  <name>Denmark</name>
+  <settlement_type>Constituent part of the Kingdom of Denmark</settlement_type>
+  <flag_size>120</flag_size>
+  <flag_link>Flag of Denmark</flag_link>
+  <seal_size>95</seal_size>
+  <seal_type>National coat of arms</seal_type>
+  <seal_link>Coat of arms of Denmark</seal_link>
+  <motto>(United, committed, for the Kingdom of Denmark)</motto>
+  <anthem>( )</anthem>
+  <song>( )</song>
+  <song_type>'''Royal Anthem'''</song_type>
+  <subdivision_type>Sovereign state</subdivision_type>
+  <subdivision_name>Kingdom of Denmark</subdivision_name>
+  <established_title>Consolidation</established_title>
+  <established_date>8th century</established_date>
+  <official_languages>Danish</official_languages>
+  <languages_type>Regional languages</languages_type>
+  <languages_sub>yes</languages_sub>
+  <languages>German</languages>
+  <demonym>Danish, Dane</demonym>
+  <capital>Copenhagen</capital>
+  <largest_city>capital</largest_city>
+  <eea>true</eea>
+  <eurozone>false</eurozone>
+  <schengen>true</schengen>
+  <membership_type>Member State</membership_type>
+  <membership>European Union</membership>
+  <ethnic_groups_year>2025</ethnic_groups_year>
+  <religion_year>2024</religion_year>
+  <government_type>Unitary parliamentary constitutional monarchy</government_type>
+  <legislature>Folketing</legislature>
+  <area_km2>43,094</area_km2>
+  <area_rank>130th</area_rank>
+  <area_sq_mi>16,580</area_sq_mi>
+  <percent_water>1.74</percent_water>
+  <elevation_max_m>170.86</elevation_max_m>
+  <elevation_max_point>Møllehøj</elevation_max_point>
+  <population_estimate>6,001,008</population_estimate>
+  <population_estimate_rank>112th</population_estimate_rank>
+  <population_estimate_year>May 2025</population_estimate_year>
+  <GDP_PPP>$533.752 billion</GDP_PPP>
+  <GDP_PPP_year>2025</GDP_PPP_year>
+  <GDP_PPP_rank>52nd</GDP_PPP_rank>
+  <GDP_PPP_per_capita>$88,934</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>11th</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$449.940 billion</GDP_nominal>
+  <GDP_nominal_year>2025</GDP_nominal_year>
+  <GDP_nominal_rank>35th</GDP_nominal_rank>
+  <GDP_nominal_per_capita>$74,969</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>9th</GDP_nominal_per_capita_rank>
+  <Gini>27.7</Gini>
+  <Gini_year>2022</Gini_year>
+  <Gini_change>increase</Gini_change>
+  <HDI>0.962</HDI>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI_rank>4th</HDI_rank>
+  <currency>Danish krone</currency>
+  <timezone>CET</timezone>
+  <utc_offset>+01:00</utc_offset>
+  <timezone_DST>CEST</timezone_DST>
+  <utc_offset_DST>+02:00</utc_offset_DST>
+  <calling_code>+45</calling_code>
+  <iso_code>DK</iso_code>
+  <cctld>.dk</cctld>
+  <population_density_rank>93rd</population_density_rank>
+  <drives_on>Right</drives_on>
+  <established>
+    <event>
+      <date>5 June 1849</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>Monarch</title>
+      <name>Frederik X</name>
+    </leader>
+    <leader>
+      <title>Prime Minister</title>
+      <name>Mette Frederiksen</name>
+    </leader>
+  </leaders>
+</country>

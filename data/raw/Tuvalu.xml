@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Tuvalu">
+  <conventional_long_name>Tuvalu</conventional_long_name>
+  <common_name>Tuvalu</common_name>
+  <national_motto>Tuvalu mo te Atua (Tuvaluan)"Tuvalu for the Almighty"</national_motto>
+  <national_anthem>Tuvalu mo te Atua (Tuvaluan)"Tuvalu for the Almighty"File:Tuvalu mo te Atua.ogg</national_anthem>
+  <official_languages>Tuvaluan, English</official_languages>
+  <religion_year>2022</religion_year>
+  <demonym>Tuvaluan</demonym>
+  <ethnic_groups>96% Tuvaluans, 4% others</ethnic_groups>
+  <ethnic_groups_year>2022</ethnic_groups_year>
+  <capital>Funafuti</capital>
+  <largest_city>Funafuti</largest_city>
+  <government_type>Unitary parliamentary constitutional monarchy</government_type>
+  <legislature>Parliament</legislature>
+  <sovereignty_type>Independence</sovereignty_type>
+  <area_rank>192nd</area_rank>
+  <area_km2>26.26</area_km2>
+  <area_sq_mi>9.71</area_sq_mi>
+  <percent_water>Negligible</percent_water>
+  <population_census>10,643</population_census>
+  <population_census_year>2022</population_census_year>
+  <population_census_rank>194th</population_census_rank>
+  <population_density_km2>423</population_density_km2>
+  <population_density_sq_mi>1,096</population_density_sq_mi>
+  <population_density_rank>41st</population_density_rank>
+  <GDP_PPP>$68.603 million</GDP_PPP>
+  <GDP_PPP_year>2023</GDP_PPP_year>
+  <GDP_PPP_per_capita>$6,076</GDP_PPP_per_capita>
+  <GDP_nominal_year>2023</GDP_nominal_year>
+  <GDP_nominal>$63 million</GDP_nominal>
+  <GDP_nominal_per_capita>$6,113</GDP_nominal_per_capita>
+  <Gini_year>2022</Gini_year>
+  <Gini_change>steady</Gini_change>
+  <Gini>39</Gini>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI>0.689</HDI>
+  <HDI_rank>129th</HDI_rank>
+  <currency>Tuvaluan dollar, Australian dollar</currency>
+  <currency_code>AUD</currency_code>
+  <utc_offset>+12</utc_offset>
+  <drives_on>left</drives_on>
+  <calling_code>+688</calling_code>
+  <cctld>.tv</cctld>
+  <established>
+    <event>
+      <label>from the United Kingdom</label>
+      <date>1 October 1978</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>Monarch</title>
+      <name>Charles III</name>
+    </leader>
+    <leader>
+      <title>Governor-General</title>
+      <name>Tofiga Vaevalu Falani</name>
+    </leader>
+    <leader>
+      <title>Prime Minister</title>
+      <name>Feleti Teo</name>
+    </leader>
+  </leaders>
+</country>

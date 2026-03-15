@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Jamaica">
+  <conventional_long_name>Jamaica</conventional_long_name>
+  <common_name>Jamaica</common_name>
+  <national_motto>"Out of Many, One People"</national_motto>
+  <national_anthem>"Jamaica, Land We Love"</national_anthem>
+  <official_languages>English</official_languages>
+  <languages_type>Vernacular language</languages_type>
+  <languages>Jamaican Patois</languages>
+  <demonym>Jamaican</demonym>
+  <capital>Kingston</capital>
+  <largest_city>capital</largest_city>
+  <government_type>Unitary parliamentary constitutional monarchy</government_type>
+  <legislature>Parliament</legislature>
+  <upper_house>Senate</upper_house>
+  <lower_house>House of Representatives</lower_house>
+  <sovereignty_type>Independence</sovereignty_type>
+  <sovereignty_note>from the United Kingdom</sovereignty_note>
+  <area_rank>160th</area_rank>
+  <area_km2>10,991</area_km2>
+  <area_sq_mi>4,244</area_sq_mi>
+  <percent_water>1.5</percent_water>
+  <population_census>2,697,983</population_census>
+  <population_census_year>2011</population_census_year>
+  <population_estimate>2,824,913</population_estimate>
+  <population_estimate_year>2024</population_estimate_year>
+  <population_density_km2>266</population_density_km2>
+  <population_density_sq_mi>688</population_density_sq_mi>
+  <population_density_rank>54th</population_density_rank>
+  <GDP_PPP>$33.775 billion</GDP_PPP>
+  <GDP_PPP_year>2024</GDP_PPP_year>
+  <GDP_PPP_rank>143rd</GDP_PPP_rank>
+  <GDP_PPP_per_capita>$12,283</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>134th</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$20.586 billion</GDP_nominal>
+  <GDP_nominal_year>2024</GDP_nominal_year>
+  <GDP_nominal_rank>119th</GDP_nominal_rank>
+  <GDP_nominal_per_capita>$7,487</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>95th</GDP_nominal_per_capita_rank>
+  <Gini_year>2021</Gini_year>
+  <Gini_change>increase</Gini_change>
+  <Gini>40.2</Gini>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI>0.720</HDI>
+  <HDI_rank>117th</HDI_rank>
+  <currency>Jamaican dollar</currency>
+  <currency_code>JMD</currency_code>
+  <time_zone>EST</time_zone>
+  <utc_offset>-5:00</utc_offset>
+  <drives_on>Left</drives_on>
+  <calling_code>+1</calling_code>
+  <cctld>.jm</cctld>
+  <established>
+    <event>
+      <label>Granted</label>
+      <date>6 August 1962</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>Monarch</title>
+      <name/>
+    </leader>
+    <leader>
+      <title>Governor-General</title>
+      <name>Patrick Allen</name>
+    </leader>
+    <leader>
+      <title>Prime Minister</title>
+      <name>Andrew Holness</name>
+    </leader>
+  </leaders>
+</country>

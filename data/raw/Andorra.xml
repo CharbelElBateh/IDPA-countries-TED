@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Andorra">
+  <conventional_long_name>Principality of Andorra</conventional_long_name>
+  <common_name>Andorra</common_name>
+  <symbol_type>Coat of arms</symbol_type>
+  <national_motto>(Latin)"United virtue is stronger"</national_motto>
+  <national_anthem>"El Gran Carlemany" "The Great Charlemagne"</national_anthem>
+  <capital>Andorra la Vella</capital>
+  <largest_city>capital</largest_city>
+  <official_languages>Catalan 44.1%</official_languages>
+  <languages_type>Significant language</languages_type>
+  <languages>Spanish 40.3%</languages>
+  <languages2_type>Other languages</languages2_type>
+  <languages2>13.5% Portuguese, 10% French, 3% English, 6.8% other</languages2>
+  <ethnic_groups>34.3% Spaniards, 32.1% Andorrans, 10% Portuguese, 5.6% French, 18% others</ethnic_groups>
+  <ethnic_groups_year>2024</ethnic_groups_year>
+  <religion>90.8% Christianity, 85.5% Catholicism (official), 5.3% other Christian, 6.9% no religion, 2.3% others</religion>
+  <religion_year>2020</religion_year>
+  <demonym>Andorran</demonym>
+  <government_type>Unitary parliamentary constitutional co-principality</government_type>
+  <legislature>General Council</legislature>
+  <sovereignty_type>Independence</sovereignty_type>
+  <area_km2>467.63</area_km2>
+  <area_rank>178th</area_rank>
+  <area_sq_mi>180.55</area_sq_mi>
+  <percent_water>0.26 (121.4 ha ) Girard P &amp; Gomez P (2009), Lacs des Pyrénées: Andorre.</percent_water>
+  <population_estimate>89,058</population_estimate>
+  <population_estimate_rank>185th</population_estimate_rank>
+  <population_estimate_year>2025</population_estimate_year>
+  <population_census_year>2021</population_census_year>
+  <population_density_km2>187.1</population_density_km2>
+  <population_density_sq_mi>484.6</population_density_sq_mi>
+  <population_density_rank>71st</population_density_rank>
+  <GDP_PPP>$6.001&amp;nbsp;billion</GDP_PPP>
+  <GDP_PPP_year>2024</GDP_PPP_year>
+  <GDP_PPP_rank>168th</GDP_PPP_rank>
+  <GDP_PPP_per_capita>$69,146</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>18th</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$3.897&amp;nbsp;billion</GDP_nominal>
+  <GDP_nominal_year>2024</GDP_nominal_year>
+  <GDP_nominal_rank>159th</GDP_nominal_rank>
+  <GDP_nominal_per_capita>$44,900</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>24th</GDP_nominal_per_capita_rank>
+  <Gini>40.0</Gini>
+  <Gini_year>2023</Gini_year>
+  <Gini_change>increase</Gini_change>
+  <HDI>0.913</HDI>
+  <HDI_rank>32nd</HDI_rank>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <currency>Euro (€)</currency>
+  <currency_code>EUR</currency_code>
+  <time_zone>CET</time_zone>
+  <utc_offset>+01:00</utc_offset>
+  <utc_offset_DST>+02:00</utc_offset_DST>
+  <time_zone_DST>CEST</time_zone_DST>
+  <date_format>dd/mm/yyyy</date_format>
+  <drives_on>right</drives_on>
+  <calling_code>+376</calling_code>
+  <cctld>.ad</cctld>
+  <established>
+    <event>
+      <label>First Paréage</label>
+      <date>8 September 1278</date>
+    </event>
+    <event>
+      <label>From the Kingdom of France</label>
+      <date>12 October 1652</date>
+    </event>
+    <event>
+      <label>From the Principality of Catalonia</label>
+      <date>1715</date>
+    </event>
+    <event>
+      <label>From the French Empire</label>
+      <date>1814</date>
+    </event>
+    <event>
+      <label>Constitution</label>
+      <date>2 February 1993</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>Co-princes</title>
+      <name>Josep-Lluís Serrano Pentinat, Emmanuel Macron</name>
+    </leader>
+    <leader>
+      <title>Representatives</title>
+      <name>Eduard Ibáñez, Patrice Faure</name>
+    </leader>
+    <leader>
+      <title>Prime minister</title>
+      <name>Xavier Espot Zamora</name>
+    </leader>
+    <leader>
+      <title>General syndic</title>
+      <name>Carles Ensenyat Reig</name>
+    </leader>
+  </leaders>
+</country>

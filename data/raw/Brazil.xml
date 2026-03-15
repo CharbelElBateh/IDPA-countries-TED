@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Brazil">
+  <conventional_long_name>Federative Republic of Brazil</conventional_long_name>
+  <common_name>Brazil</common_name>
+  <symbol_type>Coat of arms</symbol_type>
+  <other_symbol>National Seal of Brazil 100px|link=National Seal of Brazil</other_symbol>
+  <other_symbol_type>National Seal</other_symbol_type>
+  <national_motto>"Order and Progress"</national_motto>
+  <national_anthem>"Brazilian National Anthem"File:Hino-Nacional-Brasil-instrumental-mec.ogg</national_anthem>
+  <flag_anthem>"National Flag Anthem"File:Brazilian Flag Anthem (Ministry of Education).ogg</flag_anthem>
+  <capital>Brasília</capital>
+  <largest_city>São Paulo</largest_city>
+  <languages_type>Official language</languages_type>
+  <languages>Portuguese 95 municipalities and 3 Brazilian states also have co-official languages, with 61 co-officialized languages. The list can be seen at ''Languages of Brazil''.</languages>
+  <languages2_type>Recognized regional languages</languages2_type>
+  <languages2>See regional official languages</languages2>
+  <ethnic_groups_year>2022</ethnic_groups_year>
+  <demonym>Brazilian</demonym>
+  <government_type>Federal presidential republic</government_type>
+  <sovereignty_type>Independence</sovereignty_type>
+  <sovereignty_note>from Portugal</sovereignty_note>
+  <area_km2>8515767</area_km2>
+  <area_rank>5th</area_rank>
+  <area_sq_mi>3287597</area_sq_mi>
+  <percent_water>0.65</percent_water>
+  <population_estimate>213,421,037</population_estimate>
+  <population_census>203,080,756</population_census>
+  <population_census_year>2022</population_census_year>
+  <population_estimate_year>2025</population_estimate_year>
+  <population_estimate_rank>7th</population_estimate_rank>
+  <population_census_rank>7th</population_census_rank>
+  <population_density_km2>23.8</population_density_km2>
+  <population_density_sq_mi>64</population_density_sq_mi>
+  <population_density_rank>193rd</population_density_rank>
+  <GDP_PPP>$4.970 trillion</GDP_PPP>
+  <GDP_PPP_year>2025</GDP_PPP_year>
+  <GDP_PPP_rank>8th</GDP_PPP_rank>
+  <GDP_PPP_per_capita>$23,310</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>78th</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$2.260 trillion</GDP_nominal>
+  <GDP_nominal_year>2025</GDP_nominal_year>
+  <GDP_nominal_rank>10th</GDP_nominal_rank>
+  <GDP_nominal_per_capita>$10,580</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>78th</GDP_nominal_per_capita_rank>
+  <Gini>51.6</Gini>
+  <Gini_year>2023</Gini_year>
+  <Gini_change>decrease</Gini_change>
+  <HDI>0.786</HDI>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI_rank>84th</HDI_rank>
+  <currency>Real (R$)</currency>
+  <currency_code>BRL</currency_code>
+  <time_zone>BT</time_zone>
+  <utc_offset>−02:00 to −05:00</utc_offset>
+  <date_format>dd/mm/yyyy (CE)</date_format>
+  <drives_on>right</drives_on>
+  <calling_code>+55</calling_code>
+  <cctld>.br</cctld>
+  <religion_year>2022</religion_year>
+  <established>
+    <event>
+      <label>Declaration</label>
+      <date>7 September 1822</date>
+    </event>
+    <event>
+      <label>Recognition</label>
+      <date>29 August 1825</date>
+    </event>
+    <event>
+      <label>Republic</label>
+      <date>15 November 1889</date>
+    </event>
+    <event>
+      <label>Current constitution</label>
+      <date>5 October 1988</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>President</title>
+      <name>Luiz Inácio Lula da Silva</name>
+    </leader>
+    <leader>
+      <title>Vice President</title>
+      <name>Geraldo Alckmin</name>
+    </leader>
+    <leader>
+      <title/>
+      <name>Hugo Motta</name>
+    </leader>
+    <leader>
+      <title>President of the Federal Senate</title>
+      <name/>
+    </leader>
+    <leader>
+      <title/>
+      <name>Edson Fachin</name>
+    </leader>
+  </leaders>
+</country>

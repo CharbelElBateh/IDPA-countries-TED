@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Tajikistan">
+  <conventional_long_name>Republic of Tajikistan</conventional_long_name>
+  <common_name>Tajikistan</common_name>
+  <symbol_type>Emblem</symbol_type>
+  <motto>"Independence, Freedom, Homeland"</motto>
+  <national_anthem>"National Anthem"</national_anthem>
+  <capital>Dushanbe</capital>
+  <largest_city>capital</largest_city>
+  <official_languages>Tajik, Russian, [https://www.constituteproject.org/constitution/Tajikistan_2016 Article 2] of Constitution:The state language of Tajikistan shall be Tajik.Russian is the language of communication between the nationalities.All nations and nationalities living on the territory of the Republic have the right to freely use their native language.</official_languages>
+  <ethnic_groups>86.1% Tajiks, 11.3% Uzbeks, 0.4% Kyrgyz, 0.3% Russians, 1.9% other</ethnic_groups>
+  <ethnic_groups_year>2020</ethnic_groups_year>
+  <religion>97.5% Islam0.7% Christianity1.7% irreligion0.2% others</religion>
+  <religion_year>2020</religion_year>
+  <demonym>Tajikistani, Tajik</demonym>
+  <government_type>Unitary presidential republic under an authoritarian dictatorship</government_type>
+  <legislature>Supreme Assembly</legislature>
+  <upper_house>National Assembly</upper_house>
+  <lower_house>Assembly of Representatives</lower_house>
+  <sovereignty_type>Independence</sovereignty_type>
+  <sovereignty_note>from the Soviet Union</sovereignty_note>
+  <area_km2>143,100</area_km2>
+  <area_rank>94th</area_rank>
+  <area_sq_mi>55,251</area_sq_mi>
+  <percent_water>1.8</percent_water>
+  <population_estimate>10,786,734</population_estimate>
+  <population_estimate_year>2025</population_estimate_year>
+  <population_density_km2>75.4</population_density_km2>
+  <population_density_sq_mi>195.2</population_density_sq_mi>
+  <GDP_PPP>$59.415 billion</GDP_PPP>
+  <GDP_PPP_year>2024</GDP_PPP_year>
+  <GDP_PPP_rank>119th</GDP_PPP_rank>
+  <GDP_PPP_per_capita>$5,832</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>145th</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$12.953 billion</GDP_nominal>
+  <GDP_nominal_year>2024</GDP_nominal_year>
+  <GDP_nominal_rank>141st</GDP_nominal_rank>
+  <GDP_nominal_per_capita>$1,176</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>163rd</GDP_nominal_per_capita_rank>
+  <Gini>34</Gini>
+  <Gini_year>2015</Gini_year>
+  <HDI>0.691</HDI>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI_rank>128th</HDI_rank>
+  <currency>Somoni</currency>
+  <currency_code>TJS</currency_code>
+  <time_zone>TJT</time_zone>
+  <utc_offset>+5</utc_offset>
+  <date_format>dd.mm.yyyy</date_format>
+  <drives_on>Right</drives_on>
+  <calling_code>+992</calling_code>
+  <cctld>.tj</cctld>
+  <area_water_km2>2575</area_water_km2>
+  <established>
+    <event>
+      <label>Declared</label>
+      <date>9 September 1991</date>
+    </event>
+    <event>
+      <label>Recognised</label>
+      <date>26 December 1991</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>President</title>
+      <name>Emomali Rahmon</name>
+    </leader>
+    <leader>
+      <title>Prime Minister</title>
+      <name>Kokhir Rasulzoda</name>
+    </leader>
+  </leaders>
+</country>

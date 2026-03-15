@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="France">
+  <conventional_long_name>French Republic</conventional_long_name>
+  <common_name>France</common_name>
+  <national_motto>" "</national_motto>
+  <national_anthem>"La Marseillaise"alt=sound clip of the Marseillaise French national anthem</national_anthem>
+  <capital>Paris</capital>
+  <largest_city>capital</largest_city>
+  <languages_type>Official language</languages_type>
+  <languages>French</languages>
+  <languages2>See languages of France</languages2>
+  <religion_year>2021</religion_year>
+  <demonym>French</demonym>
+  <government_type>Unitary semi-presidential republic</government_type>
+  <legislature>Parliament</legislature>
+  <upper_house>Senate</upper_house>
+  <lower_house>National Assembly</lower_house>
+  <area_km2>632702.3</area_km2>
+  <area_rank>42nd</area_rank>
+  <percent_water>0.86</percent_water>
+  <population_estimate>69,081,996</population_estimate>
+  <population_estimate_year>January 2026</population_estimate_year>
+  <population_estimate_rank>21st</population_estimate_rank>
+  <population_label2>Density</population_label2>
+  <population_data2>/km2 ( /sq mi) (106th)</population_data2>
+  <population_label3>Metropolitan France, estimate</population_label3>
+  <population_data3>66,792,845 (21st)</population_data3>
+  <population_density_rank>97th</population_density_rank>
+  <GDP_PPP>$4.504 trillion</GDP_PPP>
+  <GDP_PPP_rank>9th</GDP_PPP_rank>
+  <GDP_PPP_year>2025</GDP_PPP_year>
+  <GDP_PPP_per_capita>$65,626</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>25th</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$3.211 trillion</GDP_nominal>
+  <GDP_nominal_rank>7th</GDP_nominal_rank>
+  <GDP_nominal_year>2025</GDP_nominal_year>
+  <GDP_nominal_per_capita>$46,792</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>22nd</GDP_nominal_per_capita_rank>
+  <Gini>29.8</Gini>
+  <Gini_year>2022</Gini_year>
+  <Gini_change>increase</Gini_change>
+  <HDI>0.920</HDI>
+  <HDI_rank>26th</HDI_rank>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <currency>Euro (€) (EUR), CFP franc (XPF), name, =, seven, French overseas territories in the Pacific Ocean only</currency>
+  <time_zone>CET</time_zone>
+  <utc_offset>+1</utc_offset>
+  <utc_offset_DST>+2</utc_offset_DST>
+  <time_zone_DST>CEST</time_zone_DST>
+  <drives_on>Right</drives_on>
+  <calling_code>+33</calling_code>
+  <cctld>.fr</cctld>
+  <flag_p1>Flag of France (1794–1815, 1830–1974, 2020–present).svg</flag_p1>
+  <leaders>
+    <leader>
+      <title>President</title>
+      <name>Emmanuel Macron</name>
+    </leader>
+    <leader>
+      <title>Prime Minister</title>
+      <name>Sébastien Lecornu</name>
+    </leader>
+    <leader>
+      <title>President of the Senate</title>
+      <name>Gérard Larcher</name>
+    </leader>
+    <leader>
+      <title>President of the National Assembly</title>
+      <name>Yaël Braun-Pivet</name>
+    </leader>
+  </leaders>
+</country>

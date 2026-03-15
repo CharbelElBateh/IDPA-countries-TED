@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Bulgaria">
+  <conventional_long_name>Republic of Bulgaria</conventional_long_name>
+  <common_name>Bulgaria</common_name>
+  <national_motto>( )</national_motto>
+  <national_anthem>( )</national_anthem>
+  <capital>Sofia</capital>
+  <largest_city>capital</largest_city>
+  <official_languages>Bulgarian</official_languages>
+  <languages_type>Official script</languages_type>
+  <languages>Cyrillic</languages>
+  <languages_sub>no</languages_sub>
+  <ethnic_groups>85.7% Bulgarians, 8.5% Turks, 4.5% Roma, 1.3% others</ethnic_groups>
+  <ethnic_groups_year>2021 census</ethnic_groups_year>
+  <religion_year>2021 census</religion_year>
+  <demonym>Bulgarian</demonym>
+  <government_type>Unitary parliamentary republic</government_type>
+  <legislature>National Assembly</legislature>
+  <sovereignty_type>Establishment history</sovereignty_type>
+  <area_rank>103rd</area_rank>
+  <area_km2>110,993.6</area_km2>
+  <area_sq_mi>42,811</area_sq_mi>
+  <percent_water>2.16</percent_water>
+  <population_census_year>2021</population_census_year>
+  <population_census>6,519,789</population_census>
+  <population_estimate>6,437,360</population_estimate>
+  <population_estimate_rank>109th</population_estimate_rank>
+  <population_estimate_year>December 2024</population_estimate_year>
+  <population_density_rank>154th</population_density_rank>
+  <GDP_PPP>$264.699&amp;nbsp;billion</GDP_PPP>
+  <GDP_PPP_rank>73rd</GDP_PPP_rank>
+  <GDP_PPP_year>2025</GDP_PPP_year>
+  <GDP_PPP_per_capita>$41,901</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>55th</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$117.007&amp;nbsp;billion</GDP_nominal>
+  <GDP_nominal_rank>68th</GDP_nominal_rank>
+  <GDP_nominal_year>2025</GDP_nominal_year>
+  <GDP_nominal_per_capita>$18,522</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>59th</GDP_nominal_per_capita_rank>
+  <Gini>37.2</Gini>
+  <Gini_year>2023</Gini_year>
+  <Gini_change>decrease</Gini_change>
+  <HDI>0.845</HDI>
+  <HDI_rank>55th</HDI_rank>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <currency>Euro (€)</currency>
+  <currency_code>EUR</currency_code>
+  <time_zone>EET</time_zone>
+  <utc_offset>+2</utc_offset>
+  <time_zone_DST>EEST</time_zone_DST>
+  <utc_offset_DST>+3</utc_offset_DST>
+  <calling_code>+359</calling_code>
+  <cctld>.bg, .бг</cctld>
+  <established>
+    <event>
+      <label>1st Bulgarian Empire</label>
+      <date>681–1018</date>
+    </event>
+    <event>
+      <label>2nd Bulgarian Empire</label>
+      <date>1185–1396</date>
+    </event>
+    <event>
+      <label>Principality of Bulgaria</label>
+      <date>3 March 1878</date>
+    </event>
+    <event>
+      <label>Independence from the Ottoman Empire</label>
+      <date>5 October 1908</date>
+    </event>
+    <event>
+      <label>Monarchy abolished</label>
+      <date>15 September 1946</date>
+    </event>
+    <event>
+      <label>Current state form</label>
+      <date>15 November 1990</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>President</title>
+      <name>Iliana Iotova</name>
+    </leader>
+    <leader>
+      <title>Prime Minister</title>
+      <name>Andrey Gyurov</name>
+    </leader>
+    <leader>
+      <title>Chairperson of the National Assembly</title>
+      <name>Raya Nazaryan</name>
+    </leader>
+  </leaders>
+</country>

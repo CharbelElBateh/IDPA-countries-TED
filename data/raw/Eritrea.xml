@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Eritrea">
+  <conventional_long_name>State of Eritrea</conventional_long_name>
+  <common_name>Eritrea</common_name>
+  <symbol_type>Emblem</symbol_type>
+  <national_anthem>"Eritrea, Eritrea, Eritrea"</national_anthem>
+  <official_languages>None</official_languages>
+  <demonym>Eritrean</demonym>
+  <ethnic_groups>50% Tigrinya, 30% Tigre, 4% Saho, 4% Afar, 4% Kunama, 3% Bilen, 2% Beja, 2% Nara, 1% Rashaida</ethnic_groups>
+  <ethnic_groups_year>2021</ethnic_groups_year>
+  <capital>Asmara</capital>
+  <largest_city>Asmara</largest_city>
+  <government_type>Unitary one-party presidential republic under a totalitarian dictatorship</government_type>
+  <legislature>National Assembly</legislature>
+  <sovereignty_type>Independence</sovereignty_type>
+  <sovereignty_note>from Ethiopia</sovereignty_note>
+  <area_rank>100th</area_rank>
+  <area_km2>120,000</area_km2>
+  <area_sq_mi>45406</area_sq_mi>
+  <percent_water>Negligible</percent_water>
+  <population_estimate>3.5–6.4 million Sources disagree about the current population: * The UN gives an estimate of 3,502,000 for 2024. * The Eritrea Ministry Of Information gives an estimate of 5.8 million for 2020. * The BBC gives an estimate of 6.2 million for 2023. * The US Census Bureau gives an estimate of 6.4 million for 2025. * Encyclopedia Britannica gives an estimate of 6,416,000 for 2025. All figures are mid-year.</population_estimate>
+  <population_estimate_year>2024</population_estimate_year>
+  <population_density_km2>29</population_density_km2>
+  <population_density_sq_mi>75</population_density_sq_mi>
+  <population_density_rank>193rd</population_density_rank>
+  <GDP_PPP>$6.369 billion</GDP_PPP>
+  <GDP_PPP_year>2019</GDP_PPP_year>
+  <GDP_PPP_per_capita>$1,821</GDP_PPP_per_capita>
+  <GDP_nominal>$1.982 billion</GDP_nominal>
+  <GDP_nominal_year>2019</GDP_nominal_year>
+  <GDP_nominal_per_capita>$567</GDP_nominal_per_capita>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI>0.503</HDI>
+  <HDI_rank>178th</HDI_rank>
+  <currency>Nakfa</currency>
+  <currency_code>ERN</currency_code>
+  <time_zone>EAT</time_zone>
+  <utc_offset>+03:00</utc_offset>
+  <drives_on>right</drives_on>
+  <calling_code>+291</calling_code>
+  <cctld>.er</cctld>
+  <religion>See ''Religion in Eritrea''</religion>
+  <established>
+    <event>
+      <label>Eritrean War of Independence</label>
+      <date>1 September 1961</date>
+    </event>
+    <event>
+      <label>''De facto''</label>
+      <date>24 May 1991</date>
+    </event>
+    <event>
+      <label>''De jure''</label>
+      <date>24 May 1993</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>President</title>
+      <name>Isaias Afwerki</name>
+    </leader>
+  </leaders>
+</country>

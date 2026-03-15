@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="China">
+  <conventional_long_name>People's Republic of China</conventional_long_name>
+  <common_name>China</common_name>
+  <symbol_type>Emblem</symbol_type>
+  <national_anthem>"March of the Volunteers" File:March of the Volunteers instrumental.ogg</national_anthem>
+  <capital>Beijing</capital>
+  <largest_settlement>Shanghai</largest_settlement>
+  <largest_settlement_type>city</largest_settlement_type>
+  <admin_center_type>Largest city</admin_center_type>
+  <official_languages>Standard Chinese</official_languages>
+  <languages_type>Official script</languages_type>
+  <languages_sub>yes</languages_sub>
+  <languages>Simplified Chinese (Mainland), Traditional Chinese (Hong Kong, Macau)</languages>
+  <ethnic_groups>item_style, =, white-space:nowrap, 91.11% Han Chinese, 1.39% Zhuang, 0.84% Uyghur, 0.81% Hui, 0.79% Miao, 0.74% Manchu, 0.70% Yi, 0.68% Tujia, 0.50% Tibetan, 2.44% others</ethnic_groups>
+  <ethnic_groups_year>2020</ethnic_groups_year>
+  <demonym>Chinese</demonym>
+  <government_type>Unitary communist state</government_type>
+  <legislature>National People's Congress</legislature>
+  <sovereignty_type>Formation</sovereignty_type>
+  <area_km2>9,596,961</area_km2>
+  <area_rank>3rd/4th</area_rank>
+  <area_sq_mi>3,705,407</area_sq_mi>
+  <percent_water>2.8</percent_water>
+  <population_estimate>1,404,890,000</population_estimate>
+  <population_estimate_year>2025</population_estimate_year>
+  <population_estimate_rank>2nd</population_estimate_rank>
+  <population_census_year>2020</population_census_year>
+  <population_census_rank>2nd</population_census_rank>
+  <population_density_rank>83rd</population_density_rank>
+  <GDP_PPP>$41.016 trillion</GDP_PPP>
+  <GDP_PPP_year>2025</GDP_PPP_year>
+  <GDP_PPP_rank>1st</GDP_PPP_rank>
+  <GDP_PPP_per_capita>$29,191</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>74th</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$19.399 trillion</GDP_nominal>
+  <GDP_nominal_year>2025</GDP_nominal_year>
+  <GDP_nominal_rank>2nd</GDP_nominal_rank>
+  <GDP_nominal_per_capita>$13,806</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>75th</GDP_nominal_per_capita_rank>
+  <Gini>36.0</Gini>
+  <Gini_year>2022</Gini_year>
+  <Gini_change>decrease</Gini_change>
+  <HDI>0.797</HDI>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI_rank>78th</HDI_rank>
+  <currency>Renminbi (元/¥)</currency>
+  <currency_code>CNY</currency_code>
+  <time_zone>CST</time_zone>
+  <utc_offset>+8</utc_offset>
+  <calling_code>+86 (Mainland), +852 (Hong Kong), +853 (Macau)</calling_code>
+  <cctld>.cn, .中国, .中國 (Mainland) .hk, .香港 (Hong Kong) .mo, .澳门, .澳門 (Macau)</cctld>
+  <established>
+    <event>
+      <label>First pre-imperial dynasty</label>
+      <date/>
+    </event>
+    <event>
+      <label>First imperial dynasty</label>
+      <date>221&amp;nbsp;BCE</date>
+    </event>
+    <event>
+      <label>Establishment of the Republic of China</label>
+      <date>1 January 1912</date>
+    </event>
+    <event>
+      <label>Proclamation of the People's Republic</label>
+      <date>1 October 1949</date>
+    </event>
+    <event>
+      <label>Current constitution</label>
+      <date>4 December 1982</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>CCP General Secretary and President</title>
+      <name>Xi Jinping</name>
+    </leader>
+    <leader>
+      <title>Premier</title>
+      <name>Li Qiang</name>
+    </leader>
+    <leader>
+      <title>Congress Chairman</title>
+      <name>Zhao Leji</name>
+    </leader>
+    <leader>
+      <title>CPPCC Chairman</title>
+      <name>Wang Huning</name>
+    </leader>
+    <leader>
+      <title>Vice President</title>
+      <name>Han Zheng</name>
+    </leader>
+  </leaders>
+</country>

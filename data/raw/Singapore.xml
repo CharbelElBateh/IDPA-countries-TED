@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Singapore">
+  <conventional_long_name>Republic of Singapore</conventional_long_name>
+  <common_name>Singapore</common_name>
+  <native_name>(Chinese) (pinyin)</native_name>
+  <national_motto>"Onward Singapore"</national_motto>
+  <national_anthem>"Onward Singapore"</national_anthem>
+  <capital>Singapore(city-state)</capital>
+  <largest_settlement>Tampines</largest_settlement>
+  <largest_settlement_type>planning area</largest_settlement_type>
+  <languages_type>Official languages</languages_type>
+  <languages>English, Malay, Mandarin, Tamil</languages>
+  <languages2_type>National language</languages2_type>
+  <languages2>Malay</languages2>
+  <ethnic_groups_year>2023</ethnic_groups_year>
+  <religion_year>2020</religion_year>
+  <demonym>Singaporean</demonym>
+  <government_type>Unitary parliamentary republic</government_type>
+  <legislature>Parliament</legislature>
+  <sovereignty_type>Independence</sovereignty_type>
+  <sovereignty_note>from the United Kingdom and Malaysia</sovereignty_note>
+  <area_km2>744.3</area_km2>
+  <area_rank>176th</area_rank>
+  <percent_water>1.43%</percent_water>
+  <population_estimate>6,110,200</population_estimate>
+  <population_estimate_year>2025</population_estimate_year>
+  <population_estimate_rank>111th</population_estimate_rank>
+  <population_density_km2>8,290</population_density_km2>
+  <population_density_sq_mi>auto</population_density_sq_mi>
+  <population_density_rank>3rd</population_density_rank>
+  <GDP_PPP>$952.600 billion</GDP_PPP>
+  <GDP_PPP_year>2025</GDP_PPP_year>
+  <GDP_PPP_rank>34th</GDP_PPP_rank>
+  <GDP_PPP_per_capita>$156,755</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>1st</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$564.700 billion</GDP_nominal>
+  <GDP_nominal_year>2025</GDP_nominal_year>
+  <GDP_nominal_rank>27th</GDP_nominal_rank>
+  <GDP_nominal_per_capita>$93,956</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>4th</GDP_nominal_per_capita_rank>
+  <Gini>43.3</Gini>
+  <Gini_year>2023</Gini_year>
+  <Gini_change>steady</Gini_change>
+  <HDI>0.946</HDI>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>steady</HDI_change>
+  <HDI_rank>13th</HDI_rank>
+  <currency>Singapore dollar (S$)</currency>
+  <currency_code>SGD</currency_code>
+  <time_zone>SGT</time_zone>
+  <utc_offset>+8</utc_offset>
+  <date_format>dd-mm-yyyy (AD)</date_format>
+  <calling_code>+65</calling_code>
+  <drives_on>Left</drives_on>
+  <iso3166code>SG</iso3166code>
+  <cctld>.sg</cctld>
+  <established>
+    <event>
+      <label/>
+      <date>3 June 1959</date>
+    </event>
+    <event>
+      <label/>
+      <date>16 September 1963</date>
+    </event>
+    <event>
+      <label>Proclamation of Singapore</label>
+      <date>9 August 1965</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>President</title>
+      <name>Tharman Shanmugaratnam</name>
+    </leader>
+    <leader>
+      <title>Prime Minister</title>
+      <name>Lawrence Wong</name>
+    </leader>
+  </leaders>
+</country>

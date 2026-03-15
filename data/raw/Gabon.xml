@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Gabon">
+  <conventional_long_name>Gabonese Republic</conventional_long_name>
+  <common_name>Gabon</common_name>
+  <national_motto>"Union, Work, Justice"</national_motto>
+  <national_anthem>"The Concord"</national_anthem>
+  <capital>Libreville</capital>
+  <largest_city>capital</largest_city>
+  <official_languages>French</official_languages>
+  <languages_type>Regional languages</languages_type>
+  <demonym>Gabonese, Gabonaise</demonym>
+  <ethnic_groups>Fang, Punu, Nzebi, Teke, Myene, Kota, Vili, Mbama, and 42 others</ethnic_groups>
+  <government_type>Unitary presidential republic</government_type>
+  <legislature>Parliament</legislature>
+  <upper_house>Senate</upper_house>
+  <lower_house>National Assembly</lower_house>
+  <area_km2>267,668</area_km2>
+  <area_sq_mi>103,347</area_sq_mi>
+  <area_rank>76th</area_rank>
+  <percent_water>3.76%</percent_water>
+  <population_estimate>2,397,368</population_estimate>
+  <population_estimate_year>2023</population_estimate_year>
+  <population_estimate_rank>146th</population_estimate_rank>
+  <population_density_km2>7.9</population_density_km2>
+  <population_density_sq_mi>20.6</population_density_sq_mi>
+  <population_density_rank>216th</population_density_rank>
+  <GDP_PPP>$57.054 billion</GDP_PPP>
+  <GDP_PPP_rank>130th</GDP_PPP_rank>
+  <GDP_PPP_year>2025</GDP_PPP_year>
+  <GDP_PPP_per_capita>$24,739</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>79th</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$21.455 billion</GDP_nominal>
+  <GDP_nominal_rank>131st</GDP_nominal_rank>
+  <GDP_nominal_year>2025</GDP_nominal_year>
+  <GDP_nominal_per_capita>$9,303</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>90th</GDP_nominal_per_capita_rank>
+  <sovereignty_type>Independence from</sovereignty_type>
+  <sovereignty_note>France</sovereignty_note>
+  <Gini_year>2017</Gini_year>
+  <Gini>38</Gini>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI>0.733</HDI>
+  <HDI_rank>108th</HDI_rank>
+  <currency>Central African CFA franc</currency>
+  <currency_code>XAF</currency_code>
+  <time_zone>WAT</time_zone>
+  <utc_offset>+1</utc_offset>
+  <calling_code>+241</calling_code>
+  <cctld>.ga</cctld>
+  <religion_year>2021</religion_year>
+  <established>
+    <event>
+      <label>Administrated under the French Congo</label>
+      <date>1882-1910</date>
+    </event>
+    <event>
+      <label>Re-established as French Gabon under the administration of French Equatorial Africa</label>
+      <date>1910-1958</date>
+    </event>
+    <event>
+      <label>Republic established</label>
+      <date>28 November 1958</date>
+    </event>
+    <event>
+      <label>Granted</label>
+      <date>17 August 1960</date>
+    </event>
+    <event>
+      <label>1964 coup d'état</label>
+      <date>17–19 February 1964</date>
+    </event>
+    <event>
+      <label>2023 coup d'état</label>
+      <date>30 August 2023</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>President</title>
+      <name>Brice Oligui Nguema</name>
+    </leader>
+    <leader>
+      <title>Vice President</title>
+      <name>Séraphin Moundounga</name>
+    </leader>
+    <leader>
+      <title>Vice President of the Government</title>
+      <name>Hermann Immongault</name>
+    </leader>
+  </leaders>
+</country>

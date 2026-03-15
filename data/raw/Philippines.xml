@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Philippines">
+  <conventional_long_name>Republic of the Philippines</conventional_long_name>
+  <common_name>the Philippines</common_name>
+  <flag_size>130</flag_size>
+  <flag_type>Flag</flag_type>
+  <symbol_type>Coat of arms</symbol_type>
+  <national_motto>"For God, People, Nature, and Country"</national_motto>
+  <national_anthem>" ""Chosen Land"</national_anthem>
+  <other_symbol_type>Great Seal:</other_symbol_type>
+  <other_symbol>95px</other_symbol>
+  <capital>Manila (''de jure'')Metro Manila (''de facto'') Many national government institutions are located on various parts of Metro Manila, aside from Malacañang Palace and other institutions/agencies that are located within the Manila capital city.</capital>
+  <largest_city>Quezon City</largest_city>
+  <official_languages>Filipino, English</official_languages>
+  <recognized_national_languages>Filipino</recognized_national_languages>
+  <recognized_regional_languages>19 languages</recognized_regional_languages>
+  <languages_type>National sign language</languages_type>
+  <languages>Filipino Sign Language</languages>
+  <languages_sub>yes</languages_sub>
+  <languages2_type>Other recognized languages</languages2_type>
+  <languages2>Spanish and Arabic</languages2>
+  <languages2_sub>yes</languages2_sub>
+  <ethnic_groups_year>2020</ethnic_groups_year>
+  <demonym>Filipino (''neutral''), Filipina (''feminine''), Pinoy (''colloquial neutral''), Pinay (''colloquial feminine''), Philippine (''adjective for certain common nouns'')</demonym>
+  <government_type>Unitary presidential republic</government_type>
+  <legislature>Congress</legislature>
+  <upper_house>Senate</upper_house>
+  <lower_house>House of Representatives</lower_house>
+  <sovereignty_type>Independence</sovereignty_type>
+  <sovereignty_note>from Spain and the United States</sovereignty_note>
+  <area_km2>300000</area_km2>
+  <area_rank>72nd</area_rank>
+  <percent_water>0.61 (inland waters)</percent_water>
+  <population_census_year>2024</population_census_year>
+  <population_census>112,729,484</population_census>
+  <population_density_km2>363.45</population_density_km2>
+  <population_density_rank>34th</population_density_rank>
+  <GDP_PPP>$1.488 trillion</GDP_PPP>
+  <GDP_PPP_year>2025</GDP_PPP_year>
+  <GDP_PPP_rank>30th</GDP_PPP_rank>
+  <GDP_PPP_per_capita>$12,930</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>114th</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$497.05 billion</GDP_nominal>
+  <GDP_nominal_year>2025</GDP_nominal_year>
+  <GDP_nominal_rank>32nd</GDP_nominal_rank>
+  <GDP_nominal_per_capita>$4,350</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>125th</GDP_nominal_per_capita_rank>
+  <Gini>39.3</Gini>
+  <Gini_year>2023</Gini_year>
+  <Gini_change>decrease</Gini_change>
+  <HDI>0.720</HDI>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI_rank>117th</HDI_rank>
+  <currency>Philippine peso (₱)</currency>
+  <currency_code>PHP</currency_code>
+  <time_zone>PhST</time_zone>
+  <utc_offset>+8</utc_offset>
+  <drives_on>Right</drives_on>
+  <calling_code>+63</calling_code>
+  <cctld>.ph</cctld>
+  <religion_year>2020</religion_year>
+  <established>
+    <event>
+      <label>Declaration</label>
+      <date>June 12, 1898</date>
+    </event>
+    <event>
+      <label>Cession</label>
+      <date>April 11, 1899</date>
+    </event>
+    <event>
+      <label>Self-government</label>
+      <date>November 15, 1935</date>
+    </event>
+    <event>
+      <label>Recognized</label>
+      <date>July 4, 1946</date>
+    </event>
+    <event>
+      <label>Constitution</label>
+      <date>February 2, 1987</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>President</title>
+      <name>Bongbong Marcos</name>
+    </leader>
+    <leader>
+      <title>Vice President</title>
+      <name>Sara Duterte</name>
+    </leader>
+    <leader>
+      <title>Senate President</title>
+      <name>Tito Sotto</name>
+    </leader>
+    <leader>
+      <title>House Speaker</title>
+      <name>Bojie Dy</name>
+    </leader>
+    <leader>
+      <title>Chief Justice</title>
+      <name>Alexander Gesmundo</name>
+    </leader>
+  </leaders>
+</country>

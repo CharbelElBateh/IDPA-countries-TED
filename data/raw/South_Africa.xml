@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="South Africa">
+  <conventional_long_name>Republic of South Africa</conventional_long_name>
+  <common_name>South Africa</common_name>
+  <symbol_type>Coat of arms</symbol_type>
+  <national_motto>" "&amp;nbsp;(ǀXam)"Unity in diversity"</national_motto>
+  <national_anthem>"National Anthem of South Africa" File:South Africa National Anthem.ogg</national_anthem>
+  <capital>Pretoria (executive), Pretoria serves as the executive capital of South Africa, hosting the Union Buildings and the offices of the President and Cabinet., Cape Town (legislative), Cape Town is the legislative capital, home to the Parliament of South Africa, including the National Assembly and the National Council of Provinces., Bloemfontein (judicial), Bloemfontein serves as the judicial capital, hosting the Supreme Court of Appeal, the highest court for non-constitutional matters in South Africa.</capital>
+  <population_density_km2>50.8</population_density_km2>
+  <population_density_rank>169th</population_density_rank>
+  <population_estimate>63,015,904</population_estimate>
+  <population_census>62,027,503</population_census>
+  <population_estimate_year>2024</population_estimate_year>
+  <population_estimate_rank>23rd</population_estimate_rank>
+  <population_census_year>2022</population_census_year>
+  <population_census_rank>23rd</population_census_rank>
+  <official_languages>'''12 languages''' Afrikaans, English, Ndebele, Sepedi, Sesotho, Setswana, South African Sign Language, Swazi, Tshivenda, Xhosa, Xitsonga, Zulu</official_languages>
+  <ethnic_groups_year>2022</ethnic_groups_year>
+  <ethnic_groups>nowrap, 81.4% Black, 8.2% Coloured, 7.3% White, 2.7% Indian or Asian, 0.4% other</ethnic_groups>
+  <religion_year>2022</religion_year>
+  <demonym>South African</demonym>
+  <government_type>Unitary parliamentary republic with an executive presidency</government_type>
+  <legislature>Parliament</legislature>
+  <upper_house>National Council of Provinces</upper_house>
+  <lower_house>National Assembly</lower_house>
+  <sovereignty_type>Independence</sovereignty_type>
+  <area_km2>1,221,037</area_km2>
+  <area_rank>24th</area_rank>
+  <area_sq_mi>471,443</area_sq_mi>
+  <percent_water>0.380</percent_water>
+  <GDP_PPP>$1.060 trillion</GDP_PPP>
+  <GDP_PPP_year>2026</GDP_PPP_year>
+  <GDP_PPP_rank>33rd</GDP_PPP_rank>
+  <GDP_PPP_per_capita>$16,280</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>107th</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$443.64 billion</GDP_nominal>
+  <GDP_nominal_year>2026</GDP_nominal_year>
+  <GDP_nominal_rank>38th</GDP_nominal_rank>
+  <GDP_nominal_per_capita>$6,830</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>107th</GDP_nominal_per_capita_rank>
+  <Gini>63.0</Gini>
+  <Gini_year>2023</Gini_year>
+  <Gini_change>decrease</Gini_change>
+  <HDI>0.741</HDI>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI_rank>106th</HDI_rank>
+  <currency>South African rand</currency>
+  <currency_code>ZAR</currency_code>
+  <time_zone>SAST</time_zone>
+  <utc_offset>+2</utc_offset>
+  <date_format>Short formats: * yyyy/mm/dd * yyyy-mm-dd</date_format>
+  <drives_on>left</drives_on>
+  <calling_code>+27</calling_code>
+  <iso3166code>ZA</iso3166code>
+  <cctld>.za</cctld>
+  <established>
+    <event>
+      <label>Union</label>
+      <date>31 May 1910</date>
+    </event>
+    <event>
+      <label>Statute of Westminster</label>
+      <date>11 December 1931</date>
+    </event>
+    <event>
+      <label>Republic</label>
+      <date>31 May 1961</date>
+    </event>
+    <event>
+      <label>Current constitution</label>
+      <date>4 February 1997</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>President</title>
+      <name>Cyril Ramaphosa</name>
+    </leader>
+    <leader>
+      <title>Deputy President</title>
+      <name>Paul Mashatile</name>
+    </leader>
+    <leader>
+      <title>Speaker of the National Assembly</title>
+      <name>Thoko Didiza</name>
+    </leader>
+    <leader>
+      <title>Chairperson of the National Council of Provinces</title>
+      <name>Refilwe Mtsweni-Tsipane</name>
+    </leader>
+    <leader>
+      <title>Chief Justice</title>
+      <name>Mandisa Maya</name>
+    </leader>
+  </leaders>
+</country>

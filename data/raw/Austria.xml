@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Austria">
+  <conventional_long_name>Republic of Austria</conventional_long_name>
+  <common_name>Austria</common_name>
+  <national_anthem>" "''National Anthem of the Republic of Austria'' File:Land der Berge Land am Strome instrumental.ogg</national_anthem>
+  <capital>Vienna</capital>
+  <largest_city>capital</largest_city>
+  <languages_type>Official national language</languages_type>
+  <languages>German , a dictionary published by the Ministry of Education, Science and Research in 1951.</languages>
+  <languages2>Hungarian, Slovene, Burgenland Croatian</languages2>
+  <languages2_type>Official regional languages</languages2_type>
+  <ethnic_groups>72.2% Austrian Germans, 27.8% other</ethnic_groups>
+  <ethnic_groups_year>2024</ethnic_groups_year>
+  <religion_year>2021</religion_year>
+  <demonym>Austrian</demonym>
+  <government_type>Federal semi-presidential republic however, in practice, it behaves more like a parliamentary republic by constitutional convention.</government_type>
+  <legislature>Parliament</legislature>
+  <upper_house>Federal Council</upper_house>
+  <lower_house>National Council</lower_house>
+  <sovereignty_type>Formation</sovereignty_type>
+  <area_km2>83879</area_km2>
+  <area_rank>113th</area_rank>
+  <percent_water>0.84 (2015)</percent_water>
+  <population_estimate>9,110,079</population_estimate>
+  <population_estimate_year>2024</population_estimate_year>
+  <population_estimate_rank>99th</population_estimate_rank>
+  <population_density_km2>107.6</population_density_km2>
+  <population_density_sq_mi>278.7</population_density_sq_mi>
+  <population_density_rank>106th</population_density_rank>
+  <GDP_PPP>$682.86 billion</GDP_PPP>
+  <GDP_PPP_year>2025</GDP_PPP_year>
+  <GDP_PPP_rank>46th</GDP_PPP_rank>
+  <GDP_PPP_per_capita>$74,370</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>18th</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$534.30 billion</GDP_nominal>
+  <GDP_nominal_year>2025</GDP_nominal_year>
+  <GDP_nominal_rank>30th</GDP_nominal_rank>
+  <GDP_nominal_per_capita>$58,190</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>13th</GDP_nominal_per_capita_rank>
+  <Gini>28.1</Gini>
+  <Gini_year>2023</Gini_year>
+  <Gini_change>increase</Gini_change>
+  <HDI>0.930</HDI>
+  <HDI_rank>22nd</HDI_rank>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <currency>Euro (€)</currency>
+  <currency_code>EUR</currency_code>
+  <time_zone>CET</time_zone>
+  <utc_offset>+1</utc_offset>
+  <utc_offset_DST>+2</utc_offset_DST>
+  <time_zone_DST>CEST</time_zone_DST>
+  <calling_code>+43</calling_code>
+  <cctld>.at</cctld>
+  <established>
+    <event>
+      <label>Margraviate(oldest naming)</label>
+      <date>1 November 996</date>
+    </event>
+    <event>
+      <label>Duchy</label>
+      <date>17 September 1156</date>
+    </event>
+    <event>
+      <label>Archduchy</label>
+      <date>6 January 1453</date>
+    </event>
+    <event>
+      <label>Imperial circle</label>
+      <date>1512</date>
+    </event>
+    <event>
+      <label>Empire</label>
+      <date>11 August 1804</date>
+    </event>
+    <event>
+      <label>Austria-Hungary</label>
+      <date>30 March 1867</date>
+    </event>
+    <event>
+      <label>First Republic</label>
+      <date>10 September 1919</date>
+    </event>
+    <event>
+      <label>Federal State</label>
+      <date>1 May 1934</date>
+    </event>
+    <event>
+      <label>Anschluss</label>
+      <date>13 March 1938</date>
+    </event>
+    <event>
+      <label>Second Republic</label>
+      <date>27 April 1945</date>
+    </event>
+    <event>
+      <label>State Treaty</label>
+      <date>27 July 1955</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>President</title>
+      <name>Alexander Van der Bellen</name>
+    </leader>
+    <leader>
+      <title>Chancellor</title>
+      <name>Christian Stocker</name>
+    </leader>
+  </leaders>
+</country>

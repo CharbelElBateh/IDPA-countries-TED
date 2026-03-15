@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Angola">
+  <conventional_long_name>Republic of Angola</conventional_long_name>
+  <common_name>Angola</common_name>
+  <symbol_type>Emblem</symbol_type>
+  <national_anthem>( )File:Angolan-National-Anthem-_US-Navy-Band.ogg</national_anthem>
+  <map_caption>Major cities of Angola</map_caption>
+  <capital>Luanda</capital>
+  <religion>79.1% Christianity, 44.2% Catholic, 34.9% Protestant, 11.5% no religion, 9.4% other * 11.5% no religion * 9.4% other</religion>
+  <religion_year>2024</religion_year>
+  <largest_city>capital</largest_city>
+  <official_languages>Portuguese</official_languages>
+  <languages2_type>National languages</languages2_type>
+  <languages2>Chokwe, Kimbundu, Kikongo, Oshiwambo, Luchazi, Umbundu</languages2>
+  <ethnic_groups>37% Ovimbundu, 25% Ambundu, 13% Bakongo, 21% other African, 2% Mestiço (mixed European and African), 2% Asian, 1% European</ethnic_groups>
+  <ethnic_groups_year>2021</ethnic_groups_year>
+  <demonym>Angolan</demonym>
+  <government_type>Unitary presidential republic</government_type>
+  <legislature>National Assembly</legislature>
+  <sovereignty_type>Independence</sovereignty_type>
+  <sovereignty_note>from Portugal</sovereignty_note>
+  <area_km2>1246700</area_km2>
+  <area_rank>22nd</area_rank>
+  <area_sq_mi>481354</area_sq_mi>
+  <percent_water>negligible</percent_water>
+  <population_census>36,604,681</population_census>
+  <population_census_year>2024</population_census_year>
+  <population_census_rank>41st</population_census_rank>
+  <population_density_km2>29.4</population_density_km2>
+  <population_density_sq_mi>76</population_density_sq_mi>
+  <population_density_rank>189th</population_density_rank>
+  <GDP_PPP>$402.160 billion</GDP_PPP>
+  <GDP_PPP_year>2025</GDP_PPP_year>
+  <GDP_PPP_rank>58th</GDP_PPP_rank>
+  <GDP_PPP_per_capita>$10,230</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>125th</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$113.34 billion</GDP_nominal>
+  <GDP_nominal_year>2025</GDP_nominal_year>
+  <GDP_nominal_rank>68th</GDP_nominal_rank>
+  <GDP_nominal_per_capita>$2,880</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>137th</GDP_nominal_per_capita_rank>
+  <Gini>51.3</Gini>
+  <Gini_year>2018</Gini_year>
+  <HDI>0.616</HDI>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI_rank>148th</HDI_rank>
+  <currency>Angolan kwanza</currency>
+  <currency_code>AOA</currency_code>
+  <time_zone>WAT</time_zone>
+  <utc_offset>+1</utc_offset>
+  <drives_on>Right</drives_on>
+  <calling_code>+244</calling_code>
+  <cctld>.ao</cctld>
+  <established>
+    <event>
+      <label>Granted</label>
+      <date>11 November 1975</date>
+    </event>
+    <event>
+      <label>United Nations full membership</label>
+      <date>22 November 1976</date>
+    </event>
+    <event>
+      <label>Current constitution</label>
+      <date>21 January 2010</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>President</title>
+      <name>João Lourenço</name>
+    </leader>
+    <leader>
+      <title>Vice President</title>
+      <name>Esperança da Costa</name>
+    </leader>
+    <leader>
+      <title>President of the National Assembly</title>
+      <name>Adão Correia de Almeida</name>
+    </leader>
+    <leader>
+      <title>Chief Justice</title>
+      <name>Ademilson Loboto</name>
+    </leader>
+  </leaders>
+</country>

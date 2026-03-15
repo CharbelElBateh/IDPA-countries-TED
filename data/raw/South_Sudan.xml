@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="South Sudan">
+  <conventional_long_name>Republic of South Sudan</conventional_long_name>
+  <common_name>South Sudan</common_name>
+  <symbol_type>Coat of arms</symbol_type>
+  <motto>"Justice, Liberty, Prosperity"</motto>
+  <national_anthem>"South Sudan, Oyee!"File:South_Sudan_Oyee!_(instrumental).ogg</national_anthem>
+  <capital>Juba</capital>
+  <largest_city>capital</largest_city>
+  <official_languages>English</official_languages>
+  <national_languages>Dinka, Nuer, Bari, Murle, Luo (Anyuak, Acholi, Shilluk, Pari, Jur-Luo, others), Ma'di, Otuho, Zande and around 60 other languages</national_languages>
+  <languages_type>Spoken languages</languages_type>
+  <languages>Dinka, Bari, Juba Arabic, United Nations Children's Fund (UNICEF): [https://www.unicef.org/esaro/UNICEF(2016)LanguageandLearning-SouthSudan-CaseStudy.pdf ''The impact of language policy and practice on children's learning: Evidence from Eastern and Southern Africa 2016''] (PDF; 672&amp;nbsp;kB), Pages&amp;nbsp;1–3, Retrieved 9 September 2018, Manfredi Stefano; Tosco Mauro (2016), [https://halshs.archives-ouvertes.fr/halshs-01357537/document ''A new state, an old language policy, and a pidgin-creolo: Juba Arabic in South Sudan, Forthcoming: Sociolinguistic Studies 2016''] (PDF; 1141&amp;nbsp;kB), Pages&amp;nbsp;1–18, Retrieved 9 September 2018, Manfredi Stefano; Tosco Mauro (2013), [https://hal.archives-ouvertes.fr/hal-01102624/document ''Language uses vs. language policy: South Sudan and Juba Arabic in the post-independence era''] (PDF; 301&amp;nbsp;kB), Pages&amp;nbsp;798–802, III Congresso Coordinamento Universitario per la Cooperazione allo Sviluppo, Sep 2013, Turin, Italy. JUNCO, Journal of Universities and International Development Cooperation, 2014, Imagining Cultures of Cooperation – Proceedings of the III CUCS Congress, Turin 19–21 September 2013, Retrieved 9 September 2018, Nuer, Zande, Jur (Luo), Murle, Shilluk, various others</languages>
+  <demonym>South Sudanese</demonym>
+  <government_type>Federal presidential republic</government_type>
+  <legislature>Transitional National Legislature</legislature>
+  <sovereignty_type>Independence</sovereignty_type>
+  <sovereignty_note>from Sudan</sovereignty_note>
+  <area_km2>644329</area_km2>
+  <area_rank>41st</area_rank>
+  <area_sq_mi>248777</area_sq_mi>
+  <population_estimate>12,703,714</population_estimate>
+  <population_estimate_year>2024</population_estimate_year>
+  <population_estimate_rank>80th</population_estimate_rank>
+  <population_density_km2>19</population_density_km2>
+  <population_density_sq_mi>34.52</population_density_sq_mi>
+  <population_density_rank>211th</population_density_rank>
+  <GDP_PPP>$15.160 billion</GDP_PPP>
+  <GDP_PPP_rank>157th</GDP_PPP_rank>
+  <GDP_PPP_year>2025</GDP_PPP_year>
+  <GDP_PPP_per_capita>$953</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>191st</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$4.980 billion</GDP_nominal>
+  <GDP_nominal_rank>164th</GDP_nominal_rank>
+  <GDP_nominal_year>2025</GDP_nominal_year>
+  <GDP_nominal_per_capita>$313</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>194th</GDP_nominal_per_capita_rank>
+  <Gini>44.1</Gini>
+  <Gini_year>2016</Gini_year>
+  <Gini_change>decrease</Gini_change>
+  <HDI>0.388</HDI>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI_rank>193rd</HDI_rank>
+  <currency>South Sudanese pound</currency>
+  <currency_code>SSP</currency_code>
+  <time_zone>CAT</time_zone>
+  <utc_offset>+2</utc_offset>
+  <drives_on>right</drives_on>
+  <calling_code>+211</calling_code>
+  <iso3166code>SS</iso3166code>
+  <cctld>.ss</cctld>
+  <religion_year>2020</religion_year>
+  <established>
+    <event>
+      <label>1st autonomous region</label>
+      <date>28 February 1972</date>
+    </event>
+    <event>
+      <label>2nd autonomous region</label>
+      <date>9 July 2005</date>
+    </event>
+    <event>
+      <label>Declared and recognised</label>
+      <date>9 July 2011</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>President</title>
+      <name>Salva Kiir Mayardit</name>
+    </leader>
+    <leader>
+      <title>First Vice-President</title>
+      <name>Riek Machar</name>
+    </leader>
+  </leaders>
+</country>

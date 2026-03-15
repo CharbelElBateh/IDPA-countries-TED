@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="United States">
+  <conventional_long_name>United States of America</conventional_long_name>
+  <common_name>United States</common_name>
+  <flag_type_article>Flag of the United States</flag_type_article>
+  <symbol_type_article>Great Seal of the United States#Obverse</symbol_type_article>
+  <national_motto>"In God We Trust" "Out of many, one" "Providence favors our undertakings" "New order of the ages"</national_motto>
+  <national_anthem>"The Star-Spangled Banner" File:Star Spangled Banner instrumental.ogg</national_anthem>
+  <capital>Washington, D.C.</capital>
+  <largest_city>New York City</largest_city>
+  <official_languages>English States and territories variously recognize English only, English plus one or more local languages, or no language at all. See § Language.</official_languages>
+  <ethnic_groups>'''By race:''', 61.6% White, 12.4% Black, 6% Asian, 1.1% Native American, 0.2% Pacific Islander, 10.2% two or more races, 8.4% other ------ '''By origin:''', 81.3% non-Hispanic or Latino, 18.7% Hispanic or Latino</ethnic_groups>
+  <ethnic_groups_year>2020</ethnic_groups_year>
+  <demonym>American</demonym>
+  <government_type>Federal presidential republic</government_type>
+  <legislature>Congress</legislature>
+  <upper_house>Senate</upper_house>
+  <lower_house>House of Representatives</lower_house>
+  <sovereignty_type>Independence</sovereignty_type>
+  <sovereignty_note>from Great Britain</sovereignty_note>
+  <area_rank>3rd</area_rank>
+  <area_sq_mi>3,796,742</area_sq_mi>
+  <percent_water>7.0 (2010)</percent_water>
+  <population_census>331,449,281</population_census>
+  <population_census_year>2020</population_census_year>
+  <population_estimate>341,784,857</population_estimate>
+  <population_estimate_year>2025</population_estimate_year>
+  <population_census_rank>3rd</population_census_rank>
+  <population_density_sq_mi>96.8</population_density_sq_mi>
+  <population_density_rank>180th</population_density_rank>
+  <GDP_PPP>$30.616&amp;nbsp;trillion</GDP_PPP>
+  <GDP_PPP_year>2025</GDP_PPP_year>
+  <GDP_PPP_rank>2nd</GDP_PPP_rank>
+  <GDP_PPP_per_capita>$89,599</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>10th</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$30.616&amp;nbsp;trillion</GDP_nominal>
+  <GDP_nominal_year>2025</GDP_nominal_year>
+  <GDP_nominal_rank>1st</GDP_nominal_rank>
+  <GDP_nominal_per_capita>$89,599</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>8th</GDP_nominal_per_capita_rank>
+  <Gini>41.8</Gini>
+  <Gini_year>2024</Gini_year>
+  <Gini_change>increase</Gini_change>
+  <HDI>0.938</HDI>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI_rank>17th</HDI_rank>
+  <currency>U.S. dollar ($)</currency>
+  <currency_code>USD</currency_code>
+  <utc_offset>−4 to −12, +10, +11</utc_offset>
+  <utc_offset_DST>−4 to −10</utc_offset_DST>
+  <date_format>/ /</date_format>
+  <drives_on>Right</drives_on>
+  <calling_code>+1</calling_code>
+  <iso3166code>US</iso3166code>
+  <cctld>.com, .us</cctld>
+  <religion_year>2025</religion_year>
+  <established>
+    <event>
+      <label>Declaration</label>
+      <date/>
+    </event>
+    <event>
+      <label>Confederation</label>
+      <date/>
+    </event>
+    <event>
+      <label>Recognition</label>
+      <date/>
+    </event>
+    <event>
+      <label>Constitution</label>
+      <date/>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>President</title>
+      <name>Donald Trump</name>
+    </leader>
+    <leader>
+      <title>Vice President</title>
+      <name>JD Vance</name>
+    </leader>
+    <leader>
+      <title>House Speaker</title>
+      <name>Mike Johnson</name>
+    </leader>
+    <leader>
+      <title>Chief Justice</title>
+      <name>John Roberts</name>
+    </leader>
+  </leaders>
+</country>

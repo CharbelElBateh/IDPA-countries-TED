@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Slovakia">
+  <conventional_long_name>Slovak Republic</conventional_long_name>
+  <common_name>Slovakia</common_name>
+  <other_symbol>85px|</other_symbol>
+  <other_symbol_type>National seal</other_symbol_type>
+  <national_anthem>( ) Nad Tatrou sa blýska</national_anthem>
+  <languages_type>Official language</languages_type>
+  <languages>Slovak</languages>
+  <languages2_type>Regional and minority languages</languages2_type>
+  <languages2>Bulgarian, Czech, Croatian, Hungarian, German, Polish, Romani, Russian, Ruthenian, Serbian, Ukrainian</languages2>
+  <demonym>Slovak</demonym>
+  <ethnic_groups>88.6% Slovaks, 8.2% Hungarians, 1.3% Romani, 1.9% others</ethnic_groups>
+  <ethnic_groups_year>2021</ethnic_groups_year>
+  <capital>Bratislava</capital>
+  <largest_city>capital</largest_city>
+  <government_type>Unitary parliamentary republic</government_type>
+  <legislature>National Council</legislature>
+  <area_rank>127th</area_rank>
+  <area_km2>49,035</area_km2>
+  <area_sq_mi>18,932</area_sq_mi>
+  <percent_water>0.72 (2015)</percent_water>
+  <population_estimate>5,413,813</population_estimate>
+  <population_estimate_rank>120th</population_estimate_rank>
+  <population_estimate_year>30 June 2025</population_estimate_year>
+  <population_census>5,449,270</population_census>
+  <population_census_year>2021</population_census_year>
+  <population_density_km2>110</population_density_km2>
+  <population_density_sq_mi>280</population_density_sq_mi>
+  <population_density_rank>103rd</population_density_rank>
+  <GDP_PPP>$256.710 billion</GDP_PPP>
+  <GDP_PPP_year>2025</GDP_PPP_year>
+  <GDP_PPP_rank>70th</GDP_PPP_rank>
+  <GDP_PPP_per_capita>$47,440</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>46th</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$152.480 billion</GDP_nominal>
+  <GDP_nominal_year>2025</GDP_nominal_year>
+  <GDP_nominal_rank>61st</GDP_nominal_rank>
+  <GDP_nominal_per_capita>$28,180</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>44th</GDP_nominal_per_capita_rank>
+  <sovereignty_type>Establishment history</sovereignty_type>
+  <Gini_year>2022</Gini_year>
+  <Gini_change>decrease</Gini_change>
+  <Gini>21.2</Gini>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI>0.880</HDI>
+  <HDI_rank>44th</HDI_rank>
+  <currency>Euro (€)</currency>
+  <currency_code>EUR</currency_code>
+  <time_zone>CET</time_zone>
+  <utc_offset>+1</utc_offset>
+  <time_zone_DST>CEST</time_zone_DST>
+  <utc_offset_DST>+2</utc_offset_DST>
+  <date_format>d. m. yyyy</date_format>
+  <drives_on>right</drives_on>
+  <patron_saint>Saints Cyril and MethodiusOur Lady of Sorrows</patron_saint>
+  <calling_code>+421</calling_code>
+  <cctld>.sk and .eu</cctld>
+  <religion_year>2021</religion_year>
+  <official_website>[https://beta.slovensko.sk/ slovensko.sk]</official_website>
+  <established>
+    <event>
+      <label>Independence from Austria-Hungary(First Czechoslovak Republic)</label>
+      <date>28 October 1918</date>
+    </event>
+    <event>
+      <label>Treaty of Trianon</label>
+      <date>4 June 1920</date>
+    </event>
+    <event>
+      <label>Second Czechoslovak Republic</label>
+      <date>30 September 1938</date>
+    </event>
+    <event>
+      <label>First Slovak Republic</label>
+      <date>14 March 1939</date>
+    </event>
+    <event>
+      <label>Third Czechoslovak Republic</label>
+      <date>24 October 1945</date>
+    </event>
+    <event>
+      <label>Fourth Czechoslovak Republic</label>
+      <date>25 February 1948</date>
+    </event>
+    <event>
+      <label>Czechoslovak Socialist Republic</label>
+      <date>11 July 1960</date>
+    </event>
+    <event>
+      <label>Slovak Socialist Republic (within Czechoslovak Socialist Republic, change of unitary Czechoslovak state into a federation)</label>
+      <date>1 January 1969</date>
+    </event>
+    <event>
+      <label>Slovak Republic (change of name within established Czech and Slovak Federative Republic)</label>
+      <date>1 March 1990</date>
+    </event>
+    <event>
+      <label>Dissolution ofCzechoslovakia</label>
+      <date>1 January 1993</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>President</title>
+      <name>Peter Pellegrini</name>
+    </leader>
+    <leader>
+      <title>Prime Minister</title>
+      <name>Robert Fico</name>
+    </leader>
+    <leader>
+      <title>Speaker of the National Council</title>
+      <name>Richard Raši</name>
+    </leader>
+  </leaders>
+</country>

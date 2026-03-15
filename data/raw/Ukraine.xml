@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Ukraine">
+  <conventional_long_name>Ukraine</conventional_long_name>
+  <common_name>Ukraine</common_name>
+  <national_anthem>"State Anthem of Ukraine"</national_anthem>
+  <capital>Kyiv</capital>
+  <largest_city>capital</largest_city>
+  <languages_type>Official language, Nobold, and national language</languages_type>
+  <languages>Ukrainian</languages>
+  <ethnic_groups>78% Ukrainians, 17% Russians, 4.9% other</ethnic_groups>
+  <ethnic_groups_year>2001</ethnic_groups_year>
+  <demonym>Ukrainian</demonym>
+  <government_type>Unitary semi-presidential republic</government_type>
+  <legislature>Verkhovna Rada</legislature>
+  <sovereignty_type>Formation</sovereignty_type>
+  <area_km2>603,628</area_km2>
+  <area_rank>45th</area_rank>
+  <area_sq_mi>or 233,013/ 223,013</area_sq_mi>
+  <percent_water>3.8</percent_water>
+  <population_estimate>32,862,000</population_estimate>
+  <population_estimate_year>April 2025</population_estimate_year>
+  <population_estimate_rank>46th</population_estimate_rank>
+  <population_density_km2>54.4</population_density_km2>
+  <population_density_sq_mi>191</population_density_sq_mi>
+  <population_density_rank>156th</population_density_rank>
+  <GDP_PPP>$690.059 billion</GDP_PPP>
+  <GDP_PPP_year>2025</GDP_PPP_year>
+  <GDP_PPP_rank>45th</GDP_PPP_rank>
+  <GDP_PPP_per_capita>$20,999</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>89th</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$205.742 billion</GDP_nominal>
+  <GDP_nominal_year>2025</GDP_nominal_year>
+  <GDP_nominal_rank>58th</GDP_nominal_rank>
+  <GDP_nominal_per_capita>$6,261</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>112th</GDP_nominal_per_capita_rank>
+  <Gini>25.6</Gini>
+  <Gini_year>2020</Gini_year>
+  <Gini_change>decrease</Gini_change>
+  <HDI>0.779</HDI>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>decrease</HDI_change>
+  <HDI_rank>87th</HDI_rank>
+  <currency>Ukrainian hryvnia (₴)</currency>
+  <currency_code>UAH</currency_code>
+  <time_zone>EET</time_zone>
+  <utc_offset>+2</utc_offset>
+  <utc_offset_DST>+3</utc_offset_DST>
+  <time_zone_DST>EEST</time_zone_DST>
+  <date_format>dd.mm.yyyy</date_format>
+  <drives_on>right</drives_on>
+  <calling_code>+380</calling_code>
+  <cctld>.ua, .укр</cctld>
+  <religion_year>2018</religion_year>
+  <established>
+    <event>
+      <label>Kievan Rus'</label>
+      <date>882</date>
+    </event>
+    <event>
+      <label>Galicia–Volhynia</label>
+      <date>1199</date>
+    </event>
+    <event>
+      <label>Zaporozhian Sich</label>
+      <date>1552</date>
+    </event>
+    <event>
+      <label>Cossack Hetmanate</label>
+      <date>18 August 1649</date>
+    </event>
+    <event>
+      <label>People's republic</label>
+      <date/>
+    </event>
+    <event>
+      <label>Second Hetmanate</label>
+      <date/>
+    </event>
+    <event>
+      <label>People's republic</label>
+      <date/>
+    </event>
+    <event>
+      <label>Soviet republic</label>
+      <date/>
+    </event>
+    <event>
+      <label/>
+      <date>24 October 1945</date>
+    </event>
+    <event>
+      <label/>
+      <date>24 August 1991</date>
+    </event>
+    <event>
+      <label>Current constitution</label>
+      <date>28 June 1996</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>President</title>
+      <name/>
+    </leader>
+    <leader>
+      <title>Prime Minister</title>
+      <name>Yulia Svyrydenko</name>
+    </leader>
+  </leaders>
+</country>

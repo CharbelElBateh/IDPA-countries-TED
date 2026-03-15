@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Botswana">
+  <conventional_long_name>Republic of Botswana</conventional_long_name>
+  <common_name>Botswana</common_name>
+  <national_motto>"Rain"</national_motto>
+  <national_anthem>" ""This Land of Ours"</national_anthem>
+  <capital>Gaborone</capital>
+  <largest_city>capital</largest_city>
+  <official_languages>English</official_languages>
+  <languages_type>National language</languages_type>
+  <languages>Tswana</languages>
+  <ethnic_groups>79% Tswana, 11% Kalanga, 3% San, 7% others, Including Kgalagadi, White and Indian.</ethnic_groups>
+  <ethnic_groups_year>2024</ethnic_groups_year>
+  <religion_year>2021</religion_year>
+  <demonym>Batswana (plural), Motswana (singular)</demonym>
+  <government_type>Unitary parliamentary republic with an executive presidency</government_type>
+  <legislature>Parliament(National Assembly)</legislature>
+  <sovereignty_type>Independence</sovereignty_type>
+  <sovereignty_note>from the United Kingdom</sovereignty_note>
+  <area_km2>581,730</area_km2>
+  <area_rank>47th</area_rank>
+  <area_sq_mi>224,610</area_sq_mi>
+  <percent_water>2.7</percent_water>
+  <population_census>2,359,609</population_census>
+  <population_census_rank>143rd</population_census_rank>
+  <population_census_year>2022</population_census_year>
+  <population_density_km2>4.1</population_density_km2>
+  <population_density_sq_mi>10.58</population_density_sq_mi>
+  <population_density_rank>231st</population_density_rank>
+  <GDP_PPP>$54.820 billion</GDP_PPP>
+  <GDP_PPP_year>2026</GDP_PPP_year>
+  <GDP_PPP_rank>124th</GDP_PPP_rank>
+  <GDP_PPP_per_capita>$19,540</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>83rd</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$20.710 billion</GDP_nominal>
+  <GDP_nominal_year>2026</GDP_nominal_year>
+  <GDP_nominal_rank>122nd</GDP_nominal_rank>
+  <GDP_nominal_per_capita>$7,380</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>87th</GDP_nominal_per_capita_rank>
+  <Gini>45.5</Gini>
+  <Gini_year>2016</Gini_year>
+  <Gini_change>decrease</Gini_change>
+  <HDI>0.731</HDI>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI_rank>111th</HDI_rank>
+  <currency>Pula</currency>
+  <currency_code>BWP</currency_code>
+  <time_zone>Central Africa Time</time_zone>
+  <utc_offset>+2</utc_offset>
+  <date_format>dd/mm/yyyy</date_format>
+  <drives_on>left</drives_on>
+  <calling_code>+267</calling_code>
+  <cctld>.bw</cctld>
+  <established>
+    <event>
+      <label>Established (Constitution)</label>
+      <date>30 September 1966</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>President</title>
+      <name>Duma Boko</name>
+    </leader>
+    <leader>
+      <title>Vice-President</title>
+      <name>Ndaba Gaolathe</name>
+    </leader>
+    <leader>
+      <title>National Assembly Speaker</title>
+      <name>Dithapelo Keorapetse</name>
+    </leader>
+  </leaders>
+</country>

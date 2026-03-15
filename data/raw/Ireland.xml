@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Ireland">
+  <name>Ireland</name>
+  <local_name>native name, ga, Éire, '', lang, sco, Airlann, '', nobold, (Ulster Scots) ''</local_name>
+  <map_image>Map of Ireland in Europe.svg</map_image>
+  <location>Northwestern Europe</location>
+  <archipelago>British&amp;nbsp;Isles</archipelago>
+  <waterbody>Atlantic Ocean</waterbody>
+  <area_km2>84421</area_km2>
+  <rank>20th</rank>
+  <coastline_km>7,527</coastline_km>
+  <highest_mount>Carrauntoohil</highest_mount>
+  <demonym>Irish</demonym>
+  <elevation_m>1041</elevation_m>
+  <country>Republic of Ireland</country>
+  <country_largest_city>Dublin, pop. 1,458,154 Metropolitan Area (2022)</country_largest_city>
+  <country_largest_city_type>city</country_largest_city_type>
+  <country1>United Kingdom</country1>
+  <country1_admin_divisions_title>Country</country1_admin_divisions_title>
+  <country1_admin_divisions>Northern Ireland</country1_admin_divisions>
+  <country1_largest_city>Belfast, pop. 671,559 Metropolitan Area (2011)</country1_largest_city>
+  <country1_largest_city_type>city</country1_largest_city_type>
+  <population>7,185,600</population>
+  <population_as_of>2023 estimate</population_as_of>
+  <population_rank>19th (of islands)</population_rank>
+  <density_km2>82.2</density_km2>
+  <ethnic_groups>90.0% White, 2.8% Asian, 1.2% Black, 0.3% Arab, 1.2% other (inc. Mixed), 4.5% not stated</ethnic_groups>
+  <timezone1>Greenwich Mean Time</timezone1>
+  <utc_offset1>+0</utc_offset1>
+  <utc_offset1_DST>+1</utc_offset1_DST>
+</country>

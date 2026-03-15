@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Chad">
+  <conventional_long_name>Republic of Chad</conventional_long_name>
+  <common_name>Chad</common_name>
+  <native_name>native name, fr, République du Tchad, native name, ar, جمهورية تشاد, italics, =, off, rtl, =, yes, resize, 85%, transliteration, ar, Jumhūriyyat Tshād</native_name>
+  <symbol_type>Coat of arms</symbol_type>
+  <national_anthem>File:La Tchadienne (instrumental).ogg</national_anthem>
+  <capital>N'Djamena</capital>
+  <largest_city>capital</largest_city>
+  <official_languages>Arabic, French</official_languages>
+  <religion_year>2020</religion_year>
+  <demonym>Chadian</demonym>
+  <government_type>Unitary semi-presidential republic under a hereditary dictatorship</government_type>
+  <legislature>Bicameral parliament</legislature>
+  <upper_house>Senate</upper_house>
+  <lower_house>National Assembly</lower_house>
+  <sovereignty_type>Independence from France</sovereignty_type>
+  <area_km2>1,280,000</area_km2>
+  <area_rank>20th</area_rank>
+  <percent_water>1.9</percent_water>
+  <population_estimate>19,093,595</population_estimate>
+  <population_estimate_year>2024</population_estimate_year>
+  <population_estimate_rank>66th</population_estimate_rank>
+  <population_density_km2>14.4</population_density_km2>
+  <population_density_rank>218th</population_density_rank>
+  <GDP_PPP>$63.070 billion</GDP_PPP>
+  <GDP_PPP_year>2026</GDP_PPP_year>
+  <GDP_PPP_rank>147th</GDP_PPP_rank>
+  <GDP_PPP_per_capita>$3,240</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>179th</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$23.560 billion</GDP_nominal>
+  <GDP_nominal_year>2026</GDP_nominal_year>
+  <GDP_nominal_rank>145th</GDP_nominal_rank>
+  <GDP_nominal_per_capita>$1,210</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>183rd</GDP_nominal_per_capita_rank>
+  <Gini>37.4</Gini>
+  <Gini_year>2022</Gini_year>
+  <Gini_change>decrease</Gini_change>
+  <HDI>0.416</HDI>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI_rank>190th</HDI_rank>
+  <currency>Central African CFA franc</currency>
+  <currency_code>XAF</currency_code>
+  <time_zone>WAT</time_zone>
+  <utc_offset>+01:00</utc_offset>
+  <calling_code>+235</calling_code>
+  <cctld>.td</cctld>
+  <established>
+    <event>
+      <label>Colony established</label>
+      <date>5 September 1900</date>
+    </event>
+    <event>
+      <label>Autonomy granted</label>
+      <date>28 November 1958</date>
+    </event>
+    <event>
+      <label>Sovereign state</label>
+      <date>11 August 1960</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>President</title>
+      <name>Mahamat Déby</name>
+    </leader>
+    <leader>
+      <title>Prime Minister</title>
+      <name>Allamaye Halina</name>
+    </leader>
+  </leaders>
+</country>

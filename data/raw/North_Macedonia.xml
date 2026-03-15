@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="North Macedonia">
+  <conventional_long_name>Republic of North Macedonia</conventional_long_name>
+  <common_name>North Macedonia</common_name>
+  <symbol_type>National emblem</symbol_type>
+  <national_anthem>"Today over Macedonia"</national_anthem>
+  <capital>Skopje</capital>
+  <religion_year>2021</religion_year>
+  <religion>60.4% Christianity, 46.1% Eastern Orthodoxy, 14.3% other Christian, Tree list end, 32.2% Islam, 0.1% no religion, 0.1% other, 7.2% data taken from administrative sources *60.4% Christianity **46.1% Eastern Orthodoxy **14.3% other Christian</religion>
+  <largest_city>capital</largest_city>
+  <official_languages>nowrap, Macedonian, name, =, "language1", nowrap, Albanian, name, =, "language2" *</official_languages>
+  <languages2_type>Official regional languages</languages2_type>
+  <languages2>Turkish, Romani, Serbian, Bosnian, Aromanian</languages2>
+  <ethnic_groups>58.4% Macedonians, 24.3% Albanians, 3.9% Turks, 2.5% Roma, 1.3% Serbs, 0.9% Bosniaks, 0.5% Aromanians (including Megleno-Romanians), 1.0% other (including undeclared and unknown), 7.2% persons for whom data are taken from administrative sources</ethnic_groups>
+  <ethnic_groups_year>2021</ethnic_groups_year>
+  <demonym>Macedonian</demonym>
+  <government_type>Unitary parliamentary republic</government_type>
+  <legislature>Assembly</legislature>
+  <sovereignty_type>Establishment history</sovereignty_type>
+  <area_km2>25,436</area_km2>
+  <area_rank>145th</area_rank>
+  <area_sq_mi>9,928</area_sq_mi>
+  <percent_water>1.1</percent_water>
+  <population_census>1,836,713</population_census>
+  <population_estimate_year>2019</population_estimate_year>
+  <population_estimate_rank>147th</population_estimate_rank>
+  <population_census_year>2021</population_census_year>
+  <population_density_km2>71.43</population_density_km2>
+  <population_density_sq_mi>185.0</population_density_sq_mi>
+  <population_density_rank>122nd</population_density_rank>
+  <GDP_PPP>$53.345 billion</GDP_PPP>
+  <GDP_PPP_year>2025</GDP_PPP_year>
+  <GDP_PPP_rank>134th</GDP_PPP_rank>
+  <GDP_PPP_per_capita>$29,475</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>71st</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$17.885 billion</GDP_nominal>
+  <GDP_nominal_year>2025</GDP_nominal_year>
+  <GDP_nominal_rank>137th</GDP_nominal_rank>
+  <GDP_nominal_per_capita>$9,882</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>81st</GDP_nominal_per_capita_rank>
+  <Gini>29.8</Gini>
+  <Gini_year>2022</Gini_year>
+  <Gini_change>decrease</Gini_change>
+  <HDI>0.815</HDI>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI_rank>68th</HDI_rank>
+  <currency>Macedonian denar</currency>
+  <currency_code>MKD</currency_code>
+  <time_zone>CET</time_zone>
+  <utc_offset>+1</utc_offset>
+  <utc_offset_DST>+2</utc_offset_DST>
+  <time_zone_DST>CEST</time_zone_DST>
+  <calling_code>+389</calling_code>
+  <cctld>.mk, langx, mk, .мкд, label, =, none</cctld>
+  <established>
+    <event>
+      <label>Socialist Republic of Macedonia</label>
+      <date>2 August 1944</date>
+    </event>
+    <event>
+      <label>Independence referendum</label>
+      <date>8 September 1991</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>President</title>
+      <name>Gordana Siljanovska-Davkova</name>
+    </leader>
+    <leader>
+      <title>Prime Minister</title>
+      <name>Hristijan Mickoski</name>
+    </leader>
+    <leader>
+      <title>Chairman of the Assembly</title>
+      <name>Afrim Gashi</name>
+    </leader>
+  </leaders>
+</country>

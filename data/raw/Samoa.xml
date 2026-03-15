@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Samoa">
+  <conventional_long_name>Independent State of Samoa</conventional_long_name>
+  <common_name>Samoa</common_name>
+  <native_name>oloto Tuto atasi o Sāmoa</native_name>
+  <symbol_type>Coat of arms</symbol_type>
+  <national_motto>''Faʻavae i le Atua Sāmoa''"Samoa is founded on God"</national_motto>
+  <national_anthem>''O Le Fuʻa o le Saʻolotoga o Sāmoa''"The Banner of Freedom"File:SamoaAnthem.ogg</national_anthem>
+  <map_caption>Location of Samoa</map_caption>
+  <map_caption2>Map of Samoa</map_caption2>
+  <capital>Apia</capital>
+  <largest_city>Apia</largest_city>
+  <official_languages>Samoan, English</official_languages>
+  <religion>97.9% Christianity (official), 54.9% Protestantism, 18.8% Catholicism, 16.9% Mormonism, 7.3% other Christian, 1.7% no religion, 0.4% others</religion>
+  <religion_year>2021</religion_year>
+  <ethnic_groups>92.6% Samoans, 7.0% Euronesians, 0.3% Europeans, 0.1% others</ethnic_groups>
+  <ethnic_groups_year>2021</ethnic_groups_year>
+  <demonym>Samoan</demonym>
+  <government_type>Unitary parliamentary republic</government_type>
+  <legislature>Legislative Assembly</legislature>
+  <sovereignty_type>Independence</sovereignty_type>
+  <sovereignty_note>from New Zealand</sovereignty_note>
+  <area_km2>2,831</area_km2>
+  <area_rank>167th</area_rank>
+  <area_sq_mi>1093</area_sq_mi>
+  <percent_water>0.3</percent_water>
+  <population_census>205,557</population_census>
+  <population_census_year>November 2021</population_census_year>
+  <population_census_rank>176th</population_census_rank>
+  <population_density_km2>70</population_density_km2>
+  <population_density_sq_mi>182</population_density_sq_mi>
+  <GDP_PPP>$1.225 billion</GDP_PPP>
+  <GDP_PPP_year>2024</GDP_PPP_year>
+  <GDP_PPP_per_capita>$5,962</GDP_PPP_per_capita>
+  <GDP_nominal>$908.561 million</GDP_nominal>
+  <GDP_nominal_year>2024</GDP_nominal_year>
+  <GDP_nominal_per_capita>$4,420</GDP_nominal_per_capita>
+  <Gini>38.7</Gini>
+  <Gini_year>2013</Gini_year>
+  <Gini_change>steady</Gini_change>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI>0.708</HDI>
+  <HDI_rank>122nd</HDI_rank>
+  <currency>Tālā (WS$ ) and are translations of the English words ''dollar'' and ''cent'' in the Samoan language.</currency>
+  <currency_code>WST</currency_code>
+  <time_zone>WST</time_zone>
+  <utc_offset>+13</utc_offset>
+  <date_format>dd/mm/yyyy</date_format>
+  <drives_on>left Although driving is on the left side of the roadway centre line, Samoa allows cars with steering wheels on either the left or the right side of the vehicle to use the roads.</drives_on>
+  <calling_code>+685</calling_code>
+  <cctld>.ws</cctld>
+  <established>
+    <event>
+      <label>Treaty of Berlin</label>
+      <date>14 June 1889</date>
+    </event>
+    <event>
+      <label>Tripartite Convention</label>
+      <date>16 February 1900</date>
+    </event>
+    <event>
+      <label>Colonisation by Germany</label>
+      <date>1 March 1900</date>
+    </event>
+    <event>
+      <label>Occupied by New Zealand</label>
+      <date>30 August 1914</date>
+    </event>
+    <event>
+      <label>League mandate</label>
+      <date>17 December 1920</date>
+    </event>
+    <event>
+      <label>UN trusteeship</label>
+      <date>13 December 1946</date>
+    </event>
+    <event>
+      <label>Western Samoa Act 1961</label>
+      <date>1 January 1962</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>O le Ao o le Malo</title>
+      <name>Tuimalealiʻifano Vaʻaletoʻa Sualauvi II</name>
+    </leader>
+    <leader>
+      <title>Prime Minister</title>
+      <name>Laʻauli Leuatea Schmidt</name>
+    </leader>
+    <leader>
+      <title/>
+      <name>Auapaʻau Mulipola Aloitafua</name>
+    </leader>
+  </leaders>
+</country>

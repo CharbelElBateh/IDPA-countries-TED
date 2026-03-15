@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Russia">
+  <conventional_long_name>Russian Federation</conventional_long_name>
+  <common_name>Russia</common_name>
+  <linking_name>Russia</linking_name>
+  <national_anthem>"State Anthem of the Russian Federation"</national_anthem>
+  <capital>Moscow</capital>
+  <largest_city>capital</largest_city>
+  <languages_type>Official language</languages_type>
+  <languages>Russian</languages>
+  <languages2>35 regional official languages</languages2>
+  <ethnic_groups>71.7% Russian, 3.2% Tatar, 1.1% Bashkir, 1.1% Chechen, 11.3% other, 11.6% not reported</ethnic_groups>
+  <ethnic_groups_year>2021; including Crimea</ethnic_groups_year>
+  <demonym>Russian</demonym>
+  <government_type>Federal semi-presidential republic under an authoritarian dictatorship</government_type>
+  <legislature>Federal Assembly</legislature>
+  <upper_house>Federation Council</upper_house>
+  <lower_house>State Duma</lower_house>
+  <sovereignty_type>Formation</sovereignty_type>
+  <area_km2>17,098,246</area_km2>
+  <percent_water>13 (including swamps)</percent_water>
+  <population_estimate>DecreaseNeutral, 146,028,325, Including 2,459,276 people living on the annexed Crimean Peninsula, nowrap, (including Crimea), DecreaseNeutral, 143,569,049, (excluding Crimea) 146,028,325 * * 143,569,049 * (excluding Crimea)</population_estimate>
+  <population_estimate_year>2025</population_estimate_year>
+  <population_estimate_rank>9th</population_estimate_rank>
+  <population_density_km2>8.4</population_density_km2>
+  <population_density_sq_mi>21.5</population_density_sq_mi>
+  <population_density_rank>187th</population_density_rank>
+  <GDP_PPP>$7.143 trillion</GDP_PPP>
+  <GDP_PPP_year>2025</GDP_PPP_year>
+  <GDP_PPP_rank>4th</GDP_PPP_rank>
+  <GDP_PPP_per_capita>$49,049</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>49th</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$2.541 trillion</GDP_nominal>
+  <GDP_nominal_year>2025</GDP_nominal_year>
+  <GDP_nominal_rank>9th</GDP_nominal_rank>
+  <GDP_nominal_per_capita>$17,446</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>68th</GDP_nominal_per_capita_rank>
+  <Gini>36.0</Gini>
+  <Gini_year>2020</Gini_year>
+  <Gini_change>decrease</Gini_change>
+  <HDI>0.832</HDI>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI_rank>64th</HDI_rank>
+  <currency>Russian ruble (₽)</currency>
+  <currency_code>RUB</currency_code>
+  <utc_offset>+2 to +12</utc_offset>
+  <drives_on>right</drives_on>
+  <calling_code>+7</calling_code>
+  <cctld>.ru, langx, ru, .рф, label, =, none</cctld>
+  <established>
+    <event>
+      <label/>
+      <date>882</date>
+    </event>
+    <event>
+      <label/>
+      <date>1157</date>
+    </event>
+    <event>
+      <label/>
+      <date>1282</date>
+    </event>
+    <event>
+      <label>Tsardom of Russia</label>
+      <date>16 January 1547</date>
+    </event>
+    <event>
+      <label>Russian Empire</label>
+      <date>2 November 1721</date>
+    </event>
+    <event>
+      <label/>
+      <date>15 March 1917</date>
+    </event>
+    <event>
+      <label/>
+      <date>30 December 1922</date>
+    </event>
+    <event>
+      <label/>
+      <date>12 June 1990</date>
+    </event>
+    <event>
+      <label/>
+      <date>12 December 1991</date>
+    </event>
+    <event>
+      <label>Current constitution</label>
+      <date>12 December 1993</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>President</title>
+      <name>Vladimir Putin</name>
+    </leader>
+    <leader>
+      <title>Prime Minister</title>
+      <name>Mikhail Mishustin</name>
+    </leader>
+  </leaders>
+</country>

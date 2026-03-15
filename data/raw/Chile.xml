@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Chile">
+  <conventional_long_name>Republic of Chile</conventional_long_name>
+  <common_name>Chile</common_name>
+  <national_motto>("By reason or by force")</national_motto>
+  <national_anthem>("National Anthem of Chile")</national_anthem>
+  <map_caption>Chilean territory in dark green; claimed but uncontrolled territory in light green</map_caption>
+  <capital>Santiago</capital>
+  <largest_city>capital</largest_city>
+  <languages_type>Official language</languages_type>
+  <languages>Spanish</languages>
+  <languages2>Aymara, Kawésqar, Mapudungun, Quechua, Rapa Nui</languages2>
+  <languages2_type>Other spoken languages</languages2_type>
+  <demonym>Chilean</demonym>
+  <religion>70% Christianity, 54% Catholicism, 16% Protestantism, 26% no religion, 4% other</religion>
+  <religion_year>2024</religion_year>
+  <government_type>Unitary presidential republic</government_type>
+  <upper_house>Senate</upper_house>
+  <sovereignty_type>Independence</sovereignty_type>
+  <sovereignty_note>from Spain</sovereignty_note>
+  <area_rank>37th</area_rank>
+  <area_km2>756,101.96</area_km2>
+  <area_sq_mi>291,930.4</area_sq_mi>
+  <percent_water>2.1 (as of 2015)</percent_water>
+  <population_estimate>19,629,588</population_estimate>
+  <population_estimate_year>2023</population_estimate_year>
+  <population_estimate_rank>63rd</population_estimate_rank>
+  <population_density_km2>24</population_density_km2>
+  <population_density_sq_mi>61</population_density_sq_mi>
+  <population_density_rank>198th</population_density_rank>
+  <GDP_PPP>$713.030 billion</GDP_PPP>
+  <GDP_PPP_rank>45th</GDP_PPP_rank>
+  <GDP_PPP_year>2025</GDP_PPP_year>
+  <GDP_PPP_per_capita>$35,290</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>61st</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$347.170 billion</GDP_nominal>
+  <GDP_nominal_rank>45th</GDP_nominal_rank>
+  <GDP_nominal_year>2025</GDP_nominal_year>
+  <GDP_nominal_per_capita>$17,180</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>66th</GDP_nominal_per_capita_rank>
+  <Gini_year>2022</Gini_year>
+  <Gini_change>decrease</Gini_change>
+  <Gini>44.8</Gini>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI>0.878</HDI>
+  <HDI_rank>45th</HDI_rank>
+  <currency>Chilean peso</currency>
+  <currency_code>CLP</currency_code>
+  <utc_offset>−3, −4, −6</utc_offset>
+  <time_zone_DST>CLST, EASST</time_zone_DST>
+  <utc_offset_DST>−3, −5</utc_offset_DST>
+  <DST_note>Magallanes and the Chilean Antarctica, and Aysén Region observes UTC−3 year-round.</DST_note>
+  <calling_code>+56</calling_code>
+  <iso3166code>CL</iso3166code>
+  <cctld>.cl</cctld>
+  <established>
+    <event>
+      <label>Government Junta</label>
+      <date>18 September 1810</date>
+    </event>
+    <event>
+      <label>Declared</label>
+      <date>12 February 1818</date>
+    </event>
+    <event>
+      <label>Recognized</label>
+      <date>25 April 1844</date>
+    </event>
+    <event>
+      <label/>
+      <date>11 March 1981</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>President</title>
+      <name/>
+    </leader>
+    <leader>
+      <title>President of the Senate</title>
+      <name/>
+    </leader>
+    <leader>
+      <title>President of the Chamber of Deputies</title>
+      <name/>
+    </leader>
+    <leader>
+      <title>President of Supreme Court</title>
+      <name/>
+    </leader>
+  </leaders>
+</country>

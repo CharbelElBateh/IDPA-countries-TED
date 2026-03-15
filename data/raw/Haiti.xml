@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Haiti">
+  <conventional_long_name>Republic of Haiti</conventional_long_name>
+  <common_name>Haiti</common_name>
+  <national_motto>''L'union fait la force'' (French) "Inite se fòs" (Haitian Creole) "Union makes strength"</national_motto>
+  <national_anthem>La Dessalinienne"The Dessaline"</national_anthem>
+  <capital>Port-au-Prince</capital>
+  <largest_city>Port-au-Prince</largest_city>
+  <official_languages>Haitian Creole, French</official_languages>
+  <ethnic_groups>95% African5% other</ethnic_groups>
+  <religion_year>2020</religion_year>
+  <demonym>Haitian</demonym>
+  <government_type>Unitary semi-presidential republic</government_type>
+  <legislature>National Assembly (vacant)</legislature>
+  <upper_house>Senate</upper_house>
+  <lower_house>Chamber of Deputies</lower_house>
+  <sovereignty_type>Independence from France</sovereignty_type>
+  <area_km2>27,700</area_km2>
+  <area_rank>143rd</area_rank>
+  <area_sq_mi>10,714</area_sq_mi>
+  <percent_water>0.7</percent_water>
+  <population_estimate>11,470,261</population_estimate>
+  <population_estimate_year>2023</population_estimate_year>
+  <population_estimate_rank>83rd</population_estimate_rank>
+  <population_density_km2>417</population_density_km2>
+  <population_density_sq_mi>1,071</population_density_sq_mi>
+  <population_density_rank>32nd</population_density_rank>
+  <GDP_PPP>$38.200 billion</GDP_PPP>
+  <GDP_PPP_year>2025</GDP_PPP_year>
+  <GDP_PPP_rank>144th</GDP_PPP_rank>
+  <GDP_PPP_per_capita>$3,040</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>169th</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$33.550 billion</GDP_nominal>
+  <GDP_nominal_year>2025</GDP_nominal_year>
+  <GDP_nominal_rank>107th</GDP_nominal_rank>
+  <GDP_nominal_per_capita>$2,670</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>141st</GDP_nominal_per_capita_rank>
+  <Gini>41</Gini>
+  <Gini_year>2023</Gini_year>
+  <Gini_change>decrease</Gini_change>
+  <HDI>0.554</HDI>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI_rank>166th</HDI_rank>
+  <currency>Gourde (G)</currency>
+  <currency_code>HTG</currency_code>
+  <time_zone>EST</time_zone>
+  <utc_offset>−05:00</utc_offset>
+  <utc_offset_DST>−04:00</utc_offset_DST>
+  <time_zone_DST>EDT</time_zone_DST>
+  <drives_on>right</drives_on>
+  <calling_code>+509</calling_code>
+  <cctld>.ht</cctld>
+  <established>
+    <event>
+      <label>Independence declared</label>
+      <date>1 January 1804</date>
+    </event>
+    <event>
+      <label>Independence recognized</label>
+      <date>17 April 1825</date>
+    </event>
+    <event>
+      <label>First Empire</label>
+      <date>22 September 1804</date>
+    </event>
+    <event>
+      <label>Southern Republic</label>
+      <date>17 October 1806</date>
+    </event>
+    <event>
+      <label>Northern State</label>
+      <date>17 October 1806</date>
+    </event>
+    <event>
+      <label>Kingdom</label>
+      <date>28 March 1811</date>
+    </event>
+    <event>
+      <label>Unification of Hispaniola</label>
+      <date>9 February 1822</date>
+    </event>
+    <event>
+      <label>Dissolution</label>
+      <date>27 February 1844</date>
+    </event>
+    <event>
+      <label>Second Empire</label>
+      <date>26 August 1849</date>
+    </event>
+    <event>
+      <label>Republic</label>
+      <date>15 January 1859</date>
+    </event>
+    <event>
+      <label>United States occupation</label>
+      <date>28 July 1915 – 1 August 1934</date>
+    </event>
+    <event>
+      <label>Independence from the United States</label>
+      <date>15 August 1934</date>
+    </event>
+    <event>
+      <label>Current constitution</label>
+      <date>20 June 2012</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>President</title>
+      <name>''Vacant''</name>
+    </leader>
+    <leader>
+      <title>Prime Minister</title>
+      <name>Alix Didier Fils-Aimé (acting)</name>
+    </leader>
+  </leaders>
+</country>

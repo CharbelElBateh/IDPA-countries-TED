@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Bosnia and Herzegovina">
+  <conventional_long_name>Bosnia and Herzegovina</conventional_long_name>
+  <common_name>Bosnia and Herzegovina</common_name>
+  <flag_size>130</flag_size>
+  <national_anthem>"National Anthem of Bosnia and Herzegovina"</national_anthem>
+  <capital>Sarajevo</capital>
+  <largest_city>capital</largest_city>
+  <languages_type>Official language (federal level)</languages_type>
+  <languages>None</languages>
+  <languages2_type>Official languages (entity level)</languages2_type>
+  <ethnic_groups_year>2013</ethnic_groups_year>
+  <religion_year>2013 census</religion_year>
+  <demonym>Bosnian, Herzegovinian</demonym>
+  <government_type>Federal parliamentary directorial republic</government_type>
+  <legislature>Parliamentary Assembly</legislature>
+  <upper_house>House of Peoples</upper_house>
+  <lower_house>House of Representatives</lower_house>
+  <sovereignty_type>Establishment history</sovereignty_type>
+  <area_km2>51,209</area_km2>
+  <area_rank>125th</area_rank>
+  <area_sq_mi>19,741</area_sq_mi>
+  <percent_water>1.4%</percent_water>
+  <population_estimate>2,904,256</population_estimate>
+  <population_census>3,531,159</population_census>
+  <population_estimate_year>2023</population_estimate_year>
+  <population_estimate_rank>137th</population_estimate_rank>
+  <population_census_year>2013</population_census_year>
+  <population_density_km2>61</population_density_km2>
+  <population_density_sq_mi>158</population_density_sq_mi>
+  <population_density_rank>156th</population_density_rank>
+  <GDP_PPP>$82.23 billion</GDP_PPP>
+  <GDP_PPP_year>2026</GDP_PPP_year>
+  <GDP_PPP_rank>108th</GDP_PPP_rank>
+  <GDP_PPP_per_capita>$23,930</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>84th</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$36.24 billion</GDP_nominal>
+  <GDP_nominal_year>2026</GDP_nominal_year>
+  <GDP_nominal_rank>107th</GDP_nominal_rank>
+  <GDP_nominal_per_capita>$10,546</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>85th</GDP_nominal_per_capita_rank>
+  <Gini>27.1</Gini>
+  <Gini_year>2022</Gini_year>
+  <Gini_change>decrease</Gini_change>
+  <HDI>0.804</HDI>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI_rank>74th</HDI_rank>
+  <currency>Convertible mark</currency>
+  <currency_code>BAM</currency_code>
+  <time_zone>CET</time_zone>
+  <utc_offset>+01</utc_offset>
+  <utc_offset_DST>+02</utc_offset_DST>
+  <time_zone_DST>CEST</time_zone_DST>
+  <calling_code>+387</calling_code>
+  <cctld>.ba</cctld>
+  <established>
+    <event>
+      <label>Early medieval Bosnia</label>
+      <date>9th century</date>
+    </event>
+    <event>
+      <label>Banate of Bosnia</label>
+      <date>1154</date>
+    </event>
+    <event>
+      <label>Kingdom of Bosnia</label>
+      <date>1377</date>
+    </event>
+    <event>
+      <label>Ottoman conquest</label>
+      <date>1463</date>
+    </event>
+    <event>
+      <label>Austro-Hungarian conquest and 1908 annexation</label>
+      <date>1878</date>
+    </event>
+    <event>
+      <label>Creation of Yugoslavia</label>
+      <date>1 December 1918</date>
+    </event>
+    <event>
+      <label>ZAVNOBiH</label>
+      <date>25 November 1943</date>
+    </event>
+    <event>
+      <label>SR Bosnia and Herzegovina within SFR Yugoslavia</label>
+      <date>29 November 1945</date>
+    </event>
+    <event>
+      <label>Independence from Yugoslavia</label>
+      <date>3 March 1992</date>
+    </event>
+    <event>
+      <label>Washington Agreement</label>
+      <date>18 March 1994</date>
+    </event>
+    <event>
+      <label>Dayton Agreement</label>
+      <date>14 December 1995</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title/>
+      <name/>
+    </leader>
+    <leader>
+      <title>Chairman of the Presidency</title>
+      <name/>
+    </leader>
+    <leader>
+      <title>Members of the Presidency</title>
+      <name/>
+    </leader>
+    <leader>
+      <title>Chairwoman of the Council of Ministers</title>
+      <name>Borjana Krišto</name>
+    </leader>
+  </leaders>
+</country>

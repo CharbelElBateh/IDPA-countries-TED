@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Armenia">
+  <conventional_long_name>Republic of Armenia</conventional_long_name>
+  <common_name>Armenia</common_name>
+  <national_anthem>"Our Fatherland"</national_anthem>
+  <map_caption>Location of Armenia</map_caption>
+  <capital>Yerevan</capital>
+  <largest_city>capital</largest_city>
+  <official_languages>Armenian</official_languages>
+  <languages2_type>Official script</languages2_type>
+  <languages2>Armenian alphabet</languages2>
+  <ethnic_groups>98.1% Armenians, 1.1% Yazidis, 0.8% other</ethnic_groups>
+  <ethnic_groups_year>2022</ethnic_groups_year>
+  <religion>96.8% Christianity, 95.2% Armenian Apostolic Church, 1.6% other Christian, 0.6% no religion, 0.9% other, 1.7% unspecified</religion>
+  <demonym>Armenian</demonym>
+  <government_type>Unitary parliamentary republic</government_type>
+  <legislature>National Assembly</legislature>
+  <sovereignty_type>Establishment</sovereignty_type>
+  <area_km2>29,743</area_km2>
+  <area_rank>138th</area_rank>
+  <area_sq_mi>11,484</area_sq_mi>
+  <percent_water>4.71</percent_water>
+  <population_estimate>3,081,100</population_estimate>
+  <population_estimate_year>2025</population_estimate_year>
+  <population_estimate_rank>135th</population_estimate_rank>
+  <population_density_km2>103.6</population_density_km2>
+  <population_density_sq_mi>262.9</population_density_sq_mi>
+  <GDP_PPP>$74.407 billion</GDP_PPP>
+  <GDP_PPP_year>2025</GDP_PPP_year>
+  <GDP_PPP_rank>111th</GDP_PPP_rank>
+  <GDP_PPP_per_capita>$23,954</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>78th</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$27.859 billion</GDP_nominal>
+  <GDP_nominal_year>2025</GDP_nominal_year>
+  <GDP_nominal_rank>118th</GDP_nominal_rank>
+  <GDP_nominal_per_capita>$8,969</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>88th</GDP_nominal_per_capita_rank>
+  <Gini>27.9</Gini>
+  <Gini_year>2022</Gini_year>
+  <Gini_change>steady</Gini_change>
+  <HDI>0.811</HDI>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI_rank>69th</HDI_rank>
+  <currency>Dram&amp;nbsp;(֏)</currency>
+  <currency_code>AMD</currency_code>
+  <time_zone>AMT</time_zone>
+  <utc_offset>+4</utc_offset>
+  <date_format>dd.mm.yyyy</date_format>
+  <drives_on>right</drives_on>
+  <calling_code>+374</calling_code>
+  <cctld>.am, .հայ</cctld>
+  <religion_year>2022</religion_year>
+  <established>
+    <event>
+      <label>Urartu</label>
+      <date>860 BC–547/90 BC</date>
+    </event>
+    <event>
+      <label>Kingdom of Armenia</label>
+      <date>331 BC–428 AD</date>
+    </event>
+    <event>
+      <label>Bagratid Armenia</label>
+      <date>880s–1045</date>
+    </event>
+    <event>
+      <label>Armenian Kingdom of Cilicia</label>
+      <date>1198/99–1375</date>
+    </event>
+    <event>
+      <label>Zakarid Armenia</label>
+      <date>1201–1350</date>
+    </event>
+    <event>
+      <label>First Republic of Armenia</label>
+      <date>28 May 1918</date>
+    </event>
+    <event>
+      <label>Armenian Soviet Socialist Republic</label>
+      <date>29 November 1920</date>
+    </event>
+    <event>
+      <label>Independence from the USSR</label>
+      <date>23 September 1991</date>
+    </event>
+    <event>
+      <label>CIS accession</label>
+      <date>21 December 1991</date>
+    </event>
+    <event>
+      <label>Admission to the United Nations</label>
+      <date>2 March 1992</date>
+    </event>
+    <event>
+      <label>Current constitution</label>
+      <date>5 July 1995</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>President</title>
+      <name>Vahagn Khachaturyan</name>
+    </leader>
+    <leader>
+      <title>Prime Minister</title>
+      <name>Nikol Pashinyan</name>
+    </leader>
+    <leader>
+      <title>President of the National Assembly</title>
+      <name>Alen Simonyan</name>
+    </leader>
+  </leaders>
+</country>

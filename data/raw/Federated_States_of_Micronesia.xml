@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Federated States of Micronesia">
+  <languages_type>Official language</languages_type>
+  <languages2_type>Recognized regionallanguages</languages2_type>
+  <conventional_long_name>Federated States of Micronesia</conventional_long_name>
+  <common_name>the Federated States of Micronesia</common_name>
+  <symbol_type>Seal</symbol_type>
+  <national_motto>"Peace, Unity, Liberty"</national_motto>
+  <national_anthem>"Patriots of Micronesia"File:Full performance of the Micronesian national anthem by the U.S. Navy Band.wav</national_anthem>
+  <status>UN member state under a Compact of Free Association with the United States</status>
+  <capital>Palikir</capital>
+  <largest_settlement>Weno</largest_settlement>
+  <largest_settlement_type>city</largest_settlement_type>
+  <languages>English</languages>
+  <languages2>Chuukese, Kosraean, Pohnpeian, Yapese</languages2>
+  <ethnic_groups>48.8% Chuukese, 24.2% Pohnpeian, 6.2% Kosraean, 5.2% Yapese, 4.5% Outer Yapese, 1.8% Asian, 1.5% Polynesian, 6.4% other, 1.4% unknown</ethnic_groups>
+  <ethnic_groups_year>2016</ethnic_groups_year>
+  <religion_year>2016</religion_year>
+  <demonym>Micronesian</demonym>
+  <government_type>Federal assembly-independent presidential republic under a non-partisan democracy</government_type>
+  <legislature>Congress</legislature>
+  <sovereignty_type>Independence</sovereignty_type>
+  <sovereignty_note>from the United States</sovereignty_note>
+  <area_km2>702</area_km2>
+  <area_rank>177th</area_rank>
+  <area_sq_mi>271</area_sq_mi>
+  <percent_water>negligible</percent_water>
+  <population_estimate>104,468</population_estimate>
+  <population_estimate_year>2019</population_estimate_year>
+  <population_estimate_rank>181st</population_estimate_rank>
+  <population_density_km2>158.1</population_density_km2>
+  <population_density_rank>75th</population_density_rank>
+  <population_density_sq_mi>409.6</population_density_sq_mi>
+  <GDP_PPP_year>2025</GDP_PPP_year>
+  <GDP_nominal_year>2025</GDP_nominal_year>
+  <Gini>40.1</Gini>
+  <Gini_year>2013</Gini_year>
+  <HDI>0.634</HDI>
+  <HDI_year>2022</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI_rank>135th</HDI_rank>
+  <currency>United States dollar</currency>
+  <currency_code>USD</currency_code>
+  <utc_offset>+10 and +11</utc_offset>
+  <date_format>MM/DD/YYYY</date_format>
+  <drives_on>right</drives_on>
+  <calling_code>+691</calling_code>
+  <iso3166code>FM</iso3166code>
+  <cctld>.fm</cctld>
+  <footnote_a>Regional languages used at state and municipal levels.</footnote_a>
+  <established>
+    <event>
+      <label>Republic proclaimed</label>
+      <date>May 10, 1979</date>
+    </event>
+    <event>
+      <label>Compact of Free&amp;nbsp;Association</label>
+      <date>November 3, 1986</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>President</title>
+      <name>Wesley Simina</name>
+    </leader>
+    <leader>
+      <title>Vice President</title>
+      <name>Aren Palik</name>
+    </leader>
+  </leaders>
+</country>

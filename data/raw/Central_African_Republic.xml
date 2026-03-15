@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Central African Republic">
+  <conventional_long_name>Central African Republic</conventional_long_name>
+  <native_name>Native name, sg, Ködörösêse tî Bêafrîka, Native name, fr, République centrafricaine *</native_name>
+  <national_motto>Native phrase, sg, "Zo Kwe Zo", "All people are people", Native phrase, fr, "Unité, Dignité, Travail", "Unity, Dignity, Work" * "All people are people" * * "Unity, Dignity, Work"</national_motto>
+  <national_anthem>Native phrase, sg, E Zingo, nolink, =, yes, Native phrase, fr, La Renaissance, nolink, =, no, "The Renaissance" * * "The Renaissance"</national_anthem>
+  <capital>Bangui</capital>
+  <largest_city>capital</largest_city>
+  <official_languages>French, Sango (co-official)</official_languages>
+  <national_languages>Sango</national_languages>
+  <ethnic_groups>Baggara Arabs, Baka, Banda, Bayaka, Fula, Gula, Gbaya, Kara, Kresh, Mbaka, Mandja, Ngbandi, Runga, Sara, Vidiri, Wodaabe, Yakoma, Yulu, Kanuri, Zande, other</ethnic_groups>
+  <religion_year>2020</religion_year>
+  <demonym>Central African</demonym>
+  <government_type>Unitary presidential republic</government_type>
+  <legislature>National Assembly</legislature>
+  <sovereignty_type>Independence</sovereignty_type>
+  <area_km2>622,984</area_km2>
+  <area_rank>44th</area_rank>
+  <area_sq_mi>240,534</area_sq_mi>
+  <population_estimate>5,650,957</population_estimate>
+  <population_estimate_year>2024</population_estimate_year>
+  <population_estimate_rank>119th</population_estimate_rank>
+  <population_density_km2>8.6</population_density_km2>
+  <population_density_sq_mi>22</population_density_sq_mi>
+  <population_density_rank>221st</population_density_rank>
+  <GDP_PPP>$7.940 billion</GDP_PPP>
+  <GDP_PPP_year>2026</GDP_PPP_year>
+  <GDP_PPP_rank>170th</GDP_PPP_rank>
+  <GDP_PPP_per_capita>$1,390</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>190th</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$3.710 billion</GDP_nominal>
+  <GDP_nominal_year>2026</GDP_nominal_year>
+  <GDP_nominal_rank>182nd</GDP_nominal_rank>
+  <GDP_nominal_per_capita>$650</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>191st</GDP_nominal_per_capita_rank>
+  <Gini>43</Gini>
+  <Gini_year>2021</Gini_year>
+  <Gini_change>decrease</Gini_change>
+  <HDI>0.414</HDI>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI_rank>191st</HDI_rank>
+  <currency>Central African CFA franc (XAF)</currency>
+  <time_zone>WAT</time_zone>
+  <utc_offset>+01:00</utc_offset>
+  <drives_on>right</drives_on>
+  <calling_code>+236</calling_code>
+  <iso3166code>CF</iso3166code>
+  <cctld>.cf</cctld>
+  <established>
+    <event>
+      <label>Republic established</label>
+      <date>1 December 1958</date>
+    </event>
+    <event>
+      <label>from France</label>
+      <date>13 August 1960</date>
+    </event>
+    <event>
+      <label>Central African Empire established</label>
+      <date>4 December 1976</date>
+    </event>
+    <event>
+      <label>Coronation of Bokassa I</label>
+      <date>4 December 1977</date>
+    </event>
+    <event>
+      <label>Bokassa I's overthrow and republic restored</label>
+      <date>21 September 1979</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>President</title>
+      <name>Faustin-Archange Touadéra</name>
+    </leader>
+    <leader>
+      <title>Prime Minister</title>
+      <name>Félix Moloua</name>
+    </leader>
+    <leader>
+      <title>President of the National Assembly</title>
+      <name>Simplice Sarandji</name>
+    </leader>
+  </leaders>
+</country>

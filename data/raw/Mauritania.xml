@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Mauritania">
+  <conventional_long_name>Islamic Republic of Mauritania</conventional_long_name>
+  <common_name>Mauritania</common_name>
+  <symbol_type>Seal</symbol_type>
+  <national_motto>"Honour, Fraternity, Justice"</national_motto>
+  <national_anthem>"National Anthem of Mauritania"</national_anthem>
+  <capital>Nouakchott</capital>
+  <largest_city>capital</largest_city>
+  <official_languages>Arabic</official_languages>
+  <languages_type>Recognised national languages</languages_type>
+  <languages>Arabic, Pulaar, Soninke, Wolof</languages>
+  <demonym>Mauritanian</demonym>
+  <government_type>Unitary semi-presidential Islamic republic</government_type>
+  <legislature>National Assembly</legislature>
+  <sovereignty_type>Independence from France</sovereignty_type>
+  <area_km2>1030000</area_km2>
+  <area_rank>28th</area_rank>
+  <population_estimate>4,328,040</population_estimate>
+  <population_estimate_year>2024</population_estimate_year>
+  <population_estimate_rank>128th</population_estimate_rank>
+  <population_density_km2>3.4</population_density_km2>
+  <GDP_PPP>$40.060 billion</GDP_PPP>
+  <GDP_PPP_year>2025</GDP_PPP_year>
+  <GDP_PPP_rank>143rd</GDP_PPP_rank>
+  <GDP_PPP_per_capita>$8,650</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>130th</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$11.470 billion</GDP_nominal>
+  <GDP_nominal_year>2025</GDP_nominal_year>
+  <GDP_nominal_rank>149th</GDP_nominal_rank>
+  <GDP_nominal_per_capita>$2,480</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>144th</GDP_nominal_per_capita_rank>
+  <Gini>32.6</Gini>
+  <Gini_year>2014</Gini_year>
+  <Gini_change>decrease</Gini_change>
+  <HDI>0.563</HDI>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>decrease</HDI_change>
+  <HDI_rank>163rd</HDI_rank>
+  <currency>Ouguiya</currency>
+  <currency_code>MRU</currency_code>
+  <utc_offset>±00:00</utc_offset>
+  <time_zone>GMT</time_zone>
+  <calling_code>+222</calling_code>
+  <cctld>.mr</cctld>
+  <footnote_a>According to Article 6 of the Constitution: "The national languages are Arabic, Pulaar, Soninke, and Wolof; the official language is Arabic."</footnote_a>
+  <religion>Sunni Islam (official)</religion>
+  <established>
+    <event>
+      <label>Republic established</label>
+      <date>28 November 1958</date>
+    </event>
+    <event>
+      <label>Independence from France</label>
+      <date>28 November 1960</date>
+    </event>
+    <event>
+      <label>Current constitution</label>
+      <date>12 July 1991</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>President</title>
+      <name>Mohamed Ould Ghazouani</name>
+    </leader>
+    <leader>
+      <title>Prime Minister</title>
+      <name>Mokhtar Ould Djay</name>
+    </leader>
+    <leader>
+      <title>President of the National Assembly</title>
+      <name>Mohamed Ould Meguett</name>
+    </leader>
+  </leaders>
+</country>

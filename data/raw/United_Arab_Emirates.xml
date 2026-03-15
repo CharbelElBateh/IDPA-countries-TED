@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="United Arab Emirates">
+  <conventional_long_name>United Arab Emirates</conventional_long_name>
+  <common_name>UAE</common_name>
+  <flag_type>Flag</flag_type>
+  <symbol_type>Emblem</symbol_type>
+  <national_anthem>"Long Live My Country" File:UAE national anthem.ogg</national_anthem>
+  <capital>Abu Dhabi</capital>
+  <largest_city>Dubai</largest_city>
+  <official_languages>Arabic</official_languages>
+  <common_languages>Emirati Arabic, English, English is the most commonly spoken language in the UAE.</common_languages>
+  <ethnic_groups_year>2015</ethnic_groups_year>
+  <religion_year>2020</religion_year>
+  <demonym>Emirati</demonym>
+  <government_type>Federal semi-presidential elective semi-constitutional monarchy</government_type>
+  <legislature>Federal Supreme Council</legislature>
+  <sovereignty_type>Establishment</sovereignty_type>
+  <area_km2>83,600</area_km2>
+  <area_rank>114th</area_rank>
+  <area_sq_mi>32,278</area_sq_mi>
+  <percent_water>Negligible</percent_water>
+  <population_estimate_year>2024</population_estimate_year>
+  <population_estimate>11,027,129</population_estimate>
+  <population_density_km2>132</population_density_km2>
+  <population_density_sq_mi>341.6</population_density_sq_mi>
+  <population_density_rank>83rd</population_density_rank>
+  <GDP_PPP>$905.23 billion</GDP_PPP>
+  <GDP_PPP_year>2025</GDP_PPP_year>
+  <GDP_PPP_rank>36th</GDP_PPP_rank>
+  <GDP_PPP_per_capita>$81,680</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>13th</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$548.60 billion</GDP_nominal>
+  <GDP_nominal_year>2025</GDP_nominal_year>
+  <GDP_nominal_rank>28th</GDP_nominal_rank>
+  <GDP_nominal_per_capita>$49,550</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>21st</GDP_nominal_per_capita_rank>
+  <Gini>26</Gini>
+  <Gini_year>2018</Gini_year>
+  <HDI>0.940</HDI>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI_rank>15th</HDI_rank>
+  <currency>UAE dirham</currency>
+  <currency_code>AED</currency_code>
+  <calling_code>+971</calling_code>
+  <time_zone>GST</time_zone>
+  <utc_offset>+04:00</utc_offset>
+  <cctld>.ae, امارات.</cctld>
+  <footnotes>'''United Arab Emirates portal'''</footnotes>
+  <established>
+    <event>
+      <label>British protectorate as part of Trucial States</label>
+      <date>1820 and 1892</date>
+    </event>
+    <event>
+      <label>Independence from the United Kingdom</label>
+      <date>2 December 1971</date>
+    </event>
+    <event>
+      <label>Admission of Ras Al Khaimah</label>
+      <date>10 February 1972</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>President</title>
+      <name>Mohamed bin Zayed Al Nahyan</name>
+    </leader>
+    <leader>
+      <title>Vice Presidents</title>
+      <name>Mohammed bin Rashid Al Maktoum, Mansour bin Zayed Al Nahyan</name>
+    </leader>
+    <leader>
+      <title>Prime Minister</title>
+      <name>Mohammed bin Rashid Al Maktoum</name>
+    </leader>
+  </leaders>
+</country>

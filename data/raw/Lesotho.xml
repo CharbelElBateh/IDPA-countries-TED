@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Lesotho">
+  <conventional_long_name>Kingdom of Lesotho</conventional_long_name>
+  <common_name>Lesotho</common_name>
+  <national_motto>"Peace, Rain, Prosperity"</national_motto>
+  <national_anthem>''Lesotho fatše la bo-ntat'a rona''( )</national_anthem>
+  <map_caption>Location of Lesotho (dark green)</map_caption>
+  <capital>Maseru</capital>
+  <largest_city>Maseru</largest_city>
+  <official_languages>Sesotho, English</official_languages>
+  <ethnic_groups>99.7% Basotho, 0.3% others</ethnic_groups>
+  <ethnic_groups_year>2020</ethnic_groups_year>
+  <religion_year>2020</religion_year>
+  <demonym>nowrap, Mosotho (singular), Basotho (plural)</demonym>
+  <government_type>Unitary parliamentary constitutional monarchy</government_type>
+  <legislature>Parliament</legislature>
+  <upper_house>Senate</upper_house>
+  <lower_house>National Assembly</lower_house>
+  <sovereignty_type>Independence from the United Kingdom</sovereignty_type>
+  <area_km2>30,355</area_km2>
+  <area_rank>137th</area_rank>
+  <area_sq_mi>11,720</area_sq_mi>
+  <percent_water>negligible</percent_water>
+  <population_estimate>2,210,646</population_estimate>
+  <population_estimate_year>2023</population_estimate_year>
+  <population_estimate_rank>147th</population_estimate_rank>
+  <population_density_km2>68.1</population_density_km2>
+  <population_density_sq_mi>162.4</population_density_sq_mi>
+  <population_density_rank>138th</population_density_rank>
+  <GDP_PPP>$6.915 billion</GDP_PPP>
+  <GDP_PPP_year>2023</GDP_PPP_year>
+  <GDP_PPP_rank>168th</GDP_PPP_rank>
+  <GDP_PPP_per_capita>$3,234</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>164th</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$2.373 billion</GDP_nominal>
+  <GDP_nominal_year>2023</GDP_nominal_year>
+  <GDP_nominal_rank>184th</GDP_nominal_rank>
+  <GDP_nominal_per_capita>$1,110</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>169th</GDP_nominal_per_capita_rank>
+  <Gini>44.9</Gini>
+  <Gini_year>2017</Gini_year>
+  <Gini_change>decrease</Gini_change>
+  <HDI>0.550</HDI>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI_rank>167th</HDI_rank>
+  <currency>Lesotho loti (LSL)South African rand (ZAR)</currency>
+  <time_zone>SAST</time_zone>
+  <utc_offset>+02:00</utc_offset>
+  <calling_code>+266</calling_code>
+  <cctld>.ls</cctld>
+  <established>
+    <event>
+      <label>Basutoland</label>
+      <date>18 March 1884</date>
+    </event>
+    <event>
+      <label>Independence declared</label>
+      <date>4 October 1966</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>Monarch</title>
+      <name>Letsie III</name>
+    </leader>
+    <leader>
+      <title>Prime Minister</title>
+      <name>Sam Matekane</name>
+    </leader>
+  </leaders>
+</country>

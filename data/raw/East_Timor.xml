@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="East Timor">
+  <conventional_long_name>Democratic Republic of</conventional_long_name>
+  <native_name>Native name, pt, República Democrática de, Nowrap, Timor-Leste, Native name, tet, Repúblika Demokrátika, Nowrap, Timór Lorosa'e</native_name>
+  <common_name>Timor-Leste</common_name>
+  <symbol_type>Emblem</symbol_type>
+  <national_motto>"Unity, Action, Progress"</national_motto>
+  <national_anthem>"Fatherland"</national_anthem>
+  <map_caption>Location of Timor-Leste (green) toward the eastern end of the Malay Archipelago</map_caption>
+  <capital>Dili</capital>
+  <largest_city>Dili</largest_city>
+  <official_languages>Portuguese, Tetum</official_languages>
+  <religion_year>2015 census</religion_year>
+  <demonym>East Timorese, Timorese, Maubere (informal)</demonym>
+  <government_type>Unitary semi-presidential republic</government_type>
+  <legislature>National Parliament</legislature>
+  <sovereignty_type>Independence</sovereignty_type>
+  <sovereignty_note>from Portugal, Indonesia, and United Nations Administered East Timor</sovereignty_note>
+  <area_km2>14950</area_km2>
+  <area_rank>154th</area_rank>
+  <area_sq_mi>5,752.922</area_sq_mi>
+  <percent_water>Negligible</percent_water>
+  <population_estimate>1,354,662</population_estimate>
+  <population_census>1,341,737</population_census>
+  <population_census_year>2022</population_census_year>
+  <population_density_km2>94</population_density_km2>
+  <population_density_rank>120th</population_density_rank>
+  <population_estimate_rank>153rd</population_estimate_rank>
+  <population_estimate_year>2023</population_estimate_year>
+  <GDP_PPP>$6.970 billion</GDP_PPP>
+  <GDP_PPP_year>2025</GDP_PPP_year>
+  <GDP_PPP_rank>169th</GDP_PPP_rank>
+  <GDP_PPP_per_capita>$4,920</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>152nd</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$2.120 billion</GDP_nominal>
+  <GDP_nominal_rank>176th</GDP_nominal_rank>
+  <GDP_nominal_year>2025</GDP_nominal_year>
+  <GDP_nominal_per_capita>$1,490</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>157th</GDP_nominal_per_capita_rank>
+  <Gini>28.7</Gini>
+  <Gini_year>2014</Gini_year>
+  <Gini_change>Steady</Gini_change>
+  <HDI>0.634</HDI>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>Increase</HDI_change>
+  <HDI_rank>142nd</HDI_rank>
+  <currency>United States dollar Timor-Leste centavo</currency>
+  <currency_code>USD</currency_code>
+  <time_zone>Timor-Leste Time</time_zone>
+  <utc_offset>+9</utc_offset>
+  <drives_on>Left</drives_on>
+  <calling_code>+670</calling_code>
+  <iso3166code>TL</iso3166code>
+  <cctld>.tl</cctld>
+  <established>
+    <event>
+      <label>Portuguese Timor</label>
+      <date>Early 18th century</date>
+    </event>
+    <event>
+      <label>Independence declared</label>
+      <date>28 November 1975</date>
+    </event>
+    <event>
+      <label>Annexation by Indonesia</label>
+      <date>17 July 1976</date>
+    </event>
+    <event>
+      <label>Administered by UNTAET</label>
+      <date>25 October 1999</date>
+    </event>
+    <event>
+      <label>Independence restored</label>
+      <date>20 May 2002</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>President</title>
+      <name>José Ramos-Horta</name>
+    </leader>
+    <leader>
+      <title>Prime Minister</title>
+      <name>Xanana Gusmão</name>
+    </leader>
+  </leaders>
+</country>

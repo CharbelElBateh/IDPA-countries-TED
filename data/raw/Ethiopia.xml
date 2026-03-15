@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Ethiopia">
+  <conventional_long_name>Federal Democratic Republic of Ethiopia</conventional_long_name>
+  <common_name>Ethiopia</common_name>
+  <flag_p1>Flag of Ethiopia (1991-1996).svg</flag_p1>
+  <symbol_type>Emblem</symbol_type>
+  <national_anthem>"Wedefīt Gesigishī Wid Inat ītiyop'ya"( )</national_anthem>
+  <capital>Addis Ababa</capital>
+  <largest_city>Addis Ababa</largest_city>
+  <official_languages>Afar, Amharic, Oromo, Somali, Tigrinya</official_languages>
+  <ethnic_groups>34.5% Oromo, 26.9% Amhara, 6.2% Somali, 6.1% Tigrayan, 4.0% Sidama, 2.5% Gurage, 2.3% Welayta, 1.7% Hadiya, 1.7% Afar, 1.5% Gamo, 12.6% others</ethnic_groups>
+  <languages_sub>yes</languages_sub>
+  <languages2_type>Foreign languages</languages2_type>
+  <ethnic_groups_year>2007</ethnic_groups_year>
+  <religion_year>2016</religion_year>
+  <border_p2>Eritea, Kenya, Sudan, South Sudan, Djibouti, Somalia</border_p2>
+  <demonym>Ethiopian</demonym>
+  <government_type>Federal parliamentary republic under an authoritarian government</government_type>
+  <legislature>Federal Parliamentary Assembly</legislature>
+  <upper_house>House of Federation</upper_house>
+  <lower_house>House of Peoples' Representatives</lower_house>
+  <sovereignty_type>Formation</sovereignty_type>
+  <area_km2>1,104,300</area_km2>
+  <area_rank>26th</area_rank>
+  <area_sq_mi>426,373</area_sq_mi>
+  <percent_water>0.7</percent_water>
+  <population_estimate>135,500,000</population_estimate>
+  <population_estimate_year>2025</population_estimate_year>
+  <population_estimate_rank>10th</population_estimate_rank>
+  <population_census>73,750,932</population_census>
+  <population_census_year>2007</population_census_year>
+  <population_density_km2>92.7</population_density_km2>
+  <population_density_sq_mi>240.1</population_density_sq_mi>
+  <population_density_rank>123rd</population_density_rank>
+  <GDP_PPP>$434.44 billion</GDP_PPP>
+  <GDP_PPP_year>2024</GDP_PPP_year>
+  <GDP_PPP_rank>55th</GDP_PPP_rank>
+  <GDP_PPP_per_capita>$4,050</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>159th</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$145.03 billion</GDP_nominal>
+  <GDP_nominal_year>2024</GDP_nominal_year>
+  <GDP_nominal_rank>59th</GDP_nominal_rank>
+  <GDP_nominal_per_capita>$1,350</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>159th</GDP_nominal_per_capita_rank>
+  <Gini>35.0</Gini>
+  <Gini_year>2015</Gini_year>
+  <Gini_change>increase</Gini_change>
+  <HDI>0.492</HDI>
+  <HDI_year>2022</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI_rank>176th</HDI_rank>
+  <currency>Birr</currency>
+  <currency_code>ETB</currency_code>
+  <time_zone>EAT</time_zone>
+  <utc_offset>+3</utc_offset>
+  <date_format>dd/mm/yyyy</date_format>
+  <drives_on>right</drives_on>
+  <calling_code>+251</calling_code>
+  <cctld>.et</cctld>
+  <established>
+    <event>
+      <label>Ethiopian Empire</label>
+      <date>1270</date>
+    </event>
+    <event>
+      <label>''Zemene Mesafint''</label>
+      <date>7 May 1769</date>
+    </event>
+    <event>
+      <label>Reunification</label>
+      <date>11 February 1855</date>
+    </event>
+    <event>
+      <label>Centralisation</label>
+      <date>1904</date>
+    </event>
+    <event>
+      <label>Occupied and annexed into Italian East Africa</label>
+      <date>9 May 1936</date>
+    </event>
+    <event>
+      <label>Re-establishment of independence</label>
+      <date>31 January 1942</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>President</title>
+      <name>Taye Atske Selassie</name>
+    </leader>
+    <leader>
+      <title>Prime Minister</title>
+      <name>Abiy Ahmed</name>
+    </leader>
+    <leader>
+      <title>Deputy Prime Ministers</title>
+      <name>Temesgen TirunehAdem Farah</name>
+    </leader>
+    <leader>
+      <title>Chief Justice of the Federal Supreme Court</title>
+      <name>Tewodros Mihret</name>
+    </leader>
+  </leaders>
+</country>

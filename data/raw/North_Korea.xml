@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="North Korea">
+  <conventional_long_name>Democratic People's Republic of Korea</conventional_long_name>
+  <common_name>North Korea</common_name>
+  <native_name>'' ''</native_name>
+  <symbol_type>Emblem</symbol_type>
+  <anthem>("Patriotic Song") centre</anthem>
+  <capital>Pyongyang</capital>
+  <largest_city>capital</largest_city>
+  <official_languages>Korean (Munhwaŏ)</official_languages>
+  <languages_type>Official script</languages_type>
+  <languages>Chosŏn'gŭl</languages>
+  <demonym>North Korean, Korean</demonym>
+  <religion>73% no religion, 58% agnostic, 15% atheist. North Korea is officially an atheist state., 13% Chondoism, 12% Shamanism, 1.5% Buddhism, 0.5% other, Including Christianity, Islam, and Chinese folk religion * 13% Chondoism * 12% Shamanism * 1.5% Buddhism * 0.5% other</religion>
+  <religion_year>2020</religion_year>
+  <government_type>Unitary communist state under a totalitarian hereditary dictatorship</government_type>
+  <legislature>Supreme People's Assembly</legislature>
+  <sovereignty_type>Establishment history</sovereignty_type>
+  <area_km2>120,538</area_km2>
+  <area_sq_mi>46,541</area_sq_mi>
+  <area_rank>98th</area_rank>
+  <percent_water>0.11</percent_water>
+  <population_estimate>26,298,666</population_estimate>
+  <population_census>24,052,231</population_census>
+  <population_estimate_year>2024</population_estimate_year>
+  <population_estimate_rank>54th</population_estimate_rank>
+  <population_census_year>2008</population_census_year>
+  <population_density_km2>212</population_density_km2>
+  <population_density_rank>68th</population_density_rank>
+  <GDP_PPP>$15.416 billion</GDP_PPP>
+  <GDP_PPP_year>2023</GDP_PPP_year>
+  <GDP_PPP_per_capita>$600</GDP_PPP_per_capita>
+  <GDP_nominal>$32.036 billion</GDP_nominal>
+  <GDP_nominal_year>2024</GDP_nominal_year>
+  <GDP_nominal_per_capita>$1,261</GDP_nominal_per_capita>
+  <Gini>16.6</Gini>
+  <Gini_year>2020</Gini_year>
+  <Gini_change>decrease</Gini_change>
+  <currency>Korean People's won (₩)</currency>
+  <currency_code>KPW</currency_code>
+  <time_zone>PYT</time_zone>
+  <utc_offset>+09:00</utc_offset>
+  <date_format>yy,, lang, ko, yyyy년 mm월 dd일, yy, yyyy/mm/dd, resize, 75%, (AD)</date_format>
+  <drives_on>right</drives_on>
+  <calling_code>+850</calling_code>
+  <cctld>.kp</cctld>
+  <established>
+    <event>
+      <label>Surrender of Japan</label>
+      <date>2 September 1945</date>
+    </event>
+    <event>
+      <label>Soviet administration north of the 38th parallel</label>
+      <date>3 October 1945</date>
+    </event>
+    <event>
+      <label>1st provisional government</label>
+      <date>8 February 1946</date>
+    </event>
+    <event>
+      <label>DPRK established</label>
+      <date>10 July 1948</date>
+    </event>
+    <event>
+      <label>Current constitution</label>
+      <date>27 December 1972</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>WPK General Secretary and SAC President</title>
+      <name>Kim Jong Un</name>
+    </leader>
+    <leader>
+      <title>Premier</title>
+      <name>Pak Thae-song</name>
+    </leader>
+    <leader>
+      <title>SPA Standing Committee Chairman and SAC First Vice President</title>
+      <name>Choe Ryong-hae</name>
+    </leader>
+    <leader>
+      <title>SPA Chairman</title>
+      <name>''Vacant''</name>
+    </leader>
+  </leaders>
+</country>

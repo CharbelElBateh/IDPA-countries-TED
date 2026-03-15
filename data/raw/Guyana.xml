@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Guyana">
+  <conventional_long_name>Co-operative Republic of Guyana</conventional_long_name>
+  <common_name>Guyana</common_name>
+  <national_motto>"One People, One Nation, One Destiny"</national_motto>
+  <national_anthem>"Dear Land of Guyana"</national_anthem>
+  <map_caption>Location of South America in grey</map_caption>
+  <capital>Georgetown</capital>
+  <largest_city>capital</largest_city>
+  <official_languages>English</official_languages>
+  <languages_type>Vernacular language</languages_type>
+  <languages>Guyanese Creole</languages>
+  <languages2_type>Other languages</languages2_type>
+  <languages2>Guyanese Hindustani, Portuguese, Dutch, Spanish, Chinese</languages2>
+  <ethnic_groups>class, =, nowrap, nowrap, 44.4% Indian, 32.3% African, 20.0% Mixed, 10.5% Indigenous, 0.3% European, 0.2% Chinese</ethnic_groups>
+  <ethnic_groups_year>2024</ethnic_groups_year>
+  <religion_year>2024</religion_year>
+  <demonym>Guyanese</demonym>
+  <government_type>Unitary parliamentary republic with an executive presidency</government_type>
+  <legislature>National Assembly</legislature>
+  <area_km2>214,969</area_km2>
+  <area_rank>83rd</area_rank>
+  <area_sq_mi>83,000</area_sq_mi>
+  <percent_water>8.4</percent_water>
+  <population_estimate>950,986</population_estimate>
+  <population_estimate_year>2025</population_estimate_year>
+  <population_estimate_rank>166th</population_estimate_rank>
+  <population_density_km2>4.25</population_density_km2>
+  <population_density_rank>235th</population_density_rank>
+  <population_density_sq_mi>9.071</population_density_sq_mi>
+  <GDP_PPP>$75.294 billion</GDP_PPP>
+  <GDP_PPP_rank>110th</GDP_PPP_rank>
+  <GDP_PPP_year>2025</GDP_PPP_year>
+  <GDP_PPP_per_capita>$94,258</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>8th</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$25.822 billion</GDP_nominal>
+  <GDP_nominal_rank>119th</GDP_nominal_rank>
+  <GDP_nominal_year>2025</GDP_nominal_year>
+  <GDP_nominal_per_capita>$32,326</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>37th</GDP_nominal_per_capita_rank>
+  <Gini>44.6</Gini>
+  <Gini_year>2007</Gini_year>
+  <Gini_change>decrease</Gini_change>
+  <HDI>0.776</HDI>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI_rank>89th</HDI_rank>
+  <currency>Guyanese dollar</currency>
+  <currency_code>GYD</currency_code>
+  <time_zone>GYT</time_zone>
+  <utc_offset>-04:00</utc_offset>
+  <drives_on>left</drives_on>
+  <calling_code>+592</calling_code>
+  <cctld>.gy</cctld>
+  <established>
+    <event>
+      <label>Dutch control</label>
+      <date>1667–1815</date>
+    </event>
+    <event>
+      <label>British Guiana</label>
+      <date>1831–1966</date>
+    </event>
+    <event>
+      <label>Independence from the United Kingdom as Guyana</label>
+      <date>26 May 1966</date>
+    </event>
+    <event>
+      <label>Republic</label>
+      <date>23 February 1970</date>
+    </event>
+    <event>
+      <label>Joined CARICOM at the Treaty of Chaguaramas</label>
+      <date>1 August 1973</date>
+    </event>
+    <event>
+      <label/>
+      <date>6 October 1980</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>President</title>
+      <name>Irfaan Ali</name>
+    </leader>
+    <leader>
+      <title>Prime Minister &amp; First Vice President</title>
+      <name/>
+    </leader>
+    <leader>
+      <title>Second Vice President</title>
+      <name>Bharrat Jagdeo</name>
+    </leader>
+    <leader>
+      <title>Speaker of the National Assembly</title>
+      <name/>
+    </leader>
+    <leader>
+      <title>Acting Chief Justice</title>
+      <name/>
+    </leader>
+  </leaders>
+</country>

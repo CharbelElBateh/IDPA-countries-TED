@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Lithuania">
+  <conventional_long_name>Republic of Lithuania</conventional_long_name>
+  <common_name>Lithuania</common_name>
+  <national_anthem>"National Song"</national_anthem>
+  <capital>Vilnius</capital>
+  <largest_city>capital</largest_city>
+  <official_languages>Lithuanian</official_languages>
+  <ethnic_groups>82.3% Lithuanians, 6.2% Poles, 5.0% Russians, 2.2% Ukrainians, 2.1% Belarusians, 2.2% others</ethnic_groups>
+  <ethnic_groups_year>2025</ethnic_groups_year>
+  <religion_year>2021</religion_year>
+  <religion>79.4% Christianity, 74.2% Catholicism, 5.2% other Christian, 6.1% no religion, 0.8% others, 13.7% no answer * 6.1% no religion * 0.8% others * 13.7% no answer</religion>
+  <demonym>Lithuanian</demonym>
+  <government_type>Unitary semi-presidential republic</government_type>
+  <legislature>Seimas</legislature>
+  <sovereignty_type>Formation</sovereignty_type>
+  <area_rank>121st</area_rank>
+  <area_km2>65,300</area_km2>
+  <area_sq_mi>25,212</area_sq_mi>
+  <percent_water>1.98 (2015)</percent_water>
+  <population_estimate>2,897,430</population_estimate>
+  <population_estimate_rank>137th</population_estimate_rank>
+  <population_estimate_year>2025</population_estimate_year>
+  <population_density_km2>46</population_density_km2>
+  <population_density_sq_mi>120</population_density_sq_mi>
+  <population_density_rank>174th</population_density_rank>
+  <GDP_PPP>$165.23 billion</GDP_PPP>
+  <GDP_PPP_rank>88th</GDP_PPP_rank>
+  <GDP_PPP_year>2025</GDP_PPP_year>
+  <GDP_PPP_per_capita>$57,201</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>39th</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$95.27 billion</GDP_nominal>
+  <GDP_nominal_rank>78th</GDP_nominal_rank>
+  <GDP_nominal_year>2025</GDP_nominal_year>
+  <GDP_nominal_per_capita>$32,982</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>40th</GDP_nominal_per_capita_rank>
+  <Gini>35.7</Gini>
+  <Gini_year>2023</Gini_year>
+  <Gini_change>decrease</Gini_change>
+  <HDI>0.895</HDI>
+  <HDI_rank>39th</HDI_rank>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <currency>Euro (€)</currency>
+  <currency_code>EUR</currency_code>
+  <time_zone>EET</time_zone>
+  <utc_offset>+2</utc_offset>
+  <time_zone_DST>EEST</time_zone_DST>
+  <utc_offset_DST>+3</utc_offset_DST>
+  <date_format>- -</date_format>
+  <drives_on>right</drives_on>
+  <calling_code>+370</calling_code>
+  <cctld>.lt</cctld>
+  <established>
+    <event>
+      <label>First mentioned</label>
+      <date>9 March 1009</date>
+    </event>
+    <event>
+      <label>Grand Duchy</label>
+      <date>1236</date>
+    </event>
+    <event>
+      <label>Coronation of Mindaugas</label>
+      <date>6 July 1253</date>
+    </event>
+    <event>
+      <label>Union with Poland</label>
+      <date>2 February 1386</date>
+    </event>
+    <event>
+      <label>Commonwealth created</label>
+      <date>1 July 1569</date>
+    </event>
+    <event>
+      <label>Partitioned</label>
+      <date>24 October 1795</date>
+    </event>
+    <event>
+      <label>Independence reinstated</label>
+      <date>16 February 1918</date>
+    </event>
+    <event>
+      <label>Soviet occupation</label>
+      <date>16 June 1940</date>
+    </event>
+    <event>
+      <label>Independence restored</label>
+      <date>11 March 1990</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>President</title>
+      <name>Gitanas Nausėda</name>
+    </leader>
+    <leader>
+      <title>Prime Minister</title>
+      <name>Inga Ruginienė</name>
+    </leader>
+    <leader>
+      <title>Seimas Speaker</title>
+      <name>Juozas Olekas</name>
+    </leader>
+  </leaders>
+</country>

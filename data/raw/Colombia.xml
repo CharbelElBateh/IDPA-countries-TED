@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Colombia">
+  <conventional_long_name>Republic of Colombia</conventional_long_name>
+  <native_name>&amp;nbsp;(Spanish)</native_name>
+  <common_name>Colombia</common_name>
+  <national_anthem>"National Anthem of the Republic of Colombia"</national_anthem>
+  <capital>Bogotá</capital>
+  <religion>70% Catholicism, 17% other Christian, 11% no religion, 1.9% other</religion>
+  <religion_year>2022</religion_year>
+  <largest_city>capital</largest_city>
+  <official_languages>Spanish</official_languages>
+  <recognized_regional_languages>Creole English (in San Andrés and Providencia) 64 other languages</recognized_regional_languages>
+  <ethnic_groups_year>2018 census</ethnic_groups_year>
+  <demonym>Colombian</demonym>
+  <government_type>Unitary presidential republic</government_type>
+  <legislature>Congress</legislature>
+  <upper_house>Senate</upper_house>
+  <lower_house>Chamber of Representatives</lower_house>
+  <sovereignty_type>Independence</sovereignty_type>
+  <area_km2>1,141,748</area_km2>
+  <area_rank>25th</area_rank>
+  <area_sq_mi>440,831</area_sq_mi>
+  <percent_water>2.1 (as of 2015)</percent_water>
+  <population_estimate>52,695,952</population_estimate>
+  <population_estimate_year>2024</population_estimate_year>
+  <population_estimate_rank>27th</population_estimate_rank>
+  <population_density_km2>46.15</population_density_km2>
+  <population_density_rank>174th</population_density_rank>
+  <population_density_sq_mi>119.54</population_density_sq_mi>
+  <GDP_PPP>$1.042 trillion</GDP_PPP>
+  <GDP_PPP_year>2024</GDP_PPP_year>
+  <GDP_PPP_rank>32nd</GDP_PPP_rank>
+  <GDP_PPP_per_capita>$19,770</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>82nd</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$386.076 billion</GDP_nominal>
+  <GDP_nominal_year>2024</GDP_nominal_year>
+  <GDP_nominal_rank>46th</GDP_nominal_rank>
+  <GDP_nominal_per_capita>$7,327</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>97th</GDP_nominal_per_capita_rank>
+  <Gini>53.9</Gini>
+  <Gini_year>2023</Gini_year>
+  <Gini_change>decrease</Gini_change>
+  <HDI>0.788</HDI>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI_rank>83rd</HDI_rank>
+  <currency>Colombian peso</currency>
+  <currency_code>COP</currency_code>
+  <time_zone>COT</time_zone>
+  <utc_offset>−5</utc_offset>
+  <date_format>DMY</date_format>
+  <drives_on>right</drives_on>
+  <calling_code>+57</calling_code>
+  <cctld>.co</cctld>
+  <footnote_a>Although the Colombian Constitution specifies Spanish (''Castellano'') as the official language in all Colombian territory, other languages spoken in the country by ethnic groups – approximately 68 languages – each is also official in its territory. English is also official in the archipelago of San Andrés, Providencia and Santa Catalina.</footnote_a>
+  <footnote_b>The official Colombian time is controlled and coordinated by the National Institute of Metrology.</footnote_b>
+  <established>
+    <event>
+      <label>Declared</label>
+      <date>20 July 1810</date>
+    </event>
+    <event>
+      <label>Recognized</label>
+      <date>7 August 1819</date>
+    </event>
+    <event>
+      <label>Last unitisation</label>
+      <date>5 August 1886</date>
+    </event>
+    <event>
+      <label>Secession of Panama</label>
+      <date>6 November 1903</date>
+    </event>
+    <event>
+      <label/>
+      <date>4 July 1991</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>President</title>
+      <name>Gustavo Petro</name>
+    </leader>
+    <leader>
+      <title>Vice President</title>
+      <name>Francia Márquez</name>
+    </leader>
+  </leaders>
+</country>

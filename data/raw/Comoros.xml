@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Comoros">
+  <conventional_long_name>Union of the Comoros</conventional_long_name>
+  <common_name>Comoros</common_name>
+  <native_name>native name, zdj-Latn, Udzima wa Komori, native name, fr, Union des Comores, native name, ar, جمهورية القمر المتحدة, '', transliteration, ar, DIN, Jumhuriyat al-Qumur al-Muttaḥida, '' ''</native_name>
+  <flag_type>Flag</flag_type>
+  <symbol_type>Seal</symbol_type>
+  <map_caption>Location of the Comoros (circled)</map_caption>
+  <national_anthem>''Umodja wa Massiwa'' (Comorian)''The Union of the Islands''center</national_anthem>
+  <official_languages>Comorian, French, Arabic</official_languages>
+  <demonym>Comorian, Comorese</demonym>
+  <capital>Moroni</capital>
+  <largest_city>capital</largest_city>
+  <ethnic_groups_year>2000</ethnic_groups_year>
+  <government_type>Federal presidential republic</government_type>
+  <area_rank>170th</area_rank>
+  <area_km2>2,035</area_km2>
+  <area_sq_mi>719</area_sq_mi>
+  <percent_water>negligible</percent_water>
+  <population_estimate>883,075</population_estimate>
+  <population_estimate_year>2024</population_estimate_year>
+  <population_estimate_rank>159th</population_estimate_rank>
+  <population_density_km2>457</population_density_km2>
+  <population_density_sq_mi>1,184</population_density_sq_mi>
+  <population_density_rank>27th</population_density_rank>
+  <GDP_PPP_year>2023</GDP_PPP_year>
+  <GDP_PPP>$3.432 billion</GDP_PPP>
+  <GDP_PPP_per_capita>$3,463</GDP_PPP_per_capita>
+  <GDP_nominal>$1.364 billion</GDP_nominal>
+  <GDP_nominal_year>2023</GDP_nominal_year>
+  <GDP_nominal_per_capita>$1,377</GDP_nominal_per_capita>
+  <Gini_year>2014</Gini_year>
+  <Gini_change>increase</Gini_change>
+  <Gini>45.3</Gini>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI>0.603</HDI>
+  <HDI_rank>152nd</HDI_rank>
+  <sovereignty_type>Formation</sovereignty_type>
+  <currency>Comorian franc</currency>
+  <currency_code>KMF</currency_code>
+  <time_zone>EAT</time_zone>
+  <utc_offset>+3</utc_offset>
+  <drives_on>Right</drives_on>
+  <calling_code>+269</calling_code>
+  <cctld>.km</cctld>
+  <established>
+    <event>
+      <label>Discovery by Portuguese explorers</label>
+      <date>1503</date>
+    </event>
+    <event>
+      <label>Ngazidja, Ndzuwani, Mwali under French rule</label>
+      <date>1886</date>
+    </event>
+    <event>
+      <label>Protectorate of the Comoros</label>
+      <date>6 September 1887</date>
+    </event>
+    <event>
+      <label>Territory under French Madagascar</label>
+      <date>9 April 1908</date>
+    </event>
+    <event>
+      <label>Overseas territory</label>
+      <date>27 October 1946</date>
+    </event>
+    <event>
+      <label>State of Comoros</label>
+      <date>22 December 1961</date>
+    </event>
+    <event>
+      <label>Independence from France</label>
+      <date>6 July 1975</date>
+    </event>
+    <event>
+      <label>Federal Islamic Republic of Comoros</label>
+      <date>1 October 1978</date>
+    </event>
+    <event>
+      <label>Union of the Comoros</label>
+      <date>23 December 2001</date>
+    </event>
+    <event>
+      <label>Current constitution</label>
+      <date>17 May 2009</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>President</title>
+      <name>Azali Assoumani</name>
+    </leader>
+    <leader>
+      <title>President of the Assembly</title>
+      <name>Moustadroine Abdou</name>
+    </leader>
+  </leaders>
+</country>

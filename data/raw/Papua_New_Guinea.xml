@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Papua New Guinea">
+  <conventional_long_name>Independent State of Papua New Guinea</conventional_long_name>
+  <native_name>native name, tpi, Independen Stet bilong Papua Niugini, native name, ho, Gau Hedinarai ai Papua–Matamata Guinea</native_name>
+  <common_name>Papua New Guinea</common_name>
+  <symbol_type>Emblem</symbol_type>
+  <symbol_width>130</symbol_width>
+  <national_motto>Unity in diversity'</national_motto>
+  <national_anthem>"O Arise, All You Sons"</national_anthem>
+  <languages_type>Official languages</languages_type>
+  <languages>English, Hiri Motu, PNG Sign Language, Tok Pisin</languages>
+  <languages2_type>'''Indigenous languages'''</languages2_type>
+  <languages2_sub>yes</languages2_sub>
+  <languages2>839 languages</languages2>
+  <religion_year>2011</religion_year>
+  <demonym>Papua New Guinean</demonym>
+  <capital>Port Moresby</capital>
+  <largest_city>Port Moresby</largest_city>
+  <government_type>Unitary parliamentary constitutional monarchy</government_type>
+  <legislature>National Parliament</legislature>
+  <sovereignty_type>Independence</sovereignty_type>
+  <sovereignty_note>from Australia</sovereignty_note>
+  <area_rank>54th</area_rank>
+  <area_km2>462,840</area_km2>
+  <area_sq_mi>178,703</area_sq_mi>
+  <percent_water>2.2</percent_water>
+  <population_estimate>11,781,559</population_estimate>
+  <population_estimate_year>2021</population_estimate_year>
+  <population_estimate_rank>82nd</population_estimate_rank>
+  <population_census>10,185,363</population_census>
+  <population_census_year>2024</population_census_year>
+  <population_density_km2>25.5</population_density_km2>
+  <population_density_sq_mi>34.62</population_density_sq_mi>
+  <GDP_PPP>$41.810 billion</GDP_PPP>
+  <GDP_PPP_rank>135th</GDP_PPP_rank>
+  <GDP_PPP_year>2025</GDP_PPP_year>
+  <GDP_PPP_per_capita>$3,760</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>162th</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$32.840 billion</GDP_nominal>
+  <GDP_nominal_rank>108th</GDP_nominal_rank>
+  <GDP_nominal_year>2025</GDP_nominal_year>
+  <GDP_nominal_per_capita>$2,560</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>142th</GDP_nominal_per_capita_rank>
+  <Gini_year>2009</Gini_year>
+  <Gini>41.9</Gini>
+  <HDI>0.576</HDI>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI_rank>160th</HDI_rank>
+  <currency>Kina</currency>
+  <currency_code>PGK</currency_code>
+  <time_zone>PNGST</time_zone>
+  <utc_offset>+10, +11</utc_offset>
+  <drives_on>left</drives_on>
+  <cctld>.pg</cctld>
+  <calling_code>+675</calling_code>
+  <established>
+    <event>
+      <label>Administrative union</label>
+      <date>1 July 1949</date>
+    </event>
+    <event>
+      <label>Independence</label>
+      <date>16 September 1975</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>Monarch</title>
+      <name>Charles III</name>
+    </leader>
+    <leader>
+      <title>Governor-General</title>
+      <name>Bob Dadae</name>
+    </leader>
+    <leader>
+      <title>Prime Minister</title>
+      <name>James Marape</name>
+    </leader>
+  </leaders>
+</country>

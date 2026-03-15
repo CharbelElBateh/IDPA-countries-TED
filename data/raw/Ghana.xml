@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Ghana">
+  <conventional_long_name>Republic of Ghana</conventional_long_name>
+  <common_name>Ghana</common_name>
+  <national_motto>"Freedom and Justice"</national_motto>
+  <national_anthem>"God Bless Our Homeland Ghana"</national_anthem>
+  <capital>Accra</capital>
+  <largest_city>capital</largest_city>
+  <official_languages>English</official_languages>
+  <languages_type>Government-sponsored languages</languages_type>
+  <languages>Twi, Fante, Ewe, Dagaare, Dagbanli, Adangme, Ga, Gonja, Kasem, Nzema</languages>
+  <languages2_type>Working languages</languages2_type>
+  <languages2>English, French Hindi, Arabic, Ghanaian English, Ghanaian Pidgin English</languages2>
+  <religion_year>2021</religion_year>
+  <ethnic_groups>45.7% Akan, 18.5% Mole-Dagbon, 12.8% Ewe, 7.1% Ga-Adangbe, 6.4% Gurma, 3.2% Guan, 2.7% Gurunsi, 2.0% Mande, 1.6% other</ethnic_groups>
+  <ethnic_groups_year>2021</ethnic_groups_year>
+  <demonym>Ghanaian</demonym>
+  <government_type>Unitary presidential republic</government_type>
+  <legislature>Parliament</legislature>
+  <sovereignty_type>Independence</sovereignty_type>
+  <sovereignty_note>from the United Kingdom</sovereignty_note>
+  <area_km2>240000</area_km2>
+  <area_rank>80th</area_rank>
+  <area_sq_mi>92101</area_sq_mi>
+  <percent_water>4.61 (11,000&amp;nbsp;km ; 4,247&amp;nbsp;mi )</percent_water>
+  <population_estimate>35,039,451</population_estimate>
+  <population_estimate_year>2025</population_estimate_year>
+  <population_estimate_rank>46th</population_estimate_rank>
+  <population_density_km2>151</population_density_km2>
+  <population_density_sq_mi>392</population_density_sq_mi>
+  <population_density_rank>90th</population_density_rank>
+  <GDP_PPP>$295.12 billion</GDP_PPP>
+  <GDP_PPP_rank>68th</GDP_PPP_rank>
+  <GDP_PPP_year>2025</GDP_PPP_year>
+  <GDP_PPP_per_capita>$8,042</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>132nd</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$88.033 billion</GDP_nominal>
+  <GDP_nominal_rank>79th</GDP_nominal_rank>
+  <GDP_nominal_year>2025</GDP_nominal_year>
+  <GDP_nominal_per_capita>$2,520</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>143rd</GDP_nominal_per_capita_rank>
+  <Gini>44</Gini>
+  <Gini_year>2024</Gini_year>
+  <Gini_change>steady</Gini_change>
+  <HDI>0.628</HDI>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI_rank>143rd</HDI_rank>
+  <currency>Cedi</currency>
+  <currency_code>GHS</currency_code>
+  <utc_offset>±00:00</utc_offset>
+  <time_zone>GMT</time_zone>
+  <calling_code>+233</calling_code>
+  <iso3166code>GH</iso3166code>
+  <cctld>.gh</cctld>
+  <established>
+    <event>
+      <label>Dominion</label>
+      <date>6 March 1957</date>
+    </event>
+    <event>
+      <label>Republic</label>
+      <date>1 July 1960</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>President</title>
+      <name>John Mahama</name>
+    </leader>
+    <leader>
+      <title>Vice-President</title>
+      <name>Jane Naana Opoku-Agyemang</name>
+    </leader>
+    <leader>
+      <title>Speaker of Parliament</title>
+      <name>Alban Bagbin</name>
+    </leader>
+    <leader>
+      <title>Chief Justice</title>
+      <name>Justice Paul Baffoe-Bonnie</name>
+    </leader>
+  </leaders>
+</country>

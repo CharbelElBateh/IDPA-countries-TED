@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Mexico">
+  <conventional_long_name>United Mexican States</conventional_long_name>
+  <common_name>Mexico</common_name>
+  <symbol_type>Coat of arms</symbol_type>
+  <national_anthem>( )File:Himno Nacional Mexicano instrumental.ogg</national_anthem>
+  <capital>Mexico City</capital>
+  <largest_city>Mexico City</largest_city>
+  <languages_type>National language</languages_type>
+  <languages>Spanish</languages>
+  <languages2_type>Co-official languages</languages2_type>
+  <languages2>68 Indigenous languages</languages2>
+  <ethnic_groups>''See below''</ethnic_groups>
+  <religion>item_style, =, white-space:nowrap;, 88.9% Christianity, 77.7% Catholicism, 11.2% Protestantism, 8.1% Irreligion, 2.4% other religion, 0.5% prefer not to say</religion>
+  <religion_year>2020</religion_year>
+  <demonym>Mexican</demonym>
+  <government_type>Federal presidential republic</government_type>
+  <legislature>Congress</legislature>
+  <upper_house>Senate</upper_house>
+  <lower_house>Chamber of Deputies</lower_house>
+  <sovereignty_type>Independence</sovereignty_type>
+  <sovereignty_note>from Spain</sovereignty_note>
+  <area_km2>1,972,550</area_km2>
+  <area_rank>13th</area_rank>
+  <area_sq_mi>761,606</area_sq_mi>
+  <percent_water>1.58 (as of 2015)</percent_water>
+  <population_estimate>131,946,900</population_estimate>
+  <population_census>126,014,024</population_census>
+  <population_estimate_year>2025</population_estimate_year>
+  <population_estimate_rank>10th</population_estimate_rank>
+  <population_census_year>2020</population_census_year>
+  <population_density_km2>61</population_density_km2>
+  <population_density_sq_mi>157</population_density_sq_mi>
+  <population_density_rank>142nd</population_density_rank>
+  <GDP_PPP>$3.396 trillion</GDP_PPP>
+  <GDP_PPP_year>2025</GDP_PPP_year>
+  <GDP_PPP_rank>13th</GDP_PPP_rank>
+  <GDP_PPP_per_capita>$25,463</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>77th</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$1.693 trillion</GDP_nominal>
+  <GDP_nominal_year>2025</GDP_nominal_year>
+  <GDP_nominal_rank>13th</GDP_nominal_rank>
+  <GDP_nominal_per_capita>$12,692</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>75th</GDP_nominal_per_capita_rank>
+  <Gini>40.2</Gini>
+  <Gini_year>2022</Gini_year>
+  <Gini_change>decrease</Gini_change>
+  <HDI>0.789</HDI>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI_rank>81st</HDI_rank>
+  <currency>Mexican peso</currency>
+  <currency_code>MXN</currency_code>
+  <time_zone>''See'' Time in Mexico</time_zone>
+  <utc_offset>−8 to −5</utc_offset>
+  <utc_offset_DST>−7 to −5</utc_offset_DST>
+  <time_zone_DST>varies</time_zone_DST>
+  <date_format>dd/mm/yyyy</date_format>
+  <drives_on>right</drives_on>
+  <calling_code>+52</calling_code>
+  <cctld>.mx</cctld>
+  <footnote_a>Article 4 of the General Law of Linguistic Rights of the Indigenous Peoples</footnote_a>
+  <footnote_b>Spanish is the ''de facto'' official language in the Mexican federal government.</footnote_b>
+  <established>
+    <event>
+      <label>Start of War of Independence</label>
+      <date>16 September 1810</date>
+    </event>
+    <event>
+      <label>Declared</label>
+      <date>27 September 1821</date>
+    </event>
+    <event>
+      <label>Recognized</label>
+      <date>28 December 1836</date>
+    </event>
+    <event>
+      <label>First constitution</label>
+      <date>4 October 1824</date>
+    </event>
+    <event>
+      <label>Second constitution</label>
+      <date>5 February 1857</date>
+    </event>
+    <event>
+      <label>Current constitution</label>
+      <date>5 February 1917</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>President</title>
+      <name>Claudia Sheinbaum</name>
+    </leader>
+    <leader>
+      <title>President of the Senate</title>
+      <name>Laura Itzel Castillo</name>
+    </leader>
+    <leader>
+      <title>President of the Chamber of Deputies</title>
+      <name>Kenia López Rabadán</name>
+    </leader>
+    <leader>
+      <title>Chief Justice</title>
+      <name>Hugo Aguilar Ortiz</name>
+    </leader>
+  </leaders>
+</country>

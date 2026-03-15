@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Brunei">
+  <conventional_long_name>Brunei Darussalam</conventional_long_name>
+  <common_name>Brunei</common_name>
+  <native_name>(Jawi)</native_name>
+  <symbol_type>Emblem</symbol_type>
+  <national_motto>)</national_motto>
+  <capital>Bandar Seri Begawan</capital>
+  <largest_city>capital</largest_city>
+  <languages_type>Official language</languages_type>
+  <languages>Malay</languages>
+  <languages2_type>Other languagesand dialects</languages2_type>
+  <languages2>Brunei Malay, English, Tutong, Kedayan, Belait, Chinese (Hokkien, Hakka Chinese, Standard Chinese and Cantonese), Murut, Dusun, Brunei Bisaya</languages2>
+  <ethnic_groups_year>2023</ethnic_groups_year>
+  <religion_year>2023</religion_year>
+  <demonym>Bruneian</demonym>
+  <government_type>Unitary Islamic absolute monarchy</government_type>
+  <legislature>Legislative Council As its role is only consultative it is not considered to be a legislature.</legislature>
+  <sovereignty_type>Formation</sovereignty_type>
+  <area_km2>5,765</area_km2>
+  <area_rank>164th</area_rank>
+  <area_sq_mi>2,226</area_sq_mi>
+  <percent_water>8.6</percent_water>
+  <population_estimate>466,227</population_estimate>
+  <population_estimate_year>2025</population_estimate_year>
+  <population_estimate_rank>175th</population_estimate_rank>
+  <population_density_km2>72.11</population_density_km2>
+  <population_density_sq_mi>186.75</population_density_sq_mi>
+  <population_density_rank>134th</population_density_rank>
+  <GDP_PPP>$43.830 billion</GDP_PPP>
+  <GDP_PPP_year>2025</GDP_PPP_year>
+  <GDP_PPP_rank>137th</GDP_PPP_rank>
+  <GDP_PPP_per_capita>$95,760</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>7th</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$16.01 billion</GDP_nominal>
+  <GDP_nominal_year>2025</GDP_nominal_year>
+  <GDP_nominal_rank>139th</GDP_nominal_rank>
+  <GDP_nominal_per_capita>$34,970</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>31st</GDP_nominal_per_capita_rank>
+  <HDI>0.837</HDI>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI_rank>60th</HDI_rank>
+  <currency>Brunei dollar</currency>
+  <currency_code>BND</currency_code>
+  <time_zone>Brunei Standard Time</time_zone>
+  <utc_offset>+8</utc_offset>
+  <drives_on>left</drives_on>
+  <calling_code>+673</calling_code>
+  <cctld>.bn</cctld>
+  <footnote_a>Also 080 from East Malaysia</footnote_a>
+  <population_census>440,715</population_census>
+  <population_census_year>2021</population_census_year>
+  <established>
+    <event>
+      <label>Sultanate established</label>
+      <date/>
+    </event>
+    <event>
+      <label>British protected state</label>
+      <date>17 September 1888</date>
+    </event>
+    <event>
+      <label>Constitution adopted and self-governance</label>
+      <date>29 September 1959</date>
+    </event>
+    <event>
+      <label>Brunei Revolt</label>
+      <date>8 December 1962</date>
+    </event>
+    <event>
+      <label>Independence from United Kingdom</label>
+      <date>1 January 1984</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>Sultan and Prime Minister</title>
+      <name>Hassanal Bolkiah</name>
+    </leader>
+    <leader>
+      <title>Crown Prince and Senior Minister</title>
+      <name>Al-Muhtadee Billah</name>
+    </leader>
+  </leaders>
+</country>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Saint Lucia">
+  <conventional_long_name>Saint Lucia</conventional_long_name>
+  <common_name>Saint Lucia</common_name>
+  <map2_width>250px</map2_width>
+  <national_motto>"The Land, The People, The Light"</national_motto>
+  <national_anthem>"Sons and Daughters of Saint Lucia"</national_anthem>
+  <royal_anthem>"God Save the King"File:United States Navy Band - God Save the King.oga</royal_anthem>
+  <official_languages>English</official_languages>
+  <languages_type>Vernacular languages</languages_type>
+  <languages>Saint Lucian French Creole</languages>
+  <demonym>Saint Lucian</demonym>
+  <ethnic_groups_year>2020</ethnic_groups_year>
+  <religion_year>2022</religion_year>
+  <capital>Castries</capital>
+  <largest_settlement>capital</largest_settlement>
+  <government_type>Unitary parliamentary constitutional monarchy</government_type>
+  <legislature>Parliament</legislature>
+  <upper_house>Senate</upper_house>
+  <lower_house>House of Assembly</lower_house>
+  <sovereignty_type>Independence</sovereignty_type>
+  <area_rank>178th</area_rank>
+  <area_km2>617</area_km2>
+  <area_sq_mi>238.23</area_sq_mi>
+  <percent_water>1.6</percent_water>
+  <population_estimate>184,100</population_estimate>
+  <population_estimate_rank>177th</population_estimate_rank>
+  <population_estimate_year>2023</population_estimate_year>
+  <population_census>165,595</population_census>
+  <population_census_year>2010</population_census_year>
+  <population_density_km2>298</population_density_km2>
+  <population_density_sq_mi>777</population_density_sq_mi>
+  <population_density_rank>29th</population_density_rank>
+  <GDP_PPP>$3.769 billion</GDP_PPP>
+  <GDP_PPP_year>2025</GDP_PPP_year>
+  <GDP_PPP_rank>177nd</GDP_PPP_rank>
+  <GDP_PPP_per_capita>$29,258</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>73th</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$2.715 billion</GDP_nominal>
+  <GDP_nominal_year>2025</GDP_nominal_year>
+  <GDP_nominal_rank>168th</GDP_nominal_rank>
+  <GDP_nominal_per_capita>$14,647</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>72th</GDP_nominal_per_capita_rank>
+  <Gini>51.2</Gini>
+  <Gini_year>2016</Gini_year>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI>0.748</HDI>
+  <HDI_rank>103rd</HDI_rank>
+  <currency>East Caribbean dollar</currency>
+  <currency_code>XCD</currency_code>
+  <time_zone>AST</time_zone>
+  <utc_offset>−4</utc_offset>
+  <drives_on>left</drives_on>
+  <calling_code>+1</calling_code>
+  <cctld>.lc</cctld>
+  <iso3166code>LC</iso3166code>
+  <established>
+    <event>
+      <label>Associated State</label>
+      <date>1 March 1967</date>
+    </event>
+    <event>
+      <label>Independence from the United Kingdom</label>
+      <date>22 February 1979</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>Monarch</title>
+      <name/>
+    </leader>
+    <leader>
+      <title/>
+      <name>Errol Charles</name>
+    </leader>
+    <leader>
+      <title>Prime Minister</title>
+      <name>Philip J. Pierre</name>
+    </leader>
+  </leaders>
+</country>

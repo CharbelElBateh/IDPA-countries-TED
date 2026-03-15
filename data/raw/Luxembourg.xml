@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Luxembourg">
+  <conventional_long_name>Grand Duchy of Luxembourg</conventional_long_name>
+  <common_name>Luxembourg</common_name>
+  <native_name>native name, lb, Groussherzogtum&amp;nbsp;Lëtzebuerg, wbr, native name, fr, Grand-Duché de Luxembourg, wbr, native name, de, nowrap, Großherzogtum&amp;nbsp;Luxemburg, wbr</native_name>
+  <flag_size>130</flag_size>
+  <flag>Flag of Luxembourg</flag>
+  <symbol_type>Coat of arms</symbol_type>
+  <symbol>Coat of arms of Luxembourg</symbol>
+  <national_motto>"Mir wëlle bleiwe wat mir sinn" "We want to stay what we are"</national_motto>
+  <national_anthem>"Ons Heemecht"("Our Homeland")File:Ons Heemecht.ogg</national_anthem>
+  <royal_anthem>" "a</royal_anthem>
+  <capital>Luxembourg</capital>
+  <largest_city>capital</largest_city>
+  <official_languages>'''National language:'''Luxembourgish '''Administrative languages:''' Luxembourgish, German, French 53% Luxembourgers, 13.2% Portuguesee, 7.2% Frenche, 3.7% Italianse, 23% othere, item3_style, =, padding-top:0.2em;line-height:1.2em</official_languages>
+  <demonym>Luxembourger, Luxembourgish</demonym>
+  <religion_year>2021</religion_year>
+  <government_type>Unitary parliamentary constitutional monarchy</government_type>
+  <legislature>Chamber of Deputies</legislature>
+  <area_km2>2,586.4</area_km2>
+  <area_rank>168th</area_rank>
+  <area_sq_mi>998</area_sq_mi>
+  <percent_water>0.23 (2015)</percent_water>
+  <population_estimate>690,947</population_estimate>
+  <population_census>643,941</population_census>
+  <population_estimate_year>December 2025</population_estimate_year>
+  <population_estimate_rank>163rd</population_estimate_rank>
+  <population_census_year>2021</population_census_year>
+  <population_density_km2>264</population_density_km2>
+  <population_density_sq_mi>683</population_density_sq_mi>
+  <population_density_rank>55th</population_density_rank>
+  <GDP_PPP>$106.505 billion</GDP_PPP>
+  <GDP_PPP_year>2025</GDP_PPP_year>
+  <GDP_PPP_rank>100th</GDP_PPP_rank>
+  <GDP_PPP_per_capita>$154,914</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>1st</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$96.993&amp;nbsp;billion</GDP_nominal>
+  <GDP_nominal_year>2025</GDP_nominal_year>
+  <GDP_nominal_rank>73rd</GDP_nominal_rank>
+  <GDP_nominal_per_capita>$141,079</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>1st</GDP_nominal_per_capita_rank>
+  <Gini>30.6</Gini>
+  <Gini_year>2023</Gini_year>
+  <Gini_change>increase</Gini_change>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>steady</HDI_change>
+  <HDI>0.922</HDI>
+  <HDI_rank>25th</HDI_rank>
+  <currency>Euro (€)</currency>
+  <currency_code>EUR</currency_code>
+  <calling_code>+352</calling_code>
+  <cctld>.lub</cctld>
+  <footnote_a>Not the same as ''Het Wilhelmus'' of the Netherlands</footnote_a>
+  <footnote_b>The .eu domain is also used, as it is shared with other European Union member states.</footnote_b>
+  <footnote_e>These figures are likely an underestimation, as dual citizens with Luxembourgish nationality are counted solely as Luxembourgers in official estimates.</footnote_e>
+  <established>
+    <event>
+      <label>From the French Empire and elevation to Grand Duchy of Luxembourg</label>
+      <date>9 June 1815</date>
+    </event>
+    <event>
+      <label>Independence in personal Union with the Netherlands (Treaty of London)</label>
+      <date>19 April 1839</date>
+    </event>
+    <event>
+      <label>End of personal union with the Kingdom of the Netherlands</label>
+      <date>23 November 1890</date>
+    </event>
+    <event>
+      <label>Liberation from the Greater German Reich</label>
+      <date>1944/1945</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>Grand Duke</title>
+      <name>Guillaume V</name>
+    </leader>
+    <leader>
+      <title>Prime Minister</title>
+      <name>Luc Frieden</name>
+    </leader>
+  </leaders>
+</country>

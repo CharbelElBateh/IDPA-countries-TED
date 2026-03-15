@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Germany">
+  <conventional_long_name>Federal Republic of Germany</conventional_long_name>
+  <common_name>Germany</common_name>
+  <national_anthem>''The Song of the Germans'' " was the national anthem, but only the third verse was sung on official occasions. Since 1991, the third verse alone has been the national anthem.</national_anthem>
+  <capital>Berlin ) and is the primary seat of six ministries.</capital>
+  <largest_city>capital</largest_city>
+  <official_languages>German</official_languages>
+  <demonym>German</demonym>
+  <government_type>Federal parliamentary republic</government_type>
+  <legislature>Bundestag, Bundesrat</legislature>
+  <area_km2>357,022</area_km2>
+  <area_rank>63rd</area_rank>
+  <area_sq_mi>137,847</area_sq_mi>
+  <percent_water>1.27</percent_water>
+  <population_estimate>83,491,249</population_estimate>
+  <population_estimate_year>Q2 2025</population_estimate_year>
+  <population_census>82,719,540</population_census>
+  <population_census_year>2022</population_census_year>
+  <population_census_rank>19th</population_census_rank>
+  <population_density_rank>63rd</population_density_rank>
+  <GDP_PPP>$6.154&amp;nbsp;trillion</GDP_PPP>
+  <GDP_PPP_rank>6th</GDP_PPP_rank>
+  <GDP_PPP_year>2025</GDP_PPP_year>
+  <GDP_PPP_per_capita>$73,553</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>23rd</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$5.014&amp;nbsp;trillion</GDP_nominal>
+  <GDP_nominal_rank>3rd</GDP_nominal_rank>
+  <GDP_nominal_year>2025</GDP_nominal_year>
+  <GDP_nominal_per_capita>$59,925</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>19th</GDP_nominal_per_capita_rank>
+  <Gini>29.4</Gini>
+  <Gini_year>2023</Gini_year>
+  <Gini_change>increase</Gini_change>
+  <HDI>0.959</HDI>
+  <HDI_rank>5th</HDI_rank>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <currency>Euro (€)</currency>
+  <currency_code>EUR</currency_code>
+  <time_zone>CET</time_zone>
+  <utc_offset>+1</utc_offset>
+  <utc_offset_DST>+2</utc_offset_DST>
+  <time_zone_DST>CEST</time_zone_DST>
+  <cctld>.de</cctld>
+  <calling_code>+49</calling_code>
+  <date_format>Day, month, year, Year, month, day</date_format>
+  <leaders>
+    <leader>
+      <title>President</title>
+      <name>Frank-Walter Steinmeier</name>
+    </leader>
+    <leader>
+      <title>Chancellor</title>
+      <name>Friedrich Merz</name>
+    </leader>
+  </leaders>
+</country>

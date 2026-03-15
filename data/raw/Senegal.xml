@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Senegal">
+  <conventional_long_name>Republic of Senegal</conventional_long_name>
+  <common_name>Senegal</common_name>
+  <national_motto>( )</national_motto>
+  <national_anthem>( )</national_anthem>
+  <official_languages>French</official_languages>
+  <languages_type>National languages</languages_type>
+  <languages>Wolof, name, =, WolofStatus, Information from the University of Pennsylvania's Center for African Studies estimates that about 90% of the Senegalese population understands or speaks Wolof as a first or second language., Serer, Diola, Pulaar, Soninke, Mandinka, name, =, SenegalNationalLangs, Article 1 of the 2001 Constitution of Senegal, which states that the national languages are Diola, Malinké, Pular, Sérère, Soninké and Wolof.</languages>
+  <ethnic_groups>39.7% Wolof, 27.5% Fula, 16.0% Serer, 4.9% Mandinka, 4.2% Jola, 2.4% Soninke, 5.4% others</ethnic_groups>
+  <ethnic_groups_year>2019</ethnic_groups_year>
+  <religion>97.2% Islam, 2.7% Christianity, 0.1% other</religion>
+  <religion_year>2019</religion_year>
+  <demonym>Senegalese</demonym>
+  <capital>Dakar</capital>
+  <largest_city>capital</largest_city>
+  <government_type>Unitary presidential republic</government_type>
+  <legislature>National Assembly</legislature>
+  <area_rank>86th</area_rank>
+  <area_km2>196,722</area_km2>
+  <area_sq_mi>75,955</area_sq_mi>
+  <percent_water>2.1</percent_water>
+  <population_estimate>18,847,519</population_estimate>
+  <population_estimate_year>2024</population_estimate_year>
+  <population_estimate_rank>68th</population_estimate_rank>
+  <GDP_PPP>$105.428 billion</GDP_PPP>
+  <GDP_PPP_rank>100th</GDP_PPP_rank>
+  <GDP_PPP_year>2025</GDP_PPP_year>
+  <GDP_PPP_per_capita>$5,498</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>150th</GDP_PPP_per_capita_rank>
+  <GDP_nominal_rank>103rd</GDP_nominal_rank>
+  <GDP_nominal>$34.728 billion</GDP_nominal>
+  <GDP_nominal_year>2025</GDP_nominal_year>
+  <GDP_nominal_per_capita>$1,811</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>154th</GDP_nominal_per_capita_rank>
+  <sovereignty_type>Independence</sovereignty_type>
+  <Gini_year>2011</Gini_year>
+  <Gini>40.3</Gini>
+  <HDI>0.530</HDI>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI_rank>169th</HDI_rank>
+  <currency>West African CFA franc</currency>
+  <currency_code>XOF</currency_code>
+  <utc_offset>±00:00</utc_offset>
+  <time_zone>GMT</time_zone>
+  <calling_code>+221</calling_code>
+  <cctld>.sn</cctld>
+  <flag_p1>Flag of Mali (1959–1961).svg</flag_p1>
+  <established>
+    <event>
+      <label>Republic established</label>
+      <date>25 November 1958</date>
+    </event>
+    <event>
+      <label>Independence from France</label>
+      <date>20 June 1960</date>
+    </event>
+    <event>
+      <label>Withdrawal fromthe Mali Federation</label>
+      <date>20 August 1960</date>
+    </event>
+    <event>
+      <label>Dissolution of the Senegambia Confederation</label>
+      <date>30 September 1989</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>President</title>
+      <name>Bassirou Diomaye Faye</name>
+    </leader>
+    <leader>
+      <title>Prime Minister</title>
+      <name>Ousmane Sonko</name>
+    </leader>
+    <leader>
+      <title>President of the National Assembly</title>
+      <name>Malick Ndiaye</name>
+    </leader>
+  </leaders>
+</country>

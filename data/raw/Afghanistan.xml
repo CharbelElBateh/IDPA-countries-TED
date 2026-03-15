@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Afghanistan">
+  <conventional_long_name>Islamic Emirate of Afghanistan</conventional_long_name>
+  <common_name>Afghanistan</common_name>
+  <native_name>native name, ps, د افغانستان اسلامي امارت, italic, =, no, small, transliteration, ps, Də Afğānistān Islāmi Imārat, native name, prs, امارت اسلامی افغانستان, italic, =, no, small, transliteration, prs, Imārat-i Islāmī-yi Afğānistān</native_name>
+  <flag_caption>Flag</flag_caption>
+  <symbol_type>Emblem</symbol_type>
+  <national_motto>(Arabic) "There is no god but God; Muhammad is the messenger of God." (''Shahada'')</national_motto>
+  <national_anthem>(Pashto)'' ''"This is the Home of the Brave"</national_anthem>
+  <capital>Kabul</capital>
+  <largest_city>Kabul</largest_city>
+  <official_languages>Pashto, Dari</official_languages>
+  <ethnic_groups>42% Pashtun, 27% Tajik, figure space, 9% Hazara, figure space, 9% Uzbek, figure space, 4% Aimaq, figure space, 3% Turkmen, figure space, 2% Baloch, figure space, 4% other 9% Hazara 9% Uzbek 4% Aimaq 3% Turkmen 2% Baloch 4% other</ethnic_groups>
+  <ethnic_groups_year>2010, unofficial estimates</ethnic_groups_year>
+  <religion_year>2020</religion_year>
+  <demonym>Afghan Afghanese and Afghanistani (see Afghans for further details)</demonym>
+  <government_type>Unitary totalitarian theocratic Islamic emirate</government_type>
+  <legislature>None There is an advisory Leadership Council, which is not a legislature as it has no power to pass laws.</legislature>
+  <sovereignty_type>Formation</sovereignty_type>
+  <area_km2>652,864</area_km2>
+  <area_rank>40th</area_rank>
+  <area_sq_mi>252,072</area_sq_mi>
+  <percent_water>negligible</percent_water>
+  <population_estimate>35–50 million</population_estimate>
+  <population_estimate_year>mid-2024/2025</population_estimate_year>
+  <population_estimate_rank>36th</population_estimate_rank>
+  <GDP_PPP>$91.668&amp;nbsp;billion</GDP_PPP>
+  <GDP_PPP_year>2023</GDP_PPP_year>
+  <GDP_PPP_per_capita>$2,174</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>179th</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$17.329&amp;nbsp;billion</GDP_nominal>
+  <GDP_nominal_year>2023</GDP_nominal_year>
+  <GDP_nominal_per_capita>$411</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>190th</GDP_nominal_per_capita_rank>
+  <HDI>0.496</HDI>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI_rank>181st</HDI_rank>
+  <currency>Afghani ( )</currency>
+  <currency_code>AFN</currency_code>
+  <time_zone>Afghanistan Time</time_zone>
+  <utc_offset>+4:30 Lunar Hijri calendar</utc_offset>
+  <drives_on>right</drives_on>
+  <cctld>.af</cctld>
+  <established>
+    <event>
+      <label>Hotak Emirate</label>
+      <date>21 April 1709</date>
+    </event>
+    <event>
+      <label/>
+      <date>June 1747</date>
+    </event>
+    <event>
+      <label>Barakzai Emirate</label>
+      <date>1823</date>
+    </event>
+    <event>
+      <label>Unification</label>
+      <date>27 May 1863</date>
+    </event>
+    <event>
+      <label>Independence</label>
+      <date>19 August 1919</date>
+    </event>
+    <event>
+      <label>Kingdom</label>
+      <date>9 June 1926</date>
+    </event>
+    <event>
+      <label>Republic</label>
+      <date>17 July 1973</date>
+    </event>
+    <event>
+      <label>Democratic Republic</label>
+      <date>30 April 1978</date>
+    </event>
+    <event>
+      <label>Islamic State</label>
+      <date>28 April 1992</date>
+    </event>
+    <event>
+      <label>Islamic Emirate</label>
+      <date>27 September 1996</date>
+    </event>
+    <event>
+      <label/>
+      <date>26 January 2004</date>
+    </event>
+    <event>
+      <label>Restoration of Islamic Emirate</label>
+      <date>15 August 2021</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>Supreme Leader</title>
+      <name/>
+    </leader>
+    <leader>
+      <title>Prime Minister</title>
+      <name>Hasan Akhund</name>
+    </leader>
+    <leader>
+      <title>Chief Justice</title>
+      <name>Abdul Hakim Haqqani</name>
+    </leader>
+  </leaders>
+</country>

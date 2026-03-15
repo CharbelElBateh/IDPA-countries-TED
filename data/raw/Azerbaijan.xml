@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Azerbaijan">
+  <conventional_long_name>Republic of Azerbaijan</conventional_long_name>
+  <common_name>Azerbaijan</common_name>
+  <symbol_type>National emblem</symbol_type>
+  <national_anthem>"State Anthem of the Republic of Azerbaijan"</national_anthem>
+  <capital>Baku</capital>
+  <largest_city>capital</largest_city>
+  <official_languages>Azerbaijani</official_languages>
+  <ethnic_groups_year>2019</ethnic_groups_year>
+  <ethnic_groups>94.8% Azerbaijani, 1.7% Lezgin, 0.9% Talysh, 0.7% Russian, 1.9% others</ethnic_groups>
+  <demonym>Azerbaijani, Azeri</demonym>
+  <government_type>Unitary semi-presidential republic under a hereditary dictatorship</government_type>
+  <legislature>National Assembly</legislature>
+  <sovereignty_type>Formation</sovereignty_type>
+  <area_km2>86600</area_km2>
+  <area_rank>112th</area_rank>
+  <area_sq_mi>33436</area_sq_mi>
+  <percent_water>1.6</percent_water>
+  <population_estimate>10,353,296</population_estimate>
+  <population_estimate_year>2022</population_estimate_year>
+  <population_estimate_rank>90th</population_estimate_rank>
+  <population_density_km2>117</population_density_km2>
+  <population_density_sq_mi>293</population_density_sq_mi>
+  <population_density_rank>99th</population_density_rank>
+  <GDP_PPP>$272&amp;nbsp;billion</GDP_PPP>
+  <GDP_PPP_year>2024</GDP_PPP_year>
+  <GDP_PPP_rank>78th</GDP_PPP_rank>
+  <GDP_PPP_per_capita>$26,235</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>88th</GDP_PPP_per_capita_rank>
+  <GDP_nominal>79&amp;nbsp;billion</GDP_nominal>
+  <GDP_nominal_year>2024</GDP_nominal_year>
+  <GDP_nominal_rank>82nd</GDP_nominal_rank>
+  <GDP_nominal_per_capita>$7,604</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>90th</GDP_nominal_per_capita_rank>
+  <Gini>33.7</Gini>
+  <Gini_year>2008</Gini_year>
+  <Gini_change>increase</Gini_change>
+  <HDI>0.789</HDI>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI_rank>81st</HDI_rank>
+  <currency>Manat (₼)</currency>
+  <currency_code>AZN</currency_code>
+  <time_zone>AZT</time_zone>
+  <utc_offset>+4</utc_offset>
+  <calling_code>+994</calling_code>
+  <cctld>.az</cctld>
+  <religion_year>2020</religion_year>
+  <established>
+    <event>
+      <label>People's Republic</label>
+      <date>28 May 1918</date>
+    </event>
+    <event>
+      <label>Soviet Socialist Republic</label>
+      <date>28 April 1920</date>
+    </event>
+    <event>
+      <label>Independence from the Soviet Union</label>
+      <date>18 October 1991 (declared), 26 December 1991 (recognized)</date>
+    </event>
+    <event>
+      <label/>
+      <date>12 November 1995</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>President</title>
+      <name>Ilham Aliyev</name>
+    </leader>
+    <leader>
+      <title>Vice President</title>
+      <name>Mehriban Aliyeva</name>
+    </leader>
+    <leader>
+      <title>Prime Minister</title>
+      <name>Ali Asadov</name>
+    </leader>
+  </leaders>
+</country>

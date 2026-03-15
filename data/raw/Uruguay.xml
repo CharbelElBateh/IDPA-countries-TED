@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Uruguay">
+  <conventional_long_name>Oriental Republic of Uruguay</conventional_long_name>
+  <common_name>Uruguay</common_name>
+  <flag_type>Flag</flag_type>
+  <national_motto>''Libertad o Muerte'' (Spanish)"Freedom or Death"</national_motto>
+  <national_anthem>''Himno Nacional del Uruguay'' "National Anthem of Uruguay"</national_anthem>
+  <other_symbol>90x90px|alt=Sol de Mayo</other_symbol>
+  <other_symbol_type>Sol de Mayo</other_symbol_type>
+  <capital>Montevideo</capital>
+  <largest_city>capital</largest_city>
+  <official_languages>Spanish, Spanish has never been proclaimed the official language of Uruguay by either constitution or any decree. However, it is ''de facto'' official in all forms of government and society., Uruguayan Sign Language, It has ''de jure'' official status as of 2001.</official_languages>
+  <ethnic_groups>86.0% White, 10.4% Black, 6.3% Indigenous, 0.7% East Asian, 6.3% other</ethnic_groups>
+  <ethnic_groups_year>2023</ethnic_groups_year>
+  <demonym>Uruguayan</demonym>
+  <government_type>Unitary presidential republic</government_type>
+  <legislature>General Assembly</legislature>
+  <upper_house>Senate</upper_house>
+  <lower_house>Chamber of Representatives</lower_house>
+  <sovereignty_type>Independence</sovereignty_type>
+  <sovereignty_note>from Brazil</sovereignty_note>
+  <area_km2>176,215</area_km2>
+  <area_rank>89th</area_rank>
+  <area_sq_mi>68,037</area_sq_mi>
+  <percent_water>1.5</percent_water>
+  <population_census>3,499,451</population_census>
+  <population_census_year>2023</population_census_year>
+  <population_census_rank>132nd</population_census_rank>
+  <population_density_km2>19.5</population_density_km2>
+  <population_density_sq_mi>48.3</population_density_sq_mi>
+  <population_density_rank>206th</population_density_rank>
+  <GDP_PPP>$107.946 billion</GDP_PPP>
+  <GDP_PPP_year>2024</GDP_PPP_year>
+  <GDP_PPP_rank>98th</GDP_PPP_rank>
+  <GDP_PPP_per_capita>$36,014</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>59th</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$82.605 billion</GDP_nominal>
+  <GDP_nominal_year>2024</GDP_nominal_year>
+  <GDP_nominal_rank>77th</GDP_nominal_rank>
+  <GDP_nominal_per_capita>$23,088</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>49th</GDP_nominal_per_capita_rank>
+  <Gini>40.6</Gini>
+  <Gini_year>2022</Gini_year>
+  <Gini_change>decrease</Gini_change>
+  <HDI>0.862</HDI>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI_rank>48th</HDI_rank>
+  <currency>Uruguayan peso</currency>
+  <currency_code>UYU</currency_code>
+  <time_zone>UYT</time_zone>
+  <utc_offset>−03:00</utc_offset>
+  <date_format>dd/mm/yyyy</date_format>
+  <drives_on>right</drives_on>
+  <calling_code>+598</calling_code>
+  <cctld>.uy</cctld>
+  <religion_year>2024</religion_year>
+  <established>
+    <event>
+      <label>Declared</label>
+      <date>25 August 1825</date>
+    </event>
+    <event>
+      <label>Recognized</label>
+      <date>27 August 1828</date>
+    </event>
+    <event>
+      <label/>
+      <date>15 February 1967</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>President</title>
+      <name>Yamandú Orsi</name>
+    </leader>
+    <leader>
+      <title>Vice President</title>
+      <name>Carolina Cosse</name>
+    </leader>
+  </leaders>
+</country>

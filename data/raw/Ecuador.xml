@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Ecuador">
+  <conventional_long_name>Republic of Ecuador</conventional_long_name>
+  <common_name>Ecuador, García</common_name>
+  <flag_type_article>Flag of Ecuador</flag_type_article>
+  <symbol_type>Coat of arms</symbol_type>
+  <national_motto>"Lord, homeland and freedom"</national_motto>
+  <official_languages>Spanish</official_languages>
+  <recognized_regional_languages>Kichwa, Shuar and others "are in official use for indigenous peoples"</recognized_regional_languages>
+  <demonym>Ecuadorian</demonym>
+  <ethnic_groups>77.47% Mestizo (mixed White &amp; Indigenous), 7.70% Montubio (coastal Mestizo), 7.69% Indigenous, 4.81% Black, 2.21% White, 0.12% other</ethnic_groups>
+  <ethnic_groups_year>2022</ethnic_groups_year>
+  <religion_year>2023</religion_year>
+  <capital>Quito</capital>
+  <largest_city>Guayaquil</largest_city>
+  <government_type>Unitary presidential republic</government_type>
+  <legislature>National Assembly</legislature>
+  <area_rank>73rd</area_rank>
+  <area_km2>283,561</area_km2>
+  <population_estimate>17,483,326</population_estimate>
+  <population_estimate_year>2023</population_estimate_year>
+  <population_census_rank>73rd</population_census_rank>
+  <population_census>16,938,986</population_census>
+  <population_census_year>2022</population_census_year>
+  <population_density_km2>69</population_density_km2>
+  <population_density_sq_mi>180</population_density_sq_mi>
+  <population_density_rank>148th</population_density_rank>
+  <GDP_PPP>$304.230 billion</GDP_PPP>
+  <GDP_PPP_rank>66th</GDP_PPP_rank>
+  <GDP_PPP_year>2025</GDP_PPP_year>
+  <GDP_PPP_per_capita>$16,180</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>109th</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$130.530 billion</GDP_nominal>
+  <GDP_nominal_rank>63rd</GDP_nominal_rank>
+  <GDP_nominal_year>2025</GDP_nominal_year>
+  <GDP_nominal_per_capita>$7,210</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>95th</GDP_nominal_per_capita_rank>
+  <sovereignty_type>Independence</sovereignty_type>
+  <Gini_year>2024</Gini_year>
+  <Gini_change>increase</Gini_change>
+  <Gini>45.2</Gini>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI>0.777</HDI>
+  <HDI_rank>88th</HDI_rank>
+  <currency>United States dollara</currency>
+  <currency_code>USD</currency_code>
+  <time_zone>ECT GALT</time_zone>
+  <utc_offset>−5 −6</utc_offset>
+  <date_format>dd/mm/yyyy</date_format>
+  <drives_on>right</drives_on>
+  <calling_code>+593</calling_code>
+  <iso3166code>EC</iso3166code>
+  <cctld>.ec</cctld>
+  <footnote_a>Ecuadorian sucre until 2000, replaced by the US dollar and Ecuadorian centavo coins.</footnote_a>
+  <established>
+    <event>
+      <label>Declared</label>
+      <date>10 August 1809</date>
+    </event>
+    <event>
+      <label>from Spain</label>
+      <date>24 May 1822</date>
+    </event>
+    <event>
+      <label/>
+      <date>13 May 1830</date>
+    </event>
+    <event>
+      <label>Recognized by Spain</label>
+      <date>16 February 1840</date>
+    </event>
+    <event>
+      <label>Liberal Revolution</label>
+      <date>5 June 1895</date>
+    </event>
+    <event>
+      <label>Current constitution</label>
+      <date>28 September 2008</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>President</title>
+      <name>Daniel Noboa</name>
+    </leader>
+    <leader>
+      <title>Vice President</title>
+      <name>María José Pinto</name>
+    </leader>
+    <leader>
+      <title>President of the National Assembly</title>
+      <name>Niels Olsen Peet</name>
+    </leader>
+  </leaders>
+</country>

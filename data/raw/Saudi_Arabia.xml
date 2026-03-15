@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Saudi Arabia">
+  <conventional_long_name>Kingdom of Saudi Arabia</conventional_long_name>
+  <common_name>Saudi Arabia</common_name>
+  <symbol_type>Emblem</symbol_type>
+  <national_motto>(''Shahada'')"There is no god but God; Muhammad is the messenger of God" ) literally translates as ''God''.</national_motto>
+  <national_anthem>"Chant of the Saudi Nation"center</national_anthem>
+  <capital>Riyadh</capital>
+  <largest_city>Riyadh</largest_city>
+  <official_languages>Arabic</official_languages>
+  <religion>Sunni Islam (official)</religion>
+  <demonym>Saudi, Saudi Arabian</demonym>
+  <government_type>Unitary Islamic absolute monarchy</government_type>
+  <legislature>Consultative Assembly as its role is only consultative.</legislature>
+  <sovereignty_type>Establishment</sovereignty_type>
+  <area_km2>2,149,690</area_km2>
+  <area_rank>12th</area_rank>
+  <area_sq_mi>830,000</area_sq_mi>
+  <percent_water>0.7</percent_water>
+  <population_census>33,702,731</population_census>
+  <population_census_year>2024</population_census_year>
+  <population_census_rank>42nd</population_census_rank>
+  <population_density_km2>15</population_density_km2>
+  <population_density_sq_mi>38.8</population_density_sq_mi>
+  <population_density_rank>218th</population_density_rank>
+  <GDP_PPP>$2.690 trillion</GDP_PPP>
+  <GDP_PPP_year>2025</GDP_PPP_year>
+  <GDP_PPP_rank>17th</GDP_PPP_rank>
+  <GDP_PPP_per_capita>$74.670</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>19th</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$1.270 trillion</GDP_nominal>
+  <GDP_nominal_year>2025</GDP_nominal_year>
+  <GDP_nominal_rank>19th</GDP_nominal_rank>
+  <GDP_nominal_per_capita>$35,230</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>37th</GDP_nominal_per_capita_rank>
+  <Gini>45.9</Gini>
+  <Gini_year>2013</Gini_year>
+  <Gini_change>steady</Gini_change>
+  <HDI>0.900</HDI>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI_rank>37th</HDI_rank>
+  <currency>Saudi riyal (SR)</currency>
+  <currency_code>SAR</currency_code>
+  <time_zone>SAST</time_zone>
+  <utc_offset>+3</utc_offset>
+  <drives_on>Right</drives_on>
+  <calling_code>+966</calling_code>
+  <cctld>.sa, السعودية.</cctld>
+  <established>
+    <event>
+      <label>Emirate of Diriyah</label>
+      <date>22 February 1727</date>
+    </event>
+    <event>
+      <label>Emirate of Nejd</label>
+      <date>1824</date>
+    </event>
+    <event>
+      <label>Emirate of Riyadh</label>
+      <date>13 January 1902</date>
+    </event>
+    <event>
+      <label>Emirate of Nejd and Hasa</label>
+      <date>15 January 1913</date>
+    </event>
+    <event>
+      <label>Sultanate of Nejd</label>
+      <date>29 November 1921</date>
+    </event>
+    <event>
+      <label>Kingdom of Hejaz and Nejd</label>
+      <date>8 January 1926</date>
+    </event>
+    <event>
+      <label>Unification and Proclamation of the Kingdom of Saudi Arabia</label>
+      <date>23 September 1932</date>
+    </event>
+    <event>
+      <label>Current constitution</label>
+      <date>31 January 1992</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>King</title>
+      <name>Salman</name>
+    </leader>
+    <leader>
+      <title>Crown Prince and Prime Minister</title>
+      <name>Mohammed bin Salman</name>
+    </leader>
+  </leaders>
+</country>

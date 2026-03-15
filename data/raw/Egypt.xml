@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Egypt">
+  <conventional_long_name>Arab Republic of Egypt</conventional_long_name>
+  <common_name>Egypt</common_name>
+  <national_anthem>''Bilady, Bilady, Bilady'', lang, ar, "بلادي، بلادي، بلادي", (, Langx, en, italic, =, yes, My country, my country, my country, ), File:Bilady, Bilady, Bilady.ogg )</national_anthem>
+  <official_languages>Arabic</official_languages>
+  <languages_type>National language</languages_type>
+  <languages>Egyptian Arabic Egyptian Arabic is the spoken language. Other dialects and minority languages are spoken regionally.</languages>
+  <religion>See ''Religion in Egypt''</religion>
+  <demonym>Egyptian</demonym>
+  <capital>Cairo</capital>
+  <largest_city>capital</largest_city>
+  <government_type>Unitary semi-presidential republic under an authoritarian government</government_type>
+  <legislature>Parliament</legislature>
+  <upper_house>Senate</upper_house>
+  <lower_house>House of Representatives</lower_house>
+  <area_rank>29th</area_rank>
+  <area_km2>1,010,408</area_km2>
+  <area_sq_mi>387,048</area_sq_mi>
+  <percent_water>0.632</percent_water>
+  <population_census>94,798,827</population_census>
+  <population_census_year>2017</population_census_year>
+  <population_estimate>107,868,296</population_estimate>
+  <population_estimate_year>July 2025</population_estimate_year>
+  <population_estimate_rank>15th</population_estimate_rank>
+  <population_density_km2>106.8</population_density_km2>
+  <population_density_sq_mi>276.6</population_density_sq_mi>
+  <population_density_rank>102nd</population_density_rank>
+  <GDP_PPP>$2.372 trillion</GDP_PPP>
+  <GDP_PPP_year>2025</GDP_PPP_year>
+  <GDP_PPP_rank>18th</GDP_PPP_rank>
+  <GDP_PPP_per_capita>$21,668</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>87th</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$347.342 billion</GDP_nominal>
+  <GDP_nominal_year>2025</GDP_nominal_year>
+  <GDP_nominal_rank>44th</GDP_nominal_rank>
+  <GDP_nominal_per_capita>$3,174</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>138th</GDP_nominal_per_capita_rank>
+  <Gini_year>2021</Gini_year>
+  <Gini_change>decrease</Gini_change>
+  <Gini>28.5</Gini>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI>0.754</HDI>
+  <HDI_rank>100th</HDI_rank>
+  <currency>Egyptian pound (LE/E£/£E)</currency>
+  <currency_code>EGP</currency_code>
+  <time_zone>EET ''Tawqīt Miṣr al-qiyāsiyy'')</time_zone>
+  <utc_offset>+2</utc_offset>
+  <time_zone_DST>EEST</time_zone_DST>
+  <utc_offset_DST>+3</utc_offset_DST>
+  <drives_on>right</drives_on>
+  <calling_code>+20</calling_code>
+  <cctld>.eg, lang, ar, مصر.</cctld>
+  <established>
+    <event>
+      <label>Unification of Upper and Lower Egypt</label>
+      <date>3150 BC</date>
+    </event>
+    <event>
+      <label>Fatimid Caliphate</label>
+      <date>973</date>
+    </event>
+    <event>
+      <label>Ayyubid dynasty inaugurated</label>
+      <date>1171</date>
+    </event>
+    <event>
+      <label>Mamluk Egypt</label>
+      <date>1261</date>
+    </event>
+    <event>
+      <label>Alawiyya dynasty inaugurated</label>
+      <date>9 July 1805</date>
+    </event>
+    <event>
+      <label>Declaration of Independence</label>
+      <date>28 February 1922</date>
+    </event>
+    <event>
+      <label>Revolution Day</label>
+      <date>23 July 1952</date>
+    </event>
+    <event>
+      <label>Republic declared</label>
+      <date>18 June 1953</date>
+    </event>
+    <event>
+      <label>Current constitution</label>
+      <date>18 January 2014</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>President</title>
+      <name>Abdel Fattah el-Sisi</name>
+    </leader>
+    <leader>
+      <title>Prime Minister</title>
+      <name>Mostafa Madbouly</name>
+    </leader>
+  </leaders>
+</country>

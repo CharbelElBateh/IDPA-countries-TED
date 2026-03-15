@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Nepal">
+  <conventional_long_name>Federal Democratic Republic of Nepal</conventional_long_name>
+  <common_name>Nepal</common_name>
+  <flag_type>Flag</flag_type>
+  <flag_border>no</flag_border>
+  <flag_size>95px</flag_size>
+  <symbol_type>Emblem</symbol_type>
+  <national_motto>"Mother and Motherland are Greater Than Heaven"</national_motto>
+  <national_anthem>"Hundreds of Flowers"File:Sayaun Thunga Phool Ka (instrumental).ogg</national_anthem>
+  <capital>Kathmandu</capital>
+  <largest_city>capital</largest_city>
+  <official_languages>Nepali</official_languages>
+  <national_languages>All mother-tongues</national_languages>
+  <ethnic_groups_year>2021</ethnic_groups_year>
+  <religion_year>2021</religion_year>
+  <demonym>Nepali, Nepalese</demonym>
+  <government_type>Federal parliamentary republic under an interim government</government_type>
+  <legislature>Federal Parliament</legislature>
+  <upper_house>National Assembly</upper_house>
+  <lower_house>House of Representatives</lower_house>
+  <sovereignty_type>Formation</sovereignty_type>
+  <area_km2>147,516</area_km2>
+  <area_rank>93rd</area_rank>
+  <area_sq_mi>56,956</area_sq_mi>
+  <percent_water>2.8%</percent_water>
+  <population_estimate>31,122,387</population_estimate>
+  <population_estimate_rank>49th</population_estimate_rank>
+  <population_estimate_year>2024</population_estimate_year>
+  <population_density_km2>180</population_density_km2>
+  <population_density_sq_mi>518</population_density_sq_mi>
+  <population_density_rank>72nd</population_density_rank>
+  <GDP_PPP>$169.120 billion</GDP_PPP>
+  <GDP_PPP_year>2024</GDP_PPP_year>
+  <GDP_PPP_rank>85th</GDP_PPP_rank>
+  <GDP_PPP_per_capita>$5,348</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>151st</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$43.673 billion</GDP_nominal>
+  <GDP_nominal_year>2024</GDP_nominal_year>
+  <GDP_nominal_rank>100th</GDP_nominal_rank>
+  <GDP_nominal_per_capita>$1,381</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>161st</GDP_nominal_per_capita_rank>
+  <Gini>30.0</Gini>
+  <Gini_year>2022</Gini_year>
+  <HDI>0.622</HDI>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI_rank>145th</HDI_rank>
+  <currency>Nepalese rupee (Rs, )</currency>
+  <currency_code>NPR</currency_code>
+  <time_zone>Nepal Standard Time</time_zone>
+  <utc_offset>+05:45</utc_offset>
+  <date_format>YYYY/MM/DD</date_format>
+  <drives_on>left</drives_on>
+  <calling_code>+977</calling_code>
+  <cctld>.np</cctld>
+  <established>
+    <event>
+      <label>Unification</label>
+      <date>25 September 1768</date>
+    </event>
+    <event>
+      <label>Treaty of Sugauli</label>
+      <date>4 March 1816</date>
+    </event>
+    <event>
+      <label>Nepal–Britain Treaty of 1923</label>
+      <date>21 December 1923</date>
+    </event>
+    <event>
+      <label>Federal Republic</label>
+      <date>28 May 2008</date>
+    </event>
+    <event>
+      <label>Current constitution</label>
+      <date>20 September 2015</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>President</title>
+      <name>Ram Chandra Poudel</name>
+    </leader>
+    <leader>
+      <title>Vice President</title>
+      <name>Ram Sahaya Yadav</name>
+    </leader>
+    <leader>
+      <title>Prime Minister</title>
+      <name>Sushila Karki (interim)</name>
+    </leader>
+    <leader>
+      <title>Chief Justice</title>
+      <name>Prakash Man Singh Raut</name>
+    </leader>
+  </leaders>
+</country>

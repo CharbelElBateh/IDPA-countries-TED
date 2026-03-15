@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Djibouti">
+  <conventional_long_name>Republic of Djibouti</conventional_long_name>
+  <native_name>item_style, =, font-size:90%;, native name, ar, جمهورية جيبوتي, native name, fr, République de Djibouti, native name, so, Jamhuuriyadda Jabuuti, native name, aa, Gabuutih Ummuuno</native_name>
+  <common_name>Djibouti</common_name>
+  <symbol_type>Emblem</symbol_type>
+  <national_anthem>''Djibouti''</national_anthem>
+  <official_languages>Arabic, French</official_languages>
+  <languages_type>National languages</languages_type>
+  <languages>Somali, Afar</languages>
+  <demonym>Djiboutian</demonym>
+  <capital>Djibouti City</capital>
+  <largest_city>capital</largest_city>
+  <government_type>Unitary dominant-party presidential republic under a hereditary dictatorship</government_type>
+  <sovereignty_type>Formation</sovereignty_type>
+  <legislature>National Assembly</legislature>
+  <area_rank>146th</area_rank>
+  <area_km2>23,200</area_km2>
+  <area_sq_mi>8,958</area_sq_mi>
+  <population_census>1,066,809</population_census>
+  <population_census_year>2024</population_census_year>
+  <population_estimate_rank>162nd</population_estimate_rank>
+  <population_density_km2>46.0</population_density_km2>
+  <population_density_sq_mi>119.1</population_density_sq_mi>
+  <population_density_rank>168th</population_density_rank>
+  <GDP_PPP>$7.193 billion</GDP_PPP>
+  <GDP_PPP_year>2023</GDP_PPP_year>
+  <GDP_PPP_rank>167th</GDP_PPP_rank>
+  <GDP_PPP_per_capita>$6,985</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>137th</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$3.873 billion</GDP_nominal>
+  <GDP_nominal_year>2023</GDP_nominal_year>
+  <GDP_nominal_rank>172nd</GDP_nominal_rank>
+  <GDP_nominal_per_capita>$3,761</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>126th</GDP_nominal_per_capita_rank>
+  <Gini_year>2017</Gini_year>
+  <Gini_change>increase</Gini_change>
+  <Gini>41.6</Gini>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI>0.513</HDI>
+  <HDI_rank>175th</HDI_rank>
+  <currency>Djiboutian franc</currency>
+  <currency_code>DJF</currency_code>
+  <time_zone>EAT</time_zone>
+  <utc_offset>+3</utc_offset>
+  <calling_code>+253</calling_code>
+  <cctld>.dj</cctld>
+  <established>
+    <event>
+      <label>Independence from France</label>
+      <date>27 June 1977</date>
+    </event>
+    <event>
+      <label>Current constitution</label>
+      <date>4 September 1992</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>President</title>
+      <name>Ismaïl Omar Guelleh</name>
+    </leader>
+    <leader>
+      <title>Prime Minister</title>
+      <name>Abdoulkader Kamil Mohamed</name>
+    </leader>
+  </leaders>
+</country>

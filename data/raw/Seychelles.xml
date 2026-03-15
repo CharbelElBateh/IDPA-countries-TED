@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Seychelles">
+  <conventional_long_name>Republic of Seychelles</conventional_long_name>
+  <common_name>Seychelles</common_name>
+  <native_name>native name, fr, République des Seychelles, lang, crs, Repiblik Sesel, (Seychellois Creole) (Seychellois Creole)</native_name>
+  <symbol_type>Coat of arms</symbol_type>
+  <national_motto>"The End Crowns the Work"</national_motto>
+  <national_anthem>Koste Seselwa (Seychellois Creole)"Unite Seychellois"File:Koste_Seselwa_(instrumental).ogg</national_anthem>
+  <capital>Victoria</capital>
+  <largest_city>capital</largest_city>
+  <languages_type>Official languages</languages_type>
+  <languages>Seychellois Creole (national language), English, French</languages>
+  <languages2_type>Minority language</languages2_type>
+  <languages2>Tamil</languages2>
+  <ethnic_groups>97% Seychellois Creoles 3% others</ethnic_groups>
+  <religion_year>2022</religion_year>
+  <demonym>Seychellois, Seychelloise, Seselwa, small, (Creole)</demonym>
+  <government_type>Unitary presidential republic</government_type>
+  <legislature>National Assembly</legislature>
+  <sovereignty_type>Independence</sovereignty_type>
+  <sovereignty_note>from the United Kingdom</sovereignty_note>
+  <area_km2>457</area_km2>
+  <area_rank>181st</area_rank>
+  <area_sq_mi>177</area_sq_mi>
+  <percent_water>Negligible</percent_water>
+  <population_estimate>121,355</population_estimate>
+  <population_estimate_year>2024</population_estimate_year>
+  <population_estimate_rank>200th</population_estimate_rank>
+  <population_census_year>2022</population_census_year>
+  <population_density_km2>262.3</population_density_km2>
+  <population_density_rank>67th</population_density_rank>
+  <GDP_PPP>$4.490 billion</GDP_PPP>
+  <GDP_PPP_year>2026</GDP_PPP_year>
+  <GDP_PPP_rank>177th</GDP_PPP_rank>
+  <GDP_PPP_per_capita>$43,850</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>49th</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$2.250 billion</GDP_nominal>
+  <GDP_nominal_year>2026</GDP_nominal_year>
+  <GDP_nominal_rank>186th</GDP_nominal_rank>
+  <GDP_nominal_per_capita>$21,940</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>50th</GDP_nominal_per_capita_rank>
+  <Gini>32.1</Gini>
+  <Gini_year>2019</Gini_year>
+  <HDI>0.848</HDI>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI_rank>54th</HDI_rank>
+  <currency>Seychellois rupee</currency>
+  <currency_code>SCR</currency_code>
+  <time_zone>SCT</time_zone>
+  <utc_offset>+04:00</utc_offset>
+  <drives_on>left</drives_on>
+  <calling_code>+248</calling_code>
+  <cctld>.sc</cctld>
+  <established>
+    <event>
+      <label>Independence declared</label>
+      <date>29 June 1976</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>President</title>
+      <name>Patrick Herminie</name>
+    </leader>
+    <leader>
+      <title>Vice-President</title>
+      <name>Sebastien Pillay</name>
+    </leader>
+    <leader>
+      <title>Speaker of the National Assembly</title>
+      <name>Azarel Ernesta</name>
+    </leader>
+  </leaders>
+</country>

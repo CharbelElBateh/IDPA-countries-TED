@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Vanuatu">
+  <conventional_long_name>Republic of Vanuatu</conventional_long_name>
+  <native_name>item_style, =, font-size:100%;, native name, bi, Ripablik blong Vanuatu, native name, fr, République de Vanuatu</native_name>
+  <common_name>Vanuatu</common_name>
+  <symbol_type>Coat of arms</symbol_type>
+  <capital>from|=|Q686}}</capital>
+  <largest_city>capital</largest_city>
+  <official_languages>Bislama, English, French</official_languages>
+  <ethnic_groups>98.5% Ni-Vanuatu, 1.5% others</ethnic_groups>
+  <ethnic_groups_year>2020</ethnic_groups_year>
+  <religion>93.4% Christianity, 75.1% Protestantism, 13.5% Catholicism, 4.8% other Christian, 4.6% Animism, 1.4% Baháʼí Faith, 0.6% other / none</religion>
+  <religion_year>2020</religion_year>
+  <demonym>Ni-Vanuatu (or rarely: ''Vanuatuan'')</demonym>
+  <government_type>Unitary parliamentary republic</government_type>
+  <legislature>Parliament</legislature>
+  <sovereignty_type>Independence</sovereignty_type>
+  <area_km2>12,189</area_km2>
+  <area_rank>157th</area_rank>
+  <population_estimate>335,908</population_estimate>
+  <population_census>300,019</population_census>
+  <population_estimate_year>2023</population_estimate_year>
+  <population_estimate_rank>182nd</population_estimate_rank>
+  <population_census_year>2020</population_census_year>
+  <population_density_km2>27.6</population_density_km2>
+  <population_density_rank>188th</population_density_rank>
+  <population_density_sq_mi>51</population_density_sq_mi>
+  <GDP_PPP>$1.002 billion</GDP_PPP>
+  <GDP_PPP_year>2023</GDP_PPP_year>
+  <GDP_PPP_per_capita>$3,001</GDP_PPP_per_capita>
+  <GDP_nominal>$1.064 billion</GDP_nominal>
+  <GDP_nominal_year>2023</GDP_nominal_year>
+  <GDP_nominal_per_capita>$3,188</GDP_nominal_per_capita>
+  <Gini>32.3</Gini>
+  <Gini_year>2019</Gini_year>
+  <Gini_change>decrease</Gini_change>
+  <HDI>0.621</HDI>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI_rank>146th</HDI_rank>
+  <currency>Vatu</currency>
+  <currency_code>VUV</currency_code>
+  <time_zone>VUT (Vanuatu Time)</time_zone>
+  <utc_offset>+11</utc_offset>
+  <drives_on>Right</drives_on>
+  <calling_code>+678</calling_code>
+  <iso3166code>VU</iso3166code>
+  <cctld>.vu</cctld>
+  <established>
+    <event>
+      <label>from the United Kingdom and France</label>
+      <date>30 July 1980</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>President</title>
+      <name>Nikenike Vurobaravu</name>
+    </leader>
+    <leader>
+      <title>Prime Minister</title>
+      <name>Jotham Napat</name>
+    </leader>
+  </leaders>
+</country>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Cabo Verde">
+  <conventional_long_name>Republic of Cabo Verde</conventional_long_name>
+  <common_name>Cape Verde</common_name>
+  <symbol_type>Emblem</symbol_type>
+  <national_motto>)</national_motto>
+  <national_anthem>( )File:Cântico da Liberdade (instrumental).ogg</national_anthem>
+  <official_languages>Portuguese</official_languages>
+  <recognized_national_languages>Cape Verdean Creole</recognized_national_languages>
+  <capital>Praia</capital>
+  <largest_city>capital</largest_city>
+  <demonym>Cape Verdean or Cabo Verdean</demonym>
+  <government_type>Unitary semi-presidential republic</government_type>
+  <legislature>National Assembly</legislature>
+  <area_rank>166th</area_rank>
+  <area_km2>4,033</area_km2>
+  <area_sq_mi>1,557</area_sq_mi>
+  <percent_water>negligible</percent_water>
+  <population_census>491,233</population_census>
+  <population_census_rank>172nd</population_census_rank>
+  <population_census_year>2021</population_census_year>
+  <population_density_km2>130</population_density_km2>
+  <population_density_sq_mi>340.0</population_density_sq_mi>
+  <population_density_rank>89th</population_density_rank>
+  <GDP_PPP>$5.717 billion</GDP_PPP>
+  <GDP_PPP_year>2023</GDP_PPP_year>
+  <GDP_PPP_rank>170th</GDP_PPP_rank>
+  <GDP_PPP_per_capita>$9,909</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>125th</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$2.598 billion</GDP_nominal>
+  <GDP_nominal_year>2023</GDP_nominal_year>
+  <GDP_nominal_rank>181st</GDP_nominal_rank>
+  <GDP_nominal_per_capita>$4,502</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>117th</GDP_nominal_per_capita_rank>
+  <sovereignty_type>Independence</sovereignty_type>
+  <Gini_year>2015</Gini_year>
+  <Gini_change>decrease</Gini_change>
+  <Gini>42.4</Gini>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI>0.668</HDI>
+  <HDI_rank>135th</HDI_rank>
+  <currency>Cape Verdean escudo</currency>
+  <currency_code>CVE</currency_code>
+  <time_zone>CVT</time_zone>
+  <utc_offset>–01:00</utc_offset>
+  <cctld>.cv</cctld>
+  <calling_code>+238</calling_code>
+  <date_format>dd/mm/yyyy</date_format>
+  <drives_on>right</drives_on>
+  <religion_year>2021</religion_year>
+  <established>
+    <event>
+      <label>Granted</label>
+      <date>5 July 1975</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>President</title>
+      <name>José Maria Neves</name>
+    </leader>
+    <leader>
+      <title>Prime Minister</title>
+      <name>Ulisses Correia e Silva</name>
+    </leader>
+  </leaders>
+</country>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Suriname">
+  <conventional_long_name>Republic of Suriname</conventional_long_name>
+  <common_name>Suriname</common_name>
+  <national_motto>"Justice – Piety – Trust"</national_motto>
+  <national_anthem>"God be with our Suriname"</national_anthem>
+  <map_caption>Land controlled by Suriname shown in dark green; claimed land shown in light green.</map_caption>
+  <capital>Paramaribo</capital>
+  <largest_city>Paramaribo</largest_city>
+  <official_languages>Dutch</official_languages>
+  <regional_languages>Akurio, Arawak-Lokono, Carib-Kari'nja, Sikiana-Kashuyana, Tiro-Tiriyó, Waiwai, Warao, Wayana</regional_languages>
+  <ethnic_groups_year>2012</ethnic_groups_year>
+  <religion_year>2012</religion_year>
+  <demonym>Surinamese</demonym>
+  <government_type>Unitary assembly-independent republic</government_type>
+  <legislature>National Assembly</legislature>
+  <sovereignty_type>Independence</sovereignty_type>
+  <sovereignty_note>from the Netherlands</sovereignty_note>
+  <area_km2>165,940</area_km2>
+  <area_rank>90th</area_rank>
+  <area_sq_mi>63,251</area_sq_mi>
+  <percent_water>1.1</percent_water>
+  <population_estimate>632,638</population_estimate>
+  <population_estimate_year>2022</population_estimate_year>
+  <population_estimate_rank>170th</population_estimate_rank>
+  <population_density_km2>3.9</population_density_km2>
+  <population_density_sq_mi>10.0</population_density_sq_mi>
+  <population_density_rank>231st</population_density_rank>
+  <GDP_PPP>$14.743 billion</GDP_PPP>
+  <GDP_PPP_year>2025</GDP_PPP_year>
+  <GDP_PPP_rank>160th</GDP_PPP_rank>
+  <GDP_PPP_per_capita>$22,439</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>91st</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$4.506 billion</GDP_nominal>
+  <GDP_nominal_year>2025</GDP_nominal_year>
+  <GDP_nominal_rank>173rd</GDP_nominal_rank>
+  <GDP_nominal_per_capita>$6,858</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>106th</GDP_nominal_per_capita_rank>
+  <HDI_year>2023</HDI_year>
+  <HDI>0.722</HDI>
+  <HDI_change>increase</HDI_change>
+  <HDI_rank>114th</HDI_rank>
+  <currency>Surinamese dollar</currency>
+  <currency_code>SRD</currency_code>
+  <time_zone>SRT</time_zone>
+  <utc_offset>-03:00</utc_offset>
+  <date_format>dd/mm/yyyy</date_format>
+  <drives_on>left</drives_on>
+  <calling_code>+597</calling_code>
+  <cctld>.sr</cctld>
+  <languages2_type>Other languages</languages2_type>
+  <languages2>Sranan Tongo, Sarnámi Hindustáni, Surinamese-Javanese, Ndyuka, Saramaccan, Matawai, Aluku, Paramaccan, Kwinti, Chinese, Lebanese Arabic, English, French, Brazilian Portuguese, Spanish</languages2>
+  <established>
+    <event>
+      <label>Constituent country within the Kingdom of the Netherlands</label>
+      <date>15 December 1954</date>
+    </event>
+    <event>
+      <label>Independence from the Kingdom of the Netherlands</label>
+      <date>25 November 1975</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>President</title>
+      <name>Jennifer Geerlings-Simons</name>
+    </leader>
+    <leader>
+      <title>Vice President</title>
+      <name>Gregory Rusland</name>
+    </leader>
+    <leader>
+      <title>National Assembly Chairman</title>
+      <name>Ashwin Adhin</name>
+    </leader>
+    <leader>
+      <title>High Court of Justice President</title>
+      <name>Iwan Rasoelbaks ''(acting)''</name>
+    </leader>
+  </leaders>
+</country>

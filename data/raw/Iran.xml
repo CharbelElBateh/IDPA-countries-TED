@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Iran">
+  <conventional_long_name>Islamic Republic of Iran</conventional_long_name>
+  <common_name>Iran</common_name>
+  <symbol_type>Emblem</symbol_type>
+  <national_motto>lang, ar, اَللَّٰهُ أَكْبَرُ, transliteration, ar, Allāhu ʾAkbar, (''Takbir''), "God is the Greatest", (''de jure''), lang, fa, استقلال، آزادی، جمهوری اسلامی, transliteration, fa, Esteqlâl, Âzâdi, Jomhuri-ye Eslâmi, "Independence, freedom, the Islamic Republic", (''de facto''), sfn, Temperman, 2010, p, =, 87 (''Takbir'')</national_motto>
+  <national_anthem>''Mehr-e Khâvarân''"Eastern Sun"</national_anthem>
+  <capital>Tehran</capital>
+  <largest_city>Tehran</largest_city>
+  <official_languages>Persian</official_languages>
+  <languages2_type>Special status</languages2_type>
+  <demonym>Iranian</demonym>
+  <government_type>Unitary presidential theocratic Islamic republic under an authoritarian dictatorship</government_type>
+  <legislature>Islamic Consultative Assembly</legislature>
+  <sovereignty_type>Formation</sovereignty_type>
+  <area_km2>1,648,195</area_km2>
+  <area_rank>17th</area_rank>
+  <area_sq_mi>636,372</area_sq_mi>
+  <percent_water>1.63 (as of 2015)</percent_water>
+  <population_estimate>92,417,681</population_estimate>
+  <population_estimate_year>2025</population_estimate_year>
+  <population_estimate_rank>17th</population_estimate_rank>
+  <population_density_rank>163rd</population_density_rank>
+  <GDP_PPP>$1.879 trillion</GDP_PPP>
+  <GDP_PPP_rank>22nd</GDP_PPP_rank>
+  <GDP_PPP_per_capita>$21,473</GDP_PPP_per_capita>
+  <GDP_PPP_year>2025</GDP_PPP_year>
+  <GDP_PPP_per_capita_rank>88th</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$356.513 billion</GDP_nominal>
+  <GDP_nominal_rank>42nd</GDP_nominal_rank>
+  <GDP_nominal_per_capita>$4,074</GDP_nominal_per_capita>
+  <GDP_nominal_year>2025</GDP_nominal_year>
+  <GDP_nominal_per_capita_rank>132nd</GDP_nominal_per_capita_rank>
+  <Gini>35.9</Gini>
+  <Gini_year>2023</Gini_year>
+  <Gini_change>increase</Gini_change>
+  <HDI>0.799</HDI>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI_rank>75th</HDI_rank>
+  <currency>Iranian rial ( )</currency>
+  <currency_code>IRR</currency_code>
+  <time_zone>IRST</time_zone>
+  <utc_offset>+3:30</utc_offset>
+  <calling_code>+98</calling_code>
+  <cctld>.ir, ایران.</cctld>
+  <drives_on>right</drives_on>
+  <established>
+    <event>
+      <label>Median kingdom</label>
+      <date/>
+    </event>
+    <event>
+      <label>Achaemenid Empire</label>
+      <date>550 BC</date>
+    </event>
+    <event>
+      <label>Parthian Empire</label>
+      <date>247 BC</date>
+    </event>
+    <event>
+      <label>Sasanian Empire</label>
+      <date>224 AD</date>
+    </event>
+    <event>
+      <label>Iranian Intermezzo</label>
+      <date>821</date>
+    </event>
+    <event>
+      <label>Safavid Iran</label>
+      <date>22 December 1501</date>
+    </event>
+    <event>
+      <label>Afsharid Iran</label>
+      <date>22 January 1736</date>
+    </event>
+    <event>
+      <label>Zand Iran</label>
+      <date>1751</date>
+    </event>
+    <event>
+      <label>Qajar Iran</label>
+      <date>20 March 1794</date>
+    </event>
+    <event>
+      <label>Constitutional Revolution</label>
+      <date>12 December 1905</date>
+    </event>
+    <event>
+      <label>Pahlavi Iran</label>
+      <date>15 December 1925</date>
+    </event>
+    <event>
+      <label>Iranian Revolution</label>
+      <date>11 February 1979</date>
+    </event>
+    <event>
+      <label>Current constitution</label>
+      <date>3 December 1979</date>
+    </event>
+    <event>
+      <label>Constitution amendment</label>
+      <date>28 July 1989</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>Supreme Leader</title>
+      <name>Mojtaba Khamenei</name>
+    </leader>
+    <leader>
+      <title>President</title>
+      <name>Masoud Pezeshkian</name>
+    </leader>
+    <leader>
+      <title>Vice President</title>
+      <name>Mohammad Reza Aref</name>
+    </leader>
+    <leader>
+      <title>Speaker of the Assembly</title>
+      <name>Mohammad Bagher Ghalibaf</name>
+    </leader>
+    <leader>
+      <title>Chief Justice</title>
+      <name>Gholam-Hossein Mohseni-Eje'i</name>
+    </leader>
+  </leaders>
+</country>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Sudan">
+  <conventional_long_name>Republic of the Sudan</conventional_long_name>
+  <common_name>Sudan</common_name>
+  <flag_type>Flag</flag_type>
+  <religion_year>2022</religion_year>
+  <symbol_type>Emblem</symbol_type>
+  <national_motto>"Victory is ours"</national_motto>
+  <national_anthem>"We are Soldiers of God, Soldiers of the Homeland"</national_anthem>
+  <capital>Khartoum</capital>
+  <largest_city>Khartoum</largest_city>
+  <official_languages>Arabic, English</official_languages>
+  <government_type>Federal republic under a military junta</government_type>
+  <legislature>Transitional Legislative Authority</legislature>
+  <sovereignty_type>Formation</sovereignty_type>
+  <area_km2>1886068</area_km2>
+  <area_rank>15th</area_rank>
+  <area_sq_mi>728215</area_sq_mi>
+  <population_estimate>51,767,437</population_estimate>
+  <population_estimate_year>2025</population_estimate_year>
+  <population_estimate_rank>30th</population_estimate_rank>
+  <population_density_km2>21.3</population_density_km2>
+  <population_density_sq_mi>55.3</population_density_sq_mi>
+  <population_density_rank>202nd</population_density_rank>
+  <GDP_PPP>$117.77 billion</GDP_PPP>
+  <GDP_PPP_year>2025</GDP_PPP_year>
+  <GDP_PPP_rank>98th</GDP_PPP_rank>
+  <GDP_PPP_per_capita>$2,034</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>175th</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$31.510 billion</GDP_nominal>
+  <GDP_nominal_year>2025</GDP_nominal_year>
+  <GDP_nominal_rank>109th</GDP_nominal_rank>
+  <GDP_nominal_per_capita>$624</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>182nd</GDP_nominal_per_capita_rank>
+  <Gini>34.2</Gini>
+  <Gini_year>2014</Gini_year>
+  <Gini_change>decrease</Gini_change>
+  <HDI>0.511</HDI>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>decrease</HDI_change>
+  <HDI_rank>176th</HDI_rank>
+  <currency>Sudanese pound</currency>
+  <currency_code>SDG</currency_code>
+  <time_zone>CAT</time_zone>
+  <utc_offset>+2</utc_offset>
+  <drives_on>Right</drives_on>
+  <calling_code>+249</calling_code>
+  <iso3166code>SD</iso3166code>
+  <demonym>Sudanese</demonym>
+  <established>
+    <event>
+      <label>Kingdom of Kerma</label>
+      <date>2500 BC</date>
+    </event>
+    <event>
+      <label>Kingdom of Kush</label>
+      <date>780 BC</date>
+    </event>
+    <event>
+      <label>Turco-Egyptian Sudan</label>
+      <date>1820</date>
+    </event>
+    <event>
+      <label>Mahdist State</label>
+      <date>1885</date>
+    </event>
+    <event>
+      <label>Anglo-Egyptian Condominium</label>
+      <date>1899</date>
+    </event>
+    <event>
+      <label>Independence</label>
+      <date>1 January 1956</date>
+    </event>
+    <event>
+      <label>Democratic Republic of Sudan</label>
+      <date>25 May 1969</date>
+    </event>
+    <event>
+      <label>Republic of Sudan (1985–2019)</label>
+      <date>6 April 1985</date>
+    </event>
+    <event>
+      <label>Secession of South Sudan</label>
+      <date>9 July 2011</date>
+    </event>
+    <event>
+      <label>2019 Draft Constitutional Declaration effective</label>
+      <date>20 August 2019</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>President of the Transitional Sovereignty Council</title>
+      <name>Abdel Fattah al-Burhan</name>
+    </leader>
+    <leader>
+      <title>Vice-President of the Transitional Sovereignty Council</title>
+      <name>Malik Agar</name>
+    </leader>
+    <leader>
+      <title>Prime Minister</title>
+      <name>Kamil Idris</name>
+    </leader>
+  </leaders>
+</country>

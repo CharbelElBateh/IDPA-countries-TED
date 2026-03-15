@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="United Kingdom">
+  <common_name>United Kingdom</common_name>
+  <linking_name>the United Kingdom</linking_name>
+  <conventional_long_name>United Kingdom of Great Britain and Northern Ireland</conventional_long_name>
+  <flag_type>Flag</flag_type>
+  <other_symbol>250pxUsed in relation to Scotland (right) and elsewhere (left)</other_symbol>
+  <other_symbol_type>Coat of arms:</other_symbol_type>
+  <national_anthem>"God Save the King" God Save the King / Queen The words ''King, he, him, his'', used at present, are replaced by ''Queen, she, her'' when the monarch is female.</national_anthem>
+  <capital>London</capital>
+  <largest_city>capital</largest_city>
+  <languages_type>National language</languages_type>
+  <languages>English</languages>
+  <languages2_type>Regional and minority languages These include defined obligations to promote those languages. See also Languages of the United Kingdom. Welsh has limited ''de jure'' official status in Wales, as well as in the provision of national government services provided for Wales.</languages2_type>
+  <languages2>Scots, Ulster Scots, Welsh, Cornish, Scottish Gaelic, Irish, British Sign Language</languages2>
+  <ethnic_groups>83.0% White, 8.6% Asian, 3.7% Black, 2.7% Mixed, 2.0% other</ethnic_groups>
+  <ethnic_groups_year>2021/2022</ethnic_groups_year>
+  <religion>46.5% Christianity, 37.8% no religion, 6.0% Islam, 1.6% Hinduism, 0.8% Sikhism, 0.4% Buddhism, 0.4% Judaism, 0.6% other, 5.9% not stated</religion>
+  <religion_year>2021/2022</religion_year>
+  <demonym>British, Briton, Brit (colloquial)</demonym>
+  <government_type>Unitary parliamentary constitutional monarchy has become increasingly influential since the adoption of devolution in the 1990s. A union state is considered to differ from a unitary state in that while it maintains a central authority it also recognises the authority of historic rights and infrastructures of its component parts.</government_type>
+  <legislature>Parliament</legislature>
+  <upper_house>House of Lords</upper_house>
+  <lower_house>House of Commons</lower_house>
+  <sovereignty_type>Formation</sovereignty_type>
+  <area_km2>244376</area_km2>
+  <area_rank>78th</area_rank>
+  <area_sq_mi>auto</area_sq_mi>
+  <population_estimate_rank>20th</population_estimate_rank>
+  <population_census>66,940,559</population_census>
+  <population_census_year>2021</population_census_year>
+  <population_density_sq_mi>auto</population_density_sq_mi>
+  <population_density_rank>48th</population_density_rank>
+  <GDP_PPP>$4.455&amp;nbsp;trillion</GDP_PPP>
+  <GDP_PPP_year>2025</GDP_PPP_year>
+  <GDP_PPP_rank>10th</GDP_PPP_rank>
+  <GDP_PPP_per_capita>$63,759</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>33rd</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$3.959&amp;nbsp;trillion</GDP_nominal>
+  <GDP_nominal_year>2025</GDP_nominal_year>
+  <GDP_nominal_rank>6th</GDP_nominal_rank>
+  <GDP_nominal_per_capita>$56,661</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>21st</GDP_nominal_per_capita_rank>
+  <Gini>35.4</Gini>
+  <Gini_year>2021</Gini_year>
+  <Gini_change>decrease</Gini_change>
+  <HDI>0.946</HDI>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI_rank>13th</HDI_rank>
+  <currency>Pound&amp;nbsp;sterling (£)</currency>
+  <currency_code>GBP</currency_code>
+  <utc_offset>+0</utc_offset>
+  <time_zone>GMT</time_zone>
+  <utc_offset_DST>+1</utc_offset_DST>
+  <time_zone_DST>BST</time_zone_DST>
+  <date_format>/ / (AD) - - , for machine-readable dates and times. See Date and time notation in the United Kingdom.</date_format>
+  <drives_on>left</drives_on>
+  <calling_code>+44</calling_code>
+  <cctld>.uk</cctld>
+  <established>
+    <event>
+      <label>Laws in Wales Acts</label>
+      <date>1535 and 1542</date>
+    </event>
+    <event>
+      <label>Union of the Crowns</label>
+      <date>24 March 1603</date>
+    </event>
+    <event>
+      <label>Treaty of Union</label>
+      <date>22 July 1706</date>
+    </event>
+    <event>
+      <label>Acts of Union of England and Scotland</label>
+      <date>1 May 1707</date>
+    </event>
+    <event>
+      <label>Acts of Union of Great Britain and Ireland</label>
+      <date>1 January 1801</date>
+    </event>
+    <event>
+      <label>Irish Free State Constitution Act</label>
+      <date>6 December 1922</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>Monarch</title>
+      <name>Charles III</name>
+    </leader>
+    <leader>
+      <title>Prime Minister</title>
+      <name>Keir Starmer</name>
+    </leader>
+  </leaders>
+</country>

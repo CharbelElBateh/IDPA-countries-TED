@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Maldives">
+  <conventional_long_name>Republic of Maldives</conventional_long_name>
+  <common_name>Maldives</common_name>
+  <flag_type_article>Flag of the Maldives</flag_type_article>
+  <symbol_type>Emblem</symbol_type>
+  <national_anthem>"Gaumee Salaam""National Salute"File:Gaumii salaam.ogg</national_anthem>
+  <capital>Malé</capital>
+  <largest_city>capital</largest_city>
+  <languages_type>Official language</languages_type>
+  <languages>Dhivehi</languages>
+  <languages2_type>Common language</languages2_type>
+  <languages2>English</languages2>
+  <religion>Sunni Islam (official)</religion>
+  <demonym>Maldivian</demonym>
+  <government_type>Unitary presidential republic</government_type>
+  <legislature>People's Majlis</legislature>
+  <sovereignty_type>Independence</sovereignty_type>
+  <sovereignty_note>from the United Kingdom</sovereignty_note>
+  <area_km2>298</area_km2>
+  <area_sq_mi>115</area_sq_mi>
+  <area_rank>187th</area_rank>
+  <population_estimate>601,269</population_estimate>
+  <population_estimate_year>2024</population_estimate_year>
+  <population_census>515,132</population_census>
+  <population_census_rank>167th</population_census_rank>
+  <population_census_year>2022</population_census_year>
+  <population_density_km2>1,728.63</population_density_km2>
+  <population_density_sq_mi>4,479.41</population_density_sq_mi>
+  <population_density_rank>8th</population_density_rank>
+  <GDP_PPP>$13.867&amp;nbsp;billion</GDP_PPP>
+  <GDP_PPP_year>2024</GDP_PPP_year>
+  <GDP_PPP_rank>157th</GDP_PPP_rank>
+  <GDP_PPP_per_capita>$34,322</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>54th</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$6.984&amp;nbsp;billion</GDP_nominal>
+  <GDP_nominal_year>2024</GDP_nominal_year>
+  <GDP_nominal_rank>161st</GDP_nominal_rank>
+  <GDP_nominal_per_capita>$17,287</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>58th</GDP_nominal_per_capita_rank>
+  <Gini>31.3</Gini>
+  <Gini_year>2024</Gini_year>
+  <Gini_change>decrease</Gini_change>
+  <HDI>0.766</HDI>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI_rank>93rd</HDI_rank>
+  <currency>Maldivian rufiyaa (MVR)</currency>
+  <time_zone>MVT</time_zone>
+  <utc_offset>+5</utc_offset>
+  <date_format>/ /</date_format>
+  <drives_on>left</drives_on>
+  <calling_code>+960</calling_code>
+  <cctld>.mv</cctld>
+  <established>
+    <event>
+      <label>Independence declared</label>
+      <date>26 July 1965</date>
+    </event>
+    <event>
+      <label>Second Republic</label>
+      <date>11 November 1968</date>
+    </event>
+    <event>
+      <label/>
+      <date>7 August 2008</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>President</title>
+      <name>Mohamed Muizzu</name>
+    </leader>
+    <leader>
+      <title>Vice President</title>
+      <name>Hussain Mohamed Latheef</name>
+    </leader>
+    <leader>
+      <title>Speaker</title>
+      <name>Abdul Raheem Abdulla</name>
+    </leader>
+    <leader>
+      <title>Chief Justice</title>
+      <name>Abdul Ghanee Mohamed</name>
+    </leader>
+  </leaders>
+</country>

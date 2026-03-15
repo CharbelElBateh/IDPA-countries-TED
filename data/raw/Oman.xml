@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Oman">
+  <conventional_long_name>Sultanate of Oman</conventional_long_name>
+  <common_name>Oman</common_name>
+  <native_name>''Salṭanat ʿUmān''</native_name>
+  <symbol_type>Emblem</symbol_type>
+  <national_motto>"God, Nation, Sultan"</national_motto>
+  <national_anthem>''Taḥīyah al-Sulṭān''"Salute to the Sultan"</national_anthem>
+  <capital>Muscat</capital>
+  <largest_city>capital</largest_city>
+  <official_languages>Arabic</official_languages>
+  <religion_year>2023</religion_year>
+  <demonym>Omani</demonym>
+  <government_type>Unitary Islamic absolute monarchy</government_type>
+  <legislature>Council of Oman</legislature>
+  <upper_house>Council of State</upper_house>
+  <lower_house>Consultative Assembly</lower_house>
+  <sovereignty_type>Establishment</sovereignty_type>
+  <area_km2>315,331</area_km2>
+  <area_rank>69th</area_rank>
+  <area_sq_mi>121,750</area_sq_mi>
+  <percent_water>negligible</percent_water>
+  <population_estimate>5,494,691</population_estimate>
+  <population_census>2,773,479</population_census>
+  <population_estimate_year>2025</population_estimate_year>
+  <population_estimate_rank>122nd</population_estimate_rank>
+  <population_census_year>2010</population_census_year>
+  <population_density_km2>15</population_density_km2>
+  <population_density_sq_mi>40</population_density_sq_mi>
+  <population_density_rank>177th</population_density_rank>
+  <GDP_PPP>$231.16 billion</GDP_PPP>
+  <GDP_PPP_year>2025</GDP_PPP_year>
+  <GDP_PPP_rank>76th</GDP_PPP_rank>
+  <GDP_PPP_per_capita>$42,010</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>53rd</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$104.35 billion</GDP_nominal>
+  <GDP_nominal_year>2025</GDP_nominal_year>
+  <GDP_nominal_rank>70th</GDP_nominal_rank>
+  <GDP_nominal_per_capita>$18,097</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>55th</GDP_nominal_per_capita_rank>
+  <Gini>30.75</Gini>
+  <Gini_year>2018</Gini_year>
+  <HDI>0.858</HDI>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI_rank>50th</HDI_rank>
+  <currency>Omani rial</currency>
+  <currency_code>OMR</currency_code>
+  <time_zone>GST</time_zone>
+  <utc_offset>+4</utc_offset>
+  <DST_note>DST is not observed.</DST_note>
+  <date_format>dd.mm.yyyy</date_format>
+  <drives_on>Right</drives_on>
+  <calling_code>+968</calling_code>
+  <cctld>.om, عمان.</cctld>
+  <official_website>[https://oman.om/en oman.om]</official_website>
+  <established>
+    <event>
+      <label>Azd tribe migration</label>
+      <date>130</date>
+    </event>
+    <event>
+      <label/>
+      <date>751</date>
+    </event>
+    <event>
+      <label>Nabhani dynasty</label>
+      <date>1154</date>
+    </event>
+    <event>
+      <label>Portuguese rule</label>
+      <date>1507–1656</date>
+    </event>
+    <event>
+      <label>Ya'rubi dynasty</label>
+      <date>1624</date>
+    </event>
+    <event>
+      <label>Omani Empire</label>
+      <date>1696</date>
+    </event>
+    <event>
+      <label>Al Bu Said dynasty</label>
+      <date>20 November 1744</date>
+    </event>
+    <event>
+      <label>Muscat and Oman</label>
+      <date>8 January 1856</date>
+    </event>
+    <event>
+      <label>Sultanate of Oman</label>
+      <date>9 August 1970</date>
+    </event>
+    <event>
+      <label>Basic Statute</label>
+      <date>6 November 1996</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>Sultan</title>
+      <name>Haitham bin Tariq</name>
+    </leader>
+    <leader>
+      <title>Crown Prince</title>
+      <name>Theyazin bin Haitham</name>
+    </leader>
+  </leaders>
+</country>

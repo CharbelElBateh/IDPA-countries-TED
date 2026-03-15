@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Slovenia">
+  <conventional_long_name>Republic of Slovenia</conventional_long_name>
+  <common_name>Slovenia</common_name>
+  <national_anthem>''Zdravljica''(English: "A Toast")</national_anthem>
+  <capital>Ljubljana</capital>
+  <largest_city>capital</largest_city>
+  <official_languages>Slovene</official_languages>
+  <regional_languages>Italian, Hungarian</regional_languages>
+  <religion_year>2018</religion_year>
+  <demonym>Slovene, Slovenian</demonym>
+  <government_type>Unitary parliamentary republic</government_type>
+  <legislature>Parliament</legislature>
+  <upper_house>National Council</upper_house>
+  <lower_house>National Assembly</lower_house>
+  <area_km2>20,272</area_km2>
+  <area_rank>150th</area_rank>
+  <area_sq_mi>7,826.677</area_sq_mi>
+  <percent_water>0.7</percent_water>
+  <population_estimate>2,130,850</population_estimate>
+  <population_census>1,964,036</population_census>
+  <population_estimate_year>2023</population_estimate_year>
+  <population_estimate_rank>145th</population_estimate_rank>
+  <population_census_year>2002</population_census_year>
+  <population_density_km2>103</population_density_km2>
+  <population_density_sq_mi>262</population_density_sq_mi>
+  <population_density_rank>114th</population_density_rank>
+  <GDP_PPP>$122,985 billion</GDP_PPP>
+  <GDP_PPP_year>2025</GDP_PPP_year>
+  <GDP_PPP_rank>99th</GDP_PPP_rank>
+  <GDP_PPP_per_capita>$57,716</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>36th</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$79,222 billion</GDP_nominal>
+  <GDP_nominal_year>2025</GDP_nominal_year>
+  <GDP_nominal_rank>86th</GDP_nominal_rank>
+  <GDP_nominal_per_capita>$37,178</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>36th</GDP_nominal_per_capita_rank>
+  <Gini>23.4</Gini>
+  <Gini_year>2023</Gini_year>
+  <Gini_change>decrease</Gini_change>
+  <HDI>0.931</HDI>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI_rank>21st</HDI_rank>
+  <iso3166code>SI</iso3166code>
+  <currency>Euro (€)</currency>
+  <currency_code>EUR</currency_code>
+  <time_zone>CET</time_zone>
+  <utc_offset>+1</utc_offset>
+  <utc_offset_DST>+2</utc_offset_DST>
+  <time_zone_DST>CEST</time_zone_DST>
+  <date_format>dd. mm. yyyy (Slovene)dd/mm/yyyy (Italian)yyyy. mm. dd. (Hungarian)</date_format>
+  <drives_on>right</drives_on>
+  <calling_code>+386</calling_code>
+  <cctld>.si</cctld>
+  <established>
+    <event>
+      <label>State of Slovenes, Croats and Serbs</label>
+      <date>29 October 1918</date>
+    </event>
+    <event>
+      <label>Kingdom of Serbs, Croats and Slovenes</label>
+      <date>1 December 1918</date>
+    </event>
+    <event>
+      <label>Slovene National Liberation Committee</label>
+      <date>19 February 1944</date>
+    </event>
+    <event>
+      <label>Socialist Federal Republic of Yugoslavia</label>
+      <date>29 July 1944</date>
+    </event>
+    <event>
+      <label>Independence fromYugoslavia</label>
+      <date>25 June 1991</date>
+    </event>
+    <event>
+      <label>Brioni Agreementsigned</label>
+      <date>7 July 1991</date>
+    </event>
+    <event>
+      <label>Current constitution</label>
+      <date>24 December 1991</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>President</title>
+      <name>Nataša Pirc Musar</name>
+    </leader>
+    <leader>
+      <title>Prime Minister</title>
+      <name>Robert Golob</name>
+    </leader>
+  </leaders>
+</country>

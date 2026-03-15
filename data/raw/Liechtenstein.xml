@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Liechtenstein">
+  <conventional_long_name>Principality of Liechtenstein</conventional_long_name>
+  <common_name>Liechtenstein</common_name>
+  <national_motto>"Für Gott, Fürst und Vaterland""For God, Prince and Fatherland"</national_motto>
+  <capital>Vaduz</capital>
+  <largest_settlement>Schaan</largest_settlement>
+  <largest_settlement_type>municipality</largest_settlement_type>
+  <official_languages>German 66.2 % Liechtensteiners, 9.5 % Swiss, 5.8 % Austrians, 4.2 % Germans, 3.1 % Italians, 1.9 % Portuguese, 1.6 % Turks, 1.1&amp;nbsp;%&amp;nbsp;Albanians, 1.0 % Spaniards, 5.6 % other</official_languages>
+  <religion_year>2020</religion_year>
+  <religion>79.4 % Christianity, 69.6 % Catholicism (official), 9.8 % other Christian, 9.6 % no religion, 6.0 % Islam, 5.0 % other * 9.6 % no religion * 6.0 % Islam * 5.0 % other</religion>
+  <demonym>Liechtensteiner</demonym>
+  <government_type>Unitary parliamentary semi-constitutional monarchy with elements of a direct democracy</government_type>
+  <legislature>Landtag</legislature>
+  <sovereignty_type>Independence as principality</sovereignty_type>
+  <area_km2>160.50</area_km2>
+  <area_rank>190th</area_rank>
+  <area_sq_mi>61.97</area_sq_mi>
+  <percent_water>2.7</percent_water>
+  <population_estimate>41,232</population_estimate>
+  <population_estimate_year>2023</population_estimate_year>
+  <population_estimate_rank>189th</population_estimate_rank>
+  <population_density_km2>249</population_density_km2>
+  <population_density_sq_mi>645</population_density_sq_mi>
+  <population_density_rank>56th</population_density_rank>
+  <GDP_PPP>$7.172 billion</GDP_PPP>
+  <GDP_PPP_year>2024</GDP_PPP_year>
+  <GDP_PPP_rank>169th</GDP_PPP_rank>
+  <GDP_PPP_per_capita>$210,600</GDP_PPP_per_capita>
+  <GDP_nominal>$8.288 billion</GDP_nominal>
+  <GDP_nominal_year>2023</GDP_nominal_year>
+  <GDP_nominal_rank>155th</GDP_nominal_rank>
+  <GDP_nominal_per_capita>$207,974</GDP_nominal_per_capita>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI>0.938</HDI>
+  <HDI_rank>17th</HDI_rank>
+  <currency>Swiss franc</currency>
+  <currency_code>CHF</currency_code>
+  <time_zone>CET</time_zone>
+  <utc_offset>+01:00</utc_offset>
+  <utc_offset_DST>+02:00</utc_offset_DST>
+  <time_zone_DST>CEST</time_zone_DST>
+  <drives_on>right</drives_on>
+  <calling_code>+423</calling_code>
+  <cctld>.li</cctld>
+  <established>
+    <event>
+      <label/>
+      <date>23 January 1719</date>
+    </event>
+    <event>
+      <label/>
+      <date>12 July 1806</date>
+    </event>
+    <event>
+      <label/>
+      <date>23 August 1866</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>Monarch</title>
+      <name>Hans-Adam II</name>
+    </leader>
+    <leader>
+      <title>Regent and Heir Apparent</title>
+      <name>Alois</name>
+    </leader>
+    <leader>
+      <title>Prime Minister</title>
+      <name>Brigitte Haas</name>
+    </leader>
+    <leader>
+      <title>Deputy Prime Minister</title>
+      <name>Sabine Monauni</name>
+    </leader>
+  </leaders>
+</country>

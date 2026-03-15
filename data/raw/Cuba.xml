@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Cuba">
+  <conventional_long_name>Republic of Cuba</conventional_long_name>
+  <common_name>Cuba</common_name>
+  <symbol_type>Coat of arms</symbol_type>
+  <national_motto>("Homeland or Death, We Shall Overcome!")</national_motto>
+  <map_caption>Cuba, shown in dark green</map_caption>
+  <capital>Havana</capital>
+  <largest_city>capital</largest_city>
+  <official_languages>Spanish</official_languages>
+  <ethnic_groups>64.12% White, 26.62% Mixed, 9.26% Black</ethnic_groups>
+  <ethnic_groups_year>2012</ethnic_groups_year>
+  <religion_year>2020</religion_year>
+  <demonym>Cuban</demonym>
+  <government_type>Unitary communist republic</government_type>
+  <legislature>National Assembly of People's Power</legislature>
+  <sovereignty_type>Independence</sovereignty_type>
+  <sovereignty_note>from Spain</sovereignty_note>
+  <area_km2>110,860</area_km2>
+  <area_rank>104th</area_rank>
+  <area_sq_mi>42,803</area_sq_mi>
+  <percent_water>0.94</percent_water>
+  <population_estimate>9,748,007</population_estimate>
+  <population_estimate_year>2024</population_estimate_year>
+  <population_estimate_rank>95th</population_estimate_rank>
+  <population_census>11,089,511</population_census>
+  <population_census_year>2022</population_census_year>
+  <population_density_km2>89.8</population_density_km2>
+  <population_density_sq_mi>230</population_density_sq_mi>
+  <population_density_rank>125th</population_density_rank>
+  <GDP_PPP>$254.865 billion</GDP_PPP>
+  <GDP_PPP_year>2015</GDP_PPP_year>
+  <GDP_PPP_per_capita>$22,237</GDP_PPP_per_capita>
+  <GDP_nominal>$252.063 billion</GDP_nominal>
+  <GDP_nominal_year>2024</GDP_nominal_year>
+  <GDP_nominal_rank>59th</GDP_nominal_rank>
+  <GDP_nominal_per_capita>$22,957</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>60th</GDP_nominal_per_capita_rank>
+  <Gini>38.0</Gini>
+  <Gini_year>2000</Gini_year>
+  <HDI>0.762</HDI>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>decrease</HDI_change>
+  <HDI_rank>97th</HDI_rank>
+  <currency>Cuban peso</currency>
+  <currency_code>CUP</currency_code>
+  <time_zone>CST</time_zone>
+  <utc_offset>−05:00</utc_offset>
+  <time_zone_DST>CDT</time_zone_DST>
+  <utc_offset_DST>−04:00</utc_offset_DST>
+  <calling_code>+53</calling_code>
+  <cctld>.cu</cctld>
+  <established>
+    <event>
+      <label>Declaration of Independence</label>
+      <date>10 October 1868</date>
+    </event>
+    <event>
+      <label>War of Independence</label>
+      <date>24 February 1895</date>
+    </event>
+    <event>
+      <label>Recognized (sovereignty relinquished by Spain)</label>
+      <date>10 December 1898</date>
+    </event>
+    <event>
+      <label>Republic declared (end of United States occupation)</label>
+      <date>20 May 1902</date>
+    </event>
+    <event>
+      <label>Cuban Revolution</label>
+      <date>26 July 1953 – 1 January 1959</date>
+    </event>
+    <event>
+      <label>Current constitution</label>
+      <date>10 April 2019</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>First Secretary and President</title>
+      <name>Miguel Díaz-Canel</name>
+    </leader>
+    <leader>
+      <title/>
+      <name>Salvador Valdés Mesa</name>
+    </leader>
+    <leader>
+      <title>Prime Minister</title>
+      <name/>
+    </leader>
+    <leader>
+      <title>President of the National Assembly</title>
+      <name/>
+    </leader>
+  </leaders>
+</country>

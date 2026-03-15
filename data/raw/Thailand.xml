@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Thailand">
+  <conventional_long_name>Kingdom of Thailand</conventional_long_name>
+  <common_name>Thailand</common_name>
+  <native_name>native name, th, ราชอาณาจักรไทย, italics, =, off, lang, th-Latn, Ratcha-anachak Thai</native_name>
+  <symbol_type>Emblem</symbol_type>
+  <national_anthem>"Thai National Anthem"</national_anthem>
+  <royal_anthem>"Praise the King"</royal_anthem>
+  <capital>Bangkok</capital>
+  <largest_city>capital</largest_city>
+  <official_languages>Thai</official_languages>
+  <languages>Isan, Northern Thai, Southern Thai, Karen, Pattani Malay, Bangkok Malay, Teochew, Hokkien</languages>
+  <languages_sub>yes</languages_sub>
+  <religion_year>2018 census</religion_year>
+  <demonym>Thai</demonym>
+  <government_type>Unitary parliamentary constitutional monarchy</government_type>
+  <legislature>National Assembly</legislature>
+  <upper_house>Senate</upper_house>
+  <lower_house>House of Representatives</lower_house>
+  <sovereignty_type>Formation</sovereignty_type>
+  <area_km2>513,120</area_km2>
+  <area_rank>50th</area_rank>
+  <area_sq_mi>198,115</area_sq_mi>
+  <percent_water>)</percent_water>
+  <population_estimate>65,975,198</population_estimate>
+  <population_estimate_year>2024</population_estimate_year>
+  <population_estimate_rank>22nd</population_estimate_rank>
+  <population_census>64,785,909</population_census>
+  <population_census_year>2010</population_census_year>
+  <population_census_rank>21st</population_census_rank>
+  <population_density_km2>132.1</population_density_km2>
+  <population_density_sq_mi>342</population_density_sq_mi>
+  <population_density_rank>88th</population_density_rank>
+  <GDP_PPP>$1.853 trillion</GDP_PPP>
+  <GDP_PPP_year>2025</GDP_PPP_year>
+  <GDP_PPP_rank>23rd</GDP_PPP_rank>
+  <GDP_PPP_per_capita>$26,358</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>75th</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$558.573 billion</GDP_nominal>
+  <GDP_nominal_year>2025</GDP_nominal_year>
+  <GDP_nominal_rank>31rd</GDP_nominal_rank>
+  <GDP_nominal_per_capita>$7,942</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>97th</GDP_nominal_per_capita_rank>
+  <Gini>33.5</Gini>
+  <Gini_year>2023</Gini_year>
+  <Gini_change>decrease</Gini_change>
+  <HDI>0.798</HDI>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>decrease</HDI_change>
+  <HDI_rank>76th</HDI_rank>
+  <currency>Thai baht (฿)</currency>
+  <currency_code>THB</currency_code>
+  <time_zone>ICT</time_zone>
+  <utc_offset>+7</utc_offset>
+  <date_format>dd/mm/yyyy (BE)</date_format>
+  <drives_on>left</drives_on>
+  <calling_code>+66</calling_code>
+  <cctld>.th, .ไทย</cctld>
+  <established>
+    <event>
+      <label>Sukhothai Kingdom</label>
+      <date>1238–1438</date>
+    </event>
+    <event>
+      <label>Ayutthaya Kingdom</label>
+      <date>1351–1767</date>
+    </event>
+    <event>
+      <label>Thonburi Kingdom</label>
+      <date>1767–1782</date>
+    </event>
+    <event>
+      <label>Rattanakosin Kingdom</label>
+      <date>6 April 1782</date>
+    </event>
+    <event>
+      <label/>
+      <date>24 June 1932</date>
+    </event>
+    <event>
+      <label/>
+      <date>6 April 2017</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>Monarch</title>
+      <name>Vajiralongkorn (Rama X)</name>
+    </leader>
+    <leader>
+      <title>Prime Minister</title>
+      <name>Anutin Charnvirakul</name>
+    </leader>
+  </leaders>
+</country>

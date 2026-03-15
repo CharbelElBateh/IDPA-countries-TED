@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Turkey">
+  <conventional_long_name>Republic of Türkiye</conventional_long_name>
+  <common_name>Turkey</common_name>
+  <national_anthem>"Independence March"</national_anthem>
+  <capital>Ankara</capital>
+  <largest_city>Istanbul</largest_city>
+  <official_languages>Turkish</official_languages>
+  <languages_type>Spoken languages</languages_type>
+  <demonym>Turkish, Turk</demonym>
+  <government_type>Unitary presidential republic</government_type>
+  <sovereignty_type>Establishment</sovereignty_type>
+  <area_km2>783,562</area_km2>
+  <area_rank>36th</area_rank>
+  <area_sq_mi>302535</area_sq_mi>
+  <percent_water>2.03</percent_water>
+  <population_estimate>86,092,168</population_estimate>
+  <population_estimate_year>December 2025</population_estimate_year>
+  <population_estimate_rank>18th</population_estimate_rank>
+  <population_density_km2>112</population_density_km2>
+  <population_density_rank>83rd</population_density_rank>
+  <GDP_PPP>$3.77 trillion</GDP_PPP>
+  <GDP_PPP_year>2025</GDP_PPP_year>
+  <GDP_PPP_rank>11th</GDP_PPP_rank>
+  <GDP_PPP_per_capita>$43,790</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>51st</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$1.57 trillion</GDP_nominal>
+  <GDP_nominal_year>2025</GDP_nominal_year>
+  <GDP_nominal_rank>16th</GDP_nominal_rank>
+  <GDP_nominal_per_capita>$18,200</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>62nd</GDP_nominal_per_capita_rank>
+  <Gini>44.5</Gini>
+  <Gini_year>2022</Gini_year>
+  <Gini_change>increase</Gini_change>
+  <HDI>0.853</HDI>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>steady</HDI_change>
+  <HDI_rank>51st</HDI_rank>
+  <currency>Turkish lira (₺)</currency>
+  <currency_code>TRY</currency_code>
+  <time_zone>TRT</time_zone>
+  <utc_offset>+3</utc_offset>
+  <calling_code>+90</calling_code>
+  <cctld>.tr</cctld>
+  <established>
+    <event>
+      <label>Ottoman Empire</label>
+      <date/>
+    </event>
+    <event>
+      <label>War of Independence</label>
+      <date>19 May 1919</date>
+    </event>
+    <event>
+      <label>Government of the Grand National Assembly</label>
+      <date>23 April 1920</date>
+    </event>
+    <event>
+      <label>Sultanate abolished</label>
+      <date>1 November 1922</date>
+    </event>
+    <event>
+      <label/>
+      <date>24 July 1923</date>
+    </event>
+    <event>
+      <label/>
+      <date>29 October 1923</date>
+    </event>
+    <event>
+      <label>Current constitution</label>
+      <date>9 November 1982</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>President</title>
+      <name>Recep Tayyip Erdoğan</name>
+    </leader>
+    <leader>
+      <title>Vice President</title>
+      <name>Cevdet Yılmaz</name>
+    </leader>
+    <leader>
+      <title>Speaker</title>
+      <name>Numan Kurtulmuş</name>
+    </leader>
+    <leader>
+      <title>Chief Justice</title>
+      <name>Kadir Özkaya</name>
+    </leader>
+  </leaders>
+</country>

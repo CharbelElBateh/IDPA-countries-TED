@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Australia">
+  <conventional_long_name>Commonwealth of Australia</conventional_long_name>
+  <common_name>Australia</common_name>
+  <national_anthem>"Advance Australia Fair"</national_anthem>
+  <capital>Canberra</capital>
+  <largest_city>Sydney (metropolitan)Melbourne (urban) Melbourne is larger based on ABS Significant Urban Areas (SUAs). These represent Urban Centres, or groups of contiguous Urban Centres, that contain a population of 10,000 people or more.</largest_city>
+  <languages_type>National language</languages_type>
+  <languages>English</languages>
+  <demonym>Australian, Aussie (colloquial), Refn, Pronounced "Ozzy", group, =, "N"</demonym>
+  <religion_year>2021</religion_year>
+  <government_type>Federal parliamentary constitutional monarchy</government_type>
+  <legislature>Parliament</legislature>
+  <upper_house>Senate</upper_house>
+  <lower_house>House of Representatives</lower_house>
+  <sovereignty_type>Independence</sovereignty_type>
+  <sovereignty_note>from the United Kingdom</sovereignty_note>
+  <area_km2>7,688,287</area_km2>
+  <area_rank>6th</area_rank>
+  <percent_water>1.79 (2015)</percent_water>
+  <population_estimate>27,840,775</population_estimate>
+  <population_census>25,890,773</population_census>
+  <population_estimate_rank>54th</population_estimate_rank>
+  <population_census_year>2021</population_census_year>
+  <population_density_km2>/ 7692024 round 1</population_density_km2>
+  <population_density_rank>237th</population_density_rank>
+  <GDP_PPP>$1.982 trillion</GDP_PPP>
+  <GDP_PPP_year>2025</GDP_PPP_year>
+  <GDP_PPP_rank>22nd</GDP_PPP_rank>
+  <GDP_PPP_per_capita>$71,431</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>26th</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$1.830 trillion</GDP_nominal>
+  <GDP_nominal_year>2025</GDP_nominal_year>
+  <GDP_nominal_rank>15th</GDP_nominal_rank>
+  <GDP_nominal_per_capita>$65,946</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>13th</GDP_nominal_per_capita_rank>
+  <Gini>32.4</Gini>
+  <Gini_year>2020</Gini_year>
+  <Gini_change>decrease</Gini_change>
+  <HDI>0.958</HDI>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI_rank>7th</HDI_rank>
+  <currency>Australian dollar ($)</currency>
+  <currency_code>AUD</currency_code>
+  <time_zone>AWST, ACST, AEST</time_zone>
+  <utc_offset>+8; +9.5; +10</utc_offset>
+  <time_zone_DST>ACDT, AEDT</time_zone_DST>
+  <utc_offset_DST>+10.5; +11</utc_offset_DST>
+  <DST_note>DST not observed in Qld, WA and NT</DST_note>
+  <date_format>/ /</date_format>
+  <drives_on>left</drives_on>
+  <calling_code>+61</calling_code>
+  <cctld>.au</cctld>
+  <established>
+    <event>
+      <label>Federation</label>
+      <date>1 January 1901</date>
+    </event>
+    <event>
+      <label>Balfour Declaration</label>
+      <date>15 November 1926</date>
+    </event>
+    <event>
+      <label>Statute of Westminster Adoption Act</label>
+      <date>9 October 1942</date>
+    </event>
+    <event>
+      <label>Australia Acts</label>
+      <date>3 March 1986</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>Monarch</title>
+      <name>Charles III</name>
+    </leader>
+    <leader>
+      <title/>
+      <name>Sam Mostyn</name>
+    </leader>
+    <leader>
+      <title>Prime Minister</title>
+      <name>Anthony Albanese</name>
+    </leader>
+  </leaders>
+</country>

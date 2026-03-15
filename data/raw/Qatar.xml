@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Qatar">
+  <conventional_long_name>State of Qatar</conventional_long_name>
+  <common_name>Qatar</common_name>
+  <flag_size>135</flag_size>
+  <symbol_type>Emblem</symbol_type>
+  <national_motto>"God, Nation, Emir"</national_motto>
+  <national_anthem>"Peace to the Emir" File:National anthem of Qatar.ogg</national_anthem>
+  <map_caption>Location and extent of Qatar (dark green) on the Arabian Peninsula</map_caption>
+  <capital>Doha</capital>
+  <largest_city>capital</largest_city>
+  <ethnic_groups>49% Arab, 43% South Asian, 21.8% Indian, 12.5% Bangladeshi, 4.7% Pakistani, 4.35% Sri Lankan, 7% other</ethnic_groups>
+  <ethnic_groups_year>2019</ethnic_groups_year>
+  <official_languages>Arabic</official_languages>
+  <demonym>Qatari</demonym>
+  <government_type>Unitary authoritarian semi-constitutional monarchy</government_type>
+  <legislature>Consultative Assembly</legislature>
+  <sovereignty_type>Establishment</sovereignty_type>
+  <area_km2>11,581</area_km2>
+  <area_rank>158th</area_rank>
+  <area_sq_mi>4,467.6</area_sq_mi>
+  <percent_water>negligible</percent_water>
+  <population_estimate>3,214,609</population_estimate>
+  <population_census>2,846,118</population_census>
+  <population_estimate_year>2025</population_estimate_year>
+  <population_estimate_rank>134th</population_estimate_rank>
+  <population_census_year>2020</population_census_year>
+  <population_density_km2>264</population_density_km2>
+  <population_density_sq_mi>auto</population_density_sq_mi>
+  <population_density_rank>52th</population_density_rank>
+  <GDP_PPP>$378.080 billion</GDP_PPP>
+  <GDP_PPP_year>2025</GDP_PPP_year>
+  <GDP_PPP_rank>60th</GDP_PPP_rank>
+  <GDP_PPP_per_capita>$121,610</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>4th</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$222.780 billion</GDP_nominal>
+  <GDP_nominal_year>2025</GDP_nominal_year>
+  <GDP_nominal_rank>54th</GDP_nominal_rank>
+  <GDP_nominal_per_capita>$71,650</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>9th</GDP_nominal_per_capita_rank>
+  <Gini>35.1</Gini>
+  <Gini_year>2017</Gini_year>
+  <HDI>0.886</HDI>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI_rank>43rd</HDI_rank>
+  <currency>Qatari riyal</currency>
+  <currency_code>QAR</currency_code>
+  <time_zone>AST</time_zone>
+  <utc_offset>+3:00</utc_offset>
+  <drives_on>right</drives_on>
+  <calling_code>+974</calling_code>
+  <cctld>.qa, قطر.</cctld>
+  <religion>65.5% Islam (official), 15.1% Hinduism, 14.2% Christianity, 3.3% Buddhism, 1.9% other</religion>
+  <religion_year>2020</religion_year>
+  <established>
+    <event>
+      <label>Qatar National Day</label>
+      <date>18 December 1878</date>
+    </event>
+    <event>
+      <label>Declared independence</label>
+      <date>1 September 1971</date>
+    </event>
+    <event>
+      <label>Independence from the United Kingdom</label>
+      <date>3 September 1971</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>Emir</title>
+      <name>Tamim bin Hamad</name>
+    </leader>
+    <leader>
+      <title>Deputy Emir</title>
+      <name>Abdullah bin Hamad</name>
+    </leader>
+    <leader>
+      <title>Prime Minister</title>
+      <name>Mohammed bin Abdulrahman</name>
+    </leader>
+  </leaders>
+</country>

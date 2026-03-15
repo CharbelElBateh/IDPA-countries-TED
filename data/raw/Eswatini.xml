@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Eswatini">
+  <conventional_long_name>Kingdom of Eswatini</conventional_long_name>
+  <common_name>Eswatini</common_name>
+  <national_motto>"We are a fortress""We are a mystery""We hide ourselves away""We are powerful ones"</national_motto>
+  <national_anthem>"Nkulunkulu Mnikati wetibusiso temaSwati" "Oh God, Giver of Blessings to the Swazi"File:Nkulunkulu Mnikati wetibusiso temaSwati (instrumental).ogg</national_anthem>
+  <capital>Mbabane (executive), Lobamba (legislative)</capital>
+  <largest_city>Mbabane</largest_city>
+  <official_languages>Swazi, English</official_languages>
+  <ethnic_groups>84% Swazi, 10% Zulu, 6% others</ethnic_groups>
+  <ethnic_groups_year>2017</ethnic_groups_year>
+  <religion_year>2017</religion_year>
+  <demonym>Swazi</demonym>
+  <government_type>Unitary diarchic absolute monarchy</government_type>
+  <legislature>Parliament</legislature>
+  <upper_house>Senate</upper_house>
+  <lower_house>House of Assembly</lower_house>
+  <sovereignty_type>Independence from the United Kingdom</sovereignty_type>
+  <area_km2>17,364</area_km2>
+  <area_rank>153rd</area_rank>
+  <area_sq_mi>6,704</area_sq_mi>
+  <percent_water>0.9</percent_water>
+  <population_estimate>1,236,126</population_estimate>
+  <population_census>1,093,238</population_census>
+  <population_estimate_year>2023</population_estimate_year>
+  <population_estimate_rank>155th</population_estimate_rank>
+  <population_census_year>2017</population_census_year>
+  <population_density_km2>66.8</population_density_km2>
+  <population_density_sq_mi>173.1</population_density_sq_mi>
+  <population_density_rank>135th</population_density_rank>
+  <GDP_PPP>$13.797 billion</GDP_PPP>
+  <GDP_PPP_year>2023</GDP_PPP_year>
+  <GDP_PPP_rank>158th</GDP_PPP_rank>
+  <GDP_PPP_per_capita>$11,858</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>113th</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$4.648 billion</GDP_nominal>
+  <GDP_nominal_year>2023</GDP_nominal_year>
+  <GDP_nominal_rank>168th</GDP_nominal_rank>
+  <GDP_nominal_per_capita>$3,995</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>122nd</GDP_nominal_per_capita_rank>
+  <Gini>54.6</Gini>
+  <Gini_year>2016</Gini_year>
+  <Gini_change>increase</Gini_change>
+  <HDI>0.695</HDI>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>steady</HDI_change>
+  <HDI_rank>126th</HDI_rank>
+  <currency>Lilangeni (SZL), South African rand (ZAR)</currency>
+  <time_zone>SAST</time_zone>
+  <utc_offset>+2</utc_offset>
+  <drives_on>left</drives_on>
+  <calling_code>+268</calling_code>
+  <cctld>.sz</cctld>
+  <established>
+    <event>
+      <label>Independence granted</label>
+      <date>6 September 1968</date>
+    </event>
+    <event>
+      <label>United Nations membership</label>
+      <date>24 September 1968</date>
+    </event>
+    <event>
+      <label>Current constitution</label>
+      <date>2005</date>
+    </event>
+    <event>
+      <label>Renaming</label>
+      <date>19 April 2018</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>King</title>
+      <name>Mswati III</name>
+    </leader>
+    <leader>
+      <title>Queen Mother</title>
+      <name>Ntfombi</name>
+    </leader>
+    <leader>
+      <title>Prime Minister</title>
+      <name>Russell Dlamini</name>
+    </leader>
+    <leader>
+      <title>Chief Justice</title>
+      <name>Bheki Maphalala</name>
+    </leader>
+  </leaders>
+</country>

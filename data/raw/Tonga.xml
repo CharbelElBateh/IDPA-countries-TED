@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Tonga">
+  <conventional_long_name>Kingdom of Tonga</conventional_long_name>
+  <common_name>Tonga</common_name>
+  <symbol>Coat of arms of Tonga</symbol>
+  <symbol_type>Coat of arms</symbol_type>
+  <national_motto>" ""God and Tonga are my inheritance"</national_motto>
+  <national_anthem>" ""Song of the King of the Tonga Islands"</national_anthem>
+  <capital>Nukuʻalofa</capital>
+  <largest_city>capital</largest_city>
+  <official_languages>Tongan, English</official_languages>
+  <ethnic_groups>96.5% Tongan, 3.5% others</ethnic_groups>
+  <ethnic_groups_year>2021</ethnic_groups_year>
+  <demonym>Tongan</demonym>
+  <government_type>Unitary parliamentary semi-constitutional monarchy</government_type>
+  <legislature>Legislative Assembly</legislature>
+  <sovereignty_type>Formation</sovereignty_type>
+  <area_km2>748</area_km2>
+  <area_rank>175th</area_rank>
+  <area_sq_mi>289</area_sq_mi>
+  <percent_water>4.0</percent_water>
+  <population_census>100,209</population_census>
+  <population_census_rank>199th</population_census_rank>
+  <population_census_year>2021</population_census_year>
+  <population_density_km2>139</population_density_km2>
+  <population_density_sq_mi>360</population_density_sq_mi>
+  <population_density_rank>92th</population_density_rank>
+  <GDP_PPP>$655&amp;nbsp;million</GDP_PPP>
+  <GDP_PPP_year>2019</GDP_PPP_year>
+  <GDP_PPP_per_capita>$6,496</GDP_PPP_per_capita>
+  <GDP_nominal>$493&amp;nbsp;million</GDP_nominal>
+  <GDP_nominal_year>2019</GDP_nominal_year>
+  <GDP_nominal_per_capita>$4,888</GDP_nominal_per_capita>
+  <Gini>27.1</Gini>
+  <Gini_year>2021</Gini_year>
+  <Gini_change>decrease</Gini_change>
+  <HDI>0.739</HDI>
+  <HDI_year>2022</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI_rank>98th</HDI_rank>
+  <currency>Paʻanga</currency>
+  <currency_code>TOP</currency_code>
+  <utc_offset>+13</utc_offset>
+  <date_format>dd/mm/yyyy</date_format>
+  <drives_on>left</drives_on>
+  <calling_code>+676</calling_code>
+  <cctld>.to</cctld>
+  <footnote_a>Based on 2005 figures.</footnote_a>
+  <religion_year>2016</religion_year>
+  <established>
+    <event>
+      <label>Unification</label>
+      <date/>
+    </event>
+    <event>
+      <label>Treaty of Friendship</label>
+      <date>18 May 1900</date>
+    </event>
+    <event>
+      <label>Independence from the United Kingdom</label>
+      <date>4 June 1970</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>Monarch</title>
+      <name>Tupou VI</name>
+    </leader>
+    <leader>
+      <title>Prime Minister</title>
+      <name>Fatafehi Fakafānua</name>
+    </leader>
+    <leader>
+      <title>Assembly Speaker</title>
+      <name>ʻAlipate Tuʻivanuavou Vaea</name>
+    </leader>
+  </leaders>
+</country>

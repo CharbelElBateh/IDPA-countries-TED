@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Lebanon">
+  <conventional_long_name>Lebanese Republic</conventional_long_name>
+  <common_name>Lebanon</common_name>
+  <national_anthem>lang, ar, Script/Arabic, كلّنا للوطن, rtl, =, yes, Transliteration, ar, Kullunā li-l-waṭan, "All of us, for our country!", parabr, center, File:Lebanese national anthem.ogg</national_anthem>
+  <map_caption>Location of Lebanon (in green)</map_caption>
+  <capital>Beirut</capital>
+  <largest_city>Beirut</largest_city>
+  <official_languages>Arabic</official_languages>
+  <languages>Lebanese Arabic</languages>
+  <languages_type>Local vernacular</languages_type>
+  <languages2_type>Recognised minority language</languages2_type>
+  <languages2>French</languages2>
+  <demonym>Lebanese</demonym>
+  <government_type>Unitary parliamentary republic under confessionalism</government_type>
+  <legislature>Parliament</legislature>
+  <area_km2>10452</area_km2>
+  <area_rank>161st</area_rank>
+  <area_sq_mi>4036</area_sq_mi>
+  <percent_water>1.8</percent_water>
+  <population_estimate>5,364,482</population_estimate>
+  <population_estimate_year>2024</population_estimate_year>
+  <population_estimate_rank>117th</population_estimate_rank>
+  <population_density_km2>513</population_density_km2>
+  <population_density_sq_mi>1,329</population_density_sq_mi>
+  <GDP_PPP>$78.233 billion</GDP_PPP>
+  <GDP_PPP_year>2022</GDP_PPP_year>
+  <GDP_PPP_rank>108th</GDP_PPP_rank>
+  <GDP_PPP_per_capita>$11,793</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>114th</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$21.780 billion</GDP_nominal>
+  <GDP_nominal_year>2022</GDP_nominal_year>
+  <GDP_nominal_rank>103rd</GDP_nominal_rank>
+  <GDP_nominal_per_capita>$3,283</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>133rd</GDP_nominal_per_capita_rank>
+  <Gini>31.8</Gini>
+  <Gini_year>2011</Gini_year>
+  <Gini_change>decrease</Gini_change>
+  <HDI>0.752</HDI>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI_rank>102nd</HDI_rank>
+  <currency>Lebanese pound</currency>
+  <currency_code>LBP</currency_code>
+  <time_zone>EET</time_zone>
+  <utc_offset>+2</utc_offset>
+  <utc_offset_DST>+3</utc_offset_DST>
+  <time_zone_DST>EEST</time_zone_DST>
+  <drives_on>Right</drives_on>
+  <calling_code>+961</calling_code>
+  <ethnic_groups>95% Arab, 4% Armenian, 1% others</ethnic_groups>
+  <ethnic_groups_year>2021</ethnic_groups_year>
+  <religion>53.31% Islam, 26.84% Shia, 0.64% Alawite, 26.55% Sunni, 41.40% Christianity, 28.11% Catholic, 8.30% Orthodox, 2.92% Armenian Apostolic, 0.53% Protestant, 1.64% Other Christians, 5.21% Druze, 0.08% No religion</religion>
+  <religion_year>2024</religion_year>
+  <established>
+    <event>
+      <label>Emirate of Mount Lebanon</label>
+      <date>1516</date>
+    </event>
+    <event>
+      <label>Double Qaim-Maqamate of Mount Lebanon</label>
+      <date>1 December 1843</date>
+    </event>
+    <event>
+      <label>Mount Lebanon Mutasarrifate</label>
+      <date>9 June 1861</date>
+    </event>
+    <event>
+      <label>Greater Lebanon</label>
+      <date>1 September 1920</date>
+    </event>
+    <event>
+      <label>Constitution</label>
+      <date>23 May 1926</date>
+    </event>
+    <event>
+      <label>Independence declared</label>
+      <date>22 November 1943</date>
+    </event>
+    <event>
+      <label>French mandate ended</label>
+      <date>24 October 1945</date>
+    </event>
+    <event>
+      <label>Withdrawal of French forces</label>
+      <date>17 April 1946</date>
+    </event>
+    <event>
+      <label>Israeli troops withdrawn</label>
+      <date>24 May 2000</date>
+    </event>
+    <event>
+      <label>Syrian troops withdrawn</label>
+      <date>30 April 2005</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>President</title>
+      <name>Joseph Aoun</name>
+    </leader>
+    <leader>
+      <title>Prime Minister</title>
+      <name>Nawaf Salam</name>
+    </leader>
+    <leader>
+      <title>Speaker of the Parliament</title>
+      <name>Nabih Berri</name>
+    </leader>
+  </leaders>
+</country>

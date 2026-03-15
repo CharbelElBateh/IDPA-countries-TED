@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Libya">
+  <conventional_long_name>State of Libya</conventional_long_name>
+  <common_name>Libya</common_name>
+  <native_name>native name, ar, دولة ليبيا, italics, =, off, resize, 80%, transliteration, ar, Dawlat Lībiyā</native_name>
+  <national_anthem>"Libya, Libya, Libya"File:Libya, Libya, Libya instrumental.ogg</national_anthem>
+  <map2_width>250px</map2_width>
+  <capital>Tripoli</capital>
+  <largest_city>capital</largest_city>
+  <official_languages>Arabic</official_languages>
+  <languages_type>Local vernacular</languages_type>
+  <languages>Libyan Arabic</languages>
+  <languages2_type>Foreign languages</languages2_type>
+  <languages2>Italian and English</languages2>
+  <ethnic_groups_year>1999</ethnic_groups_year>
+  <religion_year>2020</religion_year>
+  <demonym>Libyan</demonym>
+  <government_type>Unitary republic under a provisional government (GNU)</government_type>
+  <legislature>High Council of StateHouse of Representatives</legislature>
+  <area_km2>1,759,541</area_km2>
+  <area_rank>16th</area_rank>
+  <area_sq_mi>679,359</area_sq_mi>
+  <population_estimate>7,361,263</population_estimate>
+  <population_estimate_year>2024</population_estimate_year>
+  <population_estimate_rank>103rd</population_estimate_rank>
+  <population_density_km2>4.2</population_density_km2>
+  <population_density_sq_mi>10.836</population_density_sq_mi>
+  <GDP_PPP>$123.990 billion</GDP_PPP>
+  <GDP_PPP_year>2025</GDP_PPP_year>
+  <GDP_PPP_rank>96th</GDP_PPP_rank>
+  <GDP_PPP_per_capita>$17,760</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>101th</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$47.480 billion</GDP_nominal>
+  <GDP_nominal_year>2025</GDP_nominal_year>
+  <GDP_nominal_rank>95th</GDP_nominal_rank>
+  <GDP_nominal_per_capita>$6,800</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>102th</GDP_nominal_per_capita_rank>
+  <HDI>0.721</HDI>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>decrease</HDI_change>
+  <HDI_rank>115th</HDI_rank>
+  <currency>Libyan dinar</currency>
+  <currency_code>LYD</currency_code>
+  <time_zone>EET</time_zone>
+  <utc_offset>+2</utc_offset>
+  <drives_on>right</drives_on>
+  <calling_code>+218</calling_code>
+  <cctld>.lyليبيا.</cctld>
+  <footnote_a>United Nations note concerning official name: "Following the adoption by the General Assembly of resolution 66/1, the Permanent Mission of Libya to the United Nations formally notified the United Nations of a Declaration by the National Transitional Council of 3 August changing the official name of the Libyan Arab Jamahiriya to 'Libya' and changing Libya's national flag."</footnote_a>
+  <footnote_b>The official language is simply identified as "Arabic" (Constitutional Declaration, article 1).</footnote_b>
+  <footnote_c>The UK and France held a joint condominium over Libya through the United Nations Trusteeship Council.</footnote_c>
+  <established>
+    <event>
+      <label>Ottoman Tripolitania</label>
+      <date>1551</date>
+    </event>
+    <event>
+      <label>Italian invasion of Libya</label>
+      <date>1911</date>
+    </event>
+    <event>
+      <label>Libyan resistance movement</label>
+      <date>1911–1951</date>
+    </event>
+    <event>
+      <label>Tripolitanian Republic</label>
+      <date>16 November 1918</date>
+    </event>
+    <event>
+      <label>Kingdom of Libya</label>
+      <date>24 December 1951</date>
+    </event>
+    <event>
+      <label>Coup d'état by Muammar Gaddafi</label>
+      <date>1 September 1969</date>
+    </event>
+    <event>
+      <label>Great Socialist People's Libyan Arab Jamahiriya</label>
+      <date>2 March 1977</date>
+    </event>
+    <event>
+      <label>First Libyan Civil War</label>
+      <date>17 February 2011</date>
+    </event>
+    <event>
+      <label>NATO intervention in Libya</label>
+      <date>19 March 2011</date>
+    </event>
+    <event>
+      <label>End of Second Libyan Civil War</label>
+      <date>23 October 2020</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>Chairman of the Presidential Council</title>
+      <name>Mohamed al-Menfi</name>
+    </leader>
+    <leader>
+      <title>Vice Chairman of the Presidential Council</title>
+      <name>Musa Al-Koni</name>
+    </leader>
+    <leader>
+      <title>Prime Minister</title>
+      <name>Abdul Hamid Dbeibeh</name>
+    </leader>
+    <leader>
+      <title>Speaker of the House of Representatives</title>
+      <name>Aguila Saleh Issa</name>
+    </leader>
+  </leaders>
+</country>

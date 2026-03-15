@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Antigua and Barbuda">
+  <conventional_long_name>Antigua and Barbuda</conventional_long_name>
+  <languages_type>Vernacular language</languages_type>
+  <languages>Antiguan and Barbudan Creole</languages>
+  <languages2_type>Working language</languages2_type>
+  <common_name>Antigua and Barbuda</common_name>
+  <native_name>(Antiguan and Barbudan Creole)</native_name>
+  <symbol_type>Coat of arms</symbol_type>
+  <national_motto>"Each endeavouring, all achieving"</national_motto>
+  <national_anthem>"Fair Antigua, We Salute Thee"</national_anthem>
+  <capital>St. John's</capital>
+  <largest_city>capital</largest_city>
+  <admin_center_type>Administrative centre</admin_center_type>
+  <official_languages>English</official_languages>
+  <ethnic_groups_year>2011</ethnic_groups_year>
+  <religion_year>2020</religion_year>
+  <demonym>Antiguan and Barbudan</demonym>
+  <government_type>Unitary parliamentary constitutional monarchy</government_type>
+  <legislature>Parliament</legislature>
+  <upper_house>Senate</upper_house>
+  <sovereignty_type>Formation</sovereignty_type>
+  <area_km2>440</area_km2>
+  <area_rank>182nd</area_rank>
+  <area_sq_mi>170</area_sq_mi>
+  <percent_water>negligible</percent_water>
+  <population_estimate>106,365</population_estimate>
+  <population_census>84,816</population_census>
+  <population_estimate_year>2026</population_estimate_year>
+  <population_estimate_rank>182nd</population_estimate_rank>
+  <population_census_year>2011</population_census_year>
+  <population_density_km2>186</population_density_km2>
+  <population_density_sq_mi>481</population_density_sq_mi>
+  <GDP_PPP>$3.3&amp;nbsp;billion</GDP_PPP>
+  <GDP_PPP_year>2025</GDP_PPP_year>
+  <GDP_PPP_rank>180th</GDP_PPP_rank>
+  <GDP_PPP_per_capita>$31,781</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>66th</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$2.37&amp;nbsp;billion</GDP_nominal>
+  <GDP_nominal_year>2025</GDP_nominal_year>
+  <GDP_nominal_rank>171st</GDP_nominal_rank>
+  <GDP_nominal_per_capita>$22,630</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>51st</GDP_nominal_per_capita_rank>
+  <Gini_change>increase</Gini_change>
+  <HDI>0.851</HDI>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI_rank>53rd</HDI_rank>
+  <currency>Eastern Caribbean dollar</currency>
+  <currency_code>XCD</currency_code>
+  <time_zone>AST</time_zone>
+  <utc_offset>-04:00</utc_offset>
+  <drives_on>left</drives_on>
+  <calling_code>+1</calling_code>
+  <cctld>.ag</cctld>
+  <established>
+    <event>
+      <label>Union</label>
+      <date>1 August 1860</date>
+    </event>
+    <event>
+      <label>Redonda</label>
+      <date>26 March 1872</date>
+    </event>
+    <event>
+      <label>Associated state</label>
+      <date>27 February 1967</date>
+    </event>
+    <event>
+      <label>Independence</label>
+      <date>1 November 1981</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>Monarch</title>
+      <name>Charles III</name>
+    </leader>
+    <leader>
+      <title/>
+      <name>Sir Rodney Williams</name>
+    </leader>
+    <leader>
+      <title>Prime Minister</title>
+      <name/>
+    </leader>
+  </leaders>
+</country>

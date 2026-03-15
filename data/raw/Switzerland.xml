@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Switzerland">
+  <conventional_long_name>Swiss Confederation</conventional_long_name>
+  <common_name>Switzerland</common_name>
+  <national_motto>(unofficial)" "</national_motto>
+  <national_anthem>"Swiss Psalm"</national_anthem>
+  <capital>Bern (''de facto'')</capital>
+  <admin_center_type>Federal city</admin_center_type>
+  <largest_city>Zurich</largest_city>
+  <official_languages>German (62%), French (23%), Italian (8%), Romansh (0.5%)</official_languages>
+  <languages_type>Nationality</languages_type>
+  <languages>72.6% Swiss, 27.4% foreign nationals</languages>
+  <religion_year>2024</religion_year>
+  <demonym>langx, en, Swiss, langx, de, link, =, no, Schweizer/Schweizerin, langx, fr, link, =, no, Suisse/Suissesse, langx, it, svizzero/svizzera, or, lang, it, elvetico/elvetica, langx, rm, Svizzer/Svizra or</demonym>
+  <government_type>Federal assembly-independent directorial republic</government_type>
+  <legislature>Federal Assembly</legislature>
+  <upper_house>Council of States</upper_house>
+  <lower_house>National Council</lower_house>
+  <sovereignty_type>History</sovereignty_type>
+  <area_km2>41,291</area_km2>
+  <area_rank>132th</area_rank>
+  <area_sq_mi>15,944.14</area_sq_mi>
+  <percent_water>4</percent_water>
+  <population_census>8,327,126</population_census>
+  <population_estimate_year>2025</population_estimate_year>
+  <population_estimate_rank>99th</population_estimate_rank>
+  <population_census_year>2015</population_census_year>
+  <population_density_km2>207</population_density_km2>
+  <population_density_rank>67th</population_density_rank>
+  <GDP_PPP>$881.083&amp;nbsp;billion</GDP_PPP>
+  <GDP_PPP_year>2025</GDP_PPP_year>
+  <GDP_PPP_rank>35th</GDP_PPP_rank>
+  <GDP_PPP_per_capita>$97,660</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>6th</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$1.003&amp;nbsp;trillion</GDP_nominal>
+  <GDP_nominal_year>2025</GDP_nominal_year>
+  <GDP_nominal_rank>20th</GDP_nominal_rank>
+  <GDP_nominal_per_capita>$111,047</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>3rd</GDP_nominal_per_capita_rank>
+  <Gini>31.5</Gini>
+  <Gini_year>2023</Gini_year>
+  <Gini_change>increase</Gini_change>
+  <HDI>0.970</HDI>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI_rank>2nd</HDI_rank>
+  <currency>Swiss franc</currency>
+  <currency_code>CHF</currency_code>
+  <time_zone>CET</time_zone>
+  <utc_offset>+1</utc_offset>
+  <utc_offset_DST>+2</utc_offset_DST>
+  <time_zone_DST>CEST</time_zone_DST>
+  <date_format>dd.mm.yyyy (AD)</date_format>
+  <drives_on>right</drives_on>
+  <calling_code>+41</calling_code>
+  <patron_saint>St Nicholas of Flüe</patron_saint>
+  <iso3166code>CH</iso3166code>
+  <cctld>.ch, .swiss</cctld>
+  <established>
+    <event>
+      <label>Founded</label>
+      <date>1 August 1291</date>
+    </event>
+    <event>
+      <label>Sovereignty recognised (Peace of Westphalia)</label>
+      <date>24 October 1648</date>
+    </event>
+    <event>
+      <label>Federal Treaty</label>
+      <date>7 August 1815</date>
+    </event>
+    <event>
+      <label>Federal state</label>
+      <date>12 September 1848 declared the Federal Constitution adopted on 12 September 1848. A resolution of the of 14 September 1848 specified that the powers of the institutions provided for by the 1815 Federal Treaty would expire at the time of the constitution of the Federal Council, which took place on 16 November 1848.</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>Federal Council</title>
+      <name>Guy Parmelin (President), Ignazio Cassis (Vice president), Karin Keller-Sutter, Albert Rösti, Élisabeth Baume-Schneider, Beat Jans, Martin Pfister</name>
+    </leader>
+    <leader>
+      <title/>
+      <name>Viktor Rossi</name>
+    </leader>
+  </leaders>
+</country>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Malaysia">
+  <conventional_long_name>Malaysia</conventional_long_name>
+  <common_name>Malaysia</common_name>
+  <symbol_type>Coat of arms</symbol_type>
+  <national_motto>(Jawi)( )</national_motto>
+  <national_anthem>( )</national_anthem>
+  <capital>Kuala Lumpur</capital>
+  <largest_city>capital</largest_city>
+  <languages_type>National language (official)</languages_type>
+  <languages>Malay</languages>
+  <languages2_type>Recognised languages</languages2_type>
+  <languages2>English</languages2>
+  <ethnic_groups_year>2023</ethnic_groups_year>
+  <religion>63.5% Islam (official), 18.7% Buddhism, 9.1% Christianity, 6.1% Hinduism, 0.9% other, 1.8% unknown</religion>
+  <religion_year>2020</religion_year>
+  <demonym>Malaysian</demonym>
+  <government_type>Federal parliamentary constitutional elective monarchy</government_type>
+  <legislature>Parliament</legislature>
+  <upper_house>Dewan Negara</upper_house>
+  <lower_house>Dewan Rakyat</lower_house>
+  <sovereignty_type>Independence</sovereignty_type>
+  <sovereignty_note>from the United Kingdom</sovereignty_note>
+  <area_rank>67th</area_rank>
+  <area_km2>330,803</area_km2>
+  <area_sq_mi>127,720</area_sq_mi>
+  <percent_water>0.3</percent_water>
+  <population_estimate>34,564,810</population_estimate>
+  <population_estimate_year>2024</population_estimate_year>
+  <population_estimate_rank>43rd</population_estimate_rank>
+  <population_census_year>2020</population_census_year>
+  <population_census>32,447,385</population_census>
+  <population_density_km2>101</population_density_km2>
+  <population_density_sq_mi>263</population_density_sq_mi>
+  <population_density_rank>116th</population_density_rank>
+  <GDP_PPP>$1.478 trillion</GDP_PPP>
+  <GDP_PPP_year>2025</GDP_PPP_year>
+  <GDP_PPP_rank>30th</GDP_PPP_rank>
+  <GDP_PPP_per_capita>$43,665</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>52nd</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$470,572 billion</GDP_nominal>
+  <GDP_nominal_year>2025</GDP_nominal_year>
+  <GDP_nominal_rank>35th</GDP_nominal_rank>
+  <GDP_nominal_per_capita>$13,901</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>76th</GDP_nominal_per_capita_rank>
+  <Gini_year>2024</Gini_year>
+  <Gini_change>decrease</Gini_change>
+  <Gini>39.0</Gini>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI>0.819</HDI>
+  <HDI_rank>67th</HDI_rank>
+  <currency>Malaysian ringgit (RM)</currency>
+  <currency_code>MYR</currency_code>
+  <date_format>dd-mm-yyyy</date_format>
+  <drives_on>Left</drives_on>
+  <time_zone>MST</time_zone>
+  <utc_offset>+8</utc_offset>
+  <calling_code>+60</calling_code>
+  <cctld>.my</cctld>
+  <established>
+    <event>
+      <label>Federation of Malaya</label>
+      <date>31 August 1957</date>
+    </event>
+    <event>
+      <label>Sarawak self-governance</label>
+      <date>22 July 1963</date>
+    </event>
+    <event>
+      <label>North Borneo self-governance</label>
+      <date>31 August 1963</date>
+    </event>
+    <event>
+      <label>Proclamation of Malaysia</label>
+      <date>16 September 1963</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>Monarch</title>
+      <name>Ibrahim Iskandar</name>
+    </leader>
+    <leader>
+      <title>Prime Minister</title>
+      <name>Anwar Ibrahim</name>
+    </leader>
+  </leaders>
+</country>

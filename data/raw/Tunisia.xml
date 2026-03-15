@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Tunisia">
+  <conventional_long_name>Republic of Tunisia</conventional_long_name>
+  <name>native name, ar, الجمهورية التونسية, resize, 80%, transliteration, ar, al-Jumhūriyyah at-Tūnisiyyah</name>
+  <common_name>Tunisia</common_name>
+  <national_motto>" ""Freedom, Order, Justice"</national_motto>
+  <national_anthem>"Humat al-Hima"( )</national_anthem>
+  <capital>Tunis</capital>
+  <largest_city>capital</largest_city>
+  <official_languages>Arabic</official_languages>
+  <religion>99% Sunni Islam, 1% others</religion>
+  <languages_type>Local vernacular</languages_type>
+  <languages>Tunisian Arabic</languages>
+  <languages2_type>Foreign languages</languages2_type>
+  <languages2>French and English and there is a notable increase in its usage among the youth and a growing demand in the workforce.</languages2>
+  <ethnic_groups_year>2021</ethnic_groups_year>
+  <demonym>Tunisian</demonym>
+  <government_type>Unitary presidential republic</government_type>
+  <legislature>Parliament</legislature>
+  <upper_house>National Council of Regions and Districts</upper_house>
+  <lower_house>Assembly of the Representatives of the People</lower_house>
+  <sovereignty_type>Establishment</sovereignty_type>
+  <area_km2>163610</area_km2>
+  <area_rank>91st</area_rank>
+  <area_sq_mi>63170</area_sq_mi>
+  <percent_water>5.04</percent_water>
+  <population_census>11,972,169</population_census>
+  <population_estimate_rank>79th</population_estimate_rank>
+  <population_census_year>2024</population_census_year>
+  <population_density_km2>79</population_density_km2>
+  <population_density_sq_mi>200</population_density_sq_mi>
+  <population_density_rank>134th</population_density_rank>
+  <GDP_PPP>$183.73 billion</GDP_PPP>
+  <GDP_PPP_year>2025</GDP_PPP_year>
+  <GDP_PPP_rank>84th</GDP_PPP_rank>
+  <GDP_PPP_per_capita>$14,780</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>111th</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$56.290 billion</GDP_nominal>
+  <GDP_nominal_year>2025</GDP_nominal_year>
+  <GDP_nominal_rank>90th</GDP_nominal_rank>
+  <GDP_nominal_per_capita>$4,530</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>121st</GDP_nominal_per_capita_rank>
+  <Gini>33.7</Gini>
+  <Gini_year>2021</Gini_year>
+  <Gini_change>decrease</Gini_change>
+  <HDI>0.746</HDI>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI_rank>105th</HDI_rank>
+  <currency>Tunisian dinar</currency>
+  <currency_code>TND</currency_code>
+  <time_zone>CET</time_zone>
+  <utc_offset>+1</utc_offset>
+  <date_format>dd/mm/yyyy</date_format>
+  <drives_on>right</drives_on>
+  <calling_code>+216</calling_code>
+  <established>
+    <event>
+      <label>Ancient Carthage</label>
+      <date>814 BC</date>
+    </event>
+    <event>
+      <label>Aghlabid Emirate</label>
+      <date>800</date>
+    </event>
+    <event>
+      <label>Hafsid Sultanate</label>
+      <date>1229</date>
+    </event>
+    <event>
+      <label>Beylik of Tunis</label>
+      <date>15 July 1705</date>
+    </event>
+    <event>
+      <label>French protectorate</label>
+      <date>12 May 1881</date>
+    </event>
+    <event>
+      <label>Independence and Kingdom</label>
+      <date>20 March 1956</date>
+    </event>
+    <event>
+      <label>Republic declaration</label>
+      <date>25 July 1957</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>President</title>
+      <name>Kais Saied</name>
+    </leader>
+    <leader>
+      <title>Prime Minister</title>
+      <name>Sara Zaafarani</name>
+    </leader>
+  </leaders>
+</country>

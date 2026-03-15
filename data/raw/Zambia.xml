@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Zambia">
+  <conventional_long_name>Republic of Zambia</conventional_long_name>
+  <common_name>Zambia</common_name>
+  <other_symbol>100px</other_symbol>
+  <other_symbol_type>Public Seal</other_symbol_type>
+  <national_motto>"One Zambia, One Nation"</national_motto>
+  <national_anthem>"Stand and Sing of Zambia, Proud and Free"</national_anthem>
+  <official_languages>English</official_languages>
+  <demonym>Zambian</demonym>
+  <ethnic_groups_year>2010</ethnic_groups_year>
+  <religion_year>2023</religion_year>
+  <capital>Lusaka</capital>
+  <largest_city>capital</largest_city>
+  <government_type>Unitary presidential republic</government_type>
+  <legislature>National Assembly of Zambia</legislature>
+  <area_km2>752,617</area_km2>
+  <area_sq_mi>290,587</area_sq_mi>
+  <area_rank>38th</area_rank>
+  <percent_water>1</percent_water>
+  <population_estimate>20,216,029</population_estimate>
+  <population_estimate_year>2023</population_estimate_year>
+  <population_estimate_rank>64th</population_estimate_rank>
+  <population_density_km2>17.2</population_density_km2>
+  <population_density_sq_mi>44.5</population_density_sq_mi>
+  <population_density_rank>191st</population_density_rank>
+  <GDP_PPP>$83.687 billion</GDP_PPP>
+  <GDP_PPP_rank>100th</GDP_PPP_rank>
+  <GDP_PPP_year>2023</GDP_PPP_year>
+  <GDP_PPP_per_capita>$4,068</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>155th</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$29.536 billion</GDP_nominal>
+  <GDP_nominal_rank>113th</GDP_nominal_rank>
+  <GDP_nominal_year>2023</GDP_nominal_year>
+  <GDP_nominal_per_capita>$1,435</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>159th</GDP_nominal_per_capita_rank>
+  <Gini_year>2022</Gini_year>
+  <Gini_change>decrease</Gini_change>
+  <Gini>51.5</Gini>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI>0.595</HDI>
+  <HDI_rank>154th</HDI_rank>
+  <sovereignty_type>Independence</sovereignty_type>
+  <sovereignty_note>from the United Kingdom</sovereignty_note>
+  <currency>Zambian kwacha</currency>
+  <currency_code>ZMW</currency_code>
+  <time_zone>CAT</time_zone>
+  <utc_offset>+2</utc_offset>
+  <date_format>dd/mm/yyyy</date_format>
+  <drives_on>left</drives_on>
+  <calling_code>+260</calling_code>
+  <cctld>.zm</cctld>
+  <established>
+    <event>
+      <label>Declared</label>
+      <date>24 October 1964</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>President</title>
+      <name>Hakainde Hichilema</name>
+    </leader>
+    <leader>
+      <title>Vice-President</title>
+      <name>Mutale Nalumango</name>
+    </leader>
+    <leader>
+      <title>Speaker</title>
+      <name>Nelly Mutti</name>
+    </leader>
+    <leader>
+      <title>Chief Justice</title>
+      <name>Mumba Malila</name>
+    </leader>
+  </leaders>
+</country>

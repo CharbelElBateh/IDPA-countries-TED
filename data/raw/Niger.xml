@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Niger">
+  <conventional_long_name>Republic of the Niger</conventional_long_name>
+  <common_name>Niger</common_name>
+  <flag_size>100</flag_size>
+  <national_motto>native phrase, fr, "Fraternité, Travail, Progrès", italics, =, off, "Fraternity, Work, Progress"</national_motto>
+  <national_anthem>"The Honour of the Fatherland"</national_anthem>
+  <official_languages>Hausa</official_languages>
+  <languages_type>National languages</languages_type>
+  <religion_year>2012</religion_year>
+  <religion>99.3% Islam, 0.3% Christianity, 0.2% Traditional faiths, 0.1% irreligion</religion>
+  <demonym>Nigérois, Nigerien</demonym>
+  <capital>Niamey</capital>
+  <largest_city>Niamey</largest_city>
+  <government_type>Unitary semi-presidential republic under a military junta</government_type>
+  <legislature>National Council for the Safeguard of the Homeland</legislature>
+  <area_rank>21st</area_rank>
+  <area_km2>1,267,000</area_km2>
+  <area_sq_mi>489,678</area_sq_mi>
+  <percent_water>0.02</percent_water>
+  <population_estimate>26,342,784</population_estimate>
+  <population_estimate_year>2024</population_estimate_year>
+  <population_estimate_rank>56th</population_estimate_rank>
+  <population_density_km2>21</population_density_km2>
+  <population_density_sq_mi>54.</population_density_sq_mi>
+  <population_density_rank>204th</population_density_rank>
+  <GDP_PPP>$61.040 billion</GDP_PPP>
+  <GDP_PPP_year>2025</GDP_PPP_year>
+  <GDP_PPP_rank>128th</GDP_PPP_rank>
+  <GDP_PPP_per_capita>$2,100</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>176th</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$21.870 billion</GDP_nominal>
+  <GDP_nominal_year>2025</GDP_nominal_year>
+  <GDP_nominal_rank>123rd</GDP_nominal_rank>
+  <GDP_nominal_per_capita>$751</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>181st</GDP_nominal_per_capita_rank>
+  <sovereignty_type>Independence</sovereignty_type>
+  <sovereignty_note>from France</sovereignty_note>
+  <Gini_year>2021</Gini_year>
+  <Gini_change>decrease</Gini_change>
+  <Gini>32.9</Gini>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI>0.419</HDI>
+  <HDI_rank>188th</HDI_rank>
+  <currency>West African CFA franc</currency>
+  <currency_code>XOF</currency_code>
+  <time_zone>WAT</time_zone>
+  <utc_offset>+1</utc_offset>
+  <drives_on>right</drives_on>
+  <calling_code>+227</calling_code>
+  <cctld>.ne</cctld>
+  <ethnic_groups_year>2006</ethnic_groups_year>
+  <ethnic_groups>53.1% Hausa, 21.2% Zarma and Songhay, 11.0% Tuareg, 6.5% Fulani, 5.9% Kanuri, 0.8% Gurma, 0.4% Toubou, 0.4% Arab, 0.9% others</ethnic_groups>
+  <established>
+    <event>
+      <label>Republic proclaimed</label>
+      <date>18 December 1958</date>
+    </event>
+    <event>
+      <label>Declared</label>
+      <date>3 August 1960</date>
+    </event>
+    <event>
+      <label>2023 coup d'état</label>
+      <date>26 July 2023</date>
+    </event>
+    <event>
+      <label>2025 transitional charter</label>
+      <date>26 March 2025</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>President</title>
+      <name>Abdourahamane Tchiani</name>
+    </leader>
+    <leader>
+      <title>Vice President</title>
+      <name>Salifou Modi</name>
+    </leader>
+    <leader>
+      <title>Prime Minister</title>
+      <name>Ali Lamine Zeine</name>
+    </leader>
+    <leader>
+      <title>President of the State Court of Niger</title>
+      <name>Abdou Dan Galadima</name>
+    </leader>
+  </leaders>
+</country>

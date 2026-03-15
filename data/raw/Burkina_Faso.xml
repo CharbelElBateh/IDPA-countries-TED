@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Burkina Faso">
+  <conventional_long_name>Burkina Faso</conventional_long_name>
+  <native_name>native name, mos, Burkĩna Faso, native name, ff, 𞤄𞤵𞤪𞤳𞤭𞤲𞤢 𞤊𞤢𞤧𞤮𞥅, italic, =, no, transliteration, ff, Burkina Faso, native name, dyu, ߓߙߎߞߌߣߊ߫ ߝߊ߬ߛߏ߫, transliteration, dyu, Burukina Faso</native_name>
+  <common_name>Burkina Faso</common_name>
+  <national_motto>"Homeland or Death, we will overcome"</national_motto>
+  <national_anthem>Ditanyè File:Burkina faso anthem.ogg</national_anthem>
+  <capital>Ouagadougou</capital>
+  <largest_city>capital</largest_city>
+  <official_languages>Mooré, Dyula and Fula, alongside any other languages so recognized by law</official_languages>
+  <languages_type>Working languages</languages_type>
+  <languages>English, French</languages>
+  <ethnic_groups>Bissa</ethnic_groups>
+  <ethnic_groups_year>2024 est.</ethnic_groups_year>
+  <religion_year>2019 census</religion_year>
+  <demonym>Burkinabé</demonym>
+  <government_type>Unitary semi-presidential republic under a military junta</government_type>
+  <legislature>National Assembly</legislature>
+  <sovereignty_type>History</sovereignty_type>
+  <area_km2>274,223</area_km2>
+  <area_rank>74th</area_rank>
+  <area_sq_mi>105,869</area_sq_mi>
+  <percent_water>0.148%</percent_water>
+  <population_estimate>22,489,126</population_estimate>
+  <population_estimate_year>2023</population_estimate_year>
+  <population_estimate_rank>58th</population_estimate_rank>
+  <population_density_km2>86</population_density_km2>
+  <population_density_sq_mi>163,63</population_density_sq_mi>
+  <population_density_rank>126th</population_density_rank>
+  <GDP_PPP>$72.820 billion</GDP_PPP>
+  <GDP_PPP_year>2025</GDP_PPP_year>
+  <GDP_PPP_rank>114th</GDP_PPP_rank>
+  <GDP_PPP_per_capita>$2,980</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>172nd</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$27.06 billion</GDP_nominal>
+  <GDP_nominal_rank>114th</GDP_nominal_rank>
+  <GDP_nominal_year>2025</GDP_nominal_year>
+  <GDP_nominal_per_capita>$1,110</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>166th</GDP_nominal_per_capita_rank>
+  <Gini>37.4</Gini>
+  <Gini_year>2021</Gini_year>
+  <Gini_change>steady</Gini_change>
+  <HDI>0.459</HDI>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI_rank>186th</HDI_rank>
+  <currency>West African CFA franc</currency>
+  <currency_code>XOF</currency_code>
+  <time_zone>GMT</time_zone>
+  <utc_offset>±00:00</utc_offset>
+  <calling_code>+226</calling_code>
+  <iso3166code>BF</iso3166code>
+  <cctld>.bf</cctld>
+  <established>
+    <event>
+      <label>Republic of Upper Volta proclaimed</label>
+      <date>11 December 1958</date>
+    </event>
+    <event>
+      <label>Independence from France</label>
+      <date>5 August 1960</date>
+    </event>
+    <event>
+      <label>1966 Upper Voltan coup d'état</label>
+      <date>3 January 1966</date>
+    </event>
+    <event>
+      <label>2014 Burkina Faso uprising</label>
+      <date>28 October – 3 November 2014</date>
+    </event>
+    <event>
+      <label>Jan 2022 Burkina Faso coup d'état</label>
+      <date>23–24 January 2022</date>
+    </event>
+    <event>
+      <label>Sep 2022 Burkina Faso coup d'état</label>
+      <date>30 September 2022</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>President</title>
+      <name>Ibrahim Traoré (interim)</name>
+    </leader>
+    <leader>
+      <title>Prime Minister</title>
+      <name>Jean Emmanuel Ouédraogo (interim)</name>
+    </leader>
+  </leaders>
+</country>

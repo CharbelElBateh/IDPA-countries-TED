@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Croatia">
+  <conventional_long_name>Republic of Croatia</conventional_long_name>
+  <common_name>Croatia</common_name>
+  <native_name>:* :* :* :* :* :* :* :* :*</native_name>
+  <anthem>"Lijepa naša domovino"("Our Beautiful Homeland")center</anthem>
+  <capital>Zagreb</capital>
+  <largest_city>capital</largest_city>
+  <official_languages>Croatian</official_languages>
+  <languages_type>Writing system</languages_type>
+  <languages>Latin</languages>
+  <ethnic_groups>91.6% Croats, 3.2% Serbs, 5.2% others</ethnic_groups>
+  <ethnic_groups_year>2021</ethnic_groups_year>
+  <religion_year>2021</religion_year>
+  <demonym>Croatian</demonym>
+  <government_type>Unitary parliamentary republic</government_type>
+  <legislature>Sabor</legislature>
+  <sovereignty_type>Establishment history</sovereignty_type>
+  <area_km2>56,561</area_km2>
+  <area_rank>124th</area_rank>
+  <area_sq_mi>21,851</area_sq_mi>
+  <percent_water>1.09</percent_water>
+  <population_estimate>3,866,233</population_estimate>
+  <population_estimate_year>2024</population_estimate_year>
+  <population_estimate_rank>128th</population_estimate_rank>
+  <population_census>3,871,833</population_census>
+  <population_census_year>2021</population_census_year>
+  <population_census_rank>128th</population_census_rank>
+  <population_density_km2>68.4</population_density_km2>
+  <population_density_rank>152nd</population_density_rank>
+  <GDP_PPP>$207.40&amp;nbsp;billion</GDP_PPP>
+  <GDP_PPP_year>2026</GDP_PPP_year>
+  <GDP_PPP_rank>79th</GDP_PPP_rank>
+  <GDP_PPP_per_capita>$53,840</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>39th</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$113.13&amp;nbsp;billion</GDP_nominal>
+  <GDP_nominal_year>2026</GDP_nominal_year>
+  <GDP_nominal_rank>74th</GDP_nominal_rank>
+  <GDP_nominal_per_capita>$29,370</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>47th</GDP_nominal_per_capita_rank>
+  <Gini>30.0</Gini>
+  <Gini_year>2026</Gini_year>
+  <Gini_change>increase</Gini_change>
+  <HDI>0.889</HDI>
+  <HDI_rank>41st</HDI_rank>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <currency>Euro (€)</currency>
+  <currency_code>EUR</currency_code>
+  <time_zone>CET</time_zone>
+  <utc_offset>+1</utc_offset>
+  <utc_offset_DST>+2</utc_offset_DST>
+  <time_zone_DST>CEST</time_zone_DST>
+  <calling_code>+385</calling_code>
+  <patron_saint>St. Joseph</patron_saint>
+  <established>
+    <event>
+      <label>Duchy</label>
+      <date>7th century</date>
+    </event>
+    <event>
+      <label>Kingdom</label>
+      <date>925</date>
+    </event>
+    <event>
+      <label>Croatia in personal union with Hungary</label>
+      <date>1102</date>
+    </event>
+    <event>
+      <label>Joined Habsburg Monarchy</label>
+      <date>1 January 1527</date>
+    </event>
+    <event>
+      <label>Secession fromAustria-Hungary</label>
+      <date>29 October 1918</date>
+    </event>
+    <event>
+      <label>Creation of Yugoslavia</label>
+      <date>4 December 1918</date>
+    </event>
+    <event>
+      <label>Socialist Republic of Croatia of Yugoslavia</label>
+      <date>9 May 1944</date>
+    </event>
+    <event>
+      <label>Declaration of independence</label>
+      <date>25 June 1991</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>President</title>
+      <name>Zoran Milanović</name>
+    </leader>
+    <leader>
+      <title>Prime Minister</title>
+      <name>Andrej Plenković</name>
+    </leader>
+    <leader>
+      <title>Speaker of the Parliament</title>
+      <name>Gordan Jandroković</name>
+    </leader>
+  </leaders>
+</country>

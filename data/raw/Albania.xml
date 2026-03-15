@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Albania">
+  <conventional_long_name>Republic of Albania</conventional_long_name>
+  <common_name>Albania</common_name>
+  <national_motto>"You Albania, you give me honour,you give me the name Albanian"</national_motto>
+  <national_anthem>"Hymn to the Flag"File:Hymni i Flamurit instrumental.ogg</national_anthem>
+  <map_caption>Location of Albania (green) in Europe (dark grey)</map_caption>
+  <capital>Tirana</capital>
+  <largest_city>Tirana</largest_city>
+  <coordinates>Country:</coordinates>
+  <official_languages>Albanian</official_languages>
+  <languages2_type>Recognised minority languages</languages2_type>
+  <languages2>Greek, Aromanian, Macedonian</languages2>
+  <ethnic_groups>97.7% Albanians, 1.0% Greeks, 1.3% others</ethnic_groups>
+  <ethnic_groups_year>2023</ethnic_groups_year>
+  <religion_year>2023</religion_year>
+  <demonym>Albanian</demonym>
+  <government_type>Unitary parliamentary republic</government_type>
+  <legislature>Kuvendi</legislature>
+  <sovereignty_type>Establishment history</sovereignty_type>
+  <area_km2>28,748</area_km2>
+  <area_sq_mi>11,100</area_sq_mi>
+  <area_rank>140th</area_rank>
+  <percent_water>4.7</percent_water>
+  <population_census>2,402,113</population_census>
+  <population_census_year>2023</population_census_year>
+  <population_census_rank>142nd</population_census_rank>
+  <population_density_km2>83.6</population_density_km2>
+  <GDP_PPP>$66.290 billion</GDP_PPP>
+  <GDP_PPP_rank>118th</GDP_PPP_rank>
+  <GDP_PPP_year>2026</GDP_PPP_year>
+  <GDP_PPP_per_capita>$24,840</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>80th</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$32.410 billion</GDP_nominal>
+  <GDP_nominal_rank>125th</GDP_nominal_rank>
+  <GDP_nominal_year>2026</GDP_nominal_year>
+  <GDP_nominal_per_capita>$12,150</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>79th</GDP_nominal_per_capita_rank>
+  <Gini_year>2021</Gini_year>
+  <Gini>29.4</Gini>
+  <Gini_change>decrease</Gini_change>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI>0.810</HDI>
+  <HDI_rank>71st</HDI_rank>
+  <currency>Lek</currency>
+  <currency_code>ALL</currency_code>
+  <patron_saint>Our Lady of Good Counsel</patron_saint>
+  <time_zone>CET</time_zone>
+  <utc_offset>+1</utc_offset>
+  <time_zone_DST>CEST</time_zone_DST>
+  <utc_offset_DST>+2</utc_offset_DST>
+  <drives_on>right</drives_on>
+  <calling_code>+355</calling_code>
+  <cctld>.al</cctld>
+  <established>
+    <event>
+      <label>Principality of Arbanon</label>
+      <date>1190</date>
+    </event>
+    <event>
+      <label>Albanian principalities</label>
+      <date>12th–15th centuries</date>
+    </event>
+    <event>
+      <label>Kingdom of Albania</label>
+      <date>February 1272</date>
+    </event>
+    <event>
+      <label>Principality of Albania</label>
+      <date>1359</date>
+    </event>
+    <event>
+      <label>League of Lezhë</label>
+      <date>2 March 1444</date>
+    </event>
+    <event>
+      <label>Pashalik of Scutari/Janina/Berat</label>
+      <date>1757/1787</date>
+    </event>
+    <event>
+      <label>League of Prizren</label>
+      <date>10 June 1878</date>
+    </event>
+    <event>
+      <label>Independent Albania</label>
+      <date>28 November 1912</date>
+    </event>
+    <event>
+      <label>Principality of Albania</label>
+      <date>29 July 1913</date>
+    </event>
+    <event>
+      <label>1st Republic of Albania</label>
+      <date>31 January 1925</date>
+    </event>
+    <event>
+      <label>Kingdom of Albania</label>
+      <date>1 September 1928</date>
+    </event>
+    <event>
+      <label>2nd Republic of Albania</label>
+      <date>10 January 1946</date>
+    </event>
+    <event>
+      <label>3rd Republic of Albania</label>
+      <date>28 December 1976</date>
+    </event>
+    <event>
+      <label>4th Republic of Albania</label>
+      <date>29 April 1991</date>
+    </event>
+    <event>
+      <label/>
+      <date>28 November 1998</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>President</title>
+      <name>Bajram Begaj</name>
+    </leader>
+    <leader>
+      <title>Prime Minister</title>
+      <name>Edi Rama</name>
+    </leader>
+    <leader>
+      <title>Parliament Speaker</title>
+      <name>Niko Peleshi</name>
+    </leader>
+  </leaders>
+</country>

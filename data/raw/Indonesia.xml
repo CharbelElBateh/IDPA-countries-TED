@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Indonesia">
+  <conventional_long_name>Republic of Indonesia</conventional_long_name>
+  <common_name>Indonesia</common_name>
+  <symbol_type>Emblem</symbol_type>
+  <national_motto>(Old Javanese)"Unity in Diversity"</national_motto>
+  <other_symbol>(Sanskrit)"The Five Principles"</other_symbol>
+  <other_symbol_type>National ideology and philosophy:</other_symbol_type>
+  <national_anthem>"Great Indonesia"File:Indonesia Raya instrumental.ogg</national_anthem>
+  <capital>Jakarta</capital>
+  <largest_city>capital</largest_city>
+  <official_languages>Indonesian</official_languages>
+  <demonym>Indonesian</demonym>
+  <languages_type>'''Indigenous languages'''</languages_type>
+  <languages_sub>yes</languages_sub>
+  <languages>718 languages</languages>
+  <languages2_type>Writing system</languages2_type>
+  <languages2>Latin (predominantly)</languages2>
+  <ethnic_groups_year>2010</ethnic_groups_year>
+  <ethnic_groups>40.2% Javanese, 15.5% Sundanese, 3.7% Malay, 3.6% Batak, 3.0% Madurese, 34.0% others (600+ ethnic groups)</ethnic_groups>
+  <religion_year>2024</religion_year>
+  <government_type>Unitary presidential republic</government_type>
+  <legislature>People's Consultative Assembly (MPR)</legislature>
+  <upper_house>Regional Representative Council (DPD)</upper_house>
+  <lower_house>House of Representatives (DPR)</lower_house>
+  <sovereignty_type>Independence</sovereignty_type>
+  <sovereignty_note>from the Netherlands</sovereignty_note>
+  <area_km2>1,904,569</area_km2>
+  <area_rank>14th</area_rank>
+  <area_sq_mi>735,358</area_sq_mi>
+  <population_estimate>284,438,782</population_estimate>
+  <population_census>270,203,917</population_census>
+  <population_estimate_year>2025</population_estimate_year>
+  <population_estimate_rank>4th</population_estimate_rank>
+  <population_census_year>2020</population_census_year>
+  <population_density_km2>143</population_density_km2>
+  <population_density_sq_mi>371</population_density_sq_mi>
+  <population_density_rank>88th</population_density_rank>
+  <GDP_PPP>$5.009&amp;nbsp;trillion</GDP_PPP>
+  <GDP_PPP_year>2025</GDP_PPP_year>
+  <GDP_PPP_rank>7th</GDP_PPP_rank>
+  <GDP_PPP_per_capita>$17,612</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>103rd</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$1.430&amp;nbsp;trillion</GDP_nominal>
+  <GDP_nominal_year>2025</GDP_nominal_year>
+  <GDP_nominal_rank>17th</GDP_nominal_rank>
+  <GDP_nominal_per_capita>$5,027</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>116th</GDP_nominal_per_capita_rank>
+  <Gini>37.9</Gini>
+  <Gini_year>2024</Gini_year>
+  <Gini_change>decrease</Gini_change>
+  <HDI>0.728</HDI>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI_rank>113th</HDI_rank>
+  <currency>Indonesian rupiah (Rp)</currency>
+  <currency_code>IDR</currency_code>
+  <time_zone>WIB, WITA, WIT</time_zone>
+  <utc_offset>+7, +8, +9</utc_offset>
+  <date_format>DD/MM/YYYY</date_format>
+  <drives_on>left</drives_on>
+  <calling_code>+62</calling_code>
+  <cctld>.id</cctld>
+  <established>
+    <event>
+      <label>Proclaimed</label>
+      <date>17 August 1945</date>
+    </event>
+    <event>
+      <label>Recognised</label>
+      <date>27 December 1949</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>President</title>
+      <name>Prabowo Subianto</name>
+    </leader>
+    <leader>
+      <title/>
+      <name>Gibran Rakabuming Raka</name>
+    </leader>
+    <leader>
+      <title>House Speaker</title>
+      <name>Puan Maharani</name>
+    </leader>
+    <leader>
+      <title>Supreme Court</title>
+      <name>Sunarto</name>
+    </leader>
+    <leader>
+      <title>Constitutional Court</title>
+      <name>Suhartoyo</name>
+    </leader>
+  </leaders>
+</country>

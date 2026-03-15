@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Pakistan">
+  <conventional_long_name>Islamic Republic of Pakistan</conventional_long_name>
+  <common_name>Pakistan</common_name>
+  <native_name>native name, ur, Nastaliq, اسلامی جمہوریہ پاكستان, italics, =, off, transliteration, ur, ALA-LC, ''Islāmī Jumhūriyah Pākistān'', sfn, Minahan, 2009</native_name>
+  <symbol_type>State emblem</symbol_type>
+  <national_motto>(Urdu) * * "Faith, Unity, Discipline"</national_motto>
+  <national_anthem>(Urdu) * *</national_anthem>
+  <capital>Islamabad</capital>
+  <largest_city>Karachi</largest_city>
+  <official_languages>Urdu, English, Article 251 of the Constitution of Pakistan, sfn, Ayres, 2009</official_languages>
+  <languages_type>Native languages</languages_type>
+  <languages>Over 77 languages</languages>
+  <religion_year>2023</religion_year>
+  <demonym>Pakistani</demonym>
+  <government_type>Federal parliamentary Islamic republic</government_type>
+  <legislature>Parliament</legislature>
+  <upper_house>Senate</upper_house>
+  <lower_house>National Assembly</lower_house>
+  <sovereignty_type>Independence</sovereignty_type>
+  <sovereignty_note>from the United Kingdom</sovereignty_note>
+  <area_km2>881,913</area_km2>
+  <area_rank>33rd</area_rank>
+  <area_sq_mi>307,374</area_sq_mi>
+  <percent_water>2.86</percent_water>
+  <population_density_km2>273.8</population_density_km2>
+  <population_density_sq_mi>633</population_density_sq_mi>
+  <population_density_rank>56th</population_density_rank>
+  <population_census>241,499,431</population_census>
+  <population_census_year>2023</population_census_year>
+  <population_census_rank>5th</population_census_rank>
+  <GDP_PPP>$1.67 trillion</GDP_PPP>
+  <GDP_PPP_year>2025</GDP_PPP_year>
+  <GDP_PPP_rank>27th</GDP_PPP_rank>
+  <GDP_PPP_per_capita>$6,950</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>148th</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$410.5 billion</GDP_nominal>
+  <GDP_nominal_year>2025</GDP_nominal_year>
+  <GDP_nominal_rank>42nd</GDP_nominal_rank>
+  <GDP_nominal_per_capita>$1,710</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>160th</GDP_nominal_per_capita_rank>
+  <Gini_year>2018</Gini_year>
+  <Gini_change>decrease</Gini_change>
+  <Gini>29.6</Gini>
+  <HDI>0.544</HDI>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI_rank>168th</HDI_rank>
+  <currency>Pakistani rupee (₨)</currency>
+  <currency_code>PKR</currency_code>
+  <time_zone>PKT</time_zone>
+  <utc_offset>+5</utc_offset>
+  <date_format>nowrap, abbr, dd, day, -, abbr, mm, month, -, abbr, yyyy, year, See Date and time notation in Pakistan. - -</date_format>
+  <drives_on>left</drives_on>
+  <calling_code>+92</calling_code>
+  <cctld>.pk, پاکستان.</cctld>
+  <established>
+    <event>
+      <label>Declaration</label>
+      <date>23 March 1940</date>
+    </event>
+    <event>
+      <label>Recognized dominion</label>
+      <date>14 August 1947</date>
+    </event>
+    <event>
+      <label>Republic</label>
+      <date>23 March 1956</date>
+    </event>
+    <event>
+      <label>Last territory's acquisition</label>
+      <date>8 December 1958</date>
+    </event>
+    <event>
+      <label>Eastern territory withdrawn</label>
+      <date>16 December 1971</date>
+    </event>
+    <event>
+      <label>Current constitution</label>
+      <date>14 August 1973</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>President</title>
+      <name>Asif Ali Zardari</name>
+    </leader>
+    <leader>
+      <title>Prime Minister</title>
+      <name>Shehbaz Sharif</name>
+    </leader>
+  </leaders>
+</country>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Nauru">
+  <conventional_long_name>Republic of Nauru</conventional_long_name>
+  <common_name>Nauru</common_name>
+  <national_motto>"God's will first"</national_motto>
+  <national_anthem>Nauru Bwiema (Nauruan)"Nauru, Our Homeland" File:Nauru Bwiema.ogg</national_anthem>
+  <capital>Yaren (''de facto'')</capital>
+  <official_languages>Nauruan, English, English is widely spoken by the majority of the population and it is commonly used in government, legislation and commerce alongside Nauruan. Because of Nauru's history and relationship with Australia, Australian English is the dominant variety. *English</official_languages>
+  <demonym>Nauruan</demonym>
+  <government_type>Unitary parliamentary republic with an executive presidency under a non-partisan democracy</government_type>
+  <legislature>Parliament</legislature>
+  <sovereignty_type>Independence</sovereignty_type>
+  <area_km2>21</area_km2>
+  <area_rank>193rd</area_rank>
+  <area_sq_mi>8.1</area_sq_mi>
+  <percent_water>0.57</percent_water>
+  <population_estimate>11,919</population_estimate>
+  <population_estimate_rank>227th</population_estimate_rank>
+  <population_estimate_year>2024</population_estimate_year>
+  <population_census>12,000</population_census>
+  <population_census_year>2011</population_census_year>
+  <population_density_km2>480</population_density_km2>
+  <population_density_sq_mi>1,243</population_density_sq_mi>
+  <population_density_rank>20th</population_density_rank>
+  <GDP_PPP>$132 million</GDP_PPP>
+  <GDP_PPP_year>2021</GDP_PPP_year>
+  <GDP_PPP_rank>192nd</GDP_PPP_rank>
+  <GDP_PPP_per_capita>$9,995</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>94th</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$150 million</GDP_nominal>
+  <GDP_nominal_year>2022</GDP_nominal_year>
+  <GDP_nominal_per_capita>$10,125</GDP_nominal_per_capita>
+  <HDI>0.703</HDI>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI_rank>124th</HDI_rank>
+  <currency>Australian dollar</currency>
+  <currency_code>AUD</currency_code>
+  <time_zone>UTC+12</time_zone>
+  <drives_on>left</drives_on>
+  <calling_code>+674</calling_code>
+  <cctld>.nr</cctld>
+  <largest_city>Denigomodu</largest_city>
+  <established>
+    <event>
+      <label>Nauru Independence Act 1967</label>
+      <date/>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>President</title>
+      <name>David Adeang</name>
+    </leader>
+    <leader>
+      <title>Speaker of the Parliament</title>
+      <name>Marcus Stephen</name>
+    </leader>
+    <leader>
+      <title>Minister Assisting the President</title>
+      <name>Lionel Aingimea</name>
+    </leader>
+  </leaders>
+</country>

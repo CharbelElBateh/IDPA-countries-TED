@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Norway">
+  <conventional_long_name>Kingdom of Norway</conventional_long_name>
+  <common_name>Norway</common_name>
+  <symbol>Coat of arms of Norway</symbol>
+  <symbol_type>Coat of arms</symbol_type>
+  <symbol_width>65px</symbol_width>
+  <national_anthem>''Ja, vi elsker dette landet''( )center</national_anthem>
+  <royal_anthem>''Kongesangen''( )</royal_anthem>
+  <official_languages>Norwegian, NoteTag, Written Bokmål and Nynorsk, Sámi, NoteTag, Northern, Lule, and Southern</official_languages>
+  <national_languages>Kven, Romani, Scandoromani, Norwegian Sign Language</national_languages>
+  <ethnic_groups>78.6% Norwegian, NoteTag, Including indigenous group Sámi, and minority groups Jewish, Traveller, Forest Finn, Romani, and Kven, 21.4% non-Norwegian * 21.4% non-Norwegian</ethnic_groups>
+  <ethnic_groups_year>2025</ethnic_groups_year>
+  <religion_year>2024</religion_year>
+  <demonym>Norwegian</demonym>
+  <capital>Oslo</capital>
+  <largest_city>capital</largest_city>
+  <government_type>Unitary parliamentary constitutional monarchy</government_type>
+  <legislature>Storting</legislature>
+  <sovereignty_type>Unification</sovereignty_type>
+  <sovereignty_note>of the petty kingdoms</sovereignty_note>
+  <area_rank>61stb</area_rank>
+  <area_km2>385,207</area_km2>
+  <area_sq_mi>148,718</area_sq_mi>
+  <percent_water>5.32 (2015)</percent_water>
+  <population_estimate_year>2026</population_estimate_year>
+  <population_estimate>5,627,400</population_estimate>
+  <population_estimate_rank>116th</population_estimate_rank>
+  <population_density_km2>14.6</population_density_km2>
+  <population_density_sq_mi>37.84</population_density_sq_mi>
+  <population_density_rank>224th</population_density_rank>
+  <GDP_PPP>$606.590 billion</GDP_PPP>
+  <GDP_PPP_year>2025</GDP_PPP_year>
+  <GDP_PPP_rank>49th</GDP_PPP_rank>
+  <GDP_PPP_per_capita>$107,890</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>5th</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$504.280 billion</GDP_nominal>
+  <GDP_nominal_year>2025</GDP_nominal_year>
+  <GDP_nominal_rank>31st</GDP_nominal_rank>
+  <GDP_nominal_per_capita>$89,690</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>6th</GDP_nominal_per_capita_rank>
+  <Gini_year>2020</Gini_year>
+  <Gini_change>decrease</Gini_change>
+  <Gini>25.3</Gini>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI>0.970</HDI>
+  <HDI_rank>2nd</HDI_rank>
+  <currency>Norwegian krone</currency>
+  <currency_code>NOK</currency_code>
+  <time_zone>CET</time_zone>
+  <utc_offset>+1</utc_offset>
+  <time_zone_DST>CEST</time_zone_DST>
+  <utc_offset_DST>+2</utc_offset_DST>
+  <date_format>. .</date_format>
+  <drives_on>right</drives_on>
+  <calling_code>+47</calling_code>
+  <cctld>.nod</cctld>
+  <footnote_a>Includes the mainland, Svalbard and Jan Mayen. Without the integral territories, it is the 67th largest country at 323,802 square kilometres.</footnote_a>
+  <footnote_b>This percentage is for the mainland, Svalbard, and Jan Mayen. This percentage counts glaciers as "land". It's calculated as 19,940.14/(365,246.17+19,940.14).</footnote_b>
+  <footnote_c>Two more TLDs have been assigned, but are not used: .sj for Svalbard and Jan Mayen; .bv for Bouvet Island.</footnote_c>
+  <established>
+    <event>
+      <label>State established</label>
+      <date>872</date>
+    </event>
+    <event>
+      <label>Peak extent of the Old Kingdom</label>
+      <date>1263</date>
+    </event>
+    <event>
+      <label>Kalmar Union</label>
+      <date>1397</date>
+    </event>
+    <event>
+      <label>Denmark–Norway</label>
+      <date>1524</date>
+    </event>
+    <event>
+      <label>State re-established</label>
+      <date>25 February 1814</date>
+    </event>
+    <event>
+      <label>Constitution</label>
+      <date>17 May 1814</date>
+    </event>
+    <event>
+      <label>Kingdoms of Sweden–Norway</label>
+      <date>4 November 1814</date>
+    </event>
+    <event>
+      <label>Union dissolved</label>
+      <date>7 June 1905</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>Monarch</title>
+      <name>Harald V</name>
+    </leader>
+    <leader>
+      <title>Prime Minister</title>
+      <name>Jonas Gahr Støre</name>
+    </leader>
+    <leader>
+      <title>President of the Storting</title>
+      <name>Masud Gharahkhani</name>
+    </leader>
+    <leader>
+      <title>Chief Justice</title>
+      <name>Toril Marie Øie</name>
+    </leader>
+  </leaders>
+</country>

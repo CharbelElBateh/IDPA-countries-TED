@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Nicaragua">
+  <conventional_long_name>Republic of Nicaragua</conventional_long_name>
+  <common_name>Nicaragua</common_name>
+  <native_name>(Spanish)</native_name>
+  <other_symbol>100px</other_symbol>
+  <other_symbol_type>Dual flag: in English, short for ''bandera rojinegra'' (i.e. 'red and black flag'). Used by Augusto César Sandino and later the Sandinistas, official since 2025.</other_symbol_type>
+  <national_motto>"In God We Trust"</national_motto>
+  <national_anthem>''Salve a ti, Nicaragua''"Hail to Thee, Nicaragua"</national_anthem>
+  <capital>Managua</capital>
+  <largest_city>capital</largest_city>
+  <official_languages>Spanish</official_languages>
+  <ethnic_groups>69% Mestizo (mixed White and Indigenous), 17% White, 9% Black, 5% Indigenous</ethnic_groups>
+  <ethnic_groups_year>2023</ethnic_groups_year>
+  <demonym>Nicaraguan, Pinolero/Pinolera (colloquial)</demonym>
+  <religion_year>2015</religion_year>
+  <religion>84.4% Christianity, 55.0% Catholicism, 27.2% Protestantism, 2.2% other Christian, 14.7% no religion, 0.9% other</religion>
+  <government_type>Unitary diarchic presidential socialist republic under an authoritarian dictatorship</government_type>
+  <legislature>National Assembly</legislature>
+  <sovereignty_type>Independence</sovereignty_type>
+  <area_km2>130,375</area_km2>
+  <area_rank>96th</area_rank>
+  <area_sq_mi>50,193</area_sq_mi>
+  <percent_water>7.14</percent_water>
+  <population_estimate>6,676,948</population_estimate>
+  <population_estimate_year>2024</population_estimate_year>
+  <population_estimate_rank>106th</population_estimate_rank>
+  <population_density_km2>51</population_density_km2>
+  <population_density_sq_mi>114</population_density_sq_mi>
+  <population_density_rank>155th</population_density_rank>
+  <GDP_PPP>$56.697 billion</GDP_PPP>
+  <GDP_PPP_year>2024</GDP_PPP_year>
+  <GDP_PPP_rank>115th</GDP_PPP_rank>
+  <GDP_PPP_per_capita>$8,492</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>129th</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$17.843 billion</GDP_nominal>
+  <GDP_nominal_rank>127th</GDP_nominal_rank>
+  <GDP_nominal_year>2024</GDP_nominal_year>
+  <GDP_nominal_per_capita>$2,673</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>134th</GDP_nominal_per_capita_rank>
+  <Gini>46.2</Gini>
+  <Gini_year>2014</Gini_year>
+  <HDI>0.706</HDI>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI_rank>123rd</HDI_rank>
+  <currency>Córdoba</currency>
+  <currency_code>NIO</currency_code>
+  <time_zone>CST</time_zone>
+  <utc_offset>−6</utc_offset>
+  <drives_on>right</drives_on>
+  <calling_code>+505</calling_code>
+  <cctld>.ni</cctld>
+  <regional_languages>English, Miskito, Rama, Sumo, nowrap, Moskitian Creole, Garifuna, Rama Cay Creole</regional_languages>
+  <established>
+    <event>
+      <label>From New Spain</label>
+      <date>15 September 1821</date>
+    </event>
+    <event>
+      <label>From the First Mexican Empire</label>
+      <date>1 July 1823</date>
+    </event>
+    <event>
+      <label>From the Federal Republic of Central America</label>
+      <date>30 April 1838</date>
+    </event>
+    <event>
+      <label>Recognized</label>
+      <date>25 July 1850</date>
+    </event>
+    <event>
+      <label>Nicaraguan Revolution</label>
+      <date>19 July 1979</date>
+    </event>
+    <event>
+      <label>Current constitution</label>
+      <date>9 January 1987</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>Co-Presidents</title>
+      <name>Daniel Ortega, Rosario Murillo</name>
+    </leader>
+    <leader>
+      <title>President of the National Assembly</title>
+      <name>Gustavo Porras Cortés</name>
+    </leader>
+    <leader>
+      <title>Chief Justice</title>
+      <name>Alba Luz Ramos</name>
+    </leader>
+  </leaders>
+</country>

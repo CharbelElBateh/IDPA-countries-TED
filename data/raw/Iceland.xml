@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Iceland">
+  <conventional_long_name>Iceland</conventional_long_name>
+  <common_name>Iceland</common_name>
+  <national_anthem>"O God of Our Land" File:Lofsöngur.ogg</national_anthem>
+  <map_caption>Location of Iceland (dark green)</map_caption>
+  <capital>Reykjavík</capital>
+  <largest_city>capital</largest_city>
+  <languages_type>Official language</languages_type>
+  <languages>Icelandic</languages>
+  <ethnic_groups>86%&amp;nbsp;Icelandic, 6%&amp;nbsp;Polish, 1%&amp;nbsp;Lithuanian, 0.8%&amp;nbsp;Filipino, 7%&amp;nbsp;other</ethnic_groups>
+  <ethnic_groups_year>2021</ethnic_groups_year>
+  <religion_year>2022</religion_year>
+  <demonym>Icelander, Icelandic</demonym>
+  <government_type>Unitary parliamentary republic</government_type>
+  <legislature>Althing</legislature>
+  <sovereignty_type>Formation</sovereignty_type>
+  <area_km2>103,125</area_km2>
+  <area_rank>106th</area_rank>
+  <area_sq_mi>39,699</area_sq_mi>
+  <percent_water>2.07 (as of 2015)</percent_water>
+  <population_census>394,530</population_census>
+  <population_census_rank>172nd</population_census_rank>
+  <population_census_year>2025</population_census_year>
+  <population_density_km2>3.78</population_density_km2>
+  <population_density_sq_mi>9.81</population_density_sq_mi>
+  <population_density_rank>235th</population_density_rank>
+  <GDP_PPP>$31.076 billion</GDP_PPP>
+  <GDP_PPP_year>2025</GDP_PPP_year>
+  <GDP_PPP_rank>153rd</GDP_PPP_rank>
+  <GDP_PPP_per_capita>$81,220</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>14th</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$35.310 billion</GDP_nominal>
+  <GDP_nominal_year>2025</GDP_nominal_year>
+  <GDP_nominal_rank>105th</GDP_nominal_rank>
+  <GDP_nominal_per_capita>$90,280</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>5th</GDP_nominal_per_capita_rank>
+  <Gini>23.2</Gini>
+  <Gini_year>2018</Gini_year>
+  <Gini_change>decrease</Gini_change>
+  <HDI>0.972</HDI>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI_rank>1st</HDI_rank>
+  <currency>Icelandic króna</currency>
+  <currency_code>ISK</currency_code>
+  <time_zone>GMT/WET</time_zone>
+  <utc_offset>±00:00</utc_offset>
+  <date_format>dd.mm.yyyy</date_format>
+  <drives_on>right</drives_on>
+  <calling_code>+354</calling_code>
+  <patron_saint>Saint Thorlak</patron_saint>
+  <cctld>.is</cctld>
+  <established>
+    <event>
+      <label>Settlement</label>
+      <date>9th century</date>
+    </event>
+    <event>
+      <label>Commonwealth</label>
+      <date>930–1262</date>
+    </event>
+    <event>
+      <label>Union with</label>
+      <date>1262–1397</date>
+    </event>
+    <event>
+      <label>Kalmar Union</label>
+      <date>1397–1523</date>
+    </event>
+    <event>
+      <label>Denmark–Norway</label>
+      <date>1523–1814</date>
+    </event>
+    <event>
+      <label>Ceded to Denmark</label>
+      <date>14 January 1814</date>
+    </event>
+    <event>
+      <label>Constitution and limited home rule</label>
+      <date>5 January 1874</date>
+    </event>
+    <event>
+      <label>Extended home rule</label>
+      <date>1 February 1904</date>
+    </event>
+    <event>
+      <label>Sovereignty and personal union with Denmark</label>
+      <date>1 December 1918</date>
+    </event>
+    <event>
+      <label>Republic</label>
+      <date/>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>President</title>
+      <name>Halla Tómasdóttir</name>
+    </leader>
+    <leader>
+      <title>Prime Minister</title>
+      <name>Kristrún Frostadóttir</name>
+    </leader>
+    <leader>
+      <title>Speaker of the Althing</title>
+      <name>Þórunn Sveinbjarnardóttir</name>
+    </leader>
+  </leaders>
+</country>

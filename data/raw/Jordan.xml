@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Jordan">
+  <conventional_long_name>Hashemite Kingdom of Jordan</conventional_long_name>
+  <common_name>Jordan</common_name>
+  <national_motto>"God, Country, King"</national_motto>
+  <national_anthem>"Peace to the King of Jordan"</national_anthem>
+  <capital>Amman</capital>
+  <largest_city>capital</largest_city>
+  <religion>95% Islam (official), 3% Christianity, 1% Druze, Baháʼí 1% others</religion>
+  <official_languages>Arabic</official_languages>
+  <ethnic_groups>95% Arab, 3% Circassian, Chechen, 2% Armenian and others</ethnic_groups>
+  <demonym>Jordanian</demonym>
+  <government_type>Unitary parliamentary constitutional monarchy</government_type>
+  <legislature>Parliament</legislature>
+  <upper_house>Senate</upper_house>
+  <sovereignty_type>Independence</sovereignty_type>
+  <sovereignty_note>from the United Kingdom</sovereignty_note>
+  <area_km2>89342</area_km2>
+  <area_rank>110th</area_rank>
+  <percent_water>0.6</percent_water>
+  <population_estimate>11,484,805</population_estimate>
+  <population_estimate_year>2023</population_estimate_year>
+  <population_estimate_rank>84th</population_estimate_rank>
+  <population_census>9,531,712</population_census>
+  <population_census_year>2015</population_census_year>
+  <population_density_km2>114</population_density_km2>
+  <population_density_sq_mi>295</population_density_sq_mi>
+  <population_density_rank>70th</population_density_rank>
+  <GDP_PPP>$132.092 billion</GDP_PPP>
+  <GDP_PPP_year>2023</GDP_PPP_year>
+  <GDP_PPP_rank>91st</GDP_PPP_rank>
+  <GDP_PPP_per_capita>$12,809</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>112th</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$50.022 billion</GDP_nominal>
+  <GDP_nominal_year>2023</GDP_nominal_year>
+  <GDP_nominal_rank>93rd</GDP_nominal_rank>
+  <GDP_nominal_per_capita>$4,850</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>114th</GDP_nominal_per_capita_rank>
+  <Gini>35.4</Gini>
+  <Gini_year>2011</Gini_year>
+  <HDI>0.754</HDI>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI_rank>100th</HDI_rank>
+  <currency>Jordanian dinar</currency>
+  <currency_code>JOD</currency_code>
+  <time_zone>AST</time_zone>
+  <utc_offset>+03:00</utc_offset>
+  <drives_on>right</drives_on>
+  <calling_code>+962</calling_code>
+  <cctld>.jo</cctld>
+  <established>
+    <event>
+      <label>Emirate</label>
+      <date>11 April 1921</date>
+    </event>
+    <event>
+      <label>Independence</label>
+      <date>25 May 1946</date>
+    </event>
+    <event>
+      <label>Current constitution</label>
+      <date>11 January 1952</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>Monarch</title>
+      <name>Abdullah II</name>
+    </leader>
+    <leader>
+      <title>Prime Minister</title>
+      <name>Jafar Hassan</name>
+    </leader>
+  </leaders>
+</country>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Gambia">
+  <conventional_long_name>Republic of the Gambia</conventional_long_name>
+  <common_name>The Gambia</common_name>
+  <flag_type>Flag</flag_type>
+  <religion_year>2024</religion_year>
+  <symbol_type>Coat of arms</symbol_type>
+  <national_motto>"Progress, Peace, and Prosperity"</national_motto>
+  <national_anthem>"For The Gambia Our Homeland"File:For The Gambia Our Homeland (instrumental).ogg</national_anthem>
+  <map_caption>Location of the Gambia (dark green) in western Africa</map_caption>
+  <capital>Banjul</capital>
+  <largest_settlement_type>metropolitan area</largest_settlement_type>
+  <largest_settlement>Serrekunda</largest_settlement>
+  <official_languages>English</official_languages>
+  <languages_type>National languages</languages_type>
+  <ethnic_groups>34.4% Mandinka, 25.0% Fula, 15.4% Wolof, 9.5% Jola, 8.2% Soninke, 2.9% Serer, 4.6% other</ethnic_groups>
+  <ethnic_groups_year>2024 Population and Housing Census</ethnic_groups_year>
+  <demonym>Gambian</demonym>
+  <government_type>Unitary presidential republic</government_type>
+  <legislature>National Assembly</legislature>
+  <sovereignty_type>Independence</sovereignty_type>
+  <area_km2>11,300</area_km2>
+  <area_rank>159th</area_rank>
+  <area_sq_mi>4,007</area_sq_mi>
+  <percent_water>11.5</percent_water>
+  <population_census>2,422,712</population_census>
+  <population_census_year>2024</population_census_year>
+  <population_census_rank>142th</population_census_rank>
+  <population_density_km2>227</population_density_km2>
+  <population_density_sq_mi>425.5</population_density_sq_mi>
+  <population_density_rank>51th</population_density_rank>
+  <GDP_PPP>$11.050 billion</GDP_PPP>
+  <GDP_PPP_year>2026</GDP_PPP_year>
+  <GDP_PPP_rank>166th</GDP_PPP_rank>
+  <GDP_PPP_per_capita>$3,820</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>175th</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$2.670 billion</GDP_nominal>
+  <GDP_nominal_year>2026</GDP_nominal_year>
+  <GDP_nominal_rank>185th</GDP_nominal_rank>
+  <GDP_nominal_per_capita>$924</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>180th</GDP_nominal_per_capita_rank>
+  <Gini>35.9</Gini>
+  <Gini_year>2015</Gini_year>
+  <Gini_change>decrease</Gini_change>
+  <HDI>0.524</HDI>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI_rank>170th</HDI_rank>
+  <currency>Gambian dalasi</currency>
+  <currency_code>GMD</currency_code>
+  <utc_offset>±00:00</utc_offset>
+  <time_zone>GMT</time_zone>
+  <calling_code>+220</calling_code>
+  <iso3166code>GM</iso3166code>
+  <cctld>.gm</cctld>
+  <flag_p1>Flag of The Gambia.svg</flag_p1>
+  <established>
+    <event>
+      <label>from the United Kingdom</label>
+      <date>18 February 1965</date>
+    </event>
+    <event>
+      <label>dissolution of the Senegambia Confederation</label>
+      <date>30 September 1989</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>President</title>
+      <name>Adama Barrow</name>
+    </leader>
+    <leader>
+      <title>Vice President</title>
+      <name>Muhammad B. S. Jallow</name>
+    </leader>
+    <leader>
+      <title>Speaker of the National Assembly</title>
+      <name>Fabakary Tombong Jatta</name>
+    </leader>
+    <leader>
+      <title>Chief Justice</title>
+      <name>Hassan Bubacar Jallow</name>
+    </leader>
+  </leaders>
+</country>

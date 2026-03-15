@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Argentina">
+  <conventional_long_name>Argentine Republic</conventional_long_name>
+  <common_name>Argentina</common_name>
+  <other_symbol>100px|link=Sol de Mayo</other_symbol>
+  <national_anthem>''Himno Nacional Argentino'' File:Himno Nacional Argentino instrumental.ogg</national_anthem>
+  <capital>Buenos Aires</capital>
+  <largest_city>capital</largest_city>
+  <languages_type>National language</languages_type>
+  <languages>Spanish</languages>
+  <languages2_type>Regional languages</languages2_type>
+  <languages2>Guaraní in Corrientes, Quechua in Santiago del Estero, Qom, Mocoví, and Wichí in Chaco * Quechua in Santiago del Estero * Qom, Mocoví, and Wichí in Chaco</languages2>
+  <religion>78.2% Christianity, 62.9% Catholicism, 15.3% other Christian, 20.5% no religion, 1.3% other</religion>
+  <religion_year>2019</religion_year>
+  <demonym>Argentine, Argentinian, Argentinean</demonym>
+  <government_type>Federal presidential republic</government_type>
+  <legislature>National Congress</legislature>
+  <upper_house>Chamber of Senators</upper_house>
+  <lower_house>Chamber of Deputies</lower_house>
+  <sovereignty_type>Independence</sovereignty_type>
+  <sovereignty_note>from Spain</sovereignty_note>
+  <area_km2>2780085</area_km2>
+  <area_rank>8th</area_rank>
+  <percent_water>1.57</percent_water>
+  <population_estimate>46,735,004</population_estimate>
+  <population_census>46,044,703</population_census>
+  <population_estimate_year>2025</population_estimate_year>
+  <population_estimate_rank>33rd</population_estimate_rank>
+  <population_census_year>2022</population_census_year>
+  <population_census_rank>32nd</population_census_rank>
+  <population_density_rank>214th</population_density_rank>
+  <GDP_PPP>$1.493 trillion</GDP_PPP>
+  <GDP_PPP_year>2025</GDP_PPP_year>
+  <GDP_PPP_rank>28th</GDP_PPP_rank>
+  <GDP_PPP_per_capita>$31,379</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>68th</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$683.533 billion</GDP_nominal>
+  <GDP_nominal_year>2025</GDP_nominal_year>
+  <GDP_nominal_rank>23rd</GDP_nominal_rank>
+  <GDP_nominal_per_capita>$14,362</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>66th</GDP_nominal_per_capita_rank>
+  <Gini>40.7</Gini>
+  <Gini_year>2022</Gini_year>
+  <Gini_change>decrease</Gini_change>
+  <HDI>0.865</HDI>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI_rank>47th</HDI_rank>
+  <currency>Argentine peso ($)</currency>
+  <currency_code>ARS</currency_code>
+  <time_zone>ART</time_zone>
+  <utc_offset>– 03:00</utc_offset>
+  <date_format>/ / (CE)</date_format>
+  <drives_on>right</drives_on>
+  <calling_code>+54</calling_code>
+  <cctld>.ar</cctld>
+  <established>
+    <event>
+      <label/>
+      <date>25 May 1810</date>
+    </event>
+    <event>
+      <label>Declared</label>
+      <date>9 July 1816</date>
+    </event>
+    <event>
+      <label/>
+      <date>1 May 1853</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>President</title>
+      <name>Javier Milei</name>
+    </leader>
+    <leader>
+      <title>Vice President</title>
+      <name>Victoria Villarruel</name>
+    </leader>
+    <leader>
+      <title>Chief of the Cabinet of Ministers</title>
+      <name>Manuel Adorni</name>
+    </leader>
+    <leader>
+      <title>President of the Chamber of Deputies</title>
+      <name>Martín Menem</name>
+    </leader>
+    <leader>
+      <title>President of Supreme Court</title>
+      <name>Horacio Rosatti</name>
+    </leader>
+  </leaders>
+</country>

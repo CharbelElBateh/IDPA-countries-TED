@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Benin">
+  <conventional_long_name>Republic of Benin</conventional_long_name>
+  <common_name>Benin</common_name>
+  <national_anthem>"The New Dawn"File:L'Aube Nouvelle.ogg</national_anthem>
+  <official_languages>French</official_languages>
+  <languages_type>National languages</languages_type>
+  <demonym>Beninese Beninoise</demonym>
+  <ethnic_groups_year>2013</ethnic_groups_year>
+  <religion_year>2020</religion_year>
+  <capital>Porto-Novo</capital>
+  <largest_city>Cotonou</largest_city>
+  <government_type>Unitary presidential republic</government_type>
+  <legislature>National Assembly</legislature>
+  <sovereignty_type>Independence</sovereignty_type>
+  <sovereignty_note>from France</sovereignty_note>
+  <area_rank>100th</area_rank>
+  <area_km2>114763</area_km2>
+  <percent_water>0.4%</percent_water>
+  <population_estimate>13,754,688</population_estimate>
+  <population_estimate_rank>77th</population_estimate_rank>
+  <population_estimate_year>2022</population_estimate_year>
+  <population_density_km2>94.8</population_density_km2>
+  <population_density_rank>98th</population_density_rank>
+  <GDP_PPP>$76.510 billion</GDP_PPP>
+  <GDP_PPP_rank>137th</GDP_PPP_rank>
+  <GDP_PPP_year>2026</GDP_PPP_year>
+  <GDP_PPP_per_capita>$4,980</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>163rd</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$27.450 billion</GDP_nominal>
+  <GDP_nominal_rank>141st</GDP_nominal_rank>
+  <GDP_nominal_year>2026</GDP_nominal_year>
+  <GDP_nominal_per_capita>$1,790</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>163rd</GDP_nominal_per_capita_rank>
+  <Gini_year>2021</Gini_year>
+  <Gini_change>decrease</Gini_change>
+  <Gini>34.4</Gini>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI>0.515</HDI>
+  <HDI_rank>173rd</HDI_rank>
+  <currency>West African CFA franc</currency>
+  <currency_code>XOF</currency_code>
+  <time_zone>WAT</time_zone>
+  <utc_offset>+1</utc_offset>
+  <date_format>dd/mm/yyyy</date_format>
+  <drives_on>right</drives_on>
+  <calling_code>+229</calling_code>
+  <cctld>.bj</cctld>
+  <footnote_a>Cotonou is the seat of government.</footnote_a>
+  <established>
+    <event>
+      <label>Republic of Dahomey established within the French Community</label>
+      <date>11 December 1958</date>
+    </event>
+    <event>
+      <label>Independence</label>
+      <date>1 August 1960</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>President</title>
+      <name>Patrice Talon</name>
+    </leader>
+    <leader>
+      <title>Vice President</title>
+      <name>Mariam Chabi Talata</name>
+    </leader>
+  </leaders>
+</country>

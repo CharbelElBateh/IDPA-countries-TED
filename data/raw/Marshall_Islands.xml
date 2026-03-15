@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Marshall Islands">
+  <conventional_long_name>Republic of the Marshall Islands</conventional_long_name>
+  <common_name>the Marshall Islands</common_name>
+  <symbol_type>Seal</symbol_type>
+  <national_motto>" ""Accomplishment through joint effort"</national_motto>
+  <national_anthem>"Forever Marshall Islands"File:National Anthem of Marshall Islands by US Navy Band.ogg</national_anthem>
+  <status>UN member state under a Compact of Free Association with the United States</status>
+  <capital>Majuro</capital>
+  <largest_city>capital</largest_city>
+  <official_languages>Marshallese, English</official_languages>
+  <ethnic_groups>95.6% Marshallese, 4.4% others</ethnic_groups>
+  <ethnic_groups_year>2021</ethnic_groups_year>
+  <religion_year>2026</religion_year>
+  <demonym>Marshallese</demonym>
+  <government_type>Unitary parliamentary republic with an executive president</government_type>
+  <legislature>Nitijela</legislature>
+  <sovereignty_type>Independence</sovereignty_type>
+  <sovereignty_note>from the United States</sovereignty_note>
+  <area_km2>181.43</area_km2>
+  <area_rank>189th</area_rank>
+  <area_sq_mi>70</area_sq_mi>
+  <population_census>42,418</population_census>
+  <population_estimate_rank>188th</population_estimate_rank>
+  <population_census_year>2021</population_census_year>
+  <population_density_km2>233</population_density_km2>
+  <population_density_sq_mi>605</population_density_sq_mi>
+  <population_density_rank>47th</population_density_rank>
+  <GDP_PPP>$215 million</GDP_PPP>
+  <GDP_PPP_year>2019</GDP_PPP_year>
+  <GDP_PPP_per_capita>$3,789</GDP_PPP_per_capita>
+  <GDP_nominal>$220 million</GDP_nominal>
+  <GDP_nominal_year>2019</GDP_nominal_year>
+  <GDP_nominal_per_capita>$3,866</GDP_nominal_per_capita>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI>0.733</HDI>
+  <HDI_rank>108th</HDI_rank>
+  <currency>United States dollar, Sovereign</currency>
+  <time_zone>MHT</time_zone>
+  <utc_offset>+12</utc_offset>
+  <time_zone_DST>''Not observed''</time_zone_DST>
+  <date_format>MM/DD/YYYY</date_format>
+  <drives_on>right</drives_on>
+  <calling_code>+692</calling_code>
+  <cctld>.mh</cctld>
+  <iso3166code>MH</iso3166code>
+  <established>
+    <event>
+      <label>Self-government</label>
+      <date>May 1, 1979</date>
+    </event>
+    <event>
+      <label>Compact of Free Association</label>
+      <date>October 21, 1986</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>President</title>
+      <name>Hilda Heine</name>
+    </leader>
+    <leader>
+      <title>Speaker</title>
+      <name>Brenson S. Wase</name>
+    </leader>
+    <leader>
+      <title>Minister in Assistance to the President</title>
+      <name>Bremity Lakjohn</name>
+    </leader>
+  </leaders>
+</country>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Romania">
+  <conventional_long_name>Romania</conventional_long_name>
+  <national_anthem>"Awaken Thee, Romanian!"File:Desteapta-te, romane!.ogg</national_anthem>
+  <capital>Bucharest</capital>
+  <largest_city>capital</largest_city>
+  <official_languages>Romanian</official_languages>
+  <ethnic_groups>89.3% Romanians, 6.0% Hungarians, 3.4% Roma, 1.2% others</ethnic_groups>
+  <ethnic_groups_year>2021</ethnic_groups_year>
+  <demonym>Romanian</demonym>
+  <religion_year>2021</religion_year>
+  <government_type>Unitary semi-presidential republic</government_type>
+  <legislature>Parliament</legislature>
+  <upper_house>Senate</upper_house>
+  <lower_house>Chamber of Deputies</lower_house>
+  <sovereignty_type>History</sovereignty_type>
+  <area_km2>238,397</area_km2>
+  <area_rank>81st</area_rank>
+  <area_sq_mi>92,046</area_sq_mi>
+  <percent_water>3</percent_water>
+  <population_estimate>19,043,151</population_estimate>
+  <population_estimate_rank>65th</population_estimate_rank>
+  <population_estimate_year>2025</population_estimate_year>
+  <population_census>19,053,815</population_census>
+  <population_census_year>2021</population_census_year>
+  <population_density_km2>83</population_density_km2>
+  <population_density_sq_mi>210</population_density_sq_mi>
+  <population_density_rank>132th</population_density_rank>
+  <GDP_PPP>$949.332 billion</GDP_PPP>
+  <GDP_PPP_rank>35th</GDP_PPP_rank>
+  <GDP_PPP_year>2026</GDP_PPP_year>
+  <GDP_PPP_per_capita>$50,726</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>44th</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$444.807 billion</GDP_nominal>
+  <GDP_nominal_rank>38th</GDP_nominal_rank>
+  <GDP_nominal_year>2026</GDP_nominal_year>
+  <GDP_nominal_per_capita>$23,767</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>54th</GDP_nominal_per_capita_rank>
+  <Gini>27.3</Gini>
+  <Gini_year>2025</Gini_year>
+  <Gini_change>decrease</Gini_change>
+  <HDI>0.845</HDI>
+  <HDI_rank>55th</HDI_rank>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <currency>Romanian leu</currency>
+  <currency_code>RON</currency_code>
+  <time_zone>EET</time_zone>
+  <utc_offset>+2</utc_offset>
+  <time_zone_DST>EEST</time_zone_DST>
+  <utc_offset_DST>+3</utc_offset_DST>
+  <date_format>dd.mm.yyyy (CE)</date_format>
+  <drives_on>right</drives_on>
+  <iso3166code>RO</iso3166code>
+  <calling_code>+40</calling_code>
+  <cctld>.ro</cctld>
+  <established>
+    <event>
+      <label>Principality of Wallachia</label>
+      <date>1330–1862</date>
+    </event>
+    <event>
+      <label>Principality of Moldavia</label>
+      <date>1346–1862</date>
+    </event>
+    <event>
+      <label>United Principalities</label>
+      <date>1859–1881</date>
+    </event>
+    <event>
+      <label>Independence from the Ottoman Empire</label>
+      <date>10 May 1877</date>
+    </event>
+    <event>
+      <label>Kingdom of Romania</label>
+      <date>1881–1947</date>
+    </event>
+    <event>
+      <label>Great Union</label>
+      <date>1 December 1918</date>
+    </event>
+    <event>
+      <label>Socialist Romania</label>
+      <date>1947–1989</date>
+    </event>
+    <event>
+      <label>Republic established</label>
+      <date>8 December 1991</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>President</title>
+      <name>Nicușor Dan</name>
+    </leader>
+    <leader>
+      <title>Prime Minister</title>
+      <name>Ilie Bolojan</name>
+    </leader>
+    <leader>
+      <title>President of the Senate</title>
+      <name>Mircea Abrudean</name>
+    </leader>
+    <leader>
+      <title>President of the Chamber of Deputies</title>
+      <name>Sorin Grindeanu</name>
+    </leader>
+  </leaders>
+</country>

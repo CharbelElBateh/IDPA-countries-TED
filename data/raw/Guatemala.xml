@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Guatemala">
+  <conventional_long_name>Republic of Guatemala</conventional_long_name>
+  <common_name>Guatemala</common_name>
+  <national_motto>(Spanish)"Grow Free and Fecund"</national_motto>
+  <national_anthem>( )File:National anthem of Guatemala, by the U.S. Navy Band.oga</national_anthem>
+  <other_symbol>''La Granadera''( )</other_symbol>
+  <other_symbol_type>March:</other_symbol_type>
+  <capital>Guatemala City</capital>
+  <largest_city>Guatemala City</largest_city>
+  <official_languages>Spanish</official_languages>
+  <national_languages>Mayan</national_languages>
+  <ethnic_groups>56.01% Ladino (mixed), 41.66% Maya, 1.77% Xinca, 0.19% Black, 0.13% Garifuna, 0.24% Other</ethnic_groups>
+  <ethnic_groups_year>2018</ethnic_groups_year>
+  <demonym>Guatemalan</demonym>
+  <government_type>Unitary presidential republic</government_type>
+  <sovereignty_type>Independence</sovereignty_type>
+  <area_km2>108,889</area_km2>
+  <area_rank>105th</area_rank>
+  <area_sq_mi>42,042</area_sq_mi>
+  <percent_water>0.4</percent_water>
+  <population_estimate>18,255,216</population_estimate>
+  <population_estimate_year>2024</population_estimate_year>
+  <population_estimate_rank>70th</population_estimate_rank>
+  <population_density_km2>166</population_density_km2>
+  <population_density_sq_mi>430</population_density_sq_mi>
+  <population_density_rank>76th</population_density_rank>
+  <GDP_PPP>$278.508 billion</GDP_PPP>
+  <GDP_PPP_rank>77th</GDP_PPP_rank>
+  <GDP_PPP_year>2025</GDP_PPP_year>
+  <GDP_PPP_per_capita>$15,386</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>121nd</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$120.964 billion</GDP_nominal>
+  <GDP_nominal_rank>70th</GDP_nominal_rank>
+  <GDP_nominal_year>2025</GDP_nominal_year>
+  <GDP_nominal_per_capita>$6,682</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>108th</GDP_nominal_per_capita_rank>
+  <Gini>45.2</Gini>
+  <Gini_year>2023</Gini_year>
+  <Gini_change>decrease</Gini_change>
+  <HDI>0.662</HDI>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI_rank>137th</HDI_rank>
+  <currency>Quetzal</currency>
+  <currency_code>GTQ</currency_code>
+  <time_zone>CST</time_zone>
+  <utc_offset>−6</utc_offset>
+  <date_format>dd/mm/yyyy</date_format>
+  <drives_on>right</drives_on>
+  <calling_code>+502</calling_code>
+  <cctld>.gt</cctld>
+  <religion_year>2023</religion_year>
+  <religion>88.1% Christianity, 45.7% Protestantism, 42.4% Catholicism, 11% no religion, 0.9% other</religion>
+  <established>
+    <event>
+      <label>Declared</label>
+      <date>15 September 1821</date>
+    </event>
+    <event>
+      <label/>
+      <date>1 July 1823</date>
+    </event>
+    <event>
+      <label>Declared from the Federal Republic of Central America</label>
+      <date>17 April 1839</date>
+    </event>
+    <event>
+      <label/>
+      <date>17 November 1993</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>President</title>
+      <name>Bernardo Arévalo</name>
+    </leader>
+    <leader>
+      <title>Vice President</title>
+      <name>Karin Herrera</name>
+    </leader>
+    <leader>
+      <title>President of the Congress</title>
+      <name>Luis Contreras</name>
+    </leader>
+  </leaders>
+</country>

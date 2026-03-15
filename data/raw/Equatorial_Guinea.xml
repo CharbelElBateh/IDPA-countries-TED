@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Equatorial Guinea">
+  <conventional_long_name>Republic of Equatorial Guinea</conventional_long_name>
+  <common_name>Equatorial Guinea</common_name>
+  <native_name>native name, es, República de Guinea Ecuatorial, native name, fr, République de Guinée Équatoriale, native name, pt, República da Guiné Equatorial</native_name>
+  <symbol_type>Coat of arms</symbol_type>
+  <national_motto>"Unity, Peace, Justice"</national_motto>
+  <national_anthem>"National Anthem of Equatorial Guinea"</national_anthem>
+  <capital>Ciudad de la Paz</capital>
+  <largest_city>Bata</largest_city>
+  <official_languages>* Portuguese</official_languages>
+  <ethnic_groups>85.7% Fang, 6.5% Bubi, 3.6% Ndowe, 1.6% Annobon, 1.1% Bujeba, 1.1% others</ethnic_groups>
+  <ethnic_groups_year>2020</ethnic_groups_year>
+  <religion_year>2020</religion_year>
+  <demonym>Equatoguinean, Equatorial Guinean</demonym>
+  <government_type>Unitary presidential republic under an authoritarian hereditary dictatorship</government_type>
+  <legislature>Parliament</legislature>
+  <upper_house>Senate</upper_house>
+  <lower_house>Chamber of Deputies</lower_house>
+  <sovereignty_type>Independence</sovereignty_type>
+  <sovereignty_note>from Spain</sovereignty_note>
+  <area_km2>28,050</area_km2>
+  <area_rank>141st</area_rank>
+  <area_sq_mi>10,830</area_sq_mi>
+  <percent_water>negligible</percent_water>
+  <population_estimate>1,795,834</population_estimate>
+  <population_estimate_year>2025</population_estimate_year>
+  <population_estimate_rank>154th</population_estimate_rank>
+  <population_density_km2>67</population_density_km2>
+  <population_density_rank>147th</population_density_rank>
+  <GDP_PPP>$33.001 billion</GDP_PPP>
+  <GDP_PPP_year>2025</GDP_PPP_year>
+  <GDP_PPP_rank>149th</GDP_PPP_rank>
+  <GDP_PPP_per_capita>$20,017</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>92nd</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$12.680 billion</GDP_nominal>
+  <GDP_nominal_year>2025</GDP_nominal_year>
+  <GDP_nominal_rank>149th</GDP_nominal_rank>
+  <GDP_nominal_per_capita>$7,750</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>95th</GDP_nominal_per_capita_rank>
+  <HDI>0.674</HDI>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI_rank>133rd</HDI_rank>
+  <currency>Central African CFA franc</currency>
+  <currency_code>XAF</currency_code>
+  <time_zone>WAT</time_zone>
+  <utc_offset>+1</utc_offset>
+  <calling_code>+240</calling_code>
+  <cctld>.gq</cctld>
+  <footnote_a>Including Equatoguinean Spanish (''Español ecuatoguineano'').</footnote_a>
+  <established>
+    <event>
+      <label>Declared</label>
+      <date>12 October 1968</date>
+    </event>
+    <event>
+      <label>1979 Equatorial Guinea coup d'état</label>
+      <date>3 August 1979</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>President</title>
+      <name>Teodoro Obiang Nguema Mbasogo</name>
+    </leader>
+    <leader>
+      <title>Vice President</title>
+      <name>Teodoro Nguema Obiang Mangue</name>
+    </leader>
+    <leader>
+      <title>Prime Minister</title>
+      <name>Manuel Osa Nsue Nsua</name>
+    </leader>
+    <leader>
+      <title>Chief Justice</title>
+      <name>Joaquín Asong Owono Mbang</name>
+    </leader>
+  </leaders>
+</country>

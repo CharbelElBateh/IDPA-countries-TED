@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Grenada">
+  <conventional_long_name>Grenada</conventional_long_name>
+  <common_name>Grenada</common_name>
+  <national_motto>"Ever Conscious of God We Aspire, Build and Advance as One People"</national_motto>
+  <national_anthem>"Hail Grenada"File:HailGrenada.ogg</national_anthem>
+  <royal_anthem>"God Save the King" File:U.S. Navy Band - God Save the King.oga</royal_anthem>
+  <capital>St. George's</capital>
+  <largest_city>capital</largest_city>
+  <official_languages>English</official_languages>
+  <ethnic_groups_year>2020</ethnic_groups_year>
+  <religion_year>2020</religion_year>
+  <demonym>Grenadian</demonym>
+  <government_type>Unitary parliamentary constitutional monarchy</government_type>
+  <legislature>Parliament</legislature>
+  <upper_house>Senate</upper_house>
+  <lower_house>House of Representatives</lower_house>
+  <sovereignty_type>Formation</sovereignty_type>
+  <area_km2>344</area_km2>
+  <area_rank>185th</area_rank>
+  <area_sq_mi>133</area_sq_mi>
+  <percent_water>1.6</percent_water>
+  <population_estimate>114,621</population_estimate>
+  <population_estimate_year>2024</population_estimate_year>
+  <population_estimate_rank>180th</population_estimate_rank>
+  <population_density_km2>333</population_density_km2>
+  <population_density_sq_mi>862</population_density_sq_mi>
+  <population_density_rank>38th</population_density_rank>
+  <GDP_PPP>$2.3&amp;nbsp;billion</GDP_PPP>
+  <GDP_PPP_year>2023</GDP_PPP_year>
+  <GDP_PPP_per_capita>$20,195</GDP_PPP_per_capita>
+  <GDP_nominal>$1.3&amp;nbsp;billion</GDP_nominal>
+  <GDP_nominal_year>2023</GDP_nominal_year>
+  <GDP_nominal_per_capita>$11,437</GDP_nominal_per_capita>
+  <Gini>43.8</Gini>
+  <Gini_year>2018</Gini_year>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI>0.791</HDI>
+  <HDI_rank>80th</HDI_rank>
+  <currency>Eastern Caribbean dollar</currency>
+  <currency_code>XCD</currency_code>
+  <time_zone>AST</time_zone>
+  <utc_offset>−4</utc_offset>
+  <drives_on>left</drives_on>
+  <calling_code>+1</calling_code>
+  <cctld>.gd</cctld>
+  <footnote_a>Plus trace of Arawak Carib.</footnote_a>
+  <established>
+    <event>
+      <label>Associated State</label>
+      <date>3 March 1967</date>
+    </event>
+    <event>
+      <label>Independence from the United Kingdom</label>
+      <date>7 February 1974</date>
+    </event>
+    <event>
+      <label>Grenadian Revolution</label>
+      <date>13 March 1979</date>
+    </event>
+    <event>
+      <label>Constitution Restoration</label>
+      <date>4 December 1984</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>Monarch</title>
+      <name>Charles III</name>
+    </leader>
+    <leader>
+      <title>Governor-General</title>
+      <name>Cécile La Grenade</name>
+    </leader>
+    <leader>
+      <title>Prime Minister</title>
+      <name>Dickon Mitchell</name>
+    </leader>
+  </leaders>
+</country>

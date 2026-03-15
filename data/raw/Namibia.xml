@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Namibia">
+  <conventional_long_name>Republic of Namibia</conventional_long_name>
+  <common_name>Namibia</common_name>
+  <national_motto>"Unity, Liberty, Justice"</national_motto>
+  <national_anthem>"Namibia, Land of the Brave"File:Namibia, Land of the Brave.ogg</national_anthem>
+  <capital>Windhoek</capital>
+  <largest_city>capital</largest_city>
+  <official_languages>English</official_languages>
+  <national_languages>Afrikaans, German, Khoekhoegowab, Oshiwambo, Otjiherero, RuKwangali, Setswana, siLozi</national_languages>
+  <regional_languages>ǃKung, Gciriku, Thimbukushu</regional_languages>
+  <ethnic_groups>93.2% Indigenous African, efn-ua, Includes all Native African ethnic groups, 3.6% Coloured and Basters, 1.8% White, 1.4% Asian / other</ethnic_groups>
+  <ethnic_groups_year>2023</ethnic_groups_year>
+  <religion>87.9% Christianity, 43.7% Lutheranism, 22.8% Catholicism, 17.0% Anglicanism, 4.4% other Christian, 10.5% other, 1.6% no religion</religion>
+  <religion_year>2023</religion_year>
+  <demonym>Namibian</demonym>
+  <government_type>Unitary semi-presidential republic</government_type>
+  <legislature>Parliament</legislature>
+  <upper_house>National Council</upper_house>
+  <lower_house>National Assembly</lower_house>
+  <sovereignty_type>Independence from South Africa</sovereignty_type>
+  <area_km2>825,615</area_km2>
+  <area_rank>34th</area_rank>
+  <area_sq_mi>318,696</area_sq_mi>
+  <percent_water>Negligible</percent_water>
+  <population_census>3,022,401</population_census>
+  <population_census_year>2025</population_census_year>
+  <population_census_rank>136th</population_census_rank>
+  <population_density_km2>3.7</population_density_km2>
+  <population_density_sq_mi>1.4</population_density_sq_mi>
+  <GDP_PPP>$37.73 billion</GDP_PPP>
+  <GDP_PPP_year>2025</GDP_PPP_year>
+  <GDP_PPP_rank>145th</GDP_PPP_rank>
+  <GDP_PPP_per_capita>$12,370</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>117th</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$14.21 billion</GDP_nominal>
+  <GDP_nominal_year>2025</GDP_nominal_year>
+  <GDP_nominal_rank>145th</GDP_nominal_rank>
+  <GDP_nominal_per_capita>$4,660</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>120th</GDP_nominal_per_capita_rank>
+  <Gini>59.1</Gini>
+  <Gini_year>2015</Gini_year>
+  <HDI>0.665</HDI>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI_rank>136th</HDI_rank>
+  <currency>Namibian dollar (NAD) South African rand (ZAR)</currency>
+  <time_zone>CAT</time_zone>
+  <utc_offset>+2</utc_offset>
+  <date_format>dd/mm/yyyy</date_format>
+  <drives_on>left</drives_on>
+  <calling_code>+264</calling_code>
+  <cctld>.na</cctld>
+  <established>
+    <event>
+      <label>Constitution</label>
+      <date>9 February 1990</date>
+    </event>
+    <event>
+      <label>Independence</label>
+      <date>21 March 1990</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>President</title>
+      <name>Netumbo Nandi-Ndaitwah</name>
+    </leader>
+    <leader>
+      <title>Vice President</title>
+      <name>Lucia Witbooi</name>
+    </leader>
+    <leader>
+      <title>Prime Minister</title>
+      <name>Elijah Ngurare</name>
+    </leader>
+    <leader>
+      <title>Deputy Prime Minister</title>
+      <name>Vacant</name>
+    </leader>
+    <leader>
+      <title>Chief Justice</title>
+      <name>Peter Shivute</name>
+    </leader>
+  </leaders>
+</country>

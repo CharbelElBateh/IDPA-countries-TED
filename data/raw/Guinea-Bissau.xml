@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Guinea-Bissau">
+  <conventional_long_name>Republic of Guinea-Bissau</conventional_long_name>
+  <common_name>Guinea-Bissau</common_name>
+  <symbol_type>Emblem</symbol_type>
+  <national_motto>"Unity, Struggle, Progress"</national_motto>
+  <national_anthem>"This Is Our Beloved Homeland"</national_anthem>
+  <official_languages>Portuguese</official_languages>
+  <languages_type>Spoken languages</languages_type>
+  <demonym>Guinean Bissau-Guinean</demonym>
+  <capital>Bissau</capital>
+  <ethnic_groups_year>2019</ethnic_groups_year>
+  <ethnic_groups>30% Balanta, 30% Fula, 14% Manjak, 13% Mandinka, 7% Papel, 6% other / unspecified</ethnic_groups>
+  <religion>46.1% Islam, 30.6% Traditional, 18.9% Christianity, 3% No religion, 1% others</religion>
+  <religion_year>2020</religion_year>
+  <largest_city>capital</largest_city>
+  <government_type>Unitary semi-presidential republic under a military junta</government_type>
+  <legislature>National Transitional Council ''(transitional)'' National People's Assembly ''(suspended)''</legislature>
+  <area_rank>134th</area_rank>
+  <area_km2>36,125</area_km2>
+  <area_sq_mi>13,948</area_sq_mi>
+  <percent_water>22.4</percent_water>
+  <population_estimate>2,080,000</population_estimate>
+  <population_estimate_year>2023</population_estimate_year>
+  <population_estimate_rank>150th</population_estimate_rank>
+  <population_density_km2>47</population_density_km2>
+  <population_density_sq_mi>120</population_density_sq_mi>
+  <population_density_rank>154th</population_density_rank>
+  <GDP_PPP>$6.620 billion</GDP_PPP>
+  <GDP_PPP_year>2025</GDP_PPP_year>
+  <GDP_PPP_rank>172th</GDP_PPP_rank>
+  <GDP_PPP_per_capita>$3,280</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>168th</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$2.270 billion</GDP_nominal>
+  <GDP_nominal_year>2025</GDP_nominal_year>
+  <GDP_nominal_rank>174th</GDP_nominal_rank>
+  <GDP_nominal_per_capita>$1,130</GDP_nominal_per_capita>
+  <sovereignty_type>Independence</sovereignty_type>
+  <sovereignty_note>from Portugal</sovereignty_note>
+  <GDP_nominal_per_capita_rank>165th</GDP_nominal_per_capita_rank>
+  <Gini>33.4</Gini>
+  <Gini_year>2021</Gini_year>
+  <Gini_change>decrease</Gini_change>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI>0.514</HDI>
+  <HDI_rank>174th</HDI_rank>
+  <currency>West African CFA franc</currency>
+  <currency_code>XOF</currency_code>
+  <utc_offset>±00:00</utc_offset>
+  <time_zone>GMT</time_zone>
+  <drives_on>right</drives_on>
+  <calling_code>+245</calling_code>
+  <cctld>.gw</cctld>
+  <iso3166code>GW</iso3166code>
+  <established>
+    <event>
+      <label>Declaration</label>
+      <date>24 September 1973</date>
+    </event>
+    <event>
+      <label>Recognition</label>
+      <date>10 September 1974</date>
+    </event>
+    <event>
+      <label>2025 Guinea-Bissau coup d'état</label>
+      <date>26 November 2025</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>Head of the HMCRNSPO</title>
+      <name>Horta Inta-A Na Man</name>
+    </leader>
+    <leader>
+      <title>Transitional President</title>
+      <name>Horta Inta-A Na Man</name>
+    </leader>
+    <leader>
+      <title/>
+      <name>Ilídio Vieira Té</name>
+    </leader>
+  </leaders>
+</country>

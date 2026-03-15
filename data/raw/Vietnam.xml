@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Vietnam">
+  <conventional_long_name>Socialist Republic of Vietnam</conventional_long_name>
+  <common_name>Vietnam</common_name>
+  <symbol_type>Emblem</symbol_type>
+  <national_anthem>"The Song of the Marching Troops"</national_anthem>
+  <capital>Hanoi</capital>
+  <largest_settlement>Ho Chi Minh City</largest_settlement>
+  <largest_settlement_type>city</largest_settlement_type>
+  <admin_center_type>Largest city</admin_center_type>
+  <languages_type>Official language</languages_type>
+  <languages>Vietnamese</languages>
+  <ethnic_groups_year>2019</ethnic_groups_year>
+  <religion>item_style, =, white-space:nowrap;, 86.32% no religion / folk, 6.1% Catholicism, 4.79% Buddhism, 1.02% Hoahaoism, 1% Protestantism, 0.58% Caodaism, 0.07% Islam, 0.12% other, sfn, General Statistics Office of Vietnam, 2019 An earlier United States Department of State report from 2019 revealed that 26.4 per cent of the population identified with an organised religion. This breakdown included 14.9 per cent identifying as Buddhist, 7.4 per cent as Roman Catholic, 1.5 per cent as Hòa Hảo Buddhist, 1.2 per cent as Cao Đài, and 1.1 per cent as Protestant. The remainder did not identify with any religious group or observed beliefs such as animism or the reverence of ancestors, tutelary and protective saints, national heroes, or esteemed local figures.</religion>
+  <religion_year>2019</religion_year>
+  <demonym>VietnameseViet (colloquial)</demonym>
+  <government_type>Unitary communist state</government_type>
+  <legislature>National Assembly</legislature>
+  <sovereignty_type>Formation</sovereignty_type>
+  <area_km2>331,344.82 while the BBC cites a slightly different measurement of 331,699 square kilometres.</area_km2>
+  <area_rank>66th</area_rank>
+  <percent_water>6.38</percent_water>
+  <population_estimate>102,300,000</population_estimate>
+  <population_estimate_year>2025</population_estimate_year>
+  <population_estimate_rank>16th</population_estimate_rank>
+  <population_census>96,208,984</population_census>
+  <population_census_year>2019</population_census_year>
+  <population_density_km2>309</population_density_km2>
+  <population_density_sq_mi>800</population_density_sq_mi>
+  <population_density_rank>43th</population_density_rank>
+  <GDP_PPP>$1.786 trillion</GDP_PPP>
+  <GDP_PPP_year>2025</GDP_PPP_year>
+  <GDP_PPP_rank>23rd</GDP_PPP_rank>
+  <GDP_PPP_per_capita>$17,484</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>104th</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$490.970&amp;nbsp;billion</GDP_nominal>
+  <GDP_nominal_year>2025</GDP_nominal_year>
+  <GDP_nominal_rank>33rd</GDP_nominal_rank>
+  <GDP_nominal_per_capita>$4,806</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>119th</GDP_nominal_per_capita_rank>
+  <Gini>36.1</Gini>
+  <Gini_year>2022</Gini_year>
+  <Gini_change>decrease</Gini_change>
+  <HDI>0.766</HDI>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI_rank>93rd</HDI_rank>
+  <currency>Vietnamese đồng (₫)</currency>
+  <currency_code>VND</currency_code>
+  <time_zone>Vietnam Standard Time</time_zone>
+  <utc_offset>+07:00</utc_offset>
+  <drives_on>right</drives_on>
+  <calling_code>+84</calling_code>
+  <cctld>.vn</cctld>
+  <established>
+    <event>
+      <label>Văn Lang</label>
+      <date>7th century BC</date>
+    </event>
+    <event>
+      <label>Âu Lạc</label>
+      <date>3rd century BC</date>
+    </event>
+    <event>
+      <label>Han's annexation</label>
+      <date>111 BC</date>
+    </event>
+    <event>
+      <label>Independence from China</label>
+      <date>939</date>
+    </event>
+    <event>
+      <label>Regaining independence</label>
+      <date>1428</date>
+    </event>
+    <event>
+      <label>Nguyễn's unification</label>
+      <date>1802</date>
+    </event>
+    <event>
+      <label>Protectorate Treaty</label>
+      <date>25 August 1883</date>
+    </event>
+    <event>
+      <label>Declaration of independence</label>
+      <date>2 September 1945</date>
+    </event>
+    <event>
+      <label>North–South partition</label>
+      <date>21 July 1954</date>
+    </event>
+    <event>
+      <label>End of Vietnam War</label>
+      <date>30 April 1975</date>
+    </event>
+    <event>
+      <label>Reunification</label>
+      <date>2 July 1976</date>
+    </event>
+    <event>
+      <label>Current constitution</label>
+      <date>28 November 2013</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>General Secretary</title>
+      <name>Tô Lâm</name>
+    </leader>
+    <leader>
+      <title>President</title>
+      <name>Lương Cường</name>
+    </leader>
+    <leader>
+      <title>Prime Minister</title>
+      <name>Phạm Minh Chính</name>
+    </leader>
+    <leader>
+      <title>National Assembly Chairman</title>
+      <name>Trần Thanh Mẫn</name>
+    </leader>
+  </leaders>
+</country>

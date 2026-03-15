@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Iraq">
+  <conventional_long_name>Republic of Iraq</conventional_long_name>
+  <native_name>native name, ar, جُمْهُورِيَّة ٱلْعِرَاق, italics, =, off, transliteration, ar, Jumhūriyyat al-ʿIrāq, native name, ku, کۆماری عێراق, italics, =, off, transliteration, ku, Komarî Êraq</native_name>
+  <common_name>Iraq</common_name>
+  <national_anthem>"My Homeland"</national_anthem>
+  <capital>Baghdad</capital>
+  <largest_city>capital</largest_city>
+  <official_languages>Arabic, Kurdish</official_languages>
+  <languages2_type>Recognised regional languages</languages2_type>
+  <languages2>Assyrian, Armenian, Turkmen</languages2>
+  <religion_year>2020</religion_year>
+  <demonym>Iraqi</demonym>
+  <government_type>Federal parliamentary republic</government_type>
+  <sovereignty_type>Establishment</sovereignty_type>
+  <area_rank>58th</area_rank>
+  <area_km2>438,317</area_km2>
+  <area_sq_mi>169,234</area_sq_mi>
+  <percent_water>4.93 (as of 2024)</percent_water>
+  <legislature>Council of Representatives</legislature>
+  <lower_house>Council of Representatives</lower_house>
+  <upper_house>Federation Council</upper_house>
+  <population_estimate_rank>34th</population_estimate_rank>
+  <population_census>46,118,793</population_census>
+  <population_census_year>2024</population_census_year>
+  <population_census_rank>34th</population_census_rank>
+  <population_density_km2>82.7</population_density_km2>
+  <population_density_sq_mi>183.9</population_density_sq_mi>
+  <population_density_rank>125th</population_density_rank>
+  <GDP_PPP>$690.090 billion</GDP_PPP>
+  <GDP_PPP_rank>44th</GDP_PPP_rank>
+  <GDP_PPP_year>2025</GDP_PPP_year>
+  <GDP_PPP_per_capita>$15,180</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>110th</GDP_PPP_per_capita_rank>
+  <GDP_nominal_year>2025</GDP_nominal_year>
+  <GDP_nominal>$258.020 billion</GDP_nominal>
+  <GDP_nominal_rank>51st</GDP_nominal_rank>
+  <GDP_nominal_per_capita>$5,670</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>112th</GDP_nominal_per_capita_rank>
+  <Gini>29.5</Gini>
+  <Gini_year>2012</Gini_year>
+  <HDI>0.712</HDI>
+  <HDI_year>2024</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI_rank>122nd</HDI_rank>
+  <currency>Iraqi dinar</currency>
+  <currency_code>IQD</currency_code>
+  <time_zone>AST</time_zone>
+  <utc_offset>+3</utc_offset>
+  <drives_on>right</drives_on>
+  <calling_code>+964</calling_code>
+  <ethnic_groups>75–80% Arabs, 15–20% Kurds, 5–10% Assyrians, Turkmen, Jews, Persians, Yazidis, Mandaeans, and others</ethnic_groups>
+  <ethnic_groups_year>1987</ethnic_groups_year>
+  <established>
+    <event>
+      <label>Sumer</label>
+      <date/>
+    </event>
+    <event>
+      <label>Akkadian Empire</label>
+      <date/>
+    </event>
+    <event>
+      <label>Babylonia</label>
+      <date/>
+    </event>
+    <event>
+      <label>Abbasid Caliphate</label>
+      <date>750 AD</date>
+    </event>
+    <event>
+      <label>Independence declared</label>
+      <date>3 October 1932</date>
+    </event>
+    <event>
+      <label>Republic declared</label>
+      <date>14 July 1958</date>
+    </event>
+    <event>
+      <label/>
+      <date>15 October 2005</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>President</title>
+      <name>Abdul Latif Rashid</name>
+    </leader>
+    <leader>
+      <title>Prime Minister</title>
+      <name>Mohammed Shia' al-Sudani</name>
+    </leader>
+    <leader>
+      <title>Speaker</title>
+      <name>Haibat al-Halbousi</name>
+    </leader>
+  </leaders>
+</country>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Tanzania">
+  <conventional_long_name>United Republic of Tanzania</conventional_long_name>
+  <common_name>Tanzania</common_name>
+  <national_motto>"Uhuru na Umoja"</national_motto>
+  <national_anthem>"Mungu ibariki Afrika""God bless Africa"</national_anthem>
+  <capital>Dodoma</capital>
+  <largest_city>Dar es Salaam</largest_city>
+  <official_languages>Swahili, English, Swahili and English serve as de facto official languages.</official_languages>
+  <languages_type>National language</languages_type>
+  <languages>Swahili</languages>
+  <languages2_type>Other languages</languages2_type>
+  <languages2>Over 100 languages, including (1m+): style, =, line-break:anywhere, Shambala, Sukuma, Nyamwezi, Chagga, Ha, Bena, Gogo, Haya, Dholuo, Iraqw, Makonde, Nyaturu, Maasai, Jita, Pare</languages2>
+  <religion_year>2020</religion_year>
+  <demonym>Tanzanian</demonym>
+  <government_type>Unitary dominant-party presidential republic</government_type>
+  <legislature>National Assembly</legislature>
+  <sovereignty_type>Independence</sovereignty_type>
+  <area_km2>947,303</area_km2>
+  <area_rank>30th</area_rank>
+  <area_sq_mi>365,756</area_sq_mi>
+  <percent_water>6.4</percent_water>
+  <population_estimate>67,462,121</population_estimate>
+  <population_estimate_year>2024</population_estimate_year>
+  <population_census>61,741,120</population_census>
+  <population_census_year>2022</population_census_year>
+  <population_estimate_rank>22nd</population_estimate_rank>
+  <population_density_km2>65.2</population_density_km2>
+  <population_density_sq_mi>168.8</population_density_sq_mi>
+  <population_density_rank>147th</population_density_rank>
+  <GDP_PPP>$293.59 billion</GDP_PPP>
+  <GDP_PPP_rank>69th</GDP_PPP_rank>
+  <GDP_PPP_year>2025</GDP_PPP_year>
+  <GDP_PPP_per_capita>$4,370</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>158th</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$88.980 billion</GDP_nominal>
+  <GDP_nominal_rank>80th</GDP_nominal_rank>
+  <GDP_nominal_year>2025</GDP_nominal_year>
+  <GDP_nominal_per_capita>$1,280</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>162nd</GDP_nominal_per_capita_rank>
+  <Gini>40.5</Gini>
+  <Gini_year>2017</Gini_year>
+  <Gini_change>increase</Gini_change>
+  <HDI>0.555</HDI>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI_rank>165th</HDI_rank>
+  <currency>Tanzanian shilling</currency>
+  <currency_code>TZS</currency_code>
+  <time_zone>East Africa Time</time_zone>
+  <utc_offset>+3</utc_offset>
+  <drives_on>left</drives_on>
+  <calling_code>+255</calling_code>
+  <cctld>.tz</cctld>
+  <established>
+    <event>
+      <label>Tanganyika</label>
+      <date>9 December 1961</date>
+    </event>
+    <event>
+      <label/>
+      <date>10 December 1963</date>
+    </event>
+    <event>
+      <label>Unification of Tanganyika and Zanzibar</label>
+      <date>26 April 1964</date>
+    </event>
+    <event>
+      <label>Current constitution</label>
+      <date>25 April 1977</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>President</title>
+      <name>Samia Suluhu Hassan</name>
+    </leader>
+    <leader>
+      <title>Vice-President</title>
+      <name>Emmanuel Nchimbi</name>
+    </leader>
+    <leader>
+      <title>Prime Minister</title>
+      <name>Mwigulu Nchemba</name>
+    </leader>
+    <leader>
+      <title>Speaker</title>
+      <name>Mussa Zungu</name>
+    </leader>
+    <leader>
+      <title>Chief Justice</title>
+      <name>George Mcheche Masaju</name>
+    </leader>
+  </leaders>
+</country>

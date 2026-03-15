@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Kiribati">
+  <conventional_long_name>Republic of Kiribati</conventional_long_name>
+  <common_name>Kiribati</common_name>
+  <national_motto>Te Mauri, te Raoi ao te Tabomoa (Gilbertese)"Health, Peace, and Prosperity"</national_motto>
+  <national_anthem>Kunan Kiribati (Gilbertese)"Song of Kiribati"</national_anthem>
+  <capital>Tarawa</capital>
+  <official_languages>English, Gilbertese</official_languages>
+  <ethnic_groups>95.7% Gilbertese, 4.3% other</ethnic_groups>
+  <ethnic_groups_year>2020 census</ethnic_groups_year>
+  <religion_year>2020 census</religion_year>
+  <demonym>I-Kiribati</demonym>
+  <government_type>Unitary parliamentary republic with an executive president</government_type>
+  <legislature>House of Assembly</legislature>
+  <sovereignty_type>Independence</sovereignty_type>
+  <sovereignty_note>from the United Kingdom</sovereignty_note>
+  <area_km2>811.19</area_km2>
+  <area_rank>172nd</area_rank>
+  <population_estimate>116,545</population_estimate>
+  <population_estimate_rank>192nd</population_estimate_rank>
+  <population_estimate_year>2024</population_estimate_year>
+  <population_census_year>2024</population_census_year>
+  <population_census>119,438</population_census>
+  <population_density_km2>149.64</population_density_km2>
+  <GDP_PPP>$297 million</GDP_PPP>
+  <GDP_PPP_year>2023</GDP_PPP_year>
+  <GDP_PPP_per_capita>$2,381</GDP_PPP_per_capita>
+  <GDP_nominal>$248 million</GDP_nominal>
+  <GDP_nominal_year>2023</GDP_nominal_year>
+  <GDP_nominal_per_capita>$1,989</GDP_nominal_per_capita>
+  <Gini>27.8</Gini>
+  <Gini_year>2019</Gini_year>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI>0.644</HDI>
+  <HDI_rank>140th</HDI_rank>
+  <currency>Australian dollar ($)</currency>
+  <currency_code>AUD</currency_code>
+  <utc_offset>+12, +13, +14</utc_offset>
+  <drives_on>left</drives_on>
+  <calling_code>+686</calling_code>
+  <cctld>.ki</cctld>
+  <established>
+    <event>
+      <label>Granted</label>
+      <date>12 July 1979</date>
+    </event>
+    <event>
+      <label>Treaty of Tarawa</label>
+      <date>20 September 1979</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>President</title>
+      <name>Taneti Maamau</name>
+    </leader>
+    <leader>
+      <title>Vice-President</title>
+      <name>Teuea Toatu</name>
+    </leader>
+    <leader>
+      <title>Speaker of the House of Assembly</title>
+      <name>Willie Tokataake</name>
+    </leader>
+  </leaders>
+</country>

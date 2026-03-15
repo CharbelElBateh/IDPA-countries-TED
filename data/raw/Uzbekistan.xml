@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Uzbekistan">
+  <conventional_long_name>Republic of Uzbekistan</conventional_long_name>
+  <common_name>Uzbekistan</common_name>
+  <symbol_type>Emblem</symbol_type>
+  <national_anthem>"State Anthem of the Republic of Uzbekistan"</national_anthem>
+  <capital>Tashkent</capital>
+  <largest_city>capital</largest_city>
+  <official_languages>Uzbek</official_languages>
+  <recognised_languages>Karakalpak</recognised_languages>
+  <ethnic_groups>84.6% Uzbeks, 4.8% Tajiks, 2.3% Kazakhs, 2.2% Karakalpaks, 2.1% Russians, 4.0% others</ethnic_groups>
+  <ethnic_groups_year>2021</ethnic_groups_year>
+  <religion_year>2020</religion_year>
+  <demonym>Uzbek • Uzbekistani</demonym>
+  <government_type>Unitary semi-presidential republic</government_type>
+  <legislature>Oliy Majlis</legislature>
+  <upper_house>Senate</upper_house>
+  <lower_house>Legislative Chamber</lower_house>
+  <sovereignty_type>History</sovereignty_type>
+  <area_km2>448,978</area_km2>
+  <area_rank>55th</area_rank>
+  <area_sq_mi>173,351</area_sq_mi>
+  <percent_water>4.9</percent_water>
+  <population_estimate>38,236,704</population_estimate>
+  <population_estimate_year>2026</population_estimate_year>
+  <population_estimate_rank>38th</population_estimate_rank>
+  <population_density_km2>80.2</population_density_km2>
+  <population_density_sq_mi>207.8</population_density_sq_mi>
+  <population_density_rank>138th</population_density_rank>
+  <GDP_PPP>$507.8 billion</GDP_PPP>
+  <GDP_PPP_year>2025</GDP_PPP_year>
+  <GDP_PPP_rank>53th</GDP_PPP_rank>
+  <GDP_PPP_per_capita>$12,596</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>114th</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$140.480 billion</GDP_nominal>
+  <GDP_nominal_year>2025</GDP_nominal_year>
+  <GDP_nominal_rank>60th</GDP_nominal_rank>
+  <GDP_nominal_per_capita>$3,945</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>134th</GDP_nominal_per_capita_rank>
+  <Gini>31.2</Gini>
+  <Gini_year>2022</Gini_year>
+  <Gini_change>decrease</Gini_change>
+  <HDI>0.740</HDI>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI_rank>107th</HDI_rank>
+  <currency>Uzbek sum</currency>
+  <currency_code>UZS</currency_code>
+  <time_zone>UZT</time_zone>
+  <utc_offset>+5</utc_offset>
+  <date_format>dd/mm yyyyc</date_format>
+  <drives_on>right</drives_on>
+  <calling_code>+998</calling_code>
+  <cctld>.uz</cctld>
+  <footnote_a>Co-official in Karakalpakstan.</footnote_a>
+  <footnote_b>On 31 August 1991, the Supreme Soviet of the Uzbek SSR voted to declare the country independent from the Soviet Union. The next day was declared a national holiday by the Uzbek government, and became Independence Day.</footnote_b>
+  <footnote_c>dd.mm.yyyy format is used in Cyrillic scripts, including Russian.</footnote_c>
+  <established>
+    <event>
+      <label>Uzbek khanates</label>
+      <date>1500–1920</date>
+    </event>
+    <event>
+      <label>Turkestan ASSR</label>
+      <date>30 April 1918</date>
+    </event>
+    <event>
+      <label>Uzbek SSR</label>
+      <date>27 October 1924</date>
+    </event>
+    <event>
+      <label>Republic</label>
+      <date>1 September 1991</date>
+    </event>
+    <event>
+      <label>Current constitution</label>
+      <date>8 December 1992</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>President</title>
+      <name>Shavkat Mirziyoyev</name>
+    </leader>
+    <leader>
+      <title>Prime Minister</title>
+      <name>Abdulla Aripov</name>
+    </leader>
+  </leaders>
+</country>

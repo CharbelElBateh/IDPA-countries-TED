@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Burundi">
+  <conventional_long_name>Republic of Burundi</conventional_long_name>
+  <common_name>Burundi</common_name>
+  <map_caption>Location of Burundi (dark blue) in Africa (light blue)</map_caption>
+  <national_motto>native phrase, rn, "Ubumwe, Ibikorwa, Amajambere", italics, =, on, native phrase, fr, "Unité, Travail, Progrès", italics, =, on, native phrase, en, "Union, Work, Progress", italics, =, off, nolink, =, on</national_motto>
+  <national_anthem>"Our Burundi" File:Burundi Bwacu.ogg</national_anthem>
+  <official_languages>Kirundi, French, English</official_languages>
+  <national_languages>Kirundi</national_languages>
+  <capital>Gitega</capital>
+  <largest_city>Bujumbura</largest_city>
+  <demonym>Burundian</demonym>
+  <ethnic_groups>*~1% other</ethnic_groups>
+  <government_type>Unitary dominant-party presidential republic under an authoritarian dictatorship</government_type>
+  <legislature>Parliament</legislature>
+  <upper_house>Senate</upper_house>
+  <lower_house>National Assembly</lower_house>
+  <sovereignty_type>Establishment history</sovereignty_type>
+  <area_km2>27,834</area_km2>
+  <area_rank>142nd</area_rank>
+  <percent_water>10</percent_water>
+  <population_estimate>14,151,540</population_estimate>
+  <population_estimate_year>2024</population_estimate_year>
+  <population_estimate_rank>78th</population_estimate_rank>
+  <population_density_km2>565</population_density_km2>
+  <population_density_rank>25th</population_density_rank>
+  <GDP_PPP>$13.980 billion</GDP_PPP>
+  <GDP_PPP_year>2025</GDP_PPP_year>
+  <GDP_PPP_rank>161th</GDP_PPP_rank>
+  <GDP_PPP_per_capita>$1,020</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>185th</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$6.750 billion</GDP_nominal>
+  <GDP_nominal_year>2025</GDP_nominal_year>
+  <GDP_nominal_rank>157th</GDP_nominal_rank>
+  <GDP_nominal_per_capita>$489</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>186th</GDP_nominal_per_capita_rank>
+  <Gini_year>2020</Gini_year>
+  <Gini_change>decrease</Gini_change>
+  <Gini>37.5</Gini>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI>0.439</HDI>
+  <HDI_rank>187th</HDI_rank>
+  <currency>Burundian franc (FBu)</currency>
+  <currency_code>BIF</currency_code>
+  <time_zone>CAT</time_zone>
+  <utc_offset>+2</utc_offset>
+  <drives_on>right</drives_on>
+  <calling_code>+257</calling_code>
+  <cctld>.bi</cctld>
+  <religion_year>2020</religion_year>
+  <established>
+    <event>
+      <label>Kingdom of Urundi</label>
+      <date>1680–1966</date>
+    </event>
+    <event>
+      <label>Part of German East Africa</label>
+      <date>1890–1916</date>
+    </event>
+    <event>
+      <label>Part of Ruanda-Urundi</label>
+      <date>1916–1962</date>
+    </event>
+    <event>
+      <label>Independence from Belgium</label>
+      <date>1 July 1962</date>
+    </event>
+    <event>
+      <label>Republic</label>
+      <date>28 November 1966</date>
+    </event>
+    <event>
+      <label>Burundian Civil War</label>
+      <date>21 October 1993 – 15 May 2005</date>
+    </event>
+    <event>
+      <label>Current constitution</label>
+      <date>17 May 2018</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>President</title>
+      <name>Évariste Ndayishimiye</name>
+    </leader>
+    <leader>
+      <title>Prime Minister</title>
+      <name>Nestor Ntahontuye</name>
+    </leader>
+    <leader>
+      <title>Vice President</title>
+      <name>Prosper Bazombanza</name>
+    </leader>
+  </leaders>
+</country>

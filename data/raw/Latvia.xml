@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Latvia">
+  <conventional_long_name>Republic of Latvia</conventional_long_name>
+  <common_name>Latvia</common_name>
+  <native_name>native name, lv, Latvijas Republika, native name, ltg, Latvejas Republika, native name, liv, Lețmō Vabāmō</native_name>
+  <symbol_width>100px</symbol_width>
+  <national_anthem>("God Bless Latvia")</national_anthem>
+  <capital>Riga</capital>
+  <largest_city>capital</largest_city>
+  <official_languages>Latviana</official_languages>
+  <languages_type>Recognized languages</languages_type>
+  <languages>LivonianLatgalian</languages>
+  <ethnic_groups>65.5% Latvians, 24.1% Russians, 2.9% Belarusians, 2.9% Ukrainians, 1.9% Poles, 1.1% Lithuanians, 1.6% others</ethnic_groups>
+  <ethnic_groups_year>2025</ethnic_groups_year>
+  <religion_year>2018</religion_year>
+  <demonym>Latvian</demonym>
+  <government_type>Unitary parliamentary republic</government_type>
+  <legislature>Saeima</legislature>
+  <sovereignty_type>Independence</sovereignty_type>
+  <sovereignty_note>from Germany and Russia</sovereignty_note>
+  <area_km2>64,589</area_km2>
+  <area_rank>122nd</area_rank>
+  <area_sq_mi>24,938</area_sq_mi>
+  <percent_water>2.09 (2015)</percent_water>
+  <population_estimate>1,842,226</population_estimate>
+  <population_estimate_year>2022</population_estimate_year>
+  <population_estimate_rank>146th</population_estimate_rank>
+  <population_density_km2>29.6</population_density_km2>
+  <population_density_sq_mi>77</population_density_sq_mi>
+  <population_density_rank>147th</population_density_rank>
+  <GDP_PPP>$82.400 billion</GDP_PPP>
+  <GDP_PPP_year>2025</GDP_PPP_year>
+  <GDP_PPP_rank>104th</GDP_PPP_rank>
+  <GDP_PPP_per_capita>$44,110</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>51st</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$47.880 billion</GDP_nominal>
+  <GDP_nominal_year>2025</GDP_nominal_year>
+  <GDP_nominal_rank>96th</GDP_nominal_rank>
+  <GDP_nominal_per_capita>$25,630</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>42nd</GDP_nominal_per_capita_rank>
+  <Gini>35.7</Gini>
+  <Gini_year>2021</Gini_year>
+  <Gini_change>increase</Gini_change>
+  <HDI>0.889</HDI>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI_rank>41st</HDI_rank>
+  <currency>Euro (€)</currency>
+  <currency_code>EUR</currency_code>
+  <time_zone>EET</time_zone>
+  <utc_offset>+2</utc_offset>
+  <utc_offset_DST>+3</utc_offset_DST>
+  <time_zone_DST>EEST</time_zone_DST>
+  <calling_code>+371</calling_code>
+  <cctld>.lv</cctld>
+  <footnote_a>Latvian is the sole official language. Livonian is considered an indigenous language and has special legal status. Latgalian written language and Latvian Sign Language also have special legal status.</footnote_a>
+  <footnote_b>Latvia is ''de jure'' continuous with its declaration of 18 November 1918.</footnote_b>
+  <established>
+    <event>
+      <label>Declared</label>
+      <date>18 November 1918</date>
+    </event>
+    <event>
+      <label>Recognised</label>
+      <date>26 January 1921</date>
+    </event>
+    <event>
+      <label/>
+      <date>7 November 1922</date>
+    </event>
+    <event>
+      <label>Restored</label>
+      <date>21 August 1991</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>President</title>
+      <name>Edgars Rinkēvičs</name>
+    </leader>
+    <leader>
+      <title>Prime Minister</title>
+      <name>Evika Siliņa</name>
+    </leader>
+    <leader>
+      <title>Speaker of the Saeima</title>
+      <name>Daiga Mieriņa</name>
+    </leader>
+  </leaders>
+</country>

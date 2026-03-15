@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Paraguay">
+  <conventional_long_name>Republic of Paraguay</conventional_long_name>
+  <native_name>native name, es, República del Paraguay, native name, gn, Paraguái Tavakuairetã</native_name>
+  <common_name>Paraguay</common_name>
+  <national_motto>"Peace and justice"</national_motto>
+  <national_anthem>"Paraguayan National Anthem"</national_anthem>
+  <languages_type>Official languages</languages_type>
+  <languages>Spanish, Guarani</languages>
+  <demonym>Paraguayan</demonym>
+  <capital>Asunción</capital>
+  <largest_city>Asunción</largest_city>
+  <religion_year>2020</religion_year>
+  <religion>95.5% Christianity, 87.4% Catholicism, 8.1% other Christian, 4.1% no religion, 0.4% other</religion>
+  <government_type>Unitary presidential republic</government_type>
+  <legislature>Congress</legislature>
+  <upper_house>Senate</upper_house>
+  <lower_house>Chamber of Deputies</lower_house>
+  <area_rank>59th</area_rank>
+  <area_km2>406752</area_km2>
+  <percent_water>2.6</percent_water>
+  <population_census>6,109,903</population_census>
+  <population_census_year>2022</population_census_year>
+  <population_estimate>6,413,627</population_estimate>
+  <population_estimate_year>2025</population_estimate_year>
+  <population_estimate_rank>113th</population_estimate_rank>
+  <population_density_sq_mi>39</population_density_sq_mi>
+  <population_density_rank>223rd</population_density_rank>
+  <GDP_PPP>$145.110 billion</GDP_PPP>
+  <GDP_PPP_rank>92th</GDP_PPP_rank>
+  <GDP_PPP_year>2026</GDP_PPP_year>
+  <GDP_PPP_per_capita>$22,462</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>84th</GDP_PPP_per_capita_rank>
+  <GDP_nominal_year>2026</GDP_nominal_year>
+  <GDP_nominal>$51.670 billion</GDP_nominal>
+  <GDP_nominal_rank>99th</GDP_nominal_rank>
+  <GDP_nominal_per_capita>$7,990</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>93rd</GDP_nominal_per_capita_rank>
+  <sovereignty_type>Independence</sovereignty_type>
+  <Gini_year>2023</Gini_year>
+  <Gini>44.4</Gini>
+  <Gini_change>decrease</Gini_change>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI>0.756</HDI>
+  <HDI_rank>99th</HDI_rank>
+  <currency>Guaraní</currency>
+  <currency_code>PYG</currency_code>
+  <time_zone>PYT</time_zone>
+  <utc_offset>–03:00</utc_offset>
+  <date_format>dd/mm/yyyy</date_format>
+  <drives_on>Right</drives_on>
+  <calling_code>+595</calling_code>
+  <cctld>.py</cctld>
+  <established>
+    <event>
+      <label>Declared</label>
+      <date>14 May 1811</date>
+    </event>
+    <event>
+      <label>Recognized</label>
+      <date>25 November 1842</date>
+    </event>
+    <event>
+      <label/>
+      <date>20 June 1992</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>President</title>
+      <name>Santiago Peña</name>
+    </leader>
+    <leader>
+      <title>Vice President</title>
+      <name>Pedro Alliana</name>
+    </leader>
+    <leader>
+      <title>President of the Senate</title>
+      <name>Silvio Ovelar</name>
+    </leader>
+    <leader>
+      <title>President of the Chamber of Deputies</title>
+      <name>Raul Latorre</name>
+    </leader>
+    <leader>
+      <title>President of the Supreme Court</title>
+      <name>César Diesel</name>
+    </leader>
+  </leaders>
+</country>

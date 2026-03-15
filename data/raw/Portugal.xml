@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Portugal">
+  <conventional_long_name>Portuguese Republic</conventional_long_name>
+  <common_name>Portugal</common_name>
+  <flag_type_article>Flag of Portugal</flag_type_article>
+  <symbol_type_article>Coat of arms of Portugal</symbol_type_article>
+  <national_anthem>"The Portuguese"File:Hino Nacional da Republica Portuguesa.ogg</national_anthem>
+  <capital>Lisbon</capital>
+  <largest_city>capital</largest_city>
+  <official_languages>Portuguese</official_languages>
+  <recognised_national_languages>Portuguese Sign Language</recognised_national_languages>
+  <recognised_regional_languages>Mirandese</recognised_regional_languages>
+  <demonym>Portuguese</demonym>
+  <government_type>Unitary semi-presidential republic</government_type>
+  <legislature>Assembly of the Republic</legislature>
+  <sovereignty_type>Establishment</sovereignty_type>
+  <area_km2>156,597</area_km2>
+  <area_rank>92nd</area_rank>
+  <area_sq_mi>60,462</area_sq_mi>
+  <percent_water>1.2 (2015)</percent_water>
+  <area_land_km2>92,225</area_land_km2>
+  <area_land_sq_mi>35,608</area_land_sq_mi>
+  <area_water_km2>64,372</area_water_km2>
+  <area_water_sq_mi>24,854</area_water_sq_mi>
+  <population_estimate_rank>87th</population_estimate_rank>
+  <population_estimate>10,749,635</population_estimate>
+  <population_census>10,343,066</population_census>
+  <population_estimate_year>2024</population_estimate_year>
+  <population_census_year>2021</population_census_year>
+  <population_density_km2>116.6</population_density_km2>
+  <GDP_PPP>$556.383&amp;nbsp;billion</GDP_PPP>
+  <GDP_PPP_year>2026</GDP_PPP_year>
+  <GDP_PPP_rank>50th</GDP_PPP_rank>
+  <GDP_PPP_per_capita>$51,853</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>42nd</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$364.527&amp;nbsp;billion</GDP_nominal>
+  <GDP_nominal_year>2026</GDP_nominal_year>
+  <GDP_nominal_rank>44th</GDP_nominal_rank>
+  <GDP_nominal_per_capita>$33,972</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>41st</GDP_nominal_per_capita_rank>
+  <Gini>31.9</Gini>
+  <Gini_year>2024</Gini_year>
+  <Gini_change>decrease</Gini_change>
+  <HDI>0.890</HDI>
+  <HDI_rank>40th</HDI_rank>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <currency>Euro (€)</currency>
+  <currency_code>EUR</currency_code>
+  <utc_offset>+0 and -1</utc_offset>
+  <utc_offset_DST>+1 and +0</utc_offset_DST>
+  <date_format>- -</date_format>
+  <drives_on>right</drives_on>
+  <calling_code>+351</calling_code>
+  <cctld>.pt</cctld>
+  <religion_year>2021</religion_year>
+  <established>
+    <event>
+      <label>County</label>
+      <date>868</date>
+    </event>
+    <event>
+      <label>Sovereignty</label>
+      <date>24 June 1128 .</date>
+    </event>
+    <event>
+      <label>Battle of Ourique</label>
+      <date>25 July 1139</date>
+    </event>
+    <event>
+      <label/>
+      <date>4–5 October 1143</date>
+    </event>
+    <event>
+      <label/>
+      <date>23 May 1179</date>
+    </event>
+    <event>
+      <label>Restoration</label>
+      <date>1 December 1640</date>
+    </event>
+    <event>
+      <label>First constitution</label>
+      <date>23 September 1822</date>
+    </event>
+    <event>
+      <label>Republic</label>
+      <date>5 October 1910</date>
+    </event>
+    <event>
+      <label>Democratisation</label>
+      <date>25 April 1974</date>
+    </event>
+    <event>
+      <label>Current constitution</label>
+      <date>25 April 1976</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>President</title>
+      <name/>
+    </leader>
+    <leader>
+      <title>Prime Minister</title>
+      <name>Luís Montenegro</name>
+    </leader>
+    <leader>
+      <title>Speaker</title>
+      <name/>
+    </leader>
+  </leaders>
+</country>

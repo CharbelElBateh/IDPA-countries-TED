@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Sweden">
+  <conventional_long_name>Kingdom of Sweden</conventional_long_name>
+  <common_name>Sweden</common_name>
+  <symbol_type>Coat of arms</symbol_type>
+  <national_anthem>" " ( " has never been officially adopted as national anthem, but is so by convention. )</national_anthem>
+  <royal_anthem>" "(English: "The King's Song")</royal_anthem>
+  <capital>Stockholm</capital>
+  <largest_city>capital</largest_city>
+  <official_languages>Swedish The Swedish Sign Language also has a special status as the official national sign language.</official_languages>
+  <languages_type>National minority languages</languages_type>
+  <languages>Sámi, Finnish, Meänkieli, Romani, Yiddish, All five officially recognised as minority languages since 1999</languages>
+  <demonym>Swedish, Swede</demonym>
+  <government_type>Unitary parliamentary constitutional monarchy</government_type>
+  <legislature>Riksdag</legislature>
+  <sovereignty_type>History</sovereignty_type>
+  <area_km2>450,295</area_km2>
+  <area_rank>55th</area_rank>
+  <area_sq_mi>172,751</area_sq_mi>
+  <percent_water>8.97 (2022)</percent_water>
+  <population_estimate>10,610,485</population_estimate>
+  <population_estimate_year>October 2025</population_estimate_year>
+  <population_estimate_rank>90th</population_estimate_rank>
+  <population_density_km2>25</population_density_km2>
+  <population_density_sq_mi>65</population_density_sq_mi>
+  <population_density_rank>198th</population_density_rank>
+  <GDP_PPP>$799.68 billion</GDP_PPP>
+  <GDP_PPP_year>2025</GDP_PPP_year>
+  <GDP_PPP_rank>41st</GDP_PPP_rank>
+  <GDP_PPP_per_capita>$74,900</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>17th</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$620.30 billion</GDP_nominal>
+  <GDP_nominal_year>2025</GDP_nominal_year>
+  <GDP_nominal_rank>24th</GDP_nominal_rank>
+  <GDP_nominal_per_capita>$58,100</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>14th</GDP_nominal_per_capita_rank>
+  <Gini>27.6</Gini>
+  <Gini_year>2022</Gini_year>
+  <Gini_change>increase</Gini_change>
+  <HDI>0.959</HDI>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI_rank>5th</HDI_rank>
+  <currency>Swedish krona</currency>
+  <currency_code>SEK</currency_code>
+  <time_zone>CET</time_zone>
+  <utc_offset>+1</utc_offset>
+  <utc_offset_DST>+2</utc_offset_DST>
+  <time_zone_DST>CEST</time_zone_DST>
+  <drives_on>right</drives_on>
+  <calling_code>+46</calling_code>
+  <cctld>.se</cctld>
+  <official_website>[https://sweden.se/ sweden.se]</official_website>
+  <established>
+    <event>
+      <label>A unified Swedish kingdom established</label>
+      <date>By the late 10th century</date>
+    </event>
+    <event>
+      <label>Part of the Kalmar Union</label>
+      <date>17 June 1397 – 6 June 1523</date>
+    </event>
+    <event>
+      <label>Swedish Empire</label>
+      <date>1611–1721</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>Monarch</title>
+      <name>Carl XVI Gustaf</name>
+    </leader>
+    <leader>
+      <title>Riksdag Speaker</title>
+      <name>Andreas Norlén</name>
+    </leader>
+    <leader>
+      <title>Prime Minister</title>
+      <name>Ulf Kristersson</name>
+    </leader>
+  </leaders>
+</country>

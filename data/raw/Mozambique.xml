@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="Mozambique">
+  <conventional_long_name>Republic of Mozambique</conventional_long_name>
+  <common_name>Mozambique</common_name>
+  <symbol_type>Emblem</symbol_type>
+  <national_anthem>"Beloved Homeland"</national_anthem>
+  <capital>Maputo</capital>
+  <largest_city>capital</largest_city>
+  <official_languages>Portuguese</official_languages>
+  <regional_languages>Makhuwa, Sena, Tsonga, Lomwe, Swahili</regional_languages>
+  <languages2_type>indigenous</languages2_type>
+  <ethnic_groups_year>2017</ethnic_groups_year>
+  <demonym>Mozambican</demonym>
+  <government_type>Unitary dominant-party semi-presidential republic under an authoritarian government</government_type>
+  <sovereignty_type>Independence</sovereignty_type>
+  <sovereignty_note>from Portugal</sovereignty_note>
+  <area_km2>801,590</area_km2>
+  <area_rank>35th</area_rank>
+  <area_sq_mi>309,496</area_sq_mi>
+  <percent_water>2.2</percent_water>
+  <population_estimate>34,881,007</population_estimate>
+  <population_estimate_year>2024</population_estimate_year>
+  <population_estimate_rank>45th</population_estimate_rank>
+  <population_density_km2>43.5</population_density_km2>
+  <population_density_sq_mi>113</population_density_sq_mi>
+  <population_density_rank>176th</population_density_rank>
+  <GDP_PPP>$61.950 billion</GDP_PPP>
+  <GDP_PPP_year>2025</GDP_PPP_year>
+  <GDP_PPP_rank>126th</GDP_PPP_rank>
+  <GDP_PPP_per_capita>$1,730</GDP_PPP_per_capita>
+  <GDP_PPP_per_capita_rank>182nd</GDP_PPP_per_capita_rank>
+  <GDP_nominal>$23.770 billion</GDP_nominal>
+  <GDP_nominal_rank>120th</GDP_nominal_rank>
+  <GDP_nominal_year>2025</GDP_nominal_year>
+  <GDP_nominal_per_capita>$663</GDP_nominal_per_capita>
+  <GDP_nominal_per_capita_rank>183rd</GDP_nominal_per_capita_rank>
+  <Gini>50.4</Gini>
+  <Gini_year>2019</Gini_year>
+  <Gini_change>decrease</Gini_change>
+  <HDI>0.493</HDI>
+  <HDI_year>2023</HDI_year>
+  <HDI_change>increase</HDI_change>
+  <HDI_rank>183rd</HDI_rank>
+  <currency>Metical</currency>
+  <currency_code>MZN</currency_code>
+  <time_zone>CAT</time_zone>
+  <utc_offset>+2</utc_offset>
+  <calling_code>+258</calling_code>
+  <cctld>.mz</cctld>
+  <religion_year>2017</religion_year>
+  <established>
+    <event>
+      <label>Granted</label>
+      <date>25 June 1975</date>
+    </event>
+    <event>
+      <label>Civil War</label>
+      <date>1977–1992</date>
+    </event>
+    <event>
+      <label>Current constitution</label>
+      <date>21 December 2004</date>
+    </event>
+  </established>
+  <leaders>
+    <leader>
+      <title>President</title>
+      <name>Daniel Chapo</name>
+    </leader>
+    <leader>
+      <title>Prime Minister</title>
+      <name>Maria Benvinda Levy</name>
+    </leader>
+    <leader>
+      <title/>
+    </leader>
+  </leaders>
+</country>
