@@ -1,0 +1,5 @@
+wptools>=0.4.17
+pytest>=9.0
+flask>=3.0
+litellm>=1.40
+python-dotenv>=1.0

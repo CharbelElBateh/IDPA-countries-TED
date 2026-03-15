@@ -1,4 +1,8 @@
 .venv
 .idea
+.claude
 data/*/*
 !data/raw/**
+.env
+CLAUDE.md
+*.pdf
