@@ -1,0 +1,4 @@
+{
+  "strategy": "single_node",
+  "comment": "Options: single_node (one leaf per field value) | token_nodes (one leaf per token; also expands unbulleted list items into <item> children)"
+}
