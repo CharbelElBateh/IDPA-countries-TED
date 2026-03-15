@@ -1,0 +1,6 @@
+.venv
+CLAUDE.md
+.claude
+OPEN_QUESTIONS.md
+*.pdf
+data
