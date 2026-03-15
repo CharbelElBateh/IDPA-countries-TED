@@ -1,7 +1,5 @@
 .venv
-CLAUDE.md
-.claude
-OPEN_QUESTIONS.md
-*.pdf
-data
 .idea
+data
+!data/raw
+!data/raw/**
