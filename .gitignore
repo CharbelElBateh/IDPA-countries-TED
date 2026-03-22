@@ -7,3 +7,4 @@ data/*/*
 .env
 CLAUDE.md
 *.pdf
+logs/*
