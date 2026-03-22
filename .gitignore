@@ -1,4 +1,9 @@
 .venv
 .idea
+.claude
+__pycache__
 data/*/*
 !data/raw/**
+.env
+CLAUDE.md
+*.pdf
