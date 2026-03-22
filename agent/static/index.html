@@ -421,11 +421,23 @@ async function loadModels() {
     const data = await res.json();
     const select = document.getElementById('modelSelect');
     select.innerHTML = '';
+    let defaultFound = false;
     for (const [name, value] of Object.entries(data.presets)) {
       const opt = document.createElement('option');
       opt.value = value;
       opt.textContent = name;
-      if (value === data.default) opt.selected = true;
+      if (value === data.default) {
+        opt.selected = true;
+        defaultFound = true;
+      }
+      select.appendChild(opt);
+    }
+    // If --model was set to a value not in presets, add it
+    if (!defaultFound && data.default) {
+      const opt = document.createElement('option');
+      opt.value = data.default;
+      opt.textContent = data.default;
+      opt.selected = true;
       select.appendChild(opt);
     }
   } catch (e) {

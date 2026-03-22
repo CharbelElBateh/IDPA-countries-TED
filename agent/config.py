@@ -17,8 +17,8 @@ MAX_TOOL_ITERATIONS = 15
 MODEL_PRESETS = {
     "gpt-4o": "gpt-4o",
     "gpt-4o-mini": "gpt-4o-mini",
-    "claude-sonnet": "anthropic/claude-sonnet-4-20250514",
-    "claude-haiku": "anthropic/claude-haiku-4-5-20251001",
+    "claude-sonnet": "claude-sonnet-4-20250514",
+    "claude-haiku": "claude-haiku-4-5-20251001",
 }
 
 # Semantic categories for field classification

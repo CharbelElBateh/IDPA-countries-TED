@@ -7,7 +7,7 @@ from pathlib import Path
 
 from flask import Flask, request, jsonify, Response, stream_with_context, send_from_directory
 
-from agent.config import DEFAULT_MODEL, MODEL_PRESETS
+import agent.config as cfg
 from agent.core import run_agent_stream
 from agent.persistence import (
     generate_id, generate_title, save_chat, load_chat, list_chats, delete_chat,
@@ -41,7 +41,7 @@ def chat():
 
     user_message = data["message"]
     chat_id = data.get("chat_id")
-    model = data.get("model", DEFAULT_MODEL)
+    model = data.get("model", cfg.DEFAULT_MODEL)
 
     # Load or create chat
     if chat_id:
@@ -128,8 +128,8 @@ def remove_chat(chat_id):
 def get_models():
     available = get_available_models()
     return jsonify({
-        "default": DEFAULT_MODEL,
-        "presets": MODEL_PRESETS,
+        "default": cfg.DEFAULT_MODEL,
+        "presets": cfg.MODEL_PRESETS,
         "available": available,
     })
 
@@ -138,14 +138,13 @@ def get_models():
 
 def main():
     parser = argparse.ArgumentParser(description="IDPA Agent Chat Server")
-    parser.add_argument("--model", default=DEFAULT_MODEL, help=f"Default LLM model (default: {DEFAULT_MODEL})")
+    parser.add_argument("--model", default=cfg.DEFAULT_MODEL, help=f"Default LLM model (default: {cfg.DEFAULT_MODEL})")
     parser.add_argument("--port", type=int, default=5000, help="Port to listen on (default: 5000)")
     parser.add_argument("--host", default="127.0.0.1", help="Host to bind to (default: 127.0.0.1)")
     parser.add_argument("--debug", action="store_true", help="Enable Flask debug mode")
     args = parser.parse_args()
 
     # Override default model
-    import agent.config as cfg
     cfg.DEFAULT_MODEL = args.model
 
     print(f"Starting IDPA Agent Chat Server")
