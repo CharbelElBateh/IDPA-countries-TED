@@ -173,7 +173,8 @@ field (no per-feature weights — only one field is used). Two algorithms:
 
 - **k-means (Lloyd's)** — partition into `k` groups around `k`
   centroids. The non-Euclidean distance matrix is first embedded into
-  Euclidean space via classical MDS; k-means++ seeding, `n_init`
+  Euclidean space via classical MDS; initialization is uniform-random
+  sampling of `k` data objects (per the course slides), `n_init`
   restarts.
 - **hierarchical_agglomerative** — bottom-up merges. Linkage: `average`
   / `complete` / `single` (Ward is rejected — needs Euclidean
@@ -182,8 +183,13 @@ field (no per-feature weights — only one field is used). Two algorithms:
 Results render in four tabs:
 
 1. **World map** — TopoJSON choropleth, colored by cluster id.
-2. **2D scatter** — classical MDS embedding of the distance matrix,
-   convex hulls per cluster, medoids highlighted.
+2. **2D scatter** — classical MDS embedding by default, with an in-viz
+   `[MDS] [t-SNE]` toggle to switch projections. MDS shows a
+   variance-% diagnostic ("Axes 1+2 explain X%") so visual cluster
+   overlap is interpretable; t-SNE preserves cluster separation better
+   when MDS shows lots of structure hidden in higher axes (at the cost
+   of making absolute distances on screen meaningless). Convex hulls
+   per cluster, medoids highlighted.
 3. **Dendrogram** — D3 right-angle tree built from scipy's linkage
    matrix (AGG only).
 4. **Members** — color-grouped country grid with links to each

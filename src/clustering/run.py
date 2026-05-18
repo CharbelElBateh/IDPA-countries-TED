@@ -27,7 +27,7 @@ from src.clustering.distance import (
     build_distance_matrix,
     distance_matrix_key,
 )
-from src.clustering.embedding import mds_2d
+from src.clustering.embedding import mds_2d, tsne_2d
 from src.clustering.evaluation import (
     cluster_sizes,
     medoids_per_cluster,
@@ -113,7 +113,8 @@ def run_clustering(
     if outliers:
         sizes["-1"] = len(outliers)
 
-    coords = mds_2d(matrix, names)
+    coords, mds_variance = mds_2d(matrix, names)
+    tsne_coords = tsne_2d(matrix, names)
 
     # Outliers don't get scatter coords (they have no defined distances).
     labels_with_outliers = dict(labels_dict)
@@ -133,6 +134,8 @@ def run_clustering(
         medoids=medoids,
         linkage=linkage,
         mds_2d=coords,
+        mds_variance=mds_variance,
+        tsne_2d=tsne_coords,
         silhouette=sil,
         cluster_sizes=sizes,
         outliers=outliers,

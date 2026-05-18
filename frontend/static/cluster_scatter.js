@@ -1,8 +1,20 @@
-// 2D MDS scatter — one point per country, colored by cluster.
+// 2D scatter — one point per country, colored by cluster.
 //
-// Coordinates come pre-computed from src/clustering/embedding.py and are
-// stored as state.run.mds_2d = {country_name: [x, y]}. Outliers don't
-// participate in MDS, so they aren't drawn.
+// Two pre-computed projections are available, selected by the in-viz
+// "Projection" toggle. state.scatterProjection is "mds" (default) or
+// "tsne":
+//   - mds:  classical Torgerson MDS, faithful to pairwise distances.
+//           state.run.mds_2d holds the coords; state.run.mds_variance
+//           is the per-axis % variance diagnostic that says how much
+//           of the structure is actually visible in 2D.
+//   - tsne: t-SNE on the same distance matrix. Preserves *cluster*
+//           separation much better when the MDS variance shows lots
+//           of structure hidden in higher axes, BUT the absolute
+//           distances on screen are not meaningful — only the grouping
+//           is. state.run.tsne_2d holds the coords; no variance.
+//
+// Outliers don't participate in either embedding, so they aren't drawn.
+// See docs/08-design-decisions.md s16 for the rationale.
 
 (function () {
   window.renderScatter = function (state) {
@@ -13,7 +25,21 @@
     const height = container.clientHeight || 600;
     const margin = { top: 40, right: 24, bottom: 52, left: 58 };
 
-    const points = Object.entries(state.run.mds_2d).map(([name, xy]) => ({
+    // Which projection — fall back to MDS if t-SNE coords aren't
+    // present (older cached runs predate the field).
+    const hasTsne = state.run.tsne_2d
+      && Object.keys(state.run.tsne_2d).length > 0;
+    let projection = state.scatterProjection || "mds";
+    if (projection === "tsne" && !hasTsne) projection = "mds";
+
+    appendProjectionToggle(container, projection, hasTsne, state);
+    updateScatterCaption(projection);
+
+    const coordSrc = projection === "tsne"
+      ? state.run.tsne_2d
+      : state.run.mds_2d;
+
+    const points = Object.entries(coordSrc).map(([name, xy]) => ({
       name,
       x: xy[0],
       y: xy[1],
@@ -60,27 +86,48 @@
     gy.select(".domain").remove();
 
     // Axis titles.
+    const axisLabel = projection === "tsne" ? "t-SNE" : "MDS";
     svg.append("text")
       .attr("class", "mds-axis-title")
       .attr("x", margin.left + innerW / 2)
       .attr("y", height - 12)
       .attr("text-anchor", "middle")
-      .text("MDS dimension 1  →");
+      .text(`${axisLabel} dimension 1  →`);
     svg.append("text")
       .attr("class", "mds-axis-title")
       .attr("transform", "rotate(-90)")
       .attr("x", -(margin.top + innerH / 2))
       .attr("y", 16)
       .attr("text-anchor", "middle")
-      .text("MDS dimension 2  →");
+      .text(`${axisLabel} dimension 2  →`);
 
     // What the grid means (so the values aren't a mystery).
+    // t-SNE distances are NOT proportional to dissimilarity, so the
+    // grid note has to say something different for the t-SNE view.
+    const gridNoteText = projection === "tsne"
+      ? "Grid = visual scale only. t-SNE coords have NO meaningful "
+        + "units; only WHICH clusters are near each other is interpretable."
+      : "Grid = visual scale only. Axes are arbitrary MDS units; "
+        + "distance between points ≈ dissimilarity (closer = more similar).";
     svg.append("text")
       .attr("class", "mds-note")
       .attr("x", margin.left)
       .attr("y", 20)
-      .text("Grid = visual scale only. Axes are arbitrary MDS units; "
-            + "distance between points ≈ dissimilarity (closer = more similar).");
+      .text(gridNoteText);
+
+    // Variance-explained diagnostic — only for the MDS projection
+    // (t-SNE has no eigenvalue spectrum). Sits on a second line below
+    // the grid note. Older cached runs may lack mds_variance entirely;
+    // render nothing in that case.
+    const variance = state.run.mds_variance;
+    if (projection === "mds"
+        && Array.isArray(variance) && variance.length > 0) {
+      svg.append("text")
+        .attr("class", "mds-note")
+        .attr("x", margin.left)
+        .attr("y", 36)
+        .text(formatVariance(variance));
+    }
 
     // Active-cluster filter: when set, only this cluster is solid;
     // the rest are faded so the selection stands out.
@@ -165,4 +212,62 @@
       .attr("opacity", (d) => isDim(d.cluster) ? 0.12 : 1)
       .text((d) => d.name.replace(/_/g, " "));
   };
+
+  function formatVariance(variance) {
+    const ax1 = variance[0] || 0;
+    const ax2 = variance[1] || 0;
+    const ax3 = variance[2] || 0;
+    const visible = ax1 + ax2;
+    if (variance.length === 1) {
+      return `Axis 1 explains ${ax1.toFixed(1)}% of variance (feature is 1-D)`;
+    }
+    const rest = Math.max(0, 100 - visible - ax3);
+    const restNote = rest > 0.05
+      ? ` · ${rest.toFixed(1)}% hidden in axes 4+`
+      : "";
+    return `Axes 1+2 explain ${visible.toFixed(1)}% of variance`
+         + ` · axis 3: +${ax3.toFixed(1)}%${restNote}`;
+  }
+
+  function appendProjectionToggle(container, projection, hasTsne, state) {
+    // Pill toggle overlaid in the top-right of the scatter container.
+    // Uses the existing .btn-group + .btn.sm + .btn.active design-token
+    // styles so it matches the rest of the UI.
+    const tsneDisabled = hasTsne ? "" : "disabled";
+    const tsneTitle = hasTsne
+      ? ""
+      : 'title="No t-SNE coordinates cached for this run — re-run to compute"';
+    const wrap = document.createElement("div");
+    wrap.className = "btn-group";
+    wrap.style.cssText =
+      "position: absolute; top: 10px; right: 14px; z-index: 2;";
+    wrap.innerHTML = `
+      <button class="btn sm ${projection === "mds" ? "active" : ""}"
+              data-proj="mds">MDS</button>
+      <button class="btn sm ${projection === "tsne" ? "active" : ""}"
+              data-proj="tsne" ${tsneDisabled} ${tsneTitle}>t-SNE</button>
+    `;
+    wrap.querySelectorAll("button[data-proj]").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        if (btn.disabled) return;
+        const next = btn.dataset.proj;
+        if (next === state.scatterProjection) return;
+        state.scatterProjection = next;
+        window.renderScatter(state);
+      });
+    });
+    container.appendChild(wrap);
+  }
+
+  function updateScatterCaption(projection) {
+    const cap = document.getElementById("viz-cap");
+    if (!cap) return;
+    cap.textContent = projection === "tsne"
+      ? "t-SNE projection: WHICH clusters are near each other is "
+        + "meaningful, but absolute distances on screen are NOT — "
+        + "unlike MDS. Use this view when the MDS variance diagnostic "
+        + "shows a lot of structure hidden in higher axes."
+      : "Classical MDS embedding of the pairwise distance matrix. "
+        + "Points close together are close in the chosen feature space.";
+  }
 })();

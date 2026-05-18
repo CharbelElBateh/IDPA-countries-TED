@@ -3,28 +3,104 @@
 Reference: A. Nierman & H. V. Jagadish, "Evaluating Structural Similarity in
 XML Documents", WebDB 2002, pp. 61-66.
 
-Unlike Chawathe (which is Zhang-Shasha bottom-up DP over post-order indices),
-N&J **recursively computes a similarity score per subtree pair** and aligns
-children at each level with an order-preserving sequence alignment. This
-makes the algorithm naturally aware of *subtree containment* — when a
-fragment of one tree appears inside another, the recursion gives that
-fragment a low partial-match cost rather than paying the full
-delete+insert it would in flat Z-S.
+================================================================
+Mapping the code to the slide pseudocode (img_1.png)
+================================================================
 
-The recurrence for two nodes ``a`` (in T1) and ``b`` (in T2)::
+Slide:
 
-    D(a, b) =
-        relabel(a, b)                                 if both leaves
-        relabel(a, b) + Σ insert(c)  for c in b.children    if a leaf, b internal
-        relabel(a, b) + Σ delete(c)  for c in a.children    if a internal, b leaf
-        relabel(a, b) + align(a.children, b.children)        otherwise
+    Input:  A and B          // XML document trees to be compared
+    Output: TED(A, B)        // Edit distance between A and B
 
-where ``align`` is a sequence-alignment DP over the two child sequences
-(deletes pay ``|subtree|``, inserts pay ``|subtree|``, matches recurse).
+    Begin
+        M = Degree(A)        // number of first-level subtrees of A     line 1
+        N = Degree(B)                                                   line 2
+        Dist[][] = new [0..M][0..N]                                     line 3
+        Dist[0][0] = Cost_Upd(R(A), R(B))     // root update cost       line 4
 
-A memoization dict keyed on ``(id(a), id(b))`` keeps the total work
-``O(|T1|·|T2|·d)`` where ``d`` is the maximum out-degree. Each subtree
-pair is computed once.
+        For (i = 1; i <= M; i++) {                                      line 5
+            Dist[i][0] = Dist[i-1][0] + Cost_DelTree(A_i)
+        }
+        For (j = 1; j <= N; j++) {                                      line 6
+            Dist[0][j] = Dist[0][j-1] + Cost_InsTree(B_j)
+        }
+
+        For (i = 1; i <= M; i++)                                        line 7
+        {
+            For (j = 1; j <= N; j++)                                    line 9
+            {
+                Dist[i][j] = min{
+                    Dist[i-1][j-1] + TED(A_i, B_j),    // recursive!    line 12
+                    Dist[i-1][j]   + Cost_DelTree(A_i),                 line 13
+                    Dist[i][j-1]   + Cost_InsTree(B_j)                  line 14
+                }
+            }
+        }
+        Return  Dist[M][N]   // ≡ TED(A, B)                             line 18
+    End
+
+How the code realizes each slide line:
+
+* ``similarity(a, b)`` is the function ``TED(A, B)`` from the slide,
+  invoked recursively. The very first call is ``similarity(t1.root,
+  t2.root)`` in the ``compute`` method.
+* Slide lines 1-2 (M, N = Degree(A), Degree(B)) -> ``n, m = len(c1), len(c2)``
+  where ``c1, c2`` are the children of ``a, b``. (Degree = number of
+  immediate children of the root, which is what the children-alignment
+  table is sized on.)
+* Slide line 3 (``Dist[][] = new[0..M][0..N]``)   -> ``F = [[0.0] * (m + 1) for _ in range(n + 1)]``
+* Slide line 4 (``Dist[0][0] = Cost_Upd(R(A), R(B))``) — IMPLEMENTATION
+  NOTE: we don't initialize ``F[0][0]`` to ``root_cost``; we compute
+  ``root_cost = cost_relabel_pair(a, b)`` separately and add it to the
+  final value as ``root_cost + F[n][m]``. These are arithmetically
+  identical because the root cost is a constant that propagates
+  unchanged through every cell of the DP — pulling it outside the table
+  saves nothing computationally, but makes the code easier to read
+  ("alignment cost over children" vs. "root edit cost" cleanly split).
+* Slide lines 5-6 (init delete/insert rows over subtrees) ->
+  ``for i in range(1, n + 1): F[i][0] = F[i-1][0] + cost_delete_subtree(c1[i-1])``
+  ``for j in range(1, m + 1): F[0][j] = F[0][j-1] + cost_insert_subtree(c2[j-1])``
+* Slide lines 7-17 (the main double loop with the three-way min) -> the
+  inner ``for i ... for j`` loop with three branches:
+    - ``m_cost = F[i-1][j-1] + similarity(c1[i-1], c2[j-1])``  // slide line 12, recursive
+    - ``d_cost = F[i-1][j] + cost_delete_subtree(c1[i-1])``    // slide line 13
+    - ``i_cost = F[i][j-1] + cost_insert_subtree(c2[j-1])``    // slide line 14
+  The min{} picks the cheapest; the ``BT`` table remembers which branch
+  was chosen so the script builder can later reconstruct the mapping.
+* Slide line 18 (``Return Dist[M][N]``)         -> ``memo[key] = (root_cost + F[n][m], ...)``
+
+Leaf-vs-leaf and leaf-vs-internal corner cases:
+
+* Two leaves: there are no children to align, so ``D(leaf, leaf) =
+  cost_relabel_pair`` and we stop the recursion. (Slide doesn't enumerate
+  this base case explicitly — it falls out of M=0/N=0.)
+* Leaf vs. internal: M=0 and N>0 (or vice versa) — the alignment table
+  degenerates to a single row/column of inserts/deletes, and the result
+  is ``root_cost + Σ Cost_InsTree(B_j)`` (or the mirror image).
+
+Cross-kind extension:
+
+* If ``a`` and ``b`` have different kinds (one structural, one leaf),
+  we don't try to relabel — we price the pair as a full delete + full
+  insert (``cost_delete_subtree(a) + cost_insert_subtree(b)``). The
+  surrounding alignment then naturally picks the delete-then-insert
+  path, and ``_extract_mapping`` drops the cross-kind pair so the script
+  builder emits a real delete + insert.
+
+Subtree-containment extension (NOT in slide — controllable in config):
+
+* When ``config.subtree_similarity.enabled`` is true (default), we
+  precompute structure+content signatures for every subtree of both
+  trees. ``cost_delete_subtree`` / ``cost_insert_subtree`` then charge
+  only a single weighted move cost (instead of the per-node sum) when
+  the subtree being moved is also present in the other tree. This is
+  our local extension; turning it off recovers the strict slide
+  algorithm.
+
+Complexity: O(|T1| * |T2| * d) where d is the maximum out-degree, due
+to memoization on ``(id(a), id(b))`` — every subtree pair is computed
+exactly once. The slide's pseudocode is the "one level" recurrence; the
+recursive call expands into the full quadratic-in-tree-size DP.
 
 This file is fully self-contained — no shared TED core module.
 """
@@ -131,26 +207,34 @@ class NiermanJagadishTED(TEDAlgorithm):
                 memo[key] = (cost, None)
                 return cost
 
+            # Slide line 4: Dist[0][0] = Cost_Upd(R(A), R(B))
+            # (kept outside the F table — see file-top docstring for why)
             root_cost = cost_relabel_pair(a, b)
 
-            # Both internal — align children.
+            # Slide lines 1-3: M = Degree(A), N = Degree(B), Dist[][] = new[0..M][0..N]
             c1, c2 = a.children, b.children
             n, m = len(c1), len(c2)
             F: list[list[float]] = [[0.0] * (m + 1) for _ in range(n + 1)]
             BT: list[list[tuple | None]] = [[None] * (m + 1)
                                             for _ in range(n + 1)]
 
+            # Slide line 5: For (i = 1; i <= M; i++) Dist[i][0] = Dist[i-1][0] + Cost_DelTree(A_i)
             for i in range(1, n + 1):
                 F[i][0] = F[i - 1][0] + cost_delete_subtree(c1[i - 1])
                 BT[i][0] = ("D", i - 1)
+            # Slide line 6: For (j = 1; j <= N; j++) Dist[0][j] = Dist[0][j-1] + Cost_InsTree(B_j)
             for j in range(1, m + 1):
                 F[0][j] = F[0][j - 1] + cost_insert_subtree(c2[j - 1])
                 BT[0][j] = ("I", j - 1)
 
+            # Slide lines 7-17: the main double loop, three-way min{}
             for i in range(1, n + 1):
                 for j in range(1, m + 1):
+                    # Slide line 13: Dist[i-1][j] + Cost_DelTree(A_i)
                     d_cost = F[i - 1][j] + cost_delete_subtree(c1[i - 1])
+                    # Slide line 14: Dist[i][j-1] + Cost_InsTree(B_j)
                     i_cost = F[i][j - 1] + cost_insert_subtree(c2[j - 1])
+                    # Slide line 12: Dist[i-1][j-1] + TED(A_i, B_j)  — recursive
                     m_cost = F[i - 1][j - 1] + similarity(c1[i - 1], c2[j - 1])
                     best = min(d_cost, i_cost, m_cost)
                     F[i][j] = best
@@ -161,6 +245,8 @@ class NiermanJagadishTED(TEDAlgorithm):
                     else:
                         BT[i][j] = ("I", j - 1)
 
+            # Slide line 18: Return Dist[M][N] ≡ TED(A, B)
+            # (with the root_cost from line 4 added back in, per docstring)
             memo[key] = (root_cost + F[n][m],
                          {"F": F, "BT": BT, "c1": c1, "c2": c2})
             return memo[key][0]

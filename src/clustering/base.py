@@ -30,6 +30,16 @@ class ClusterResult:
             Empty list for k-means.
         mds_2d: ``{country_name: [x, y]}`` — classical MDS embedding of
             the distance matrix used as the 2D scatter coordinates.
+        mds_variance: Per-axis variance-explained percentages from the
+            same classical-MDS eigendecomposition, descending, summing to
+            100.0 over all positive eigenvalues. The frontend shows the
+            first few entries to indicate how much of the data's true
+            structure is visible in the 2D scatter.
+        tsne_2d: ``{country_name: [x, y]}`` — alternative 2D embedding
+            via t-SNE. Used when the variance-explained diagnostic shows
+            structure hidden in higher MDS axes (t-SNE preserves cluster
+            separation better at the cost of meaningless absolute
+            distances). The frontend offers MDS / t-SNE as a toggle.
         silhouette: Mean silhouette score (precomputed-distance variant).
             ``None`` if too few clusters or the matrix is degenerate.
         cluster_sizes: ``{cluster_id (as str): n_members}``.
@@ -43,6 +53,8 @@ class ClusterResult:
     medoids: list[str] = field(default_factory=list)
     linkage: list[list[float]] = field(default_factory=list)
     mds_2d: dict[str, list[float]] = field(default_factory=dict)
+    mds_variance: list[float] = field(default_factory=list)
+    tsne_2d: dict[str, list[float]] = field(default_factory=dict)
     silhouette: float | None = None
     cluster_sizes: dict[str, int] = field(default_factory=dict)
     outliers: dict[str, list[str]] = field(default_factory=dict)
@@ -57,6 +69,9 @@ class ClusterResult:
             "linkage": [list(map(float, row)) for row in self.linkage],
             "mds_2d": {str(k): [float(v[0]), float(v[1])]
                        for k, v in self.mds_2d.items()},
+            "mds_variance": [float(v) for v in self.mds_variance],
+            "tsne_2d": {str(k): [float(v[0]), float(v[1])]
+                        for k, v in self.tsne_2d.items()},
             "silhouette": (float(self.silhouette)
                            if self.silhouette is not None else None),
             "cluster_sizes": {str(k): int(v)
@@ -74,6 +89,9 @@ class ClusterResult:
             linkage=[list(row) for row in d.get("linkage", [])],
             mds_2d={k: [float(v[0]), float(v[1])]
                     for k, v in d.get("mds_2d", {}).items()},
+            mds_variance=[float(v) for v in d.get("mds_variance", [])],
+            tsne_2d={k: [float(v[0]), float(v[1])]
+                     for k, v in d.get("tsne_2d", {}).items()},
             silhouette=d.get("silhouette"),
             cluster_sizes={k: int(v)
                            for k, v in d.get("cluster_sizes", {}).items()},

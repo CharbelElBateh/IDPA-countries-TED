@@ -25,6 +25,7 @@
     numericCodes: null,
     color: clusterColor,
     activeFilter: null,    // cluster id currently filtered to (or null)
+    scatterProjection: "mds",  // "mds" | "tsne" — set by the in-viz toggle
   };
 
   // ----------------------------------------------------- caption per tab

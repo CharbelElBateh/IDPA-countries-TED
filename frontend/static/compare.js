@@ -54,10 +54,35 @@
       { initialDepth: 1, marks: dir.target_marks }
     );
 
-    renderScript(dir.script.operations, dir.total_cost, dir.op_counts);
+    renderScript(dir.script.operations, dir.total_cost,
+                 dir.op_counts, dir.source);
   }
 
-  function renderScript(ops, totalCost, counts) {
+  // Walk treeRoot along `path` (a list of child indices) and return the
+  // sequence of labels encountered. Used to turn `[0, 1, 0]` into
+  // `["country", "geography", "capital"]` for the edit-script display.
+  //
+  // If the path goes out of range mid-walk (can happen for inserts in
+  // edge cases — the parent path is computed against the working tree
+  // AFTER deletes, which can shift sibling indices), the remaining
+  // indices are shown as integers like `[2]` so nothing is lost.
+  function pathLabels(treeRoot, path) {
+    const labels = [];
+    let cur = treeRoot;
+    for (let i = 0; i < path.length; i++) {
+      const idx = path[i];
+      const kids = cur && cur.children;
+      if (!Array.isArray(kids) || idx < 0 || idx >= kids.length) {
+        for (let j = i; j < path.length; j++) labels.push(`[${path[j]}]`);
+        return labels;
+      }
+      cur = kids[idx];
+      labels.push(cur.label != null ? String(cur.label) : `[${idx}]`);
+    }
+    return labels;
+  }
+
+  function renderScript(ops, totalCost, counts, sourceRoot) {
     const summary = `
       <div class="ec-summary">
         <span class="op delete">${counts.delete || 0} delete</span>
@@ -72,7 +97,8 @@
       return;
     }
     const rows = ops.slice(0, 200).map((op) => {
-      const path = op.path.join(" › ");
+      const labels = pathLabels(sourceRoot, op.path);
+      const path = labels.length ? labels.join(" › ") : "(root)";
       let detail = "";
       if (op.op === "relabel") {
         detail = `<code>${esc(op.old_label || "")}</code>`

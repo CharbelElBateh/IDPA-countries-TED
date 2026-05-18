@@ -23,7 +23,7 @@ from src.clustering import (
 )
 from src.clustering.base import ClusterResult
 from src.clustering.distance import build_distance_matrix, has_field
-from src.clustering.embedding import mds_2d
+from src.clustering.embedding import mds_2d, tsne_2d
 from src.clustering.evaluation import (
     cluster_sizes,
     medoids_per_cluster,
@@ -155,11 +155,49 @@ def test_build_distance_matrix_is_symmetric_zero_diagonal():
 # =============================================================== embedding
 def test_mds_2d_shape_matches_input():
     D, names = _two_blob_matrix()
-    coords = mds_2d(D, names, random_seed=0)
+    coords, variance = mds_2d(D, names, random_seed=0)
     assert set(coords) == set(names)
     for v in coords.values():
         assert len(v) == 2
         assert all(isinstance(x, float) for x in v)
+    # Variance percentages should sum to ~100 over positive eigenvalues.
+    assert variance
+    assert sum(variance) == pytest.approx(100.0, abs=1e-6)
+    # Descending.
+    assert variance == sorted(variance, reverse=True)
+
+
+def test_mds_2d_1d_input_concentrates_variance_on_axis_1():
+    # A perfectly 1-D distance matrix → axis 1 should explain ~100%
+    # of the variance and axis 2 (if present) effectively 0.
+    D, names = _two_blob_matrix()  # built from 1-D coords
+    _, variance = mds_2d(D, names, random_seed=0)
+    assert variance[0] > 99.0
+
+
+def test_tsne_2d_shape_matches_input():
+    D, names = _two_blob_matrix()
+    coords = tsne_2d(D, names, random_seed=0)
+    assert set(coords) == set(names)
+    for v in coords.values():
+        assert len(v) == 2
+        assert all(isinstance(x, float) for x in v)
+
+
+def test_tsne_2d_separates_two_blobs():
+    # t-SNE distances aren't meaningful, but cluster *grouping* is —
+    # the two well-separated 1-D blobs should each form a tight cluster
+    # in the 2D output (intra-blob distances << inter-blob).
+    import numpy as np
+    D, names = _two_blob_matrix()
+    coords = tsne_2d(D, names, random_seed=0)
+    pts = np.array([coords[n] for n in names])
+    blob_a = pts[:3]
+    blob_b = pts[3:]
+    intra_a = np.linalg.norm(blob_a - blob_a.mean(axis=0), axis=1).max()
+    intra_b = np.linalg.norm(blob_b - blob_b.mean(axis=0), axis=1).max()
+    inter = np.linalg.norm(blob_a.mean(axis=0) - blob_b.mean(axis=0))
+    assert inter > max(intra_a, intra_b)
 
 
 # =============================================================== evaluation
@@ -251,6 +289,8 @@ def test_cluster_result_roundtrip():
         medoids=["A", "B"],
         linkage=[],
         mds_2d={"A": [0.1, 0.2], "B": [0.3, 0.4]},
+        mds_variance=[72.5, 18.3, 9.2],
+        tsne_2d={"A": [-12.3, 7.8], "B": [9.5, -4.1]},
         silhouette=0.42,
         cluster_sizes={"0": 1, "1": 1, "-1": 1},
         outliers={"C": ["x.y"]},
@@ -260,6 +300,9 @@ def test_cluster_result_roundtrip():
     assert r2.algorithm == r.algorithm
     assert r2.labels == r.labels
     assert r2.medoids == r.medoids
+    assert r2.mds_variance == pytest.approx([72.5, 18.3, 9.2])
+    assert r2.tsne_2d["A"] == pytest.approx([-12.3, 7.8])
+    assert r2.tsne_2d["B"] == pytest.approx([9.5, -4.1])
     assert r2.silhouette == pytest.approx(0.42)
     assert r2.outliers == r.outliers
 
