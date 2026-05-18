@@ -3,13 +3,12 @@
 Examples (from PowerShell, after running ``docker compose up -d``)::
 
     .venv\\Scripts\\python.exe scripts\\cluster_cli.py \\
-        --algorithm kmedoids --k 5 \\
-        --fields demographics.religion,government.type
+        --algorithm kmeans --k 5 \\
+        --fields demographics.religion
 
     .venv\\Scripts\\python.exe scripts\\cluster_cli.py \\
         --algorithm hierarchical_agglomerative --k 6 --linkage average \\
-        --fields demographics.religion,economy.gdp_ppp.per_capita \\
-        --weights demographics.religion=2.0,economy.gdp_ppp.per_capita=1.5
+        --fields economy.gdp_ppp.per_capita
 
 The result is printed as a table and (unless ``--no-cache``) saved to the
 ``cluster_runs`` MongoDB collection so the frontend can replay it.
@@ -78,12 +77,10 @@ def main() -> int:
         "--distance-threshold", type=float, default=None,
         help="Cut the dendrogram at this distance instead of by k.",
     )
-    parser.add_argument(
-        "--init", default="build", choices=["build", "random"],
-        help="(kmedoids only)",
-    )
-    parser.add_argument("--max-iter", type=int, default=100,
-                        help="(kmedoids only)")
+    parser.add_argument("--n-init", type=int, default=10,
+                        help="(kmeans only) number of k-means++ restarts")
+    parser.add_argument("--max-iter", type=int, default=300,
+                        help="(kmeans only)")
     parser.add_argument("--random-seed", type=int, default=0)
     parser.add_argument("--no-cache", action="store_true",
                         help="Don't write the run to MongoDB.")
@@ -109,8 +106,8 @@ def main() -> int:
     weights = _parse_kv_list(args.weights)
 
     params: dict[str, object] = {}
-    if args.algorithm == "kmedoids":
-        params.update(k=args.k, init=args.init,
+    if args.algorithm == "kmeans":
+        params.update(k=args.k, n_init=args.n_init,
                       max_iter=args.max_iter, random_seed=args.random_seed)
     else:  # hierarchical_agglomerative
         if args.distance_threshold is not None:

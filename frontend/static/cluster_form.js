@@ -1,7 +1,7 @@
-// Cluster form wiring (redesign):
+// Cluster form wiring:
 // - algorithm picker is a segmented control (.seg .opt[data-algo]),
-// - feature-row is a <label> wrapping checkbox+inputs (no manual checkbox
-//   targeting — clicking anywhere on the row toggles),
+// - feature-row is a <label> wrapping a single radio (name="feature");
+//   exactly one feature can be selected — no per-feature weights,
 // - group <details> shows a count + spark in its summary,
 // - sticky run-bar shows a live summary of selection.
 
@@ -29,30 +29,28 @@
   $$(".opt", algoSeg).forEach((o) =>
     o.addEventListener("click", () => setAlgo(o.dataset.algo)));
 
-  // ------------------------------------------------- feature-row toggle + weight enable
-  function syncRow(label) {
-    const cb = $(".field-check", label);
-    const w  = $(".field-weight", label);
-    label.classList.toggle("on", cb.checked);
-    label.classList.toggle("off", !cb.checked);
-    if (w) w.disabled = !cb.checked;
+  // ------------------------------------------------- single-feature select
+  function selectedPath() {
+    const r = $('.field-check:checked');
+    return r ? r.dataset.path : null;
   }
-  $$(".feature-row").forEach((label) => {
-    const cb = $(".field-check", label);
-    cb.addEventListener("change", () => { syncRow(label); refreshGroup(label); refreshSummary(); });
-    syncRow(label);
-  });
-  // Stop the weight number input from also toggling the checkbox when
-  // clicked (since the whole row is a <label for=…>).
-  $$(".field-weight").forEach((w) => {
-    w.addEventListener("click", (e) => e.preventDefault());
-    w.addEventListener("input", refreshSummary);
+  function syncRows() {
+    $$(".feature-row").forEach((label) => {
+      const cb = $(".field-check", label);
+      label.classList.toggle("on", cb.checked);
+      label.classList.toggle("off", !cb.checked);
+    });
+  }
+  $$(".feature-row .field-check").forEach((cb) => {
+    cb.addEventListener("change", () => {
+      syncRows();
+      $$(".feature-group").forEach(refreshGroup);
+      refreshSummary();
+    });
   });
 
   // ------------------------------------------------- group counter + spark
-  function refreshGroup(label) {
-    const group = label.closest(".feature-group");
-    if (!group) return;
+  function refreshGroup(group) {
     const rows = $$(".feature-row", group);
     const on = rows.filter((r) => $(".field-check", r).checked).length;
     const ct = $(".g-ct", group);
@@ -63,57 +61,25 @@
     const sparks = $$(".g-spark span", group);
     sparks.forEach((s, i) => s.classList.toggle("on", i < on));
   }
-  $$(".feature-group").forEach((group) => {
-    const first = $(".feature-row", group);
-    if (first) refreshGroup(first);
-  });
-
-  // ------------------------------------------------- bulk controls
-  function applyBulk(predicate) {
-    $$(".feature-row").forEach((label) => {
-      const cb = $(".field-check", label);
-      const should = predicate(cb.dataset.path);
-      if (cb.checked !== should) cb.checked = should;
-      syncRow(label);
-      refreshGroup(label);
-    });
-    refreshSummary();
-  }
-  $("#select-all-fields")?.addEventListener("click", () => applyBulk(() => true));
-  $("#select-none-fields")?.addEventListener("click", () => applyBulk(() => false));
-  $("#select-preset")?.addEventListener("click", () => {
-    const preset = new Set([
-      "government.type",
-      "demographics.religion",
-      "economy.gdp_ppp.per_capita",
-      "economy.hdi.value",
-    ]);
-    applyBulk((p) => preset.has(p));
-  });
+  $$(".feature-group").forEach(refreshGroup);
 
   // ------------------------------------------------- live summary in run-bar
   function refreshSummary() {
-    const onRows = $$(".feature-row").filter((r) => $(".field-check", r).checked);
-    const total  = $$(".feature-row").length;
-    const sumW   = onRows.reduce((a, r) => {
-      const w = $(".field-weight", r);
-      return a + (w ? parseFloat(w.value || "0") : 0);
-    }, 0);
-    $("#feature-count").textContent = `${onRows.length}/${total} on`;
-    $("#feature-weight-sum").textContent = sumW.toFixed(1);
-    $("#bar-features").textContent = onRows.length;
-    $("#bar-weight").textContent = sumW.toFixed(1);
+    const path = selectedPath();
+    $("#feature-count").textContent = path || "none selected";
+    $("#bar-features").textContent = path || "none";
 
     const algo = algoHidden.value;
     $("#bar-algo").textContent = algo;
-    const kInput = algo === "kmedoids"
-      ? form.elements["k_kmedoids"]
+    const kInput = algo === "kmeans"
+      ? form.elements["k_kmeans"]
       : form.elements["k_agg"];
     $("#bar-k").textContent = kInput ? kInput.value : "—";
     $("#bar-cost").textContent = costSelect.value;
   }
   form.addEventListener("input", refreshSummary);
   costSelect.addEventListener("change", refreshSummary);
+  syncRows();
   refreshSummary();
 
   // ------------------------------------------------- submit
@@ -123,25 +89,17 @@
     const fd = new FormData(form);
     const cost_model = fd.get("cost_model");
 
-    const fields = [];
-    const weights = {};
-    $$(".feature-row").forEach((r) => {
-      const cb = $(".field-check", r);
-      if (!cb.checked) return;
-      const path = cb.dataset.path;
-      fields.push(path);
-      const w = $(".field-weight", r);
-      if (w) weights[path] = parseFloat(w.value || "1.0");
-    });
-    if (fields.length === 0) {
-      showStatus("Pick at least one feature.", "warn");
+    const path = selectedPath();
+    if (!path) {
+      showStatus("Pick one feature to cluster on.", "warn");
       return;
     }
+    const fields = [path];
 
     const params = {};
-    if (algo === "kmedoids") {
-      params.k = parseInt(fd.get("k_kmedoids"), 10);
-      params.init = fd.get("init");
+    if (algo === "kmeans") {
+      params.k = parseInt(fd.get("k_kmeans"), 10);
+      params.n_init = parseInt(fd.get("n_init"), 10);
       params.max_iter = parseInt(fd.get("max_iter"), 10);
       params.random_seed = parseInt(fd.get("random_seed"), 10);
     } else if (algo === "hierarchical_agglomerative") {
@@ -155,14 +113,14 @@
     }
 
     setRunning(true);
-    showStatus(`Running ${algo} on ${fields.length} fields…`, "info");
+    showStatus(`Running ${algo} on ${path}…`, "info");
 
     try {
       const res = await fetch("/api/cluster/run", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
-          algorithm: algo, fields, weights, cost_model, params,
+          algorithm: algo, fields, weights: {}, cost_model, params,
         }),
       });
       const body = await res.json();

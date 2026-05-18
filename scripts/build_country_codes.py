@@ -1,0 +1,243 @@
+"""Generate ``data/country_iso_codes.json`` and
+``data/country_numeric_codes.json`` for the 192 UN member states.
+
+The cluster world-map (``frontend/static/cluster_map.js``) keys the
+world-atlas TopoJSON by ISO 3166-1 *numeric* code, and the navbar/grid
+ISO chips use the *alpha-3* code. ``data/`` is gitignored (runtime
+data, like the ingested DB), so this script regenerates both files
+deterministically — no third-party dependency.
+
+Keys are the project's Wikipedia-style country names (the Mongo
+``_id`` of each country document).
+
+Usage::
+
+    python scripts/build_country_codes.py
+"""
+
+from __future__ import annotations
+
+import json
+import sys
+from pathlib import Path
+
+# (wikipedia_name, alpha3, numeric) — ISO 3166-1, all 192 UN members.
+_CODES: list[tuple[str, str, str]] = [
+    ("Afghanistan", "AFG", "004"),
+    ("Albania", "ALB", "008"),
+    ("Algeria", "DZA", "012"),
+    ("Andorra", "AND", "020"),
+    ("Angola", "AGO", "024"),
+    ("Antigua_and_Barbuda", "ATG", "028"),
+    ("Argentina", "ARG", "032"),
+    ("Armenia", "ARM", "051"),
+    ("Australia", "AUS", "036"),
+    ("Austria", "AUT", "040"),
+    ("Azerbaijan", "AZE", "031"),
+    ("Bahamas", "BHS", "044"),
+    ("Bahrain", "BHR", "048"),
+    ("Bangladesh", "BGD", "050"),
+    ("Barbados", "BRB", "052"),
+    ("Belarus", "BLR", "112"),
+    ("Belgium", "BEL", "056"),
+    ("Belize", "BLZ", "084"),
+    ("Benin", "BEN", "204"),
+    ("Bhutan", "BTN", "064"),
+    ("Bolivia", "BOL", "068"),
+    ("Bosnia_and_Herzegovina", "BIH", "070"),
+    ("Botswana", "BWA", "072"),
+    ("Brazil", "BRA", "076"),
+    ("Brunei", "BRN", "096"),
+    ("Bulgaria", "BGR", "100"),
+    ("Burkina_Faso", "BFA", "854"),
+    ("Burundi", "BDI", "108"),
+    ("Cabo_Verde", "CPV", "132"),
+    ("Cambodia", "KHM", "116"),
+    ("Cameroon", "CMR", "120"),
+    ("Canada", "CAN", "124"),
+    ("Central_African_Republic", "CAF", "140"),
+    ("Chad", "TCD", "148"),
+    ("Chile", "CHL", "152"),
+    ("China", "CHN", "156"),
+    ("Colombia", "COL", "170"),
+    ("Comoros", "COM", "174"),
+    ("Costa_Rica", "CRI", "188"),
+    ("Croatia", "HRV", "191"),
+    ("Cuba", "CUB", "192"),
+    ("Cyprus", "CYP", "196"),
+    ("Czech_Republic", "CZE", "203"),
+    ("Democratic_Republic_of_the_Congo", "COD", "180"),
+    ("Denmark", "DNK", "208"),
+    ("Djibouti", "DJI", "262"),
+    ("Dominica", "DMA", "212"),
+    ("Dominican_Republic", "DOM", "214"),
+    ("East_Timor", "TLS", "626"),
+    ("Ecuador", "ECU", "218"),
+    ("Egypt", "EGY", "818"),
+    ("El_Salvador", "SLV", "222"),
+    ("Equatorial_Guinea", "GNQ", "226"),
+    ("Eritrea", "ERI", "232"),
+    ("Estonia", "EST", "233"),
+    ("Eswatini", "SWZ", "748"),
+    ("Ethiopia", "ETH", "231"),
+    ("Federated_States_of_Micronesia", "FSM", "583"),
+    ("Fiji", "FJI", "242"),
+    ("Finland", "FIN", "246"),
+    ("France", "FRA", "250"),
+    ("Gabon", "GAB", "266"),
+    ("Gambia", "GMB", "270"),
+    ("Georgia_(country)", "GEO", "268"),
+    ("Germany", "DEU", "276"),
+    ("Ghana", "GHA", "288"),
+    ("Greece", "GRC", "300"),
+    ("Grenada", "GRD", "308"),
+    ("Guatemala", "GTM", "320"),
+    ("Guinea", "GIN", "324"),
+    ("Guinea-Bissau", "GNB", "624"),
+    ("Guyana", "GUY", "328"),
+    ("Haiti", "HTI", "332"),
+    ("Honduras", "HND", "340"),
+    ("Hungary", "HUN", "348"),
+    ("Iceland", "ISL", "352"),
+    ("India", "IND", "356"),
+    ("Indonesia", "IDN", "360"),
+    ("Iran", "IRN", "364"),
+    ("Iraq", "IRQ", "368"),
+    ("Ireland", "IRL", "372"),
+    ("Israel", "ISR", "376"),
+    ("Italy", "ITA", "380"),
+    ("Jamaica", "JAM", "388"),
+    ("Japan", "JPN", "392"),
+    ("Jordan", "JOR", "400"),
+    ("Kazakhstan", "KAZ", "398"),
+    ("Kenya", "KEN", "404"),
+    ("Kiribati", "KIR", "296"),
+    ("Kuwait", "KWT", "414"),
+    ("Kyrgyzstan", "KGZ", "417"),
+    ("Laos", "LAO", "418"),
+    ("Latvia", "LVA", "428"),
+    ("Lebanon", "LBN", "422"),
+    ("Lesotho", "LSO", "426"),
+    ("Liberia", "LBR", "430"),
+    ("Libya", "LBY", "434"),
+    ("Liechtenstein", "LIE", "438"),
+    ("Lithuania", "LTU", "440"),
+    ("Luxembourg", "LUX", "442"),
+    ("Madagascar", "MDG", "450"),
+    ("Malawi", "MWI", "454"),
+    ("Malaysia", "MYS", "458"),
+    ("Maldives", "MDV", "462"),
+    ("Mali", "MLI", "466"),
+    ("Malta", "MLT", "470"),
+    ("Marshall_Islands", "MHL", "584"),
+    ("Mauritania", "MRT", "478"),
+    ("Mauritius", "MUS", "480"),
+    ("Mexico", "MEX", "484"),
+    ("Moldova", "MDA", "498"),
+    ("Monaco", "MCO", "492"),
+    ("Mongolia", "MNG", "496"),
+    ("Montenegro", "MNE", "499"),
+    ("Morocco", "MAR", "504"),
+    ("Mozambique", "MOZ", "508"),
+    ("Myanmar", "MMR", "104"),
+    ("Namibia", "NAM", "516"),
+    ("Nauru", "NRU", "520"),
+    ("Nepal", "NPL", "524"),
+    ("Netherlands", "NLD", "528"),
+    ("New_Zealand", "NZL", "554"),
+    ("Nicaragua", "NIC", "558"),
+    ("Niger", "NER", "562"),
+    ("Nigeria", "NGA", "566"),
+    ("North_Korea", "PRK", "408"),
+    ("North_Macedonia", "MKD", "807"),
+    ("Norway", "NOR", "578"),
+    ("Oman", "OMN", "512"),
+    ("Pakistan", "PAK", "586"),
+    ("Palau", "PLW", "585"),
+    ("Panama", "PAN", "591"),
+    ("Papua_New_Guinea", "PNG", "598"),
+    ("Paraguay", "PRY", "600"),
+    ("Peru", "PER", "604"),
+    ("Philippines", "PHL", "608"),
+    ("Poland", "POL", "616"),
+    ("Portugal", "PRT", "620"),
+    ("Qatar", "QAT", "634"),
+    ("Republic_of_the_Congo", "COG", "178"),
+    ("Romania", "ROU", "642"),
+    ("Russia", "RUS", "643"),
+    ("Rwanda", "RWA", "646"),
+    ("Saint_Kitts_and_Nevis", "KNA", "659"),
+    ("Saint_Lucia", "LCA", "662"),
+    ("Saint_Vincent_and_the_Grenadines", "VCT", "670"),
+    ("Samoa", "WSM", "882"),
+    ("San_Marino", "SMR", "674"),
+    ("Saudi_Arabia", "SAU", "682"),
+    ("Senegal", "SEN", "686"),
+    ("Serbia", "SRB", "688"),
+    ("Seychelles", "SYC", "690"),
+    ("Sierra_Leone", "SLE", "694"),
+    ("Singapore", "SGP", "702"),
+    ("Slovakia", "SVK", "703"),
+    ("Slovenia", "SVN", "705"),
+    ("Solomon_Islands", "SLB", "090"),
+    ("Somalia", "SOM", "706"),
+    ("South_Africa", "ZAF", "710"),
+    ("South_Korea", "KOR", "410"),
+    ("South_Sudan", "SSD", "728"),
+    ("Spain", "ESP", "724"),
+    ("Sri_Lanka", "LKA", "144"),
+    ("Sudan", "SDN", "729"),
+    ("Suriname", "SUR", "740"),
+    ("Sweden", "SWE", "752"),
+    ("Switzerland", "CHE", "756"),
+    ("Syria", "SYR", "760"),
+    ("São_Tomé_and_Príncipe", "STP", "678"),
+    ("Tajikistan", "TJK", "762"),
+    ("Tanzania", "TZA", "834"),
+    ("Thailand", "THA", "764"),
+    ("Togo", "TGO", "768"),
+    ("Tonga", "TON", "776"),
+    ("Trinidad_and_Tobago", "TTO", "780"),
+    ("Tunisia", "TUN", "788"),
+    ("Turkey", "TUR", "792"),
+    ("Turkmenistan", "TKM", "795"),
+    ("Tuvalu", "TUV", "798"),
+    ("Uganda", "UGA", "800"),
+    ("Ukraine", "UKR", "804"),
+    ("United_Arab_Emirates", "ARE", "784"),
+    ("United_Kingdom", "GBR", "826"),
+    ("United_States", "USA", "840"),
+    ("Uruguay", "URY", "858"),
+    ("Uzbekistan", "UZB", "860"),
+    ("Vanuatu", "VUT", "548"),
+    ("Venezuela", "VEN", "862"),
+    ("Vietnam", "VNM", "704"),
+    ("Yemen", "YEM", "887"),
+    ("Zambia", "ZMB", "894"),
+    ("Zimbabwe", "ZWE", "716"),
+]
+
+
+def main() -> int:
+    data_dir = Path(__file__).resolve().parents[1] / "data"
+    data_dir.mkdir(parents=True, exist_ok=True)
+
+    iso = {name: alpha3 for (name, alpha3, _num) in _CODES}
+    numeric = {name: num for (name, _alpha3, num) in _CODES}
+
+    (data_dir / "country_iso_codes.json").write_text(
+        json.dumps(iso, indent=2, ensure_ascii=False, sort_keys=True),
+        encoding="utf-8",
+    )
+    (data_dir / "country_numeric_codes.json").write_text(
+        json.dumps(numeric, indent=2, ensure_ascii=False, sort_keys=True),
+        encoding="utf-8",
+    )
+    print(f"Wrote {len(iso)} entries to "
+          f"{data_dir / 'country_iso_codes.json'} and "
+          f"{data_dir / 'country_numeric_codes.json'}")
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())

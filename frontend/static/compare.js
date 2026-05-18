@@ -58,46 +58,50 @@
   }
 
   function renderScript(ops, totalCost, counts) {
-    const counts_html = `
-      <span class="badge bg-warning text-dark me-2">${counts.relabel || 0} relabel</span>
-      <span class="badge bg-danger me-2">${counts.delete || 0} delete</span>
-      <span class="badge bg-success me-2">${counts.insert || 0} insert</span>
-      <span class="text-muted ms-2">total cost: <strong>${(totalCost || 0).toFixed(2)}</strong></span>
-    `;
+    const summary = `
+      <div class="ec-summary">
+        <span class="op delete">${counts.delete || 0} delete</span>
+        <span class="op relabel">${counts.relabel || 0} relabel</span>
+        <span class="op insert">${counts.insert || 0} insert</span>
+        <span class="ec-total">Σ cost
+          <strong>${(totalCost || 0).toFixed(2)}</strong></span>
+      </div>`;
     if (!ops.length) {
-      scriptPanel.innerHTML = counts_html + '<div class="text-muted">No operations.</div>';
+      scriptPanel.innerHTML =
+        summary + '<div class="ec-empty">No operations.</div>';
       return;
     }
     const rows = ops.slice(0, 200).map((op) => {
-      const path = "(" + op.path.join("→") + ")";
+      const path = op.path.join(" › ");
       let detail = "";
       if (op.op === "relabel") {
-        detail = `<code>${esc(op.old_label || "")}</code> → <code>${esc(op.new_node ? op.new_node.label : "?")}</code>`;
+        detail = `<code>${esc(op.old_label || "")}</code>`
+          + ` <span class="arrow">→</span> `
+          + `<code>${esc(op.new_node ? op.new_node.label : "?")}</code>`;
       } else if (op.op === "delete") {
         detail = `<code>${esc(op.old_label || "")}</code>`;
       } else {
-        detail = `<code>${esc(op.new_node ? op.new_node.label : "?")}</code> @ position ${op.position}`;
+        detail = `<code>${esc(op.new_node ? op.new_node.label : "?")}</code>`
+          + ` <span class="ec-pos">@ ${op.position}</span>`;
       }
       return `<tr>
-        <td><span class="badge bg-${opColor(op.op)}">${op.op}</span></td>
-        <td><code class="small">${path}</code></td>
+        <td><span class="op ${op.op}">${op.op}</span></td>
+        <td><code class="ec-path">${esc(path)}</code></td>
         <td>${detail}</td>
-        <td class="text-end small text-muted">${op.cost.toFixed(2)}</td>
+        <td class="ec-cost">${op.cost.toFixed(2)}</td>
       </tr>`;
     }).join("");
     const more = ops.length > 200
-      ? `<div class="text-muted small">+ ${ops.length - 200} more (truncated)</div>` : "";
-    scriptPanel.innerHTML = counts_html + `
-      <div class="table-responsive mt-2">
-        <table class="table table-sm script-table mb-0">
-          <thead><tr><th>op</th><th>path</th><th>detail</th><th class="text-end">cost</th></tr></thead>
-          <tbody>${rows}</tbody>
-        </table>
-      </div>${more}`;
-  }
-
-  function opColor(op) {
-    return { relabel: "warning text-dark", delete: "danger", insert: "success" }[op] || "secondary";
+      ? `<tr><td colspan="4" class="ec-more">+ ${ops.length - 200} more (truncated)</td></tr>`
+      : "";
+    scriptPanel.innerHTML = summary + `
+      <table>
+        <thead><tr>
+          <th>op</th><th>path</th><th>detail</th>
+          <th class="ec-cost">cost</th>
+        </tr></thead>
+        <tbody>${rows}${more}</tbody>
+      </table>`;
   }
 
   function esc(s) {

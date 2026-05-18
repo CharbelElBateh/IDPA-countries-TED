@@ -73,7 +73,7 @@ def _two_blob_matrix() -> tuple[np.ndarray, list[str]]:
 # =============================================================== registry
 def test_registry_has_both_algorithms():
     names = {a["name"] for a in list_algorithms()}
-    assert "kmedoids" in names
+    assert "kmeans" in names
     assert "hierarchical_agglomerative" in names
 
 
@@ -194,9 +194,9 @@ def test_medoids_per_cluster_skips_outliers():
 
 
 # =============================================================== algorithms
-def test_kmedoids_two_blobs():
+def test_kmeans_two_blobs():
     D, names = _two_blob_matrix()
-    algo = get_algorithm("kmedoids")
+    algo = get_algorithm("kmeans")
     labels, linkage = algo.compute(D, names, params={"k": 2, "random_seed": 0})
     assert linkage == []
     # Each blob's 3 points should share the same label.
@@ -207,9 +207,9 @@ def test_kmedoids_two_blobs():
     assert blob_a != blob_b
 
 
-def test_kmedoids_k_too_large():
+def test_kmeans_k_too_large():
     D, names = _two_blob_matrix()
-    algo = get_algorithm("kmedoids")
+    algo = get_algorithm("kmeans")
     with pytest.raises(ValueError):
         algo.compute(D, names, params={"k": 99})
 
@@ -245,7 +245,7 @@ def test_agg_distance_threshold():
 # =============================================================== ClusterResult round-trip
 def test_cluster_result_roundtrip():
     r = ClusterResult(
-        algorithm="kmedoids",
+        algorithm="kmeans",
         params={"k": 3},
         labels={"A": 0, "B": 1, "C": -1},
         medoids=["A", "B"],
@@ -284,7 +284,7 @@ def test_run_clustering_end_to_end_no_mongo():
         def iter_countries(self): return iter([])
 
     result = run_clustering(
-        algorithm="kmedoids",
+        algorithm="kmeans",
         field_paths=["government.type", "economy.gdp_ppp.value"],
         params={"k": 2, "random_seed": 0},
         store=_NullStore(),

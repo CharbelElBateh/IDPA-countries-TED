@@ -7,8 +7,8 @@
     <div class="eyebrow">Unsupervised grouping</div>
     <h1>Cluster countries</h1>
     <p class="lede">
-      Group the 192 UN member states by similarity on a chosen set of
-      typed infobox fields. Per-leaf-type distance from
+      Group the 192 UN member states by similarity on a single chosen
+      typed infobox field. Per-leaf-type distance from
       <code>src/distances.py</code> (Levenshtein for text, log-scale for
       currency, EMD over taxonomies for distributions, haversine for
       coordinates).
@@ -18,9 +18,10 @@
 
 <div class="cluster-intro mb-4">
   <strong>How it works.</strong>
-  Countries missing any selected field are excluded into a separate
-  outlier bucket. The remaining countries are placed into a pairwise
-  distance matrix, then partitioned by your chosen algorithm.
+  Pick exactly one field. Countries missing that field are excluded
+  into a separate outlier bucket. The remaining countries are placed
+  into a pairwise distance matrix, then partitioned by your chosen
+  algorithm.
 </div>
 
 <form id="cluster-form">
@@ -30,8 +31,9 @@
     <div class="params-row">
       <div class="pleft">
         <span class="label">Algorithm</span>
-        <p class="hint">Two implementations. k-medoids is fast and gives
-          clean assignments; agglomerative gives a merge tree.</p>
+        <p class="hint">Two implementations. k-means partitions around k
+          centroids (the distance matrix is MDS-embedded into Euclidean
+          space first); agglomerative gives a merge tree.</p>
       </div>
       <div class="pright">
         <span class="seg" id="algo-seg">
@@ -48,35 +50,33 @@
             {% endfor %}
           </select>
         </div>
-        <input type="hidden" name="algorithm" id="algorithm" value="kmedoids">
+        <input type="hidden" name="algorithm" id="algorithm" value="kmeans">
       </div>
     </div>
 
-    {# k-medoids knobs #}
-    <div class="params-row algo-knobs kmedoids">
+    {# k-means knobs #}
+    <div class="params-row algo-knobs kmeans">
       <div class="pleft">
-        <span class="label">k-medoids knobs</span>
-        <p class="hint">Choose number of clusters and initialization
-          strategy. BUILD is the greedy PAM init from Kaufman &
-          Rousseeuw.</p>
+        <span class="label">k-means knobs</span>
+        <p class="hint">Choose the number of clusters. Lloyd's algorithm
+          with k-means++ seeding, restarted <code>n_init</code> times;
+          the lowest-inertia run wins.</p>
       </div>
       <div class="pright">
         <div class="field k">
           <label>k (clusters)</label>
-          <input class="input mono" type="number" name="k_kmedoids"
+          <input class="input mono" type="number" name="k_kmeans"
                  min="2" max="20" value="5">
         </div>
-        <div class="field">
-          <label>init</label>
-          <select class="select" name="init">
-            <option value="build" selected>build (greedy)</option>
-            <option value="random">random</option>
-          </select>
+        <div class="field k">
+          <label>n_init</label>
+          <input class="input mono" type="number" name="n_init"
+                 min="1" max="50" value="10">
         </div>
         <div class="field k">
           <label>max_iter</label>
           <input class="input mono" type="number" name="max_iter"
-                 min="1" max="1000" value="100">
+                 min="1" max="1000" value="300">
         </div>
         <div class="field k">
           <label>random_seed</label>
@@ -123,20 +123,13 @@
   <div class="features-card">
     <div class="features-head">
       <h3>
-        Features
-        <span class="ct" id="feature-count">0/0 on</span>
+        Feature
+        <span class="ct" id="feature-count">none selected</span>
         <span class="muted mono"
               style="font-size: 11.5px; font-weight: 400;">
-          · Σw = <span id="feature-weight-sum">0.0</span>
+          · pick exactly one
         </span>
       </h3>
-      <div class="features-bulk">
-        <button type="button" class="btn sm" id="select-preset">
-          Preset · politics + economy + religion
-        </button>
-        <button type="button" class="btn sm" id="select-all-fields">Select all</button>
-        <button type="button" class="btn sm" id="select-none-fields">Clear</button>
-      </div>
     </div>
 
     {% for group_name, fields in fields_grouped.items() %}
@@ -160,8 +153,8 @@
         <div class="feature-list">
           {% for f in fields %}
             <label class="feature-row off" data-path="{{ f.path }}">
-              <input type="checkbox" class="checkbox field-check"
-                     data-path="{{ f.path }}">
+              <input type="radio" name="feature" class="radio field-check"
+                     value="{{ f.path }}" data-path="{{ f.path }}">
               <span class="fl">
                 <span class="fn">
                   <span class="path">
@@ -172,14 +165,6 @@
                   </span>
                 </span>
                 <span class="tbadge {{ f.kind }}">{{ f.kind }}</span>
-              </span>
-              <span class="weight">
-                w
-                <input class="winput mono field-weight" type="number"
-                       step="0.1" min="0"
-                       data-path="{{ f.path }}"
-                       value="{{ '%.1f'|format(f.default_weight) }}"
-                       disabled>
               </span>
             </label>
           {% endfor %}
@@ -192,13 +177,11 @@
   <div class="run-bar">
     <div class="summary">
       <span><span class="k">algorithm</span>
-            <span class="v" id="bar-algo">kmedoids</span></span>
+            <span class="v" id="bar-algo">kmeans</span></span>
       <span><span class="k">k</span>
             <span class="v" id="bar-k">5</span></span>
-      <span><span class="k">features</span>
-            <span class="v" id="bar-features">0</span></span>
-      <span><span class="k">Σ weight</span>
-            <span class="v" id="bar-weight">0.0</span></span>
+      <span><span class="k">feature</span>
+            <span class="v" id="bar-features">none</span></span>
       <span><span class="k">cost</span>
             <span class="v" id="bar-cost">symmetric</span></span>
     </div>

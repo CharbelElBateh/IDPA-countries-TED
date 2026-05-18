@@ -58,7 +58,7 @@ def run_clustering(
     """End-to-end clustering pipeline.
 
     Args:
-        algorithm: ``"kmedoids"`` or ``"hierarchical_agglomerative"``.
+        algorithm: ``"kmeans"`` or ``"hierarchical_agglomerative"``.
         field_paths: Dotted leaf paths the user selected as features.
         weights: ``{path: weight}``; missing keys default to ``1.0``.
         cost_model: Name of a cost model in ``config/pipeline.json``.

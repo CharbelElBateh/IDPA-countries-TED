@@ -31,7 +31,7 @@
   const CAPS = {
     map: "Hover a country for cluster details. Outliers (missing fields) appear in grey.",
     scatter: "Classical MDS embedding of the pairwise distance matrix. Points close together are close in the chosen feature space.",
-    dendrogram: "Bottom-up merge tree. Horizontal position = merge distance.",
+    dendrogram: "Bottom-up merge tree (vertical): leaves at the bottom, height = merge distance, root at the top.",
     members: "Members listed by cluster. Click a row to open the country tree.",
   };
 
@@ -152,21 +152,21 @@
   }
 
   // ----------------------------------------------------- tabs
-  const rendered = new Set();
   function activateTab(tab) {
+    if (!tab) return;
     $$(".viz-tab[data-tab]").forEach((t) =>
       t.classList.toggle("active", t.dataset.tab === tab));
     $$(".viz-pane[data-tab]").forEach((p) =>
       p.style.display = p.dataset.tab === tab ? "" : "none");
     $("#viz-cap").textContent = CAPS[tab] || "";
 
-    if (!rendered.has(tab)) {
-      if (tab === "map" && window.renderMap) window.renderMap(state);
-      if (tab === "scatter" && window.renderScatter) window.renderScatter(state);
-      if (tab === "dendrogram" && window.renderDendrogram) window.renderDendrogram(state);
-      rendered.add(tab);
-    }
-    if (tab === "members") renderMembers();   // re-render every time (filter-aware)
+    // Re-render on every activation so the active-cluster filter is
+    // always reflected. The map caches the world topology internally,
+    // so this does not refetch the CDN.
+    if (tab === "map" && window.renderMap) window.renderMap(state);
+    else if (tab === "scatter" && window.renderScatter) window.renderScatter(state);
+    else if (tab === "dendrogram" && window.renderDendrogram) window.renderDendrogram(state);
+    else if (tab === "members") renderMembers();
   }
   $$(".viz-tab[data-tab]").forEach((t) =>
     t.addEventListener("click", () => activateTab(t.dataset.tab)));
@@ -176,17 +176,9 @@
     state.activeFilter = state.activeFilter === cid ? null : cid;
     renderLegend();
     renderFilterState();
-    // Re-render the currently active pane to apply the filter where useful.
+    // Re-render whichever pane is active so the filter applies to it.
     const active = $(".viz-tab.active[data-tab]")?.dataset.tab;
-    if (active === "members") renderMembers();
-    if (active === "map" && window.renderMap) {
-      $("#viz-map").innerHTML = "";
-      window.renderMap(state);
-    }
-    if (active === "scatter" && window.renderScatter) {
-      $("#viz-scatter").innerHTML = "";
-      window.renderScatter(state);
-    }
+    activateTab(active);
   }
   function renderFilterState() {
     const slot = $("#filter-state");
@@ -211,15 +203,33 @@
   }
 
   // ----------------------------------------------------- bootstrap
+  async function fetchJsonSafe(url, fallback) {
+    // Codes are only needed by the world map — a missing/!ok dataset
+    // must NOT take down the legend, outliers, scatter, or members.
+    try {
+      const res = await fetch(url);
+      if (!res.ok) throw new Error("HTTP " + res.status);
+      return await res.json();
+    } catch (err) {
+      console.warn(`Optional dataset ${url} unavailable:`, err.message);
+      return fallback;
+    }
+  }
+
   async function init() {
-    const [runRes, isoRes, numRes] = await Promise.all([
-      fetch(`/api/cluster/runs/${encodeURIComponent(window.RUN_ID)}`),
-      fetch("/api/cluster/iso-codes"),
-      fetch("/api/cluster/numeric-codes"),
-    ]);
+    const runRes = await fetch(
+      `/api/cluster/runs/${encodeURIComponent(window.RUN_ID)}`);
+    if (!runRes.ok) {
+      throw new Error(`cluster run request failed (HTTP ${runRes.status})`);
+    }
     state.run = await runRes.json();
-    state.isoCodes = await isoRes.json();
-    state.numericCodes = await numRes.json();
+    if (state.run && state.run.error) {
+      throw new Error(state.run.error);
+    }
+
+    // These two are optional (world map only) — degrade gracefully.
+    state.isoCodes = await fetchJsonSafe("/api/cluster/iso-codes", {});
+    state.numericCodes = await fetchJsonSafe("/api/cluster/numeric-codes", {});
 
     renderLegend();
     renderOutliers();
@@ -228,6 +238,12 @@
   }
   init().catch((err) => {
     console.error(err);
-    alert("Failed to load cluster run: " + err.message);
+    const frame = $("#viz-frame");
+    if (frame) {
+      frame.innerHTML =
+        `<div class="alert danger" style="margin: 18px;">
+           Failed to load cluster run: ${err.message}
+         </div>`;
+    }
   });
 })();

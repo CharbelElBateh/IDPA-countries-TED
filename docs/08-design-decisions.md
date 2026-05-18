@@ -169,3 +169,49 @@ JSON, identical in shape to what the algorithms produce in memory.
 Reasons: JSON round-trips through Mongo natively, the in-memory
 `EditScript` is the canonical representation, and the IDF format
 wasn't doing anything XML-specific.
+
+## 16. The 2D scatter is a lossy view; clustering happens in higher-D
+
+**Status: analysis recorded, no code changed yet.** Trigger: clusters
+visually overlap in the 2D scatter — "should it be 3D?"
+
+There are **two distinct embeddings** of the same pairwise distance
+matrix, and conflating them is the source of the confusion:
+
+- **Scatter** (`src/clustering/embedding.py`): sklearn **SMACOF MDS**,
+  `n_components=2`. Picture only — never fed to an algorithm.
+- **k-means space** (`src/clustering/algorithms/kmeans.py`):
+  **classical (Torgerson) MDS**, `min(n−1, 16)` positive-eigenvalue
+  dimensions. This is what k-means actually partitions.
+
+So k-means can cleanly separate groups along MDS axes 3..16 that the
+2-D scatter collapses on top of each other. **The trustworthy
+separation metric is the silhouette, which `evaluation.silhouette`
+computes on the true distance matrix — not on the 2-D coordinates.**
+A low-overlap scatter is reassuring; an overlapping one is *not*
+evidence of a bad clustering.
+
+Does 3D help? Only if the classical-MDS **eigenvalue spectrum** has a
+meaningful 3rd component. Type-aware non-Euclidean distances
+(Levenshtein / EMD / haversine / log-currency) are usually
+intrinsically high-dimensional, so 2→3 often recovers little extra
+variance, and a static 3D projection needs interactive rotation to be
+legible at all.
+
+For the **single-feature** design (one field only):
+
+- a *numeric* field (e.g. `economy.hdi.value`) is essentially **1-D**
+  — the 2-D MDS already fabricates a second axis; 3-D would fabricate
+  two. A 1-D strip/histogram is the honest view.
+- a *categorical* field (e.g. `government.type`) yields only a few
+  distinct distance values, so many countries get **identical
+  coordinates and stack**. That is a *ties* problem (fix with
+  jitter/opacity), not a dimensionality problem.
+
+Recommended order of work (deferred): (1) show % variance explained by
+the first 2/3 MDS eigenvalues next to the plot; (2) jitter +
+transparency for coincident points; (3) 1-D view for numeric single
+features; (4) optional t-SNE/UMAP (sklearn has `TSNE`) which preserves
+*cluster* separation better than metric MDS; (5) 3D only as a later,
+evidence-gated, **interactive/rotatable** mode. See
+`design_requirements.md` §4.7.1 for the requirement-side note.

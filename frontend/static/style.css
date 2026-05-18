@@ -733,6 +733,73 @@ code, .code {
   overflow: hidden;
 }
 
+/* D3 tree SVG (country detail + compare) */
+.tree-svg { display: block; cursor: grab; }
+.tree-svg:active { cursor: grabbing; }
+.tree-svg path.link {
+  fill: none;
+  stroke: var(--line-2);
+  stroke-width: 1.5px;
+}
+.tree-svg .node { cursor: pointer; }
+.tree-svg .node text {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  fill: var(--ink);
+}
+.tree-svg .node.structural text { font-weight: 600; }
+.tree-svg .leaf-text { fill: var(--ink-2); }
+.tree-loading {
+  padding: 24px;
+  font-family: var(--font-mono);
+  font-size: 12px;
+  color: var(--muted);
+}
+
+#node-info {
+  margin-top: 12px;
+  font-family: var(--font-mono);
+  font-size: 12px;
+  color: var(--ink-2);
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: var(--r-2);
+  max-height: 0;
+  padding: 0 14px;
+  overflow: auto;
+  transition: max-height 0.2s ease, padding 0.2s ease;
+}
+#node-info.visible { max-height: 460px; padding: 12px 14px; }
+#node-info h6 { margin: 0 0 6px; font-size: 13px; color: var(--ink); }
+#node-info .info-row {
+  display: flex;
+  gap: 10px;
+  padding: 3px 0;
+  border-top: 1px solid var(--line);
+}
+#node-info .info-row > span {
+  color: var(--muted);
+  min-width: 64px;
+  text-transform: uppercase;
+  font-size: 10.5px;
+  letter-spacing: 0.05em;
+}
+#node-info code { font-family: var(--font-mono); color: var(--ink); }
+#node-info pre {
+  white-space: pre-wrap;
+  word-break: break-word;
+  margin: 4px 0 0;
+  color: var(--ink-3);
+}
+#node-info .badge {
+  display: inline-block;
+  padding: 1px 7px;
+  border-radius: 3px;
+  background: var(--accent-tint);
+  color: var(--accent-2);
+  font-size: 11px;
+}
+
 /* mock tree node */
 .mtree {
   position: absolute;
@@ -832,7 +899,36 @@ code, .code {
 .escript .op.delete  { background: var(--diff-del-bg); color: var(--diff-del); }
 .escript .op.insert  { background: var(--diff-ins-bg); color: var(--diff-ins); }
 .escript .op.relabel { background: var(--diff-rel-bg); color: #6e4d10; }
-.escript .arrow { color: var(--muted-2); }
+.escript .arrow { color: var(--muted-2); padding: 0 2px; }
+.escript .ec-summary {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--line);
+  background: var(--paper-2);
+  font-family: var(--font-mono);
+  font-size: 11.5px;
+}
+.escript .ec-summary .ec-total {
+  margin-left: auto;
+  color: var(--muted);
+}
+.escript .ec-summary .ec-total strong { color: var(--ink); }
+.escript td.ec-cost,
+.escript th.ec-cost {
+  text-align: right;
+  color: var(--muted);
+  white-space: nowrap;
+}
+.escript .ec-path { color: var(--ink-3); }
+.escript .ec-pos { color: var(--muted-2); }
+.escript .ec-more,
+.escript .ec-empty {
+  color: var(--muted);
+  text-align: center;
+  padding: 10px 12px;
+}
 
 /* ============================================================
    Cluster form
@@ -971,7 +1067,7 @@ code, .code {
 }
 .feature-row {
   display: grid;
-  grid-template-columns: 18px 1fr 78px;
+  grid-template-columns: 18px 1fr;
   gap: 10px;
   align-items: center;
   padding: 8px 18px;
@@ -1002,31 +1098,6 @@ code, .code {
   font-size: 10.5px;
   color: var(--muted);
 }
-.feature-row .weight {
-  display: flex;
-  align-items: center;
-  gap: 4px;
-  font-family: var(--font-mono);
-  font-size: 11.5px;
-  color: var(--muted);
-}
-.feature-row .weight .winput {
-  width: 56px;
-  border: 1px solid var(--line);
-  background: #fff;
-  border-radius: 4px;
-  padding: 3px 6px;
-  font-family: var(--font-mono);
-  font-size: 12px;
-  text-align: right;
-  color: var(--ink);
-}
-.feature-row .weight .winput:focus {
-  outline: none;
-  border-color: var(--accent);
-  box-shadow: 0 0 0 2px var(--accent-tint);
-}
-.feature-row.off .weight { opacity: 0.35; pointer-events: none; }
 .feature-row.off .fn { color: var(--muted); }
 
 /* sticky run bar */
@@ -1211,6 +1282,40 @@ code, .code {
   font-family: var(--font-mono);
   font-size: 11.5px;
   color: var(--muted);
+}
+
+/* MDS scatter: faint reference grid + labeled, explained axes */
+.mds-grid .tick line {
+  stroke: var(--line-2);
+  stroke-opacity: 0.55;
+  stroke-dasharray: 2 4;
+}
+.mds-grid .domain { display: none; }
+.mds-axis-title {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  font-weight: 600;
+  fill: var(--ink-3);
+}
+.mds-note {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  fill: var(--muted);
+}
+
+/* vertical dendrogram */
+.dendro-links path {
+  fill: none;
+  stroke: var(--line-3);
+  stroke-width: 1px;
+}
+.dendro-axis text { font-family: var(--font-mono); font-size: 10.5px; fill: var(--muted); }
+.dendro-axis .domain, .dendro-axis .tick line { stroke: var(--line-2); }
+.dendro-axis-title {
+  font-family: var(--font-mono);
+  font-size: 11.5px;
+  font-weight: 600;
+  fill: var(--ink-3);
 }
 
 /* cluster chip in side panel */

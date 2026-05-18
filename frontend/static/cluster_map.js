@@ -9,9 +9,25 @@
   const TOPOJSON_URL =
     "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json";
 
+  // Cache the world topology across re-renders (the map re-renders on
+  // every tab switch / filter toggle — don't refetch the CDN each time).
+  let _topology = null;
+
   window.renderMap = async function (state) {
     const container = document.getElementById("viz-map");
     container.innerHTML = "";
+
+    if (!state.numericCodes ||
+        Object.keys(state.numericCodes).length === 0) {
+      container.innerHTML =
+        `<div class="alert warn" style="margin: 18px;">
+           Country-code map unavailable, so the choropleth can't be
+           drawn. Run <code>python scripts/build_country_codes.py</code>
+           to generate <code>data/country_numeric_codes.json</code>,
+           then reload. The other tabs still work.
+         </div>`;
+      return;
+    }
 
     const width = container.clientWidth || 900;
     const height = container.clientHeight || 600;
@@ -22,16 +38,19 @@
       numericToName[String(parseInt(num, 10))] = name;
     }
 
-    // Load topology.
-    let topology;
-    try {
-      topology = await fetch(TOPOJSON_URL).then((r) => r.json());
-    } catch (err) {
-      container.innerHTML =
-        `<div class="alert alert-warning m-3">
-          Couldn't load the world topology from CDN. Check your network.
-        </div>`;
-      return;
+    // Load topology (cached after the first successful fetch).
+    let topology = _topology;
+    if (!topology) {
+      try {
+        topology = await fetch(TOPOJSON_URL).then((r) => r.json());
+        _topology = topology;
+      } catch (err) {
+        container.innerHTML =
+          `<div class="alert warn" style="margin: 18px;">
+            Couldn't load the world topology from CDN. Check your network.
+          </div>`;
+        return;
+      }
     }
     const land = topojson.feature(topology, topology.objects.countries);
 
@@ -79,6 +98,9 @@
         if (!name) return "#f5f5f5";  // not in UN list (e.g. Greenland)
         const cid = state.run.labels[name];
         if (cid === undefined) return "#f5f5f5";
+        // When a cluster filter is active, fade everything else out.
+        if (state.activeFilter != null && cid !== state.activeFilter)
+          return "#eceadf";
         return state.color(cid);
       })
       .attr("stroke", "#666")

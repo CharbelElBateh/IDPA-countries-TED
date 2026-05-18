@@ -20,13 +20,14 @@ class ClusterResult:
     """A single clustering run, ready for storage / rendering.
 
     Attributes:
-        algorithm: Algorithm name (``"kmedoids"`` or ``"hierarchical_agglomerative"``).
+        algorithm: Algorithm name (``"kmeans"`` or ``"hierarchical_agglomerative"``).
         params: Algorithm-specific knobs as supplied to ``compute``.
         labels: ``{country_name: cluster_id}``. ``-1`` is the outlier bucket.
-        medoids: One country name per cluster (k-medoids: the actual medoid;
-            AGG: the country closest to all others in that cluster on average).
+        medoids: One representative country per cluster — the country
+            closest to all others in that cluster on average (works for
+            both k-means and AGG since they don't expose a medoid).
         linkage: scipy linkage matrix (rows of ``[i, j, dist, count]``).
-            Empty list for k-medoids.
+            Empty list for k-means.
         mds_2d: ``{country_name: [x, y]}`` — classical MDS embedding of
             the distance matrix used as the 2D scatter coordinates.
         silhouette: Mean silhouette score (precomputed-distance variant).

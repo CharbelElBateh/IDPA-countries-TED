@@ -34,7 +34,7 @@
     const linkage = state.run.linkage;
     if (!linkage || linkage.length === 0) {
       container.innerHTML =
-        '<div class="alert alert-warning m-3">No linkage matrix (algorithm did not produce one).</div>';
+        '<div class="alert warn" style="margin: 18px;">No linkage matrix (algorithm did not produce one).</div>';
       return;
     }
 
@@ -46,31 +46,29 @@
     const root = d3.hierarchy(rootData);
 
     const n = names.length;
-    const rowHeight = 14;
-    const width = container.clientWidth || 900;
-    const margin = { top: 20, right: 240, bottom: 20, left: 40 };
-    const innerH = n * rowHeight;
-    const innerW = Math.max(400, width - margin.left - margin.right);
-    const height = innerH + margin.top + margin.bottom;
+    // Vertical orientation: leaves spread across the X axis at the
+    // bottom, merge distance on the Y axis (root at the top). Wide SVG
+    // + horizontal scroll keeps all n leaf labels legible.
+    const colWidth = 16;
+    const margin = { top: 28, right: 24, bottom: 168, left: 64 };
+    const innerW = Math.max(
+      (container.clientWidth || 900) - margin.left - margin.right,
+      n * colWidth);
+    const plotH = 440;
+    const width = innerW + margin.left + margin.right;
+    const height = plotH + margin.top + margin.bottom;
 
     const cluster = d3.cluster()
-      .size([innerH, innerW])
+      .size([innerW, plotH])
       .separation(() => 1);
     cluster(root);
 
-    // Re-map x (horizontal) by merge distance so the dendrogram is
-    // metric, not just topological.
-    const maxDist = d3.max(root.descendants(), (d) => d.data.height || 0);
-    const distScale = d3.scaleLinear().domain([0, maxDist]).range([0, innerW]);
-    root.each((d) => {
-      d.y_orig = d.y;             // keep the original (for leaf rightmost)
-      d.y = distScale(d.data.height);
-    });
-    // Leaves stay at the far right (height = 0 → y = 0; rotate so leaves are at right).
-    // We flip orientation: x is vertical, y horizontal; leaves at right means y = innerW.
-    root.each((d) => {
-      if (!d.children) d.y = innerW;
-    });
+    // Re-map y by merge distance so the dendrogram is metric, not just
+    // topological. distance 0 → bottom (plotH); max distance → top (0).
+    const maxDist = d3.max(root.descendants(), (d) => d.data.height || 0) || 1;
+    const distScale = d3.scaleLinear()
+      .domain([0, maxDist]).range([plotH, 0]);
+    root.each((d) => { d.y = distScale(d.data.height || 0); });
 
     const svg = d3.select(container)
       .append("svg")
@@ -80,49 +78,54 @@
     const g = svg.append("g")
       .attr("transform", `translate(${margin.left},${margin.top})`);
 
-    // Color each leaf by its cluster.
-    const colorOf = (leaf) => state.color(state.run.labels[leaf.data.name]);
+    const flt = state.activeFilter;
+    const clusterOf = (leaf) => state.run.labels[leaf.data.name];
+    const isDim = (leaf) => flt != null && clusterOf(leaf) !== flt;
+    const colorOf = (leaf) => state.color(clusterOf(leaf));
 
-    // Links — right-angle (rectangular) connectors are clearer than splines
-    // for dendrograms.
+    // Links — rectangular connectors: horizontal bar at the parent's
+    // height, then a vertical drop to each child.
     g.append("g")
-      .attr("fill", "none")
-      .attr("stroke", "#666")
-      .attr("stroke-width", 1)
+      .attr("class", "dendro-links")
       .selectAll("path")
       .data(root.links())
       .join("path")
       .attr("d", (d) => {
         const sx = d.source.x, sy = d.source.y;
         const tx = d.target.x, ty = d.target.y;
-        // Horizontal then vertical (right-angle).
-        return `M${sy},${sx} H${ty} V${tx}`;
+        return `M${sx},${sy} H${tx} V${ty}`;
       });
 
-    // Internal-node distance ticks (sparse).
-    const tickAxis = d3.axisTop(distScale)
-      .ticks(6)
+    // Merge-distance axis (vertical, left).
+    const axis = d3.axisLeft(distScale).ticks(6)
       .tickFormat(d3.format(".2f"));
-    g.append("g")
-      .attr("color", "#999")
-      .attr("transform", "translate(0,0)")
-      .call(tickAxis);
+    g.append("g").attr("class", "dendro-axis").call(axis);
+    g.append("text")
+      .attr("class", "dendro-axis-title")
+      .attr("transform", "rotate(-90)")
+      .attr("x", -plotH / 2)
+      .attr("y", -46)
+      .attr("text-anchor", "middle")
+      .text("merge distance");
 
-    // Leaves: label + color swatch.
+    // Leaves at the bottom: color swatch + rotated label.
     const leafG = g.append("g")
       .selectAll("g")
       .data(root.leaves())
       .join("g")
-      .attr("transform", (d) => `translate(${d.y},${d.x})`);
+      .attr("transform", (d) => `translate(${d.x},${plotH})`)
+      .attr("opacity", (d) => isDim(d) ? 0.15 : 1);
 
     leafG.append("circle")
       .attr("r", 4)
       .attr("fill", (d) => colorOf(d));
 
     leafG.append("text")
+      .attr("transform", "rotate(90)")
       .attr("x", 8)
       .attr("dy", "0.32em")
-      .attr("font-size", 11)
+      .attr("font-size", 10)
+      .attr("text-anchor", "start")
       .style("cursor", "pointer")
       .text((d) => d.data.name.replace(/_/g, " "))
       .on("click", (event, d) => {

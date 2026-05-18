@@ -72,7 +72,7 @@ frontend/
 │   ├── compare_result.html      # Two D3 trees side-by-side + diff legend
 │   │                            # + edit-script panel.
 │   ├── patch_form.html          # Apply an edit script to a tree.
-│   ├── cluster_form.html        # Algorithm + features + weights picker.
+│   ├── cluster_form.html        # Algorithm + single-feature picker.
 │   ├── cluster_result.html      # Tabbed result: Map / Scatter /
 │   │                            # Dendrogram / Members + side panel.
 │   └── error.html
@@ -148,25 +148,23 @@ Sections, in order top-to-bottom:
 1. **Intro paragraph** explaining the tool.
 2. **Top row**: algorithm select | cost-model select | "Run clustering" button.
 3. **Algorithm-specific knobs** (one row, only the active algorithm's
-   knobs are visible — JS toggles via `.algo-knob.kmedoids` /
-   `.algo-knob.hierarchical_agglomerative`):
-   - k-medoids: `k`, `init`, `max_iter`, `random_seed`
+   knobs are visible — JS toggles via `.algo-knobs.kmeans` /
+   `.algo-knobs.hierarchical_agglomerative`):
+   - k-means: `k`, `n_init`, `max_iter`, `random_seed`
    - AGG: `k`, `linkage` (`average` / `complete` / `single`),
      `distance_threshold` (optional, overrides k)
-4. **Features picker** — the meat of the form:
+4. **Feature picker** — the meat of the form:
    - Six groups (Identity, Geography, Government, Economy,
      Demographics, Codes), each a collapsible block.
-   - Per row: checkbox | label (with type hint as small text) |
-     weight input (disabled until checkbox is on).
-   - Bulk controls: Select all / Clear / "Preset
-     (politics + economy + religion)".
+   - Per row: **radio** | label (with type hint as small text).
+     Exactly **one** feature is selected; there are no per-feature
+     weights (a single field needs none) and no bulk controls.
 5. **Status box** (alert) appears after submit.
 6. **Recent runs** table at the bottom.
 
 **Design opportunities** (top of my wishlist):
-- The features picker is dense. A 2-column responsive grid by group,
-  with the weight input only appearing as a small inline editor on
-  hover/focus, would feel less cluttered.
+- The feature picker is dense. A 2-column responsive grid by group
+  keeps the single-select radio list from feeling cluttered.
 - The algorithm knob row should look like a single coherent
   "parameters" card, not a row of disconnected inputs.
 - The "Run" button is small. It's the most important action — give
@@ -189,6 +187,49 @@ The tab content needs to breathe — the current border+padding is too
 tight. The right column should be slightly narrower so the viz has
 more room. Cluster swatches in the side panel should be larger and
 clickable (filter the viz to that cluster).
+
+#### 4.7.1 OPEN QUESTION — scatter dimensionality (2D vs 3D vs other)
+
+**Symptom observed:** in the 2D MDS scatter some clusters sit on top
+of each other. Question raised: should it be a 3D (or higher-D)
+scatter?
+
+**Analysis / decision (to continue in a future chat — no code changed
+yet):**
+
+- Overlap in the scatter is mostly a **projection artifact**, not a
+  clustering defect. Two embeddings exist:
+  - the **scatter** = `src/clustering/embedding.py`, sklearn SMACOF
+    MDS, `n_components=2` — picture only;
+  - the space **k-means actually clusters in** =
+    `src/clustering/algorithms/kmeans.py`, classical MDS,
+    `min(n−1, 16)` dims.
+  k-means can separate groups in ~16-D that the 2-D picture squashes
+  together. **Separation should be judged by the silhouette (computed
+  on the true distance matrix), never by the scatter.**
+- Whether 3D helps depends on the **classical-MDS eigenvalue
+  spectrum**. If eigenvalues 1–2 already explain most variance, a 3rd
+  axis adds little; non-Euclidean type-aware distances are usually
+  intrinsically high-D, so 2→3 often buys little. A static 3D scatter
+  also needs rotation to read.
+- For the **single-feature** design (current spec, §4.6): a *numeric*
+  field is ~1-D (2-D MDS already invents a fake axis; 3-D invents
+  two); a *categorical* field produces ties → coincident points that
+  **stack** (a jitter/opacity problem, not a dimensionality one).
+
+**Recommended direction (not yet implemented):**
+1. Show **% variance explained by the first 2 (and 3) MDS
+   eigenvalues** next to the scatter so overlap is interpretable.
+2. Add **jitter + point transparency** for coincident points.
+3. Offer a **1-D strip/histogram** view when the single feature is
+   numeric (the honest representation).
+4. Consider **t-SNE / UMAP** (sklearn has `TSNE`) as an optional
+   projection — preserves *cluster* separation better than metric MDS.
+5. Treat **3D as a later, evidence-gated, *interactive* (rotatable)
+   feature only** — not a default, and only if the eigenvalues justify
+   it.
+
+See `docs/08-design-decisions.md` §16 for the rationale in full.
 
 ---
 
@@ -241,17 +282,17 @@ Leaf `type` ∈ {`number`, `percent`, `year`, `date`, `currency`,
 ### 5.3 Cluster result
 ```json
 {
-  "algorithm": "kmedoids" | "hierarchical_agglomerative",
+  "algorithm": "kmeans" | "hierarchical_agglomerative",
   "params": {
-    "fields": ["demographics.religion", "government.type", ...],
-    "weights": { "demographics.religion": 1.8, ... },
+    "fields": ["demographics.religion"],          // exactly one
+    "weights": {},                                // unused (single field)
     "cost_model": "symmetric",
-    "k": 5, "init": "build", "max_iter": 100, "random_seed": 0
+    "k": 5, "n_init": 10, "max_iter": 300, "random_seed": 0
   },
   "labels":        { "Lebanon": 2, "Switzerland": 0,
                      "Syria": -1, ... },         // -1 = outlier
   "medoids":       ["France", "Brazil", "Egypt", ...],
-  "linkage":       [ [i, j, dist, count], ... ], // AGG only; empty for kmedoids
+  "linkage":       [ [i, j, dist, count], ... ], // AGG only; empty for kmeans
   "mds_2d":        { "Lebanon": [0.31, -0.18], ... },
   "silhouette":    0.42,
   "cluster_sizes": { "0": 41, "1": 27, ..., "-1": 8 },
@@ -293,8 +334,8 @@ density + scannability + accessibility is welcome.
 - **Cluster legend chip** — color swatch + cluster id + medoid name
   + member count. Repeated across the side panel and inside the
   Members tab.
-- **Field selector row** — checkbox + label + type hint + weight
-  input. Repeated in the cluster form.
+- **Field selector row** — radio + label + type hint. Repeated in the
+  cluster form (single-select; no weight input).
 - **Empty state** — used by countries-list when search has no hits,
   by cluster-form recent-runs when none exist.
 
@@ -307,7 +348,7 @@ density + scannability + accessibility is welcome.
   unavoidable, supplement with a glyph (✗ for delete, + for insert,
   ~ for relabel).
 - Every interactive element keyboard-reachable. The cluster form's
-  weight inputs must accept Tab + arrow-key adjustment.
+  feature radios must accept Tab + arrow-key selection.
 - Tab labels on the cluster result need `aria-controls` / `aria-selected`
   (Bootstrap handles this when using `data-bs-toggle="tab"` — keep it).
 - Tooltips on D3 viz are mouseover-only today; that's a known gap

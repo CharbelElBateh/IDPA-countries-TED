@@ -113,7 +113,6 @@ def create_app() -> Flask:
             type_counts.items(), key=lambda kv: kv[1], reverse=True
         )
 
-        from frontend.formatting import render_tree
         return render_template(
             "country_detail.html",
             active_tab="countries",
@@ -123,7 +122,6 @@ def create_app() -> Flask:
             height=tree.height(),
             toc=toc,
             type_composition=type_composition,
-            tree_html=render_tree(tree),
         )
 
     # ----------------------------------------------------- API
@@ -435,10 +433,21 @@ def _cached_cluster_runs() -> list[dict]:
 
 
 def _send_json_file(path: Path):
-    """Send a JSON file from anywhere on disk with the correct mimetype."""
+    """Send a JSON file from disk with the correct mimetype.
+
+    If the file is missing, return an empty JSON object with 200 rather
+    than letting ``FileNotFoundError`` bubble into a 500 HTML page — a
+    missing optional dataset (e.g. ``data/country_*_codes.json``) must
+    degrade gracefully, never crash the page that fetches it.
+    """
     from flask import Response
-    return Response(path.read_text(encoding="utf-8"),
-                    mimetype="application/json")
+    try:
+        body = path.read_text(encoding="utf-8")
+    except FileNotFoundError:
+        logger.warning("JSON file not found: %s — serving '{}'. "
+                        "Run scripts/build_country_codes.py.", path)
+        body = "{}"
+    return Response(body, mimetype="application/json")
 
 
 # =============================================================== main

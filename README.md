@@ -17,7 +17,7 @@ Four tabs in the web UI: **Countries · Compare · Patch · Cluster**.
 | 2. Build | `src/builder.py` | Rooted ordered labeled `Tree` with typed leaves |
 | 3. Diff | `src/ted/{chawathe,nierman_jagadish}.py` | `EditScript` with mapping, costs, op list |
 | 4. Patch | `src/core/edit_script.py` | Apply / invert any edit script |
-| 5. Cluster | `src/clustering/` | k-medoids or hierarchical AGG on selected features |
+| 5. Cluster | `src/clustering/` | k-means or hierarchical AGG on a single selected field |
 
 Distances are **type-aware**: Levenshtein for text, log-scale for
 currency, EMD over hand-curated taxonomies for distributions (religion /
@@ -168,11 +168,13 @@ cached comparison) to a source country tree. Reverse-direction
 checkbox inverts every op.
 
 ### Cluster
-Group the 192 countries by similarity on a chosen subset of typed
-fields. Two algorithms:
+Group the 192 countries by similarity on a **single** chosen typed
+field (no per-feature weights — only one field is used). Two algorithms:
 
-- **k-medoids (PAM)** — partition into `k` groups around `k` medoid
-  countries. Works on any pairwise distance metric.
+- **k-means (Lloyd's)** — partition into `k` groups around `k`
+  centroids. The non-Euclidean distance matrix is first embedded into
+  Euclidean space via classical MDS; k-means++ seeding, `n_init`
+  restarts.
 - **hierarchical_agglomerative** — bottom-up merges. Linkage: `average`
   / `complete` / `single` (Ward is rejected — needs Euclidean
   coordinates). Optional `distance_threshold` overrides `k`.
@@ -188,7 +190,7 @@ Results render in four tabs:
    country's detail page.
 
 Click any chip in the *Cluster sizes* side panel to filter the active
-viz to that cluster. Countries missing one or more selected fields are
+viz to that cluster. Countries missing the selected field are
 excluded into a separate **outlier** bucket.
 
 ---
@@ -199,20 +201,20 @@ The clustering tool also has a CLI driver:
 
 ```powershell
 .venv\Scripts\python.exe scripts\cluster_cli.py `
-    --algorithm kmedoids --k 5 `
-    --fields demographics.religion,government.type,economy.gdp_ppp.per_capita `
-    --weights demographics.religion=1.8,government.type=2.5
+    --algorithm kmeans --k 5 `
+    --fields demographics.religion
 
 .venv\Scripts\python.exe scripts\cluster_cli.py `
     --algorithm hierarchical_agglomerative --k 6 --linkage average `
-    --fields demographics.religion,economy.hdi.value
+    --fields economy.hdi.value
 ```
 
-Results are persisted to the `cluster_runs` collection and visible in
-the **Cluster** tab's "Recent runs" panel.
+Pick a single field with `--fields`. Results are persisted to the
+`cluster_runs` collection and visible in the **Cluster** tab's
+"Recent runs" panel.
 
-`--list-fields` prints all clusterable fields with their default
-weights. `--no-cache` skips persistence.
+`--list-fields` prints all clusterable fields. `--no-cache` skips
+persistence.
 
 ---
 
@@ -255,7 +257,7 @@ IDPA-Project/
 │   ├── comparison.py              # orchestrator for the Compare tab
 │   ├── config.py                  # pipeline.json loader
 │   ├── ted/                       # chawathe / nierman_jagadish
-│   ├── clustering/                # ★ new — k-medoids, AGG, MDS, evaluation
+│   ├── clustering/                # ★ new — k-means, AGG, MDS, evaluation
 │   └── storage/
 │       └── mongo_store.py         # countries / edit_scripts /
 │                                  # cluster_runs / distance_matrices
@@ -359,7 +361,8 @@ Get-NetTCPConnection -LocalPort 5050 -ErrorAction SilentlyContinue |
 
 - Chawathe S., *Comparing Hierarchical Data in External Memory*, VLDB 1999.
 - Nierman A. & Jagadish H.V., *Evaluating Structural Similarity in XML Documents*, WebDB 2002.
-- Kaufman L. & Rousseeuw P.J., *Finding Groups in Data*, Wiley 1990 (PAM / k-medoids).
+- Lloyd S.P., *Least Squares Quantization in PCM*, IEEE Trans. IT 1982 (k-means).
+- Torgerson W.S., *Multidimensional Scaling: I. Theory and Method*, Psychometrika 1952 (classical MDS).
 - wptools: <https://github.com/siznax/wptools>
 
 Course: **IDPA — Intelligent Data Processing and Applications**.

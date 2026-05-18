@@ -1,7 +1,7 @@
 """Country-level clustering on the typed-leaf country trees.
 
-Exposes two algorithms (k-medoids, hierarchical agglomerative) that operate
-on a precomputed pairwise distance matrix derived from a subset of fields
+Exposes two algorithms (k-means, hierarchical agglomerative) that operate
+on a precomputed pairwise distance matrix derived from the single field
 the user selects.
 """
 from src.clustering.base import ClusterAlgorithm, ClusterResult
@@ -19,7 +19,7 @@ from src.clustering.registry import (
 # Import for side-effect: registers the two algorithms.
 from src.clustering.algorithms import (  # noqa: F401
     hierarchical_agglomerative,
-    kmedoids,
+    kmeans,
 )
 from src.clustering.run import run_clustering
 

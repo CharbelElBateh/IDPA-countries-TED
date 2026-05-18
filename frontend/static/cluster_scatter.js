@@ -11,7 +11,7 @@
 
     const width = container.clientWidth || 900;
     const height = container.clientHeight || 600;
-    const margin = { top: 20, right: 20, bottom: 30, left: 30 };
+    const margin = { top: 40, right: 24, bottom: 52, left: 58 };
 
     const points = Object.entries(state.run.mds_2d).map(([name, xy]) => ({
       name,
@@ -39,21 +39,60 @@
       .attr("width", "100%")
       .attr("height", "100%");
 
-    // Axes (subtle — MDS axes have no real meaning).
-    svg.append("g")
+    // Reference grid. A classical-MDS embedding has NO intrinsic axes
+    // or units — only the *relative distance* between two points is
+    // meaningful (it approximates their dissimilarity in the chosen
+    // feature). So we draw a faint grid purely for visual scale and
+    // deliberately hide the arbitrary numeric tick values, then label
+    // what the plot actually means.
+    const innerW = width - margin.left - margin.right;
+    const innerH = height - margin.top - margin.bottom;
+
+    const gx = svg.append("g")
+      .attr("class", "mds-grid")
       .attr("transform", `translate(0,${height - margin.bottom})`)
-      .attr("opacity", 0.3)
-      .call(d3.axisBottom(x).ticks(5));
-    svg.append("g")
+      .call(d3.axisBottom(x).ticks(6).tickSize(-innerH).tickFormat(""));
+    const gy = svg.append("g")
+      .attr("class", "mds-grid")
       .attr("transform", `translate(${margin.left},0)`)
-      .attr("opacity", 0.3)
-      .call(d3.axisLeft(y).ticks(5));
+      .call(d3.axisLeft(y).ticks(6).tickSize(-innerW).tickFormat(""));
+    gx.select(".domain").remove();
+    gy.select(".domain").remove();
+
+    // Axis titles.
+    svg.append("text")
+      .attr("class", "mds-axis-title")
+      .attr("x", margin.left + innerW / 2)
+      .attr("y", height - 12)
+      .attr("text-anchor", "middle")
+      .text("MDS dimension 1  →");
+    svg.append("text")
+      .attr("class", "mds-axis-title")
+      .attr("transform", "rotate(-90)")
+      .attr("x", -(margin.top + innerH / 2))
+      .attr("y", 16)
+      .attr("text-anchor", "middle")
+      .text("MDS dimension 2  →");
+
+    // What the grid means (so the values aren't a mystery).
+    svg.append("text")
+      .attr("class", "mds-note")
+      .attr("x", margin.left)
+      .attr("y", 20)
+      .text("Grid = visual scale only. Axes are arbitrary MDS units; "
+            + "distance between points ≈ dissimilarity (closer = more similar).");
+
+    // Active-cluster filter: when set, only this cluster is solid;
+    // the rest are faded so the selection stands out.
+    const flt = state.activeFilter;
+    const isDim = (cid) => flt != null && cid !== flt;
 
     // Convex hulls per cluster — gives a soft shape behind each group.
     const byCluster = d3.group(points, (d) => d.cluster);
     const hullGroup = svg.append("g").attr("opacity", 0.18);
     for (const [cid, members] of byCluster) {
       if (cid < 0 || members.length < 3) continue;
+      if (isDim(cid)) continue;
       const coords = members.map((m) => [x(m.x), y(m.y)]);
       const hull = d3.polygonHull(coords);
       if (!hull) continue;
@@ -90,6 +129,7 @@
       .attr("fill", (d) => state.color(d.cluster))
       .attr("stroke", (d) => medoidSet.has(d.name) ? "#000" : "#fff")
       .attr("stroke-width", (d) => medoidSet.has(d.name) ? 2 : 0.8)
+      .attr("opacity", (d) => isDim(d.cluster) ? 0.12 : 1)
       .style("cursor", "pointer")
       .on("mouseover", function (event, d) {
         d3.select(this).attr("r", medoidSet.has(d.name) ? 9 : 6);
@@ -122,6 +162,7 @@
       .attr("y", (d) => y(d.y) + 4)
       .attr("font-size", 12)
       .attr("font-weight", 600)
+      .attr("opacity", (d) => isDim(d.cluster) ? 0.12 : 1)
       .text((d) => d.name.replace(/_/g, " "));
   };
 })();
