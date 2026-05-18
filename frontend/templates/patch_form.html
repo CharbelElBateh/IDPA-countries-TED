@@ -1,0 +1,123 @@
+{% extends "base.html" %}
+{% block title %}Patch{% endblock %}
+
+{% block content %}
+<div class="page-head">
+  <div>
+    <div class="eyebrow">Edit-script application</div>
+    <h1>Apply a patch to a country tree</h1>
+    <p class="lede">
+      Re-derive what a country tree would look like under the operations
+      from a cached comparison, or any JSON edit script you paste.
+    </p>
+  </div>
+</div>
+
+<div style="display:grid; grid-template-columns:460px 1fr; gap:24px;">
+  <div>
+    <div class="card">
+      <div class="card-body">
+        <div class="field mb-4">
+          <label>Source country</label>
+          <select class="select" id="patch-country">
+            <option value="">— select —</option>
+            {% for c in countries %}
+              <option value="{{ c }}">{{ c.replace('_', ' ') }}</option>
+            {% endfor %}
+          </select>
+        </div>
+
+        <div class="field" style="gap: 8px;">
+          <label>Edit script</label>
+          <div class="seg" id="src-seg">
+            <span class="opt active" data-src="paste"  id="src-paste">Paste JSON</span>
+            <span class="opt"        data-src="upload" id="src-upload">Upload file</span>
+            <span class="opt"        data-src="cached" id="src-cached">Cached</span>
+          </div>
+        </div>
+
+        <div class="mt-4">
+          <div id="pane-paste">
+            <textarea class="input mono" id="script-json" rows="11"
+              placeholder='{"source": "A", "target": "B", "total_cost": 0, "operations": []}'></textarea>
+          </div>
+          <div id="pane-upload" style="display: none;">
+            <div style="border:1.5px dashed var(--line-2); border-radius:6px;
+                        padding:24px; text-align:center; background:#fdfcf6;">
+              <div style="font-size: 26px; color: var(--muted-2);">⤓</div>
+              <p class="mono muted" style="font-size: 12px;">
+                Drop a <code>.json</code> file here or click to choose
+              </p>
+              <input type="file" accept="application/json" id="script-file">
+            </div>
+          </div>
+          <div id="pane-cached" style="display: none;">
+            <select class="select mono" id="script-cached" style="font-size: 12px;">
+              <option value="">— pick a cached comparison —</option>
+              {% for row in cached %}
+                <option value="{{ row.id }}"
+                        data-c1="{{ row.country1 }}"
+                        data-c2="{{ row.country2 }}">
+                  {{ row.country1 }} → {{ row.country2 }}
+                  ({{ row.algorithm }} / {{ row.cost_model }})
+                </option>
+              {% endfor %}
+            </select>
+            <label class="row mt-2" style="font-size: 12px; gap: 8px; cursor: pointer;">
+              <input type="checkbox" class="checkbox" id="use-reverse">
+              <span class="muted mono">Use reverse direction (target → source)</span>
+            </label>
+          </div>
+        </div>
+
+        <div class="row mt-6 between">
+          <button class="btn primary lg" id="btn-apply">Apply ▶</button>
+          <span id="patch-status" class="mono muted" style="font-size: 12px;"></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="alert info mt-4">
+      <span class="icon">i</span>
+      <div>
+        <strong>Tip.</strong> A reverse-direction patch turns the target
+        tree back into the source by inverting every op
+        (<code>insert</code> ↔ <code>delete</code>).
+      </div>
+    </div>
+  </div>
+
+  <div>
+    <div class="tree-side-header" id="patched-label">
+      <span class="who">
+        <span class="who-tag">↻</span>
+        <strong>Patched preview</strong>
+      </span>
+      <span class="stats mono"></span>
+    </div>
+    <div id="tree-canvas-patched" class="tree-canvas"></div>
+  </div>
+</div>
+
+<div id="node-info"></div>
+
+<script>
+  // Segmented control wiring (replaces old btn-group radio).
+  document.querySelectorAll('#src-seg .opt').forEach((opt) => {
+    opt.addEventListener('click', () => {
+      const mode = opt.dataset.src;
+      document.querySelectorAll('#src-seg .opt').forEach((o) =>
+        o.classList.toggle('active', o === opt));
+      document.getElementById('pane-paste').style.display  = mode === 'paste'  ? '' : 'none';
+      document.getElementById('pane-upload').style.display = mode === 'upload' ? '' : 'none';
+      document.getElementById('pane-cached').style.display = mode === 'cached' ? '' : 'none';
+    });
+  });
+</script>
+{% endblock %}
+
+{% block scripts %}
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
+<script src="{{ url_for('static', filename='tree.js') }}"></script>
+<script src="{{ url_for('static', filename='patch.js') }}"></script>
+{% endblock %}

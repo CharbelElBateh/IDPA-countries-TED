@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block title %}IDPA{% endblock %} — IDPA Country Explorer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+  <link rel="stylesheet" href="{{ url_for('static', filename='tokens.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  {% block head_extra %}{% endblock %}
+</head>
+<body>
+<div class="app">
+
+  <nav class="nav">
+    <div class="nav-inner">
+      <a class="brand" href="{{ url_for('countries_list') }}">
+        <span class="brand-mark">IDPA</span>
+        <span class="brand-sub">Country Explorer</span>
+      </a>
+      <ul class="nav-tabs">
+        <li class="nav-tab {% if active_tab == 'countries' %}active{% endif %}">
+          <a href="{{ url_for('countries_list') }}">Countries</a>
+        </li>
+        <li class="nav-tab {% if active_tab == 'compare' %}active{% endif %}">
+          <a href="{{ url_for('compare_form') }}">Compare</a>
+        </li>
+        <li class="nav-tab {% if active_tab == 'patch' %}active{% endif %}">
+          <a href="{{ url_for('patch_form') }}">Patch</a>
+        </li>
+        <li class="nav-tab {% if active_tab == 'cluster' %}active{% endif %}">
+          <a href="{{ url_for('cluster_form') }}">Cluster</a>
+        </li>
+      </ul>
+      <span class="nav-spacer"></span>
+      <span class="nav-meta">
+        <span><span class="dot"></span>mongo · idpa@v2</span>
+      </span>
+    </div>
+  </nav>
+
+  <main class="shell-main">
+    {% block content %}{% endblock %}
+  </main>
+
+</div>
+
+{# Make nav-tab <li> click anywhere fall through to the inner <a>. #}
+<style>
+  .nav-tab          { padding: 0; }
+  .nav-tab > a      { display: flex; align-items: center; height: 100%;
+                      padding: 0 14px; color: inherit; text-decoration: none; }
+  .nav-tab > a:hover { text-decoration: none; }
+</style>
+
+{% block scripts %}{% endblock %}
+</body>
+</html>

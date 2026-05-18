@@ -2,11 +2,13 @@
 .idea
 .claude
 __pycache__
-data/*/*
-!data/raw/**
+*.pyc
+.pytest_cache
 .env
 CLAUDE.md
 *.pdf
 *.pptx
 *.docx
-logs/*
+logs/
+data/
+old/

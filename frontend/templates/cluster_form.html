@@ -1,0 +1,266 @@
+{% extends "base.html" %}
+{% block title %}Cluster{% endblock %}
+
+{% block content %}
+<div class="page-head">
+  <div>
+    <div class="eyebrow">Unsupervised grouping</div>
+    <h1>Cluster countries</h1>
+    <p class="lede">
+      Group the 192 UN member states by similarity on a chosen set of
+      typed infobox fields. Per-leaf-type distance from
+      <code>src/distances.py</code> (Levenshtein for text, log-scale for
+      currency, EMD over taxonomies for distributions, haversine for
+      coordinates).
+    </p>
+  </div>
+</div>
+
+<div class="cluster-intro mb-4">
+  <strong>How it works.</strong>
+  Countries missing any selected field are excluded into a separate
+  outlier bucket. The remaining countries are placed into a pairwise
+  distance matrix, then partitioned by your chosen algorithm.
+</div>
+
+<form id="cluster-form">
+
+  {# ─────────────────────────────────────────── parameters card ─── #}
+  <div class="params-card">
+    <div class="params-row">
+      <div class="pleft">
+        <span class="label">Algorithm</span>
+        <p class="hint">Two implementations. k-medoids is fast and gives
+          clean assignments; agglomerative gives a merge tree.</p>
+      </div>
+      <div class="pright">
+        <span class="seg" id="algo-seg">
+          {% for algo in algorithms %}
+            <span class="opt {% if loop.first %}active{% endif %}"
+                  data-algo="{{ algo.name }}">{{ algo.name }}</span>
+          {% endfor %}
+        </span>
+        <div class="field">
+          <label>Cost model</label>
+          <select class="select" name="cost_model" id="cost_model">
+            {% for cm in cost_models %}
+              <option value="{{ cm }}">{{ cm }}</option>
+            {% endfor %}
+          </select>
+        </div>
+        <input type="hidden" name="algorithm" id="algorithm" value="kmedoids">
+      </div>
+    </div>
+
+    {# k-medoids knobs #}
+    <div class="params-row algo-knobs kmedoids">
+      <div class="pleft">
+        <span class="label">k-medoids knobs</span>
+        <p class="hint">Choose number of clusters and initialization
+          strategy. BUILD is the greedy PAM init from Kaufman &
+          Rousseeuw.</p>
+      </div>
+      <div class="pright">
+        <div class="field k">
+          <label>k (clusters)</label>
+          <input class="input mono" type="number" name="k_kmedoids"
+                 min="2" max="20" value="5">
+        </div>
+        <div class="field">
+          <label>init</label>
+          <select class="select" name="init">
+            <option value="build" selected>build (greedy)</option>
+            <option value="random">random</option>
+          </select>
+        </div>
+        <div class="field k">
+          <label>max_iter</label>
+          <input class="input mono" type="number" name="max_iter"
+                 min="1" max="1000" value="100">
+        </div>
+        <div class="field k">
+          <label>random_seed</label>
+          <input class="input mono" type="number" name="random_seed" value="0">
+        </div>
+      </div>
+    </div>
+
+    {# agglomerative knobs #}
+    <div class="params-row algo-knobs hierarchical_agglomerative"
+         style="display: none;">
+      <div class="pleft">
+        <span class="label">Linkage knobs</span>
+        <p class="hint">Linkage criterion controls how cluster
+          distances are aggregated during merges. Distance threshold
+          overrides k by cutting the dendrogram at a given height.</p>
+      </div>
+      <div class="pright">
+        <div class="field k">
+          <label>k (clusters)</label>
+          <input class="input mono" type="number" name="k_agg"
+                 min="2" max="20" value="5">
+        </div>
+        <div class="field">
+          <label>linkage</label>
+          <select class="select" name="linkage">
+            <option value="average" selected>average</option>
+            <option value="complete">complete</option>
+            <option value="single">single</option>
+          </select>
+        </div>
+        <div class="field">
+          <label>distance threshold
+            <span class="muted" style="text-transform: none;">(overrides k)</span>
+          </label>
+          <input class="input mono" type="number" step="0.01"
+                 name="distance_threshold" placeholder="optional">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  {# ─────────────────────────────────────────── features card ─── #}
+  <div class="features-card">
+    <div class="features-head">
+      <h3>
+        Features
+        <span class="ct" id="feature-count">0/0 on</span>
+        <span class="muted mono"
+              style="font-size: 11.5px; font-weight: 400;">
+          · Σw = <span id="feature-weight-sum">0.0</span>
+        </span>
+      </h3>
+      <div class="features-bulk">
+        <button type="button" class="btn sm" id="select-preset">
+          Preset · politics + economy + religion
+        </button>
+        <button type="button" class="btn sm" id="select-all-fields">Select all</button>
+        <button type="button" class="btn sm" id="select-none-fields">Clear</button>
+      </div>
+    </div>
+
+    {% for group_name, fields in fields_grouped.items() %}
+      {% set open_default = group_name in ['Government', 'Economy', 'Demographics'] %}
+      <details class="feature-group" {% if open_default %}open{% endif %}
+               data-group="{{ group_name }}">
+        <summary>
+          <span></span>
+          <span class="g-name">{{ group_name }}</span>
+          <span class="g-meta">
+            {{ fields|length }} fields ·
+            {{ (fields | map(attribute='kind') | unique | list) | join(', ') }}
+          </span>
+          <span class="g-spark">
+            {% for i in range(fields|length) %}
+              <span style="height: {{ 4 + i }}px;"></span>
+            {% endfor %}
+          </span>
+          <span class="g-ct">0/{{ fields|length }}</span>
+        </summary>
+        <div class="feature-list">
+          {% for f in fields %}
+            <label class="feature-row off" data-path="{{ f.path }}">
+              <input type="checkbox" class="checkbox field-check"
+                     data-path="{{ f.path }}">
+              <span class="fl">
+                <span class="fn">
+                  <span class="path">
+                    {% for part in f.path.split('.') %}
+                      {% if not loop.first %}<span class="sep">.</span>{% endif %}
+                      <span class="{% if loop.last %}last{% endif %}">{{ part }}</span>
+                    {% endfor %}
+                  </span>
+                </span>
+                <span class="tbadge {{ f.kind }}">{{ f.kind }}</span>
+              </span>
+              <span class="weight">
+                w
+                <input class="winput mono field-weight" type="number"
+                       step="0.1" min="0"
+                       data-path="{{ f.path }}"
+                       value="{{ '%.1f'|format(f.default_weight) }}"
+                       disabled>
+              </span>
+            </label>
+          {% endfor %}
+        </div>
+      </details>
+    {% endfor %}
+  </div>
+
+  {# ─────────────────────────────────────────── sticky run bar ─── #}
+  <div class="run-bar">
+    <div class="summary">
+      <span><span class="k">algorithm</span>
+            <span class="v" id="bar-algo">kmedoids</span></span>
+      <span><span class="k">k</span>
+            <span class="v" id="bar-k">5</span></span>
+      <span><span class="k">features</span>
+            <span class="v" id="bar-features">0</span></span>
+      <span><span class="k">Σ weight</span>
+            <span class="v" id="bar-weight">0.0</span></span>
+      <span><span class="k">cost</span>
+            <span class="v" id="bar-cost">symmetric</span></span>
+    </div>
+    <button class="btn primary lg" type="submit" id="run-btn">
+      ▶ Run clustering
+    </button>
+  </div>
+</form>
+
+<div id="status" class="alert info mt-4" style="display: none;"></div>
+
+{% if cached %}
+  <h3 class="mt-6 mb-2">
+    Recent runs
+    <span class="muted mono" style="font-size: 13px; font-weight: 400;">
+      · {{ cached|length }}
+    </span>
+  </h3>
+  <div class="runs-grid">
+    {% for row in cached %}
+      <a class="run-card" href="{{ url_for('cluster_result', run_id=row.id) }}">
+        <div class="rc-head">
+          <span class="rc-algo">{{ row.algorithm }}</span>
+          <span class="rc-time">
+            {{ row.computed_at[5:16] if row.computed_at else '' }}
+          </span>
+        </div>
+        <div class="rc-stats">
+          <div class="rc-stat">
+            <div class="v">{{ row.n_clusters }}</div>
+            <div class="k">clusters</div>
+          </div>
+          <div class="rc-stat">
+            <div class="v">{{ row.n_outliers }}</div>
+            <div class="k">outliers</div>
+          </div>
+          <div class="rc-stat">
+            <div class="v">
+              {% if row.silhouette is not none %}
+                {{ '%.2f'|format(row.silhouette) }}
+              {% else %}—{% endif %}
+            </div>
+            <div class="k">silhouette</div>
+          </div>
+        </div>
+        <div class="rc-fields">
+          {% for f in (row.params.fields or [])[:8] %}
+            <span class="tk">{{ f }}</span>
+          {% endfor %}
+          {% if (row.params.fields or [])|length > 8 %}
+            <span class="muted">
+              +{{ (row.params.fields or [])|length - 8 }} more
+            </span>
+          {% endif %}
+        </div>
+      </a>
+    {% endfor %}
+  </div>
+{% endif %}
+
+{% endblock %}
+
+{% block scripts %}
+<script src="{{ url_for('static', filename='cluster_form.js') }}"></script>
+{% endblock %}

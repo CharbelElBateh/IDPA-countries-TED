@@ -1,0 +1,197 @@
+{% extends "base.html" %}
+{% block title %}Cluster — {{ algorithm }}{% endblock %}
+
+{% block content %}
+<div class="crumb">
+  <a href="{{ url_for('cluster_form') }}">Cluster</a>
+  <span class="sep">›</span>
+  <span class="cur">{{ algorithm }} · {{ run_id[:24] }}…</span>
+</div>
+
+<div class="cluster-result-head">
+  <div>
+    <div class="eyebrow">Cluster run</div>
+    <h2>
+      Cluster result
+      <span class="sub">· {{ algorithm }}{% if params.k %} · k = {{ params.k }}{% endif %}</span>
+    </h2>
+  </div>
+  <div class="page-head-meta">
+    <div class="page-stat">
+      <span class="v">{{ n_clusters }}</span>
+      <span class="k">clusters</span>
+    </div>
+    <div class="page-stat">
+      <span class="v">{{ n_outliers }}</span>
+      <span class="k">outliers</span>
+    </div>
+    <div class="page-stat">
+      <span class="v">
+        {% if silhouette is not none %}
+          {{ '%.3f'|format(silhouette) }}
+        {% else %}—{% endif %}
+      </span>
+      <span class="k">silhouette</span>
+    </div>
+    <div class="page-stat">
+      <span class="v">{{ (params.fields or [])|length }}</span>
+      <span class="k">features</span>
+    </div>
+    <a class="btn" href="{{ url_for('cluster_form') }}">← New run</a>
+  </div>
+</div>
+
+<div class="cluster-result-grid">
+  <div>
+    <div class="viz-tabs">
+      <span class="viz-tab active" data-tab="map">
+        <span class="icon">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none"
+               stroke="currentColor" stroke-width="1.6"
+               stroke-linecap="round" stroke-linejoin="round">
+            <path d="M3 6v15l6-3 6 3 6-3V3l-6 3-6-3-6 3z"/>
+            <path d="M9 3v15M15 6v15"/>
+          </svg>
+        </span>
+        World map
+      </span>
+      <span class="viz-tab" data-tab="scatter">
+        <span class="icon">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none"
+               stroke="currentColor" stroke-width="1.6"
+               stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="6" cy="18" r="1.4"/><circle cx="10" cy="13" r="1.4"/>
+            <circle cx="14" cy="16" r="1.4"/><circle cx="17" cy="8" r="1.4"/>
+            <circle cx="9" cy="7" r="1.4"/>
+            <path d="M3 21V3"/><path d="M3 21h18"/>
+          </svg>
+        </span>
+        2D scatter <span class="muted mono" style="font-size: 11px;">· MDS</span>
+      </span>
+      {% if algorithm == 'hierarchical_agglomerative' %}
+      <span class="viz-tab" data-tab="dendrogram">
+        <span class="icon">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none"
+               stroke="currentColor" stroke-width="1.6"
+               stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="4" r="1.5"/>
+            <circle cx="6" cy="12" r="1.5"/><circle cx="18" cy="12" r="1.5"/>
+            <circle cx="4" cy="20" r="1.5"/><circle cx="9" cy="20" r="1.5"/>
+            <circle cx="15" cy="20" r="1.5"/><circle cx="20" cy="20" r="1.5"/>
+            <path d="M12 5.5v3M5 13.4l-.6 5M7 13.4l1.6 5M17 13.4l-1.6 5M19 13.4l.6 5"/>
+          </svg>
+        </span>
+        Dendrogram
+      </span>
+      {% endif %}
+      <span class="viz-tab" data-tab="members">
+        <span class="icon">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none"
+               stroke="currentColor" stroke-width="1.6"
+               stroke-linecap="round" stroke-linejoin="round">
+            <path d="M8 6h13M8 12h13M8 18h13"/>
+            <circle cx="4" cy="6" r="0.8" fill="currentColor"/>
+            <circle cx="4" cy="12" r="0.8" fill="currentColor"/>
+            <circle cx="4" cy="18" r="0.8" fill="currentColor"/>
+          </svg>
+        </span>
+        Members
+      </span>
+      <span class="flex-1"></span>
+      <span class="viz-tab" id="filter-state"
+            style="cursor: default; color: var(--muted);">
+        <span class="muted mono" style="font-size: 11px;">
+          click a cluster chip to filter
+        </span>
+      </span>
+    </div>
+
+    <div class="viz-card">
+      <div class="viz-frame" id="viz-frame">
+        <div id="viz-map"        class="viz-pane" data-tab="map"></div>
+        <div id="viz-scatter"    class="viz-pane" data-tab="scatter" style="display: none;"></div>
+        {% if algorithm == 'hierarchical_agglomerative' %}
+          <div id="viz-dendrogram" class="viz-pane" data-tab="dendrogram"
+               style="display: none; overflow-x: auto;"></div>
+        {% endif %}
+        <div id="viz-members"    class="viz-pane" data-tab="members"
+             style="display: none; padding: 18px; height: 100%; overflow: auto;"></div>
+      </div>
+      <p class="viz-cap" id="viz-cap">
+        Hover a country for cluster details. Outliers appear in grey.
+      </p>
+    </div>
+  </div>
+
+  <aside class="side-card">
+    <div class="card">
+      <div class="card-header">
+        <h3>Configuration</h3>
+        <span class="muted mono" style="font-size: 11px;">params</span>
+      </div>
+      <div class="card-body tight">
+        <dl class="kv">
+          <dt>algorithm</dt><dd>{{ algorithm }}</dd>
+          {% if params.k is defined %}
+            <dt>k</dt><dd>{{ params.k }}</dd>
+          {% endif %}
+          {% if params.linkage is defined %}
+            <dt>linkage</dt><dd>{{ params.linkage }}</dd>
+          {% endif %}
+          {% if params.init is defined %}
+            <dt>init</dt><dd>{{ params.init }}</dd>
+          {% endif %}
+          <dt>cost_model</dt><dd>{{ params.cost_model }}</dd>
+        </dl>
+        <div style="border-top: 1px dashed var(--line);
+                    margin-top: 8px; padding-top: 8px;">
+          <div class="label mb-2">
+            Features ({{ (params.fields or [])|length }})
+          </div>
+          <div style="display: flex; flex-wrap: wrap; gap: 4px;">
+            {% for f in (params.fields or []) %}
+              <span class="tag" style="font-size: 10.5px;">{{ f }}</span>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-header">
+        <h3>Cluster sizes</h3>
+        <span class="muted mono" style="font-size: 11px;">click to filter</span>
+      </div>
+      <div class="card-body" style="padding: 8px;">
+        <ul id="cluster-legend" style="list-style: none; margin: 0; padding: 0;"></ul>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-header">
+        <h3>Outliers</h3>
+        <span class="muted mono" style="font-size: 11px;" id="outlier-count"></span>
+      </div>
+      <div class="card-body tight">
+        <ul id="outlier-list" style="list-style: none; margin: 0; padding: 0;"></ul>
+      </div>
+    </div>
+  </aside>
+</div>
+
+<script>
+  window.RUN_ID = {{ run_id|tojson }};
+  window.ALGORITHM = {{ algorithm|tojson }};
+</script>
+{% endblock %}
+
+{% block scripts %}
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script src="https://d3js.org/topojson.v3.min.js"></script>
+<script src="{{ url_for('static', filename='cluster_result.js') }}"></script>
+<script src="{{ url_for('static', filename='cluster_map.js') }}"></script>
+<script src="{{ url_for('static', filename='cluster_scatter.js') }}"></script>
+{% if algorithm == 'hierarchical_agglomerative' %}
+  <script src="{{ url_for('static', filename='cluster_dendrogram.js') }}"></script>
+{% endif %}
+{% endblock %}

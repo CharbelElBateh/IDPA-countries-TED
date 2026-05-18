@@ -1,0 +1,91 @@
+{% extends "base.html" %}
+{% block title %}Countries{% endblock %}
+
+{% block content %}
+<div class="page-head">
+  <div>
+    <div class="eyebrow">Index</div>
+    <h1>Countries</h1>
+    <p class="lede">
+      {{ total_count }} UN member states indexed from Wikipedia infoboxes.
+      Each card opens the country's full structural tree.
+    </p>
+  </div>
+  <div class="page-head-meta">
+    <div class="page-stat"><span class="v">{{ total_count }}</span><span class="k">countries</span></div>
+    {% if query %}
+      <div class="page-stat"><span class="v">{{ countries|length }}</span><span class="k">match query</span></div>
+    {% endif %}
+  </div>
+</div>
+
+<form method="get" action="{{ url_for('countries_list') }}"
+      class="row mb-4" style="gap: 12px;">
+  <div class="search flex-1" style="max-width: 480px;">
+    <span class="search-icon">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none"
+           stroke="currentColor" stroke-width="1.6"
+           stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/>
+      </svg>
+    </span>
+    <input class="input" type="search" name="q"
+           value="{{ query or '' }}"
+           placeholder="Filter by name…" autofocus>
+    <span class="kbd-hint">↵</span>
+  </div>
+  <span class="muted mono" style="font-size: 12px; align-self: center;">
+    {% if query %}
+      {{ countries|length }} of {{ total_count }} match
+    {% else %}
+      showing all {{ total_count }}
+    {% endif %}
+  </span>
+</form>
+
+{% if not countries %}
+  <div class="empty">
+    <div class="em-glyph">⌕</div>
+    No country matches <code>{{ query }}</code>.
+  </div>
+{% else %}
+  {# Group countries by first letter, alphabetically. #}
+  {% set groups = namespace(d={}) %}
+  {% for name in countries %}
+    {% set letter = name[0]|upper %}
+    {% if letter not in groups.d %}
+      {% if groups.d.update({letter: []}) %}{% endif %}
+    {% endif %}
+    {% if groups.d[letter].append(name) %}{% endif %}
+  {% endfor %}
+
+  {# Alpha rail #}
+  {% set alpha = "ABCDEFGHIJKLMNOPQRSTUVWXYZ" %}
+  <div class="alpha-rail">
+    {% for L in alpha %}
+      {% if L in groups.d %}
+        <a class="letter" href="#group-{{ L }}">{{ L }}</a>
+      {% else %}
+        <span class="letter disabled">{{ L }}</span>
+      {% endif %}
+    {% endfor %}
+  </div>
+
+  {% for L in alpha %}
+    {% if L in groups.d %}
+      <div class="alpha-group" id="group-{{ L }}">
+        <h4>{{ L }}</h4>
+        <div class="country-grid">
+          {% for name in groups.d[L] %}
+            <a class="country-card"
+               href="{{ url_for('country_detail', name=name) }}">
+              <span class="cc-name">{{ name.replace('_', ' ') }}</span>
+              <span class="cc-iso">{{ iso_codes.get(name, '—') }}</span>
+            </a>
+          {% endfor %}
+        </div>
+      </div>
+    {% endif %}
+  {% endfor %}
+{% endif %}
+{% endblock %}

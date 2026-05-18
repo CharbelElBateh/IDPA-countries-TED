@@ -1,0 +1,665 @@
+{
+  "version": "2.0",
+  "description": "Single source of truth for the IDPA country-comparison pipeline. Drives field cleaning, alias resolution, tree construction, typed parsing, distance functions, TED costs, currency normalization, and taxonomies.",
+
+  "_comment_field_aliases": "Map variant Wikipedia infobox key names to a single canonical key.",
+  "field_aliases": {
+    "time_zone": "timezone",
+    "iso_code": "iso3166code",
+    "englishmotto": "national_motto",
+    "motto": "national_motto",
+    "admin_center": "capital",
+    "image_map_caption": "map_caption",
+    "official_language": "official_languages",
+    "national_language": "official_languages",
+    "languages_type": "languages_type",
+    "currency_code": "currency_code"
+  },
+
+  "_comment_field_filter_patterns": "Regex patterns; any field whose canonical name matches is dropped before tree construction.",
+  "field_filter_patterns": [
+    "^image_",
+    "^flag_",
+    "^coa_",
+    "^map_",
+    "^alt_",
+    "^title_",
+    ".*_ref$",
+    "^rowclass",
+    "^label\\d*$",
+    "^data\\d*$",
+    "^bodystyle$",
+    "^titlestyle$",
+    "^subbox$",
+    "^liststyle$",
+    "^item_style$",
+    "^area_label",
+    "^area_data",
+    "^area_footnote",
+    "^area_link",
+    "^today$",
+    "^script-",
+    "^url",
+    "^archiveurl",
+    "^archivedate",
+    "^publisher$",
+    "^journal$",
+    "^volume$",
+    "^pages$",
+    "^date$",
+    "^title$",
+    "^last$"
+  ],
+
+  "_comment_category_layout": "Maps a canonical infobox field name (or composite group id) to its path in the country tree.",
+  "category_layout": {
+    "conventional_long_name":    "identity.long_name",
+    "common_name":               "identity.common_name",
+    "native_name":               "identity.native_name",
+    "demonym":                   "identity.demonym",
+    "national_motto":            "identity.motto",
+    "national_anthem":           "identity.anthem",
+
+    "capital":                   "geography.capital",
+    "largest_city":              "geography.largest_city",
+    "coordinates":               "geography.coordinates",
+    "area_km2":                  "geography.area.km2",
+    "area_rank":                 "geography.area.rank",
+    "percent_water":             "geography.area.water_pct",
+    "timezone":                  "geography.timezone",
+    "utc_offset":                "geography.utc_offset",
+    "drives_on":                 "geography.drives_on",
+
+    "government_type":           "government.type",
+    "legislature":               "government.legislature",
+    "upper_house":               "government.upper_house",
+    "lower_house":               "government.lower_house",
+    "@leaders":                  "government.leaders",
+
+    "GDP_PPP":                   "economy.gdp_ppp.value",
+    "GDP_PPP_year":              "economy.gdp_ppp.year",
+    "GDP_PPP_per_capita":        "economy.gdp_ppp.per_capita",
+    "GDP_PPP_rank":              "economy.gdp_ppp.rank",
+    "GDP_nominal":               "economy.gdp_nominal.value",
+    "GDP_nominal_year":          "economy.gdp_nominal.year",
+    "GDP_nominal_per_capita":    "economy.gdp_nominal.per_capita",
+    "GDP_nominal_rank":          "economy.gdp_nominal.rank",
+    "Gini":                      "economy.gini.value",
+    "Gini_year":                 "economy.gini.year",
+    "Gini_change":               "economy.gini.change",
+    "HDI":                       "economy.hdi.value",
+    "HDI_year":                  "economy.hdi.year",
+    "HDI_rank":                  "economy.hdi.rank",
+    "HDI_change":                "economy.hdi.change",
+    "currency":                  "economy.currency",
+
+    "population_estimate":       "demographics.population.estimate",
+    "population_estimate_year":  "demographics.population.estimate_year",
+    "population_census":         "demographics.population.census",
+    "population_census_year":    "demographics.population.census_year",
+    "population_density_km2":    "demographics.population.density",
+    "official_languages":        "demographics.languages",
+    "languages":                 "demographics.languages",
+    "religion":                  "demographics.religion",
+    "religion_year":             "demographics.religion_year",
+    "ethnic_groups":             "demographics.ethnic_groups",
+    "ethnic_groups_year":        "demographics.ethnic_groups_year",
+
+    "@established":              "history.established",
+
+    "iso3166code":                "codes.iso3166",
+    "cctld":                      "codes.cctld",
+    "calling_code":               "codes.calling_code"
+  },
+
+  "_comment_serial_groups": "Composite group rules. Each rule captures repeated numbered fields and emits a single composite list. Emits a synthetic field named '@<group_id>' which is then placed via category_layout.",
+  "serial_groups": {
+    "@leaders": {
+      "patterns": {
+        "title": "^leader_title(\\d+)$",
+        "name":  "^leader_name(\\d+)$"
+      },
+      "child_label": "leader",
+      "index_key": "index"
+    },
+    "@established": {
+      "patterns": {
+        "event": "^established_event(\\d+)$",
+        "date":  "^established_date(\\d+)$"
+      },
+      "child_label": "event",
+      "index_key": "index"
+    }
+  },
+
+  "_comment_field_types": "Explicit type override per canonical field. If absent, type is inferred from the value. Values: number, percent, year, date, currency, coordinates, wikilink, text, distribution:<taxonomy>",
+  "field_types": {
+    "area_km2":                  "number",
+    "percent_water":             "percent",
+    "population_estimate":       "number",
+    "population_estimate_year":  "year",
+    "population_census":         "number",
+    "population_census_year":    "year",
+    "population_density_km2":    "number",
+    "GDP_PPP":                   "currency",
+    "GDP_PPP_year":              "year",
+    "GDP_PPP_per_capita":        "currency",
+    "GDP_PPP_rank":              "number",
+    "GDP_nominal":               "currency",
+    "GDP_nominal_year":          "year",
+    "GDP_nominal_per_capita":    "currency",
+    "GDP_nominal_rank":          "number",
+    "Gini":                      "number",
+    "Gini_year":                 "year",
+    "Gini_change":               "text",
+    "HDI":                       "number",
+    "HDI_year":                  "year",
+    "HDI_rank":                  "number",
+    "HDI_change":                "text",
+    "area_rank":                 "number",
+    "coordinates":               "coordinates",
+    "religion":                  "distribution:religion",
+    "ethnic_groups":             "distribution:ethnicity",
+    "official_languages":        "distribution:language",
+    "languages":                 "distribution:language",
+    "government_type":           "wikilink",
+    "capital":                   "wikilink",
+    "largest_city":              "wikilink",
+    "legislature":               "wikilink",
+    "currency":                  "wikilink",
+    "national_motto":            "text",
+    "national_anthem":           "text",
+    "demonym":                   "wikilink",
+    "drives_on":                 "text",
+    "timezone":                  "text",
+    "utc_offset":                "text",
+    "iso3166code":               "text",
+    "cctld":                     "text",
+    "calling_code":              "text"
+  },
+
+  "_comment_field_weights": "Multiplier applied to insert/delete/relabel costs for any node within this field path. Default = 1.0.",
+  "field_weights": {
+    "default":                          1.0,
+    "identity.long_name":               0.5,
+    "identity.common_name":             0.3,
+    "identity.native_name":             0.3,
+    "identity.motto":                   0.5,
+    "identity.anthem":                  0.5,
+    "identity.demonym":                 0.5,
+    "geography.capital":                2.0,
+    "geography.largest_city":           0.8,
+    "geography.coordinates":            1.0,
+    "geography.area":                   1.2,
+    "geography.timezone":               0.5,
+    "geography.utc_offset":             0.3,
+    "geography.drives_on":              0.3,
+    "government.type":                  2.5,
+    "government.legislature":           1.2,
+    "government.leaders":               1.0,
+    "economy.gdp_ppp":                  1.8,
+    "economy.gdp_nominal":              1.5,
+    "economy.hdi":                      1.5,
+    "economy.gini":                     1.0,
+    "economy.currency":                 0.8,
+    "demographics.population":          1.5,
+    "demographics.languages":           1.5,
+    "demographics.religion":            1.8,
+    "demographics.ethnic_groups":       1.5,
+    "history.established":              0.7,
+    "codes":                            0.3
+  },
+
+  "_comment_subtree_similarity": "Controls Nierman & Jagadish's subtree-containment rule. When enabled, inserting (or deleting) a subtree that already exists in the other tree costs a single base op times the field weight, instead of the per-node sum. Set 'enabled' to false to revert to summing per-node costs (classic Selkow-style alignment).",
+  "subtree_similarity": {
+    "enabled":          true,
+    "move_cost_factor": 1.0
+  },
+
+  "_comment_ted_costs": "Multiple named cost models. The UI picks one per comparison. 'default' names the model used when none is specified.",
+  "ted_costs": {
+    "default": "symmetric",
+    "models": {
+      "symmetric": {
+        "insert":                1.0,
+        "delete":                1.0,
+        "type_mismatch_relabel": 1.0,
+        "missing_vs_present":    1.0
+      },
+      "asymmetric": {
+        "insert":                1.0,
+        "delete":                2.0,
+        "type_mismatch_relabel": 1.0,
+        "missing_vs_present":    1.0
+      }
+    },
+    "scales": {
+      "number_min_denom":              1e-9,
+      "year_full_distance":            100,
+      "date_full_distance_years":      100,
+      "coordinates_full_distance_km":  20000,
+      "currency_full_distance_usd_log10": 4
+    },
+    "text_distance": "normalized_levenshtein",
+    "list_distance": "emd"
+  },
+
+  "_comment_currency_to_usd": "Static rate table; multiply local-amount by this value to get USD. Approximate mid-2025 rates; replace with a live source if exact rates matter.",
+  "currency_to_usd": {
+    "USD": 1.0,
+    "EUR": 1.08,
+    "GBP": 1.27,
+    "JPY": 0.0064,
+    "CHF": 1.13,
+    "CNY": 0.14,
+    "CAD": 0.73,
+    "AUD": 0.66,
+    "NZD": 0.60,
+    "SGD": 0.74,
+    "HKD": 0.13,
+    "INR": 0.012,
+    "BRL": 0.18,
+    "RUB": 0.011,
+    "ZAR": 0.054,
+    "MXN": 0.058,
+    "TRY": 0.029,
+    "KRW": 0.00073,
+    "SEK": 0.095,
+    "NOK": 0.094,
+    "DKK": 0.145,
+    "PLN": 0.25,
+    "CZK": 0.043,
+    "HUF": 0.0028,
+    "RON": 0.22,
+    "BGN": 0.55,
+    "ILS": 0.27,
+    "AED": 0.272,
+    "SAR": 0.267,
+    "QAR": 0.275,
+    "KWD": 3.25,
+    "BHD": 2.65,
+    "OMR": 2.60,
+    "JOD": 1.41,
+    "EGP": 0.020,
+    "MAD": 0.10,
+    "TND": 0.32,
+    "DZD": 0.0075,
+    "LBP": 0.000011,
+    "NGN": 0.00065,
+    "KES": 0.0078,
+    "GHS": 0.066,
+    "XOF": 0.00165,
+    "XAF": 0.00165,
+    "ETB": 0.0080,
+    "TZS": 0.00038,
+    "UGX": 0.00027,
+    "PKR": 0.0036,
+    "BDT": 0.0083,
+    "LKR": 0.0033,
+    "NPR": 0.0075,
+    "AFN": 0.014,
+    "IRR": 0.0000238,
+    "IQD": 0.00076,
+    "SYP": 0.00008,
+    "YER": 0.0040,
+    "VND": 0.0000393,
+    "THB": 0.029,
+    "MYR": 0.225,
+    "IDR": 0.000063,
+    "PHP": 0.018,
+    "MMK": 0.000476,
+    "KHR": 0.000245,
+    "LAK": 0.000046,
+    "TWD": 0.031,
+    "MOP": 0.124,
+    "MNT": 0.000295,
+    "KZT": 0.0021,
+    "UZS": 0.000080,
+    "KGS": 0.0115,
+    "AZN": 0.588,
+    "GEL": 0.37,
+    "AMD": 0.00258,
+    "BYN": 0.31,
+    "UAH": 0.024,
+    "MDL": 0.057,
+    "RSD": 0.0092,
+    "MKD": 0.0175,
+    "ALL": 0.011,
+    "BAM": 0.55,
+    "ISK": 0.0072,
+    "CLP": 0.001,
+    "ARS": 0.001,
+    "COP": 0.00024,
+    "PEN": 0.27,
+    "UYU": 0.025,
+    "VES": 0.024,
+    "BOB": 0.144,
+    "PYG": 0.000130,
+    "CRC": 0.0019,
+    "GTQ": 0.129,
+    "HNL": 0.040,
+    "NIO": 0.027,
+    "DOP": 0.017,
+    "JMD": 0.0064,
+    "TTD": 0.147,
+    "BBD": 0.50,
+    "BSD": 1.0,
+    "BZD": 0.50,
+    "PAB": 1.0,
+    "CUP": 0.042,
+    "HTG": 0.0076,
+    "PYG": 0.000130
+  },
+
+  "_comment_taxonomies": "Hand-curated category trees used for distribution distances. Each leaf has 'aliases' for matching wikitext strings (case-insensitive substring match).",
+  "taxonomies": {
+    "religion": {
+      "tree": {
+        "Abrahamic": {
+          "Christianity": {
+            "Catholic":     {"aliases": ["catholic", "roman catholic", "catholicism"]},
+            "Orthodox":     {"aliases": ["orthodox", "eastern orthodox", "oriental orthodox", "coptic"]},
+            "Protestant":   {"aliases": ["protestant", "lutheran", "calvinist", "anglican", "baptist", "methodist", "pentecostal", "evangelical", "reformed", "presbyterian"]},
+            "Other Christian": {"aliases": ["christian", "christianity", "mormon", "jehovah", "latter-day saint"]}
+          },
+          "Islam": {
+            "Sunni":        {"aliases": ["sunni"]},
+            "Shia":         {"aliases": ["shia", "shiite", "shi'a", "twelver", "ismaili", "alawite", "alevi"]},
+            "Ibadi":        {"aliases": ["ibadi"]},
+            "Ahmadiyya":    {"aliases": ["ahmadiyya", "ahmadi"]},
+            "Other Muslim": {"aliases": ["islam", "muslim", "moslem"]}
+          },
+          "Judaism":   {"aliases": ["judaism", "jewish", "jew"]},
+          "Bahai":     {"aliases": ["baha", "bahai", "bahá'í"]},
+          "Druze":     {"aliases": ["druze"]}
+        },
+        "Dharmic": {
+          "Hinduism":  {"aliases": ["hindu", "hinduism"]},
+          "Buddhism": {
+            "Theravada": {"aliases": ["theravada"]},
+            "Mahayana":  {"aliases": ["mahayana"]},
+            "Vajrayana": {"aliases": ["vajrayana", "tibetan buddhism"]},
+            "Other Buddhist": {"aliases": ["buddhist", "buddhism"]}
+          },
+          "Sikhism":   {"aliases": ["sikh", "sikhism"]},
+          "Jainism":   {"aliases": ["jain", "jainism"]}
+        },
+        "East Asian": {
+          "Confucianism": {"aliases": ["confucian"]},
+          "Taoism":       {"aliases": ["tao", "taoism", "daoism"]},
+          "Shinto":       {"aliases": ["shinto"]},
+          "Chinese Folk": {"aliases": ["chinese folk", "chinese traditional", "chinese religion"]}
+        },
+        "Folk": {
+          "African Traditional": {"aliases": ["african traditional", "vodun", "voodoo", "yoruba religion", "santeria"]},
+          "Indigenous Americas": {"aliases": ["indigenous american", "native american", "amerindian religion"]},
+          "Pacific Folk":        {"aliases": ["polynesian religion", "pacific folk", "kastom"]},
+          "Other Folk":          {"aliases": ["folk religion", "traditional religion", "ethnic religion", "animism", "shamanism"]}
+        },
+        "Irreligious": {
+          "Atheism":     {"aliases": ["atheist", "atheism"]},
+          "Agnosticism": {"aliases": ["agnostic"]},
+          "Secular":     {"aliases": ["secular", "secularism"]},
+          "None":        {"aliases": ["no religion", "none", "irreligious", "non-religious", "unaffiliated"]}
+        }
+      }
+    },
+
+    "language": {
+      "tree": {
+        "Indo-European": {
+          "Romance": {
+            "French":     {"aliases": ["french", "français"]},
+            "Spanish":    {"aliases": ["spanish", "castilian", "español"]},
+            "Portuguese": {"aliases": ["portuguese", "português"]},
+            "Italian":    {"aliases": ["italian", "italiano"]},
+            "Romanian":   {"aliases": ["romanian", "moldovan"]},
+            "Catalan":    {"aliases": ["catalan"]},
+            "Other Romance": {"aliases": ["galician", "occitan", "sardinian", "corsican"]}
+          },
+          "Germanic": {
+            "English":   {"aliases": ["english"]},
+            "German":    {"aliases": ["german", "deutsch"]},
+            "Dutch":     {"aliases": ["dutch", "flemish"]},
+            "Swedish":   {"aliases": ["swedish"]},
+            "Norwegian": {"aliases": ["norwegian", "bokmål", "nynorsk"]},
+            "Danish":    {"aliases": ["danish"]},
+            "Icelandic": {"aliases": ["icelandic"]},
+            "Other Germanic": {"aliases": ["afrikaans", "frisian", "luxembourgish", "yiddish"]}
+          },
+          "Slavic": {
+            "Russian":    {"aliases": ["russian"]},
+            "Polish":     {"aliases": ["polish"]},
+            "Czech":      {"aliases": ["czech"]},
+            "Slovak":     {"aliases": ["slovak"]},
+            "Ukrainian":  {"aliases": ["ukrainian"]},
+            "Belarusian": {"aliases": ["belarusian"]},
+            "Bulgarian":  {"aliases": ["bulgarian"]},
+            "Macedonian": {"aliases": ["macedonian"]},
+            "Serbo-Croatian": {"aliases": ["serbian", "croatian", "bosnian", "montenegrin", "serbo-croatian"]},
+            "Slovenian":  {"aliases": ["slovenian", "slovene"]}
+          },
+          "Indo-Aryan": {
+            "Hindi":    {"aliases": ["hindi"]},
+            "Urdu":     {"aliases": ["urdu"]},
+            "Bengali":  {"aliases": ["bengali", "bangla"]},
+            "Punjabi":  {"aliases": ["punjabi", "panjabi"]},
+            "Sinhala":  {"aliases": ["sinhala", "sinhalese"]},
+            "Nepali":   {"aliases": ["nepali"]},
+            "Dhivehi":  {"aliases": ["dhivehi", "maldivian"]},
+            "Other Indo-Aryan": {"aliases": ["marathi", "gujarati", "odia", "assamese"]}
+          },
+          "Iranian": {
+            "Persian":  {"aliases": ["persian", "farsi", "dari"]},
+            "Pashto":   {"aliases": ["pashto", "pashtu"]},
+            "Kurdish":  {"aliases": ["kurdish"]},
+            "Tajik":    {"aliases": ["tajik"]}
+          },
+          "Greek":    {"aliases": ["greek"]},
+          "Albanian": {"aliases": ["albanian", "shqip"]},
+          "Armenian": {"aliases": ["armenian"]},
+          "Baltic": {
+            "Lithuanian": {"aliases": ["lithuanian"]},
+            "Latvian":    {"aliases": ["latvian"]}
+          },
+          "Celtic": {
+            "Irish":          {"aliases": ["irish", "irish gaelic", "gaeilge"]},
+            "Welsh":          {"aliases": ["welsh"]},
+            "Scottish Gaelic":{"aliases": ["scottish gaelic"]}
+          }
+        },
+        "Afro-Asiatic": {
+          "Semitic": {
+            "Arabic":   {"aliases": ["arabic"]},
+            "Hebrew":   {"aliases": ["hebrew"]},
+            "Amharic":  {"aliases": ["amharic"]},
+            "Tigrinya": {"aliases": ["tigrinya"]},
+            "Maltese":  {"aliases": ["maltese"]},
+            "Other Semitic": {"aliases": ["aramaic", "syriac", "tigre"]}
+          },
+          "Berber":   {"aliases": ["berber", "tamazight", "amazigh"]},
+          "Cushitic": {"aliases": ["somali", "oromo", "afar"]},
+          "Chadic":   {"aliases": ["hausa"]}
+        },
+        "Niger-Congo": {
+          "Bantu":          {"aliases": ["swahili", "kiswahili", "zulu", "xhosa", "shona", "kinyarwanda", "kirundi", "luganda", "lingala", "kikongo", "tswana", "sotho", "kikuyu", "chichewa", "nyanja"]},
+          "Other Niger-Congo": {"aliases": ["yoruba", "igbo", "wolof", "fula", "fulani", "akan", "twi", "ewe", "ga", "mossi", "bambara", "mandinka", "krio"]}
+        },
+        "Nilo-Saharan": {"aliases": ["nilo-saharan", "dinka", "nuer", "luo", "kanuri", "fur"]},
+        "Khoisan":      {"aliases": ["khoisan", "nama", "san"]},
+        "Austronesian": {
+          "Malayo-Polynesian": {
+            "Malay":       {"aliases": ["malay"]},
+            "Indonesian":  {"aliases": ["indonesian", "bahasa indonesia"]},
+            "Tagalog":     {"aliases": ["tagalog", "filipino"]},
+            "Javanese":    {"aliases": ["javanese"]},
+            "Other Malayo-Polynesian": {"aliases": ["cebuano", "ilocano", "sundanese", "tetum", "malagasy"]}
+          },
+          "Polynesian": {
+            "Maori":   {"aliases": ["maori"]},
+            "Samoan":  {"aliases": ["samoan"]},
+            "Tongan":  {"aliases": ["tongan"]},
+            "Fijian":  {"aliases": ["fijian"]},
+            "Other Polynesian": {"aliases": ["hawaiian", "tahitian", "tuvaluan"]}
+          },
+          "Micronesian": {"aliases": ["nauruan", "marshallese", "kiribati", "i-kiribati", "palauan", "chuukese"]}
+        },
+        "Sino-Tibetan": {
+          "Chinese":  {"aliases": ["chinese", "mandarin", "cantonese", "putonghua"]},
+          "Tibetan":  {"aliases": ["tibetan", "dzongkha"]},
+          "Burmese":  {"aliases": ["burmese", "myanmar"]}
+        },
+        "Tai-Kadai": {
+          "Thai": {"aliases": ["thai"]},
+          "Lao":  {"aliases": ["lao", "laotian"]}
+        },
+        "Austroasiatic": {
+          "Vietnamese": {"aliases": ["vietnamese"]},
+          "Khmer":      {"aliases": ["khmer", "cambodian"]}
+        },
+        "Japonic":   {"aliases": ["japanese"]},
+        "Koreanic":  {"aliases": ["korean"]},
+        "Turkic": {
+          "Turkish":      {"aliases": ["turkish"]},
+          "Azerbaijani":  {"aliases": ["azerbaijani", "azeri"]},
+          "Uzbek":        {"aliases": ["uzbek"]},
+          "Kazakh":       {"aliases": ["kazakh"]},
+          "Kyrgyz":       {"aliases": ["kyrgyz", "kirghiz"]},
+          "Turkmen":      {"aliases": ["turkmen"]}
+        },
+        "Mongolic":  {"aliases": ["mongolian"]},
+        "Uralic": {
+          "Finnish":   {"aliases": ["finnish"]},
+          "Estonian":  {"aliases": ["estonian"]},
+          "Hungarian": {"aliases": ["hungarian", "magyar"]}
+        },
+        "Caucasian": {
+          "Georgian": {"aliases": ["georgian", "kartuli"]},
+          "Other Caucasian": {"aliases": ["abkhaz", "chechen", "ossetian"]}
+        },
+        "Dravidian": {
+          "Tamil":     {"aliases": ["tamil"]},
+          "Telugu":    {"aliases": ["telugu"]},
+          "Kannada":   {"aliases": ["kannada"]},
+          "Malayalam": {"aliases": ["malayalam"]}
+        },
+        "Creole":    {"aliases": ["creole", "pidgin", "haitian", "krio", "papiamento", "tok pisin", "bislama", "pijin"]},
+        "Sign":      {"aliases": ["sign language", "asl", "bsl"]}
+      }
+    },
+
+    "ethnicity": {
+      "tree": {
+        "European": {
+          "Western European": {"aliases": ["french", "german", "dutch", "belgian", "austrian", "swiss"]},
+          "Northern European":{"aliases": ["swedish", "norwegian", "danish", "finnish", "icelandic", "estonian", "latvian", "lithuanian", "british", "english", "scottish", "welsh", "irish"]},
+          "Southern European":{"aliases": ["italian", "spanish", "portuguese", "greek", "maltese", "cypriot"]},
+          "Slavic":           {"aliases": ["russian", "ukrainian", "belarusian", "polish", "czech", "slovak", "serbian", "croatian", "bosnian", "bulgarian", "slovene", "macedonian", "montenegrin"]},
+          "Romanian":         {"aliases": ["romanian", "moldovan", "vlach"]},
+          "Albanian":         {"aliases": ["albanian"]},
+          "Hungarian":        {"aliases": ["hungarian", "magyar"]},
+          "Roma":             {"aliases": ["roma", "romani", "gypsy"]}
+        },
+        "Middle Eastern": {
+          "Arab":              {"aliases": ["arab", "arabian"]},
+          "Persian":           {"aliases": ["persian", "iranian", "tajik"]},
+          "Kurd":              {"aliases": ["kurd", "kurdish"]},
+          "Turk":              {"aliases": ["turk", "turkish"]},
+          "Assyrian":          {"aliases": ["assyrian", "chaldean", "syriac"]},
+          "Armenian":          {"aliases": ["armenian"]},
+          "Azeri":             {"aliases": ["azeri", "azerbaijani"]},
+          "Druze":             {"aliases": ["druze"]},
+          "Jewish":            {"aliases": ["jewish", "israeli jew", "ashkenazi", "sephardi", "mizrahi"]},
+          "Other Middle Eastern": {"aliases": ["circassian"]}
+        },
+        "African": {
+          "North African": {"aliases": ["maghrebi", "north african", "arab-berber", "berber", "amazigh", "egyptian", "libyan", "tunisian", "algerian", "moroccan"]},
+          "West African":  {"aliases": ["yoruba", "igbo", "hausa", "fula", "fulani", "wolof", "akan", "mossi", "mandinka", "bambara"]},
+          "East African":  {"aliases": ["swahili", "kikuyu", "luo", "luhya", "kalenjin", "oromo", "amhara", "tigrinya"]},
+          "Central African":{"aliases": ["bantu central", "kongo", "luba", "mongo"]},
+          "Southern African":{"aliases": ["zulu", "xhosa", "shona", "ndebele", "tswana", "sotho", "afrikaner"]},
+          "Horn of Africa":{"aliases": ["somali", "afar", "issa"]},
+          "Other African": {"aliases": ["african", "sub-saharan"]}
+        },
+        "South Asian": {
+          "Indo-Aryan":  {"aliases": ["punjabi", "bengali", "marathi", "gujarati", "sindhi", "kashmiri", "rajasthani", "nepali", "sinhalese"]},
+          "Dravidian":   {"aliases": ["tamil", "telugu", "kannada", "malayali"]},
+          "Other South Asian": {"aliases": ["pashtun", "baloch", "indian"]}
+        },
+        "East Asian": {
+          "Han Chinese": {"aliases": ["han", "chinese"]},
+          "Japanese":    {"aliases": ["japanese"]},
+          "Korean":      {"aliases": ["korean"]},
+          "Mongol":      {"aliases": ["mongol", "mongolian"]},
+          "Tibetan":     {"aliases": ["tibetan"]}
+        },
+        "Southeast Asian": {
+          "Vietnamese":      {"aliases": ["vietnamese", "kinh"]},
+          "Thai":            {"aliases": ["thai", "siamese"]},
+          "Khmer":           {"aliases": ["khmer", "cambodian"]},
+          "Lao":             {"aliases": ["lao", "laotian"]},
+          "Burmese":         {"aliases": ["burmese", "bamar"]},
+          "Malay":           {"aliases": ["malay", "malayan"]},
+          "Indonesian":      {"aliases": ["javanese", "sundanese", "balinese", "indonesian", "batak"]},
+          "Filipino":        {"aliases": ["filipino", "tagalog", "cebuano", "ilocano", "visayan"]},
+          "Other Southeast Asian": {"aliases": ["mon", "hmong"]}
+        },
+        "Central Asian": {
+          "Turkic Central Asian": {"aliases": ["kazakh", "uzbek", "kyrgyz", "turkmen", "uyghur"]},
+          "Other Central Asian":  {"aliases": ["tajik"]}
+        },
+        "Indigenous Americas": {
+          "Mestizo":   {"aliases": ["mestizo", "mestiço", "ladino"]},
+          "Amerindian":{"aliases": ["amerindian", "indigenous", "native american", "quechua", "aymara", "maya", "mapuche", "guarani"]},
+          "European-Latin American": {"aliases": ["white latin american", "criollo"]},
+          "Afro-Latin": {"aliases": ["afro-latin", "afro-caribbean", "afro-descendant"]}
+        },
+        "Oceanian": {
+          "Polynesian":  {"aliases": ["polynesian", "samoan", "tongan", "maori", "hawaiian", "tahitian", "tuvaluan", "niuean", "cook islander"]},
+          "Melanesian":  {"aliases": ["melanesian", "fijian", "papuan", "ni-vanuatu", "solomon islander"]},
+          "Micronesian": {"aliases": ["micronesian", "i-kiribati", "marshallese", "nauruan", "palauan", "chuukese"]},
+          "Aboriginal":  {"aliases": ["aboriginal", "torres strait islander"]}
+        },
+        "Mixed / Multiethnic": {"aliases": ["mixed", "multiracial", "multiethnic", "creole", "métis"]},
+        "European Diaspora": {"aliases": ["white american", "white european", "european american", "european descent"]},
+        "Other": {"aliases": ["other"]}
+      }
+    },
+
+    "government_type": {
+      "tree": {
+        "Republic": {
+          "Parliamentary republic":       {"aliases": ["parliamentary republic"]},
+          "Presidential republic":        {"aliases": ["presidential republic", "presidential system"]},
+          "Semi-presidential republic":   {"aliases": ["semi-presidential republic", "semi-presidential"]},
+          "Federal republic":             {"aliases": ["federal republic"]},
+          "Unitary republic":             {"aliases": ["unitary republic", "unitary state republic"]},
+          "Confederal republic":          {"aliases": ["confederal republic", "confederation republic"]},
+          "Generic republic":             {"aliases": ["republic"]}
+        },
+        "Monarchy": {
+          "Absolute monarchy":            {"aliases": ["absolute monarchy"]},
+          "Constitutional monarchy":      {"aliases": ["constitutional monarchy", "parliamentary monarchy"]},
+          "Semi-constitutional monarchy": {"aliases": ["semi-constitutional monarchy"]},
+          "Federal monarchy":             {"aliases": ["federal monarchy"]},
+          "Elective monarchy":            {"aliases": ["elective monarchy"]},
+          "Generic monarchy":             {"aliases": ["monarchy", "kingdom", "emirate", "sultanate"]}
+        },
+        "Theocracy": {
+          "Islamic theocracy":   {"aliases": ["islamic republic", "islamic theocracy"]},
+          "Other theocracy":     {"aliases": ["theocracy", "theocratic"]}
+        },
+        "Single-party state": {
+          "Communist state":     {"aliases": ["communist state", "marxist-leninist", "socialist republic", "people's republic"]},
+          "Other one-party":     {"aliases": ["one-party state", "single-party state", "dominant-party"]}
+        },
+        "Military government": {
+          "Military junta":      {"aliases": ["military junta", "junta"]},
+          "Military dictatorship": {"aliases": ["military dictatorship", "military regime"]}
+        },
+        "Transitional":          {"aliases": ["transitional government", "interim government", "provisional government"]},
+        "Other":                 {"aliases": ["directorial republic", "anarchist", "tribal"]}
+      }
+    }
+  }
+}

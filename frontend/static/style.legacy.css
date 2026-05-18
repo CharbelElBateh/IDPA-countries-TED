@@ -1,0 +1,196 @@
+/* ============================================================== globals */
+body {
+  background: #f7f8fa;
+  color: #222;
+  font-family: -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+
+.brand-mark { font-weight: 700; letter-spacing: 0.06em; }
+.brand-sub  { color: #adb5bd; font-size: 0.85em; margin-left: 0.5em; }
+
+/* ============================================================== country cards */
+.country-card {
+  display: block;
+  padding: 0.6rem 0.9rem;
+  background: #fff;
+  border: 1px solid #e1e4e8;
+  border-radius: 6px;
+  color: #1c1f24;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.12s ease;
+  text-align: center;
+}
+.country-card:hover {
+  background: #2c5282;
+  border-color: #2c5282;
+  color: #fff;
+  text-decoration: none;
+  transform: translateY(-1px);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
+}
+
+/* ============================================================== tree canvas */
+.tree-toolbar {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  flex-wrap: wrap;
+}
+
+.tree-canvas {
+  background: #fff;
+  border: 1px solid #e1e4e8;
+  border-radius: 6px;
+  height: calc(100vh - 240px);
+  min-height: 480px;
+  position: relative;
+  overflow: hidden;
+}
+
+.tree-canvas .tree-loading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.tree-svg {
+  display: block;
+  background:
+    radial-gradient(circle at 1px 1px, #e8eaed 1px, transparent 0) 0 0/24px 24px;
+  cursor: grab;
+}
+.tree-svg:active { cursor: grabbing; }
+
+/* ----- nodes */
+.node { cursor: pointer; }
+
+.node.structural > circle {
+  stroke-width: 2px;
+}
+.node.structural > text {
+  font-family: ui-monospace, "SF Mono", "Cascadia Mono", Consolas, monospace;
+  font-size: 12.5px;
+  fill: #1c1f24;
+  font-weight: 600;
+}
+
+.node.leaf > rect.leaf-pill {
+  stroke-width: 1.5px;
+}
+.node.leaf:hover > rect.leaf-pill {
+  filter: brightness(0.97);
+}
+.node.leaf > text.leaf-text {
+  font-family: ui-monospace, "SF Mono", "Cascadia Mono", Consolas, monospace;
+  font-size: 11.5px;
+  fill: #1c1f24;
+  pointer-events: none;
+}
+.node.leaf > circle.leaf-dot { pointer-events: none; }
+
+path.link {
+  fill: none;
+  stroke: #adb5bd;
+  stroke-width: 1.4px;
+}
+
+/* ============================================================== side panel */
+.node-info {
+  margin-top: 0.8rem;
+  padding: 0.75rem 1rem;
+  background: #fff;
+  border: 1px solid #e1e4e8;
+  border-radius: 6px;
+  display: none;
+  font-size: 0.92rem;
+}
+.node-info.visible { display: block; }
+.node-info h6 {
+  margin: 0 0 0.4rem 0;
+  font-family: ui-monospace, "SF Mono", "Cascadia Mono", Consolas, monospace;
+}
+.node-info code {
+  color: #0a3069;
+  font-family: ui-monospace, "SF Mono", "Cascadia Mono", Consolas, monospace;
+}
+.info-row {
+  display: flex;
+  gap: 0.6rem;
+  align-items: baseline;
+  padding: 0.12rem 0;
+}
+.info-row > span:first-child {
+  width: 5.5rem;
+  flex-shrink: 0;
+  color: #6e7681;
+  font-size: 0.82rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+.info-row pre {
+  margin: 0;
+  white-space: pre-wrap;
+  max-height: 14rem;
+  overflow: auto;
+  background: #f7f8fa;
+  border-radius: 4px;
+  padding: 0.4rem 0.6rem;
+  width: 100%;
+  font-size: 0.78rem;
+}
+.info-raw { align-items: flex-start; }
+
+.type-badge {
+  font-size: 0.66rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: lowercase;
+}
+
+/* ============================================================== compare page */
+.tree-side-header {
+  background: #2c3e50;
+  color: #fff;
+  font-size: 0.85rem;
+  padding: 0.5rem 0.9rem;
+  border-radius: 6px 6px 0 0;
+  border: 1px solid #2c3e50;
+  border-bottom: none;
+}
+.tree-side-header code {
+  color: #ffd166;
+  background: transparent;
+}
+
+.tree-canvas-compare {
+  border-radius: 0 0 6px 6px;
+  height: calc(100vh - 360px);
+  min-height: 420px;
+}
+
+.compare-toolbar {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.mark-key {
+  display: inline-block;
+  width: 0.9em; height: 0.9em;
+  border-radius: 3px;
+  vertical-align: middle;
+  margin: 0 0.25rem 0 0.6rem;
+}
+.mark-key.delete  { background: #dc3545; }
+.mark-key.insert  { background: #198754; }
+.mark-key.relabel { background: #ffc107; }
+
+.script-table {
+  font-size: 0.85rem;
+}
+.script-table code {
+  font-size: 0.82rem;
+}

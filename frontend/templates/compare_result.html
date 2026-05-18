@@ -1,0 +1,127 @@
+{% extends "base.html" %}
+{% block title %}{{ country1 }} vs {{ country2 }}{% endblock %}
+
+{% block content %}
+<div class="crumb">
+  <a href="{{ url_for('compare_form') }}">Compare</a>
+  <span class="sep">›</span>
+  <span class="cur">{{ country1 }} ↔ {{ country2 }}</span>
+</div>
+
+<div class="page-head">
+  <div>
+    <div class="eyebrow">Tree-edit diff</div>
+    <h1>
+      <code style="font-size: 22px;">{{ country1 }}</code>
+      <span class="muted">↔</span>
+      <code style="font-size: 22px;">{{ country2 }}</code>
+    </h1>
+    <p class="lede">
+      algorithm <code>{{ algorithm }}</code>
+      · cost model <code>{{ cost_model }}</code>
+      {% if from_cache %}
+        · <span class="tag accent dot">from cache</span>
+      {% endif %}
+    </p>
+  </div>
+  <div class="page-head-meta">
+    <div class="page-stat">
+      <span class="v">{{ '%.2f'|format(forward_cost) }}</span>
+      <span class="k">A → B cost</span>
+    </div>
+    <div class="page-stat">
+      <span class="v">{{ '%.2f'|format(reverse_cost) }}</span>
+      <span class="k">B → A cost</span>
+    </div>
+    <div class="page-stat">
+      <span class="v">{{ forward_ops.relabel + forward_ops.delete + forward_ops.insert }}</span>
+      <span class="k">edit ops</span>
+    </div>
+  </div>
+</div>
+
+<div class="row between mb-2">
+  <div class="row">
+    <div class="btn-group">
+      <button class="btn sm active" data-dir="forward" id="btn-dir-fwd">A → B</button>
+      <button class="btn sm" data-dir="reverse" id="btn-dir-rev">B → A</button>
+    </div>
+    <button class="btn sm" id="btn-expand-all">Expand</button>
+    <button class="btn sm" id="btn-collapse-all">Reset</button>
+    <button class="btn sm" id="btn-fit">Fit</button>
+  </div>
+  <span class="mark-legend">
+    <span class="glyph"><span class="gbox delete">✗</span> delete</span>
+    <span class="glyph"><span class="gbox relabel">~</span> relabel</span>
+    <span class="glyph"><span class="gbox insert">+</span> insert</span>
+  </span>
+</div>
+
+<div class="compare-grid">
+  <div>
+    <div class="tree-side-header" id="side-source-label">
+      <span class="who">
+        <span class="who-tag">A</span>
+        <strong>{{ country1 }}</strong>
+      </span>
+      <span class="stats mono">
+        {{ forward_ops.relabel }}r / {{ forward_ops.delete }}d /
+        {{ forward_ops.insert }}i
+      </span>
+    </div>
+    <div id="tree-canvas-source" class="tree-canvas"></div>
+  </div>
+  <div>
+    <div class="tree-side-header b" id="side-target-label">
+      <span class="who">
+        <span class="who-tag">B</span>
+        <strong>{{ country2 }}</strong>
+      </span>
+      <span class="stats mono">
+        {{ reverse_ops.relabel }}r / {{ reverse_ops.delete }}d /
+        {{ reverse_ops.insert }}i
+      </span>
+    </div>
+    <div id="tree-canvas-target" class="tree-canvas"></div>
+  </div>
+</div>
+
+<div id="node-info"></div>
+
+<div class="escript mt-4">
+  <div class="row between mb-2">
+    <h3>
+      Edit-script operations
+      <span class="muted mono" style="font-size: 13px; font-weight: 400;">
+        · forward direction
+      </span>
+    </h3>
+    <span class="row gap-12">
+      <span class="row gap-6 mono"
+            style="font-size: 11.5px; color: var(--muted);">
+        <span class="op delete">{{ forward_ops.delete }}</span> delete
+        <span class="op insert">{{ forward_ops.insert }}</span> insert
+        <span class="op relabel">{{ forward_ops.relabel }}</span> relabel
+      </span>
+    </span>
+  </div>
+  <div class="card">
+    <div id="script-panel"></div>
+  </div>
+</div>
+
+<script>
+  window.COMPARE_DATA = {
+    country1: {{ country1|tojson }},
+    country2: {{ country2|tojson }},
+    algorithm: {{ algorithm|tojson }},
+    cost_model: {{ cost_model|tojson }}
+  };
+</script>
+{% endblock %}
+
+{% block scripts %}
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
+<script src="{{ url_for('static', filename='tree.js') }}"></script>
+<script src="{{ url_for('static', filename='compare.js') }}"></script>
+{% endblock %}

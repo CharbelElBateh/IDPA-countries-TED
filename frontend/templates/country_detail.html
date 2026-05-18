@@ -1,0 +1,93 @@
+{% extends "base.html" %}
+{% block title %}{{ country.replace('_', ' ') }}{% endblock %}
+
+{% block content %}
+<div class="crumb">
+  <a href="{{ url_for('countries_list') }}">Countries</a>
+  <span class="sep">›</span>
+  <span class="cur">{{ country.replace('_', ' ') }}</span>
+</div>
+
+<div class="page-head">
+  <div>
+    <div class="eyebrow">Country tree · <span>iso {{ iso }}</span></div>
+    <h1>{{ country.replace('_', ' ') }}</h1>
+    <p class="lede">
+      Wikipedia infobox parsed into a rooted ordered labeled tree.
+      Click any structural node to collapse · hover a leaf for raw value.
+    </p>
+  </div>
+  <div class="page-head-meta">
+    <div class="page-stat"><span class="v">{{ size }}</span><span class="k">nodes</span></div>
+    <div class="page-stat"><span class="v">{{ height }}</span><span class="k">height</span></div>
+    <div class="page-stat"><span class="v">{{ toc|length }}</span><span class="k">groups</span></div>
+    <a class="btn sm" target="_blank"
+       href="{{ url_for('api_country_tree', name=country) }}">view JSON</a>
+  </div>
+</div>
+
+<div class="detail-layout">
+
+  {# ─── left: table of contents + tools ─── #}
+  <nav class="detail-toc">
+    <h4>Sections</h4>
+    {% for entry in toc %}
+      <a href="#sect-{{ entry.label }}">
+        <span>{{ entry.label }}</span>
+        <span class="ct">{{ entry.count }}</span>
+      </a>
+    {% endfor %}
+    <h4 style="margin-top: 22px;">Tools</h4>
+    <a href="{{ url_for('compare_form') }}?c1={{ country }}">
+      <span>Compare with…</span>
+    </a>
+    <a href="{{ url_for('patch_form') }}">
+      <span>Apply patch…</span>
+    </a>
+  </nav>
+
+  {# ─── center: server-rendered tree ─── #}
+  <div>
+    {{ tree_html | safe }}
+  </div>
+
+  {# ─── right: side cards ─── #}
+  <aside class="side-card">
+    <div class="card">
+      <div class="card-header"><h3>Type composition</h3></div>
+      <div class="card-body tight">
+        {% set max_count = type_composition[0][1] if type_composition else 1 %}
+        {% for t, n in type_composition %}
+          <div style="display:flex; align-items:center; gap:8px; padding:3px 0;">
+            <span class="tbadge {{ t }}" style="min-width: 84px;">{{ t }}</span>
+            <div style="flex:1; height:6px; background:var(--paper-2);
+                        border-radius:3px; overflow:hidden;">
+              <div style="height:100%;
+                          width:{{ (n / max_count * 100)|round(1) }}%;
+                          background: var(--tb-{{ 'number' if t in ('percent','year','date') else (t if t in ('currency','coordinates','distribution') else ('link' if t == 'wikilink' else 'text')) }});">
+              </div>
+            </div>
+            <span class="mono muted" style="font-size:11px;
+                                            width:24px; text-align:right;">{{ n }}</span>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-header"><h3>Quick actions</h3></div>
+      <div class="card-body tight">
+        <a class="btn sm" style="width:100%; justify-content:center; margin-bottom:6px;"
+           href="{{ url_for('compare_form') }}?c1={{ country }}">
+          Compare {{ country.replace('_', ' ') }} with…
+        </a>
+        <a class="btn sm ghost" style="width:100%; justify-content:center;"
+           target="_blank"
+           href="{{ url_for('api_country_doc', name=country) }}">
+          View raw infobox JSON
+        </a>
+      </div>
+    </div>
+  </aside>
+</div>
+{% endblock %}

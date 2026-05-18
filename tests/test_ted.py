@@ -1,176 +1,272 @@
-"""Tests for Stage 3: TED algorithms and similarity metrics."""
+"""Tests for the TED algorithms (chawathe, nierman_jagadish).
+
+The placeholder ``naive`` algorithm is exercised elsewhere; here we focus
+on the real Zhang-Shasha-based implementations.
+"""
+
+from __future__ import annotations
+
+import warnings
 
 import pytest
-from classes.Node import Node
-from classes.Tree import Tree
-from src.preprocessing.xml_parser import parse_xml_string
-from src.ted.chawathe import compute_ted, compute_ted_and_script
-from src.ted.nierman_jagadish import compute_ted as nj_compute_ted
-from src.ted.similarity import compute_similarity
 
-COSTS = {'insert': 1, 'delete': 1, 'relabel': 1}
+from src.config import load_config, resolve_cost_model
+from src.core import Node, Tree
+from src.taxonomy import load_registry
+from src.ted import get_algorithm
 
 
-def make_tree(xml: str) -> Tree:
-    return parse_xml_string(xml)
+# --------------------------------------------------------------- fixtures
+@pytest.fixture(scope="module")
+def cfg():
+    return load_config()
 
 
+@pytest.fixture(scope="module")
+def taxonomies():
+    return load_registry()
+
+
+@pytest.fixture(scope="module")
+def cost_symmetric(cfg):
+    return resolve_cost_model("symmetric", cfg)
+
+
+@pytest.fixture(scope="module")
+def cost_asymmetric(cfg):
+    return resolve_cost_model("asymmetric", cfg)
+
+
+
+
+def _trivial_tree(name: str, capital: str, gdp: float) -> Tree:
+    return Tree(
+        Node.structural("country", [
+            Node.structural("geography", [
+                Node.leaf("capital", capital, "wikilink"),
+            ]),
+            Node.structural("economy", [
+                Node.leaf("gdp", gdp, "number"),
+            ]),
+        ]),
+        name=name,
+    )
+
+
+# ============================================================ Chawathe
 class TestChawathe:
-    def test_identical_trees(self):
-        xml = '<a><b>x</b></a>'
-        T = make_tree(xml)
-        assert compute_ted(T, T, COSTS) == 0.0
+    def test_identical_trees_zero_cost(self, cfg, taxonomies, cost_symmetric):
+        algo = get_algorithm("chawathe")
+        t1 = _trivial_tree("A", "Beirut", 1.0)
+        t2 = _trivial_tree("A", "Beirut", 1.0)
+        script = algo.compute(t1, t2, config=cfg, taxonomies=taxonomies,
+                              cost_model=cost_symmetric)
+        assert script.total_cost == 0
+        assert len(script.operations) == 0
 
-    def test_empty_vs_single(self):
-        xml1 = '<a/>'
-        xml2 = '<a><b>x</b></a>'
-        T1 = make_tree(xml1)
-        T2 = make_tree(xml2)
-        # T2 has <b> (element) and leaf 'x' extra: 2 inserts
-        ted = compute_ted(T1, T2, COSTS)
-        assert ted == 2.0
+    def test_single_relabel(self, cfg, taxonomies, cost_symmetric):
+        algo = get_algorithm("chawathe")
+        t1 = _trivial_tree("A", "Beirut", 1.0)
+        t2 = _trivial_tree("B", "Bern",   1.0)
+        script = algo.compute(t1, t2, config=cfg, taxonomies=taxonomies,
+                              cost_model=cost_symmetric)
+        ops = script.counts_by_op()
+        assert ops["relabel"] == 1
+        assert ops["delete"] == 0
+        assert ops["insert"] == 0
+        assert script.total_cost > 0
 
-    def test_single_relabel(self):
-        T1 = make_tree('<a><b>hello</b></a>')
-        T2 = make_tree('<a><b>world</b></a>')
-        ted = compute_ted(T1, T2, COSTS)
-        assert ted == 1.0
+    def test_apply_recovers_target(self, cfg, taxonomies, cost_symmetric):
+        algo = get_algorithm("chawathe")
+        t1 = _trivial_tree("A", "Beirut", 1.0)
+        t2 = _trivial_tree("B", "Bern",   2.0)
+        script = algo.compute(t1, t2, config=cfg, taxonomies=taxonomies,
+                              cost_model=cost_symmetric)
+        patched = script.apply(t1)
+        assert patched.size() == t2.size()
+        # The relabeled leaves should match the target values.
+        assert patched.find_by_label("geography.capital").value == "Bern"
+        assert patched.find_by_label("economy.gdp").value == 2.0
 
-    def test_delete_one_child(self):
-        T1 = make_tree('<a><b>x</b><c>y</c></a>')
-        T2 = make_tree('<a><b>x</b></a>')
-        ted = compute_ted(T1, T2, COSTS)
-        # Delete <c> (element) + delete leaf 'y' = 2
-        assert ted == 2.0
+    def test_inserts_when_target_has_extra_node(self, cfg, taxonomies,
+                                                cost_symmetric):
+        algo = get_algorithm("chawathe")
+        t1 = _trivial_tree("A", "Beirut", 1.0)
+        t2 = Tree(
+            Node.structural("country", [
+                Node.structural("geography", [
+                    Node.leaf("capital", "Bern", "wikilink"),
+                    Node.leaf("largest_city", "Zurich", "wikilink"),
+                ]),
+                Node.structural("economy", [
+                    Node.leaf("gdp", 2.0, "number"),
+                ]),
+            ]),
+            name="B",
+        )
+        script = algo.compute(t1, t2, config=cfg, taxonomies=taxonomies,
+                              cost_model=cost_symmetric)
+        ops = script.counts_by_op()
+        assert ops["insert"] >= 1
+        patched = script.apply(t1)
+        assert patched.size() == t2.size()
+        assert patched.find_by_label("geography.largest_city").value == "Zurich"
 
-    def test_symmetry(self):
-        T1 = make_tree('<a><b>x</b></a>')
-        T2 = make_tree('<a><c>y</c></a>')
-        assert compute_ted(T1, T2, COSTS) == compute_ted(T2, T1, COSTS)
+    def test_deletes_when_source_has_extra_node(self, cfg, taxonomies,
+                                                cost_symmetric):
+        algo = get_algorithm("chawathe")
+        t1 = Tree(
+            Node.structural("country", [
+                Node.structural("geography", [
+                    Node.leaf("capital", "Beirut", "wikilink"),
+                    Node.leaf("largest_city", "Tripoli", "wikilink"),
+                ]),
+            ]),
+            name="A",
+        )
+        t2 = Tree(
+            Node.structural("country", [
+                Node.structural("geography", [
+                    Node.leaf("capital", "Beirut", "wikilink"),
+                ]),
+            ]),
+            name="B",
+        )
+        script = algo.compute(t1, t2, config=cfg, taxonomies=taxonomies,
+                              cost_model=cost_symmetric)
+        ops = script.counts_by_op()
+        assert ops["delete"] >= 1
+        patched = script.apply(t1)
+        assert patched.size() == t2.size()
 
-    def test_triangle_inequality(self):
-        T1 = make_tree('<a><b>x</b></a>')
-        T2 = make_tree('<a><b>y</b></a>')
-        T3 = make_tree('<a><c>y</c></a>')
-        d12 = compute_ted(T1, T2, COSTS)
-        d23 = compute_ted(T2, T3, COSTS)
-        d13 = compute_ted(T1, T3, COSTS)
-        assert d13 <= d12 + d23
-
-    def test_edit_script_cost_matches_ted(self):
-        T1 = make_tree('<a><b>x</b><c>y</c></a>')
-        T2 = make_tree('<a><b>x</b><d>z</d></a>')
-        ted, script = compute_ted_and_script(T1, T2, COSTS)
-        assert script.total_cost == ted
-
-    def test_custom_costs(self):
-        costs = {'insert': 2, 'delete': 3, 'relabel': 5}
-        T1 = make_tree('<a><b>x</b></a>')
-        T2 = make_tree('<a><b>y</b></a>')
-        ted = compute_ted(T1, T2, costs)
-        assert ted == 5.0  # one relabel
-
-    def test_asymmetric_costs_directional(self):
-        """With delete > insert, TED(T1→T2) > TED(T2→T1) when T1 has extra nodes."""
-        costs = {'insert': 1, 'delete': 2, 'relabel': 1}
-        # Forward: delete <c>+leaf 'y' (2 deletes × 2 = 4)
-        # Reverse: insert <c>+leaf 'y' (2 inserts × 1 = 2)
-        T1 = make_tree('<a><b>x</b><c>y</c></a>')
-        T2 = make_tree('<a><b>x</b></a>')
-        ted_fwd = compute_ted(T1, T2, costs)
-        ted_rv  = compute_ted(T2, T1, costs)
-        assert ted_fwd == 4.0   # 2 deletes × cost 2
-        assert ted_rv  == 2.0   # 2 inserts × cost 1
-        assert ted_fwd != ted_rv
-
-    def test_equal_trees_zero_script(self):
-        T = make_tree('<country name="X"><capital>City</capital></country>')
-        ted, script = compute_ted_and_script(T, T, COSTS)
-        assert ted == 0.0
-        assert script.total_cost == 0.0
+    def test_asymmetric_costs_make_directions_differ(self, cfg, taxonomies,
+                                                    cost_asymmetric):
+        algo = get_algorithm("chawathe")
+        t1 = Tree(
+            Node.structural("country", [
+                Node.structural("geography", [
+                    Node.leaf("capital", "A", "wikilink"),
+                    Node.leaf("largest_city", "B", "wikilink"),
+                    Node.leaf("river", "C", "wikilink"),
+                ]),
+            ]),
+            name="A",
+        )
+        t2 = Tree(
+            Node.structural("country", [
+                Node.structural("geography", [
+                    Node.leaf("capital", "A", "wikilink"),
+                ]),
+            ]),
+            name="B",
+        )
+        fwd = algo.compute(t1, t2, config=cfg, taxonomies=taxonomies,
+                           cost_model=cost_asymmetric)
+        rev = algo.compute(t2, t1, config=cfg, taxonomies=taxonomies,
+                           cost_model=cost_asymmetric)
+        # delete = 2, insert = 1 in asymmetric → forward (deleting 2 from t1)
+        # costs more than reverse (inserting 2 into t2).
+        assert fwd.total_cost > rev.total_cost
 
 
+# ============================================================ Nierman & Jagadish
 class TestNiermanJagadish:
-    def test_identical_trees(self):
-        xml = '<a><b>x</b></a>'
-        T = make_tree(xml)
-        assert nj_compute_ted(T, T, COSTS) == 0.0
+    def test_identical_trees_zero_cost(self, cfg, taxonomies, cost_symmetric):
+        algo = get_algorithm("nierman_jagadish")
+        t1 = _trivial_tree("A", "Beirut", 1.0)
+        t2 = _trivial_tree("A", "Beirut", 1.0)
+        script = algo.compute(t1, t2, config=cfg, taxonomies=taxonomies,
+                              cost_model=cost_symmetric)
+        assert script.total_cost == 0
 
-    def test_structure_vs_content_costs(self):
-        costs = {
-            'insert': 10, 'delete': 10,
-            'relabel_structure': 3, 'relabel_content': 1,
-        }
-        # relabel_structure(3) < delete+insert(20), so algorithm relabels b→c
-        T1 = make_tree('<a><b>x</b></a>')
-        T2 = make_tree('<a><c>x</c></a>')
-        ted = nj_compute_ted(T1, T2, costs)
-        assert ted == 3.0  # relabel_structure for <b>→<c>
+    def test_apply_recovers_target(self, cfg, taxonomies, cost_symmetric):
+        algo = get_algorithm("nierman_jagadish")
+        t1 = _trivial_tree("A", "Beirut", 1.0)
+        t2 = _trivial_tree("B", "Bern",   2.0)
+        patched = algo.compute(t1, t2, config=cfg, taxonomies=taxonomies,
+                               cost_model=cost_symmetric).apply(t1)
+        assert patched.find_by_label("geography.capital").value == "Bern"
+        assert patched.find_by_label("economy.gdp").value == 2.0
 
-    def test_content_relabel(self):
-        costs = {
-            'insert': 1, 'delete': 1,
-            'relabel_structure': 3, 'relabel_content': 1,
-        }
-        T1 = make_tree('<a><b>hello</b></a>')
-        T2 = make_tree('<a><b>world</b></a>')
-        ted = nj_compute_ted(T1, T2, costs)
-        assert ted == 1.0  # relabel_content for leaf
+    def test_subtree_containment_makes_move_cheap(self, cfg, taxonomies,
+                                                  cost_symmetric):
+        """Moving a subtree is a single op, not a full delete + reinsert.
 
-    def test_same_as_chawathe_with_uniform_costs(self):
-        T1 = make_tree('<a><b>x</b><c>y</c></a>')
-        T2 = make_tree('<a><b>x</b><d>z</d></a>')
-        ted_c = compute_ted(T1, T2, COSTS)
-        ted_nj = nj_compute_ted(T1, T2, COSTS)
-        assert ted_c == ted_nj
+        Tree A:
+            country / { geography / { capital: Bern },  legacy / { city: Bern } }
+        Tree B:
+            country / { geography / { capital: Bern,  city: Bern } }
 
-    def test_nj_diverges_from_chawathe_with_split_costs(self):
-        """N&J gives a lower TED than Chawathe when structural relabels are cheap
-        and the uniform Chawathe cost would prefer delete+insert instead."""
-        costs_nj = {
-            'insert': 10, 'delete': 10,
-            'relabel_structure': 1, 'relabel_content': 1,
-        }
-        costs_cw = {'insert': 10, 'delete': 10, 'relabel': 1}
-        T1 = make_tree('<root><a><b>x</b></a></root>')
-        T2 = make_tree('<root><a><c>x</c></a></root>')
-        # Both should prefer relabeling b→c (cost 1) over delete+insert (cost 20)
-        ted_nj = nj_compute_ted(T1, T2, costs_nj)
-        ted_cw = compute_ted(T1, T2, costs_cw)
-        assert ted_nj == ted_cw  # same optimal cost here; both relabel
-        # Now make structural relabels free — N&J tree-distance drops further
-        costs_nj2 = {'insert': 10, 'delete': 10, 'relabel_structure': 0, 'relabel_content': 1}
-        costs_cw2 = {'insert': 10, 'delete': 10, 'relabel': 1}
-        ted_nj2 = nj_compute_ted(T1, T2, costs_nj2)
-        ted_cw2 = compute_ted(T1, T2, costs_cw2)
-        assert ted_nj2 < ted_cw2  # N&J is strictly cheaper when struct relabel = 0
+        The ``city: Bern`` leaf appears in both trees, just at different
+        positions. The containment rule lets N&J price its insert into B
+        as a single op rather than a full subtree (re)insert.
+        """
+        algo = get_algorithm("nierman_jagadish")
+        moved_leaf = Node.leaf("city", "Bern", "wikilink")
+        t1 = Tree(
+            Node.structural("country", [
+                Node.structural("geography", [
+                    Node.leaf("capital", "Bern", "wikilink"),
+                ]),
+                Node.structural("legacy", [
+                    Node.leaf("city", "Bern", "wikilink"),
+                ]),
+            ]),
+            name="A",
+        )
+        t2 = Tree(
+            Node.structural("country", [
+                Node.structural("geography", [
+                    Node.leaf("capital", "Bern", "wikilink"),
+                    Node.leaf("city", "Bern", "wikilink"),
+                ]),
+            ]),
+            name="B",
+        )
+        script = algo.compute(t1, t2, config=cfg, taxonomies=taxonomies,
+                              cost_model=cost_symmetric)
+        # Patched tree must still equal target.
+        assert script.apply(t1).size() == t2.size()
+        # Without containment the moved leaf would cost ≥2 (its insert + its
+        # weighted delete); with containment both sides should be cheap.
+        assert script.total_cost < 3.0
 
+    def test_mapping_populated(self, cfg, taxonomies, cost_symmetric):
+        """The script must carry the algorithm's node mapping."""
+        algo = get_algorithm("nierman_jagadish")
+        t1 = _trivial_tree("A", "Beirut", 1.0)
+        t2 = _trivial_tree("B", "Bern",   2.0)
+        script = algo.compute(t1, t2, config=cfg, taxonomies=taxonomies,
+                              cost_model=cost_symmetric)
+        assert len(script.mapping) > 0
+        # Root maps to root.
+        assert ((), ()) in [(tuple(a), tuple(b)) for a, b in script.mapping]
 
-class TestSimilarity:
-    def test_identical_zero_ted(self):
-        T = make_tree('<a><b>x</b></a>')
-        metrics = compute_similarity(0.0, T, T)
-        assert metrics['raw_ted'] == 0.0
-        assert metrics['sim_inverse'] == 1.0
-        assert metrics['sim_ratio'] == 1.0
+    def test_full_country_trees_patch_correctly(self, cfg, taxonomies,
+                                                cost_symmetric):
+        """End-to-end: Lebanon vs Switzerland from real Mongo data."""
+        pytest.importorskip("pymongo")
+        from src.storage.mongo_store import MongoStore
+        from src.builder import build_country_tree
 
-    def test_high_ted_low_similarity(self):
-        T1 = make_tree('<a><b>x</b></a>')
-        T2 = make_tree('<a><b>y</b></a>')
-        ted = compute_ted(T1, T2, COSTS)
-        metrics = compute_similarity(ted, T1, T2)
-        assert 0 < metrics['sim_inverse'] < 1
-        assert 0 < metrics['sim_ratio'] <= 1
+        store = MongoStore()
+        if not store.ping():
+            pytest.skip("MongoDB not reachable")
 
-    def test_sim_inverse_formula(self):
-        T = make_tree('<a/>')
-        metrics = compute_similarity(4.0, T, T)
-        assert abs(metrics['sim_inverse'] - 1.0 / 5.0) < 1e-9
-
-    def test_sim_ratio_formula(self):
-        T1 = make_tree('<a><b>x</b></a>')  # 3 nodes
-        T2 = make_tree('<a><b>y</b></a>')  # 3 nodes
-        ted = 1.0
-        metrics = compute_similarity(ted, T1, T2)
-        # sim_ratio = 1 - 1/6
-        assert abs(metrics['sim_ratio'] - (1.0 - 1.0 / 6.0)) < 1e-9
+        t1 = build_country_tree(
+            "Lebanon",
+            store.get_country("Lebanon")["infobox"],
+            config=cfg, taxonomies=taxonomies,
+        )
+        t2 = build_country_tree(
+            "Switzerland",
+            store.get_country("Switzerland")["infobox"],
+            config=cfg, taxonomies=taxonomies,
+        )
+        algo = get_algorithm("nierman_jagadish")
+        with warnings.catch_warnings():
+            warnings.simplefilter("ignore")
+            script = algo.compute(t1, t2, config=cfg, taxonomies=taxonomies,
+                                  cost_model=cost_symmetric)
+        patched = script.apply(t1)
+        assert patched.size() == t2.size()

@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block title %}Error {{ code }}{% endblock %}
+
+{% block content %}
+<div class="page-head">
+  <div>
+    <div class="eyebrow">Error {{ code }}</div>
+    <h1>Something went wrong.</h1>
+    <p class="lede">{{ message }}</p>
+  </div>
+</div>
+
+<div class="empty">
+  <div class="em-glyph">⚠</div>
+  <p class="mono" style="margin-top: 8px;">{{ message }}</p>
+  <div class="row mt-4" style="justify-content: center;">
+    <a class="btn" href="{{ url_for('countries_list') }}">← Back to Countries</a>
+  </div>
+</div>
+{% endblock %}

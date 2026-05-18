@@ -1,0 +1,74 @@
+/* ============================================================
+   IDPA Country Explorer — design tokens
+   warm paper · ink · single teal accent · IBM Plex
+   ============================================================ */
+:root {
+  /* surfaces */
+  --paper:        #faf8f3;
+  --paper-2:      #f3efe5;    /* sunken / table headers */
+  --card:         #ffffff;
+  --ink-ribbon:   #1d1a16;    /* navbar */
+  --ink-ribbon-2: #2a2620;
+
+  /* ink */
+  --ink:          #1a1816;
+  --ink-2:        #3a3530;
+  --ink-3:        #57514a;
+  --muted:        #7a7268;
+  --muted-2:      #a9a098;
+
+  /* lines */
+  --line:         #e7e2d6;
+  --line-2:       #d6cfbf;
+  --line-3:       #bdb4a1;
+
+  /* accent (deep teal) */
+  --accent:       #2d7a82;
+  --accent-2:     #226268;
+  --accent-tint:  #e3eef0;
+  --accent-fg:    #ffffff;
+
+  /* semantic diff palette (CB-safer) */
+  --diff-del:     #c44545;
+  --diff-del-bg:  #f9e7e4;
+  --diff-ins:     #1d8a4a;
+  --diff-ins-bg:  #e2f1e7;
+  --diff-rel:     #c08820;
+  --diff-rel-bg:  #f7eed8;
+
+  /* type badge palette — flat, ink-on-tinted */
+  --tb-number:   #19536b;  --tb-number-bg:  #e1edf2;
+  --tb-currency: #1d6643;  --tb-currency-bg:#e1efe7;
+  --tb-coord:    #8a4a14;  --tb-coord-bg:   #f5e9da;
+  --tb-link:     #5a3a8a;  --tb-link-bg:    #ebe5f6;
+  --tb-text:     #4a423b;  --tb-text-bg:    #ede8dd;
+  --tb-dist:     #8a2b3a;  --tb-dist-bg:    #f7e1e3;
+  --tb-date:     #19536b;  --tb-date-bg:    #e1edf2;
+  --tb-year:     #19536b;  --tb-year-bg:    #e1edf2;
+  --tb-percent:  #19536b;  --tb-percent-bg: #e1edf2;
+
+  /* cluster palette — Tableau-ish but tuned warmer */
+  --c0: #2d7a82;  /* teal — accent  */
+  --c1: #c2691d;  /* burnt orange   */
+  --c2: #6b4f8a;  /* dusty plum     */
+  --c3: #9b8a1a;  /* olive gold     */
+  --c4: #b04a5a;  /* berry          */
+  --c5: #3a6ab0;  /* steel blue     */
+  --c6: #4a7a3a;  /* sage           */
+  --c7: #8a5a3a;  /* tobacco        */
+  --c8: #2a8a8a;  /* viridian       */
+  --c9: #7a3a6a;  /* aubergine      */
+  --c-outlier: #bdb8af;
+
+  /* type */
+  --font-sans: "IBM Plex Sans", "Inter", -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-mono: "IBM Plex Mono", "JetBrains Mono", "SF Mono", ui-monospace, Consolas, monospace;
+
+  /* radius / shadow */
+  --r-1: 4px;
+  --r-2: 6px;
+  --r-3: 10px;
+  --shadow-1: 0 1px 0 rgba(28,24,16,0.04), 0 1px 2px rgba(28,24,16,0.05);
+  --shadow-2: 0 4px 14px rgba(28,24,16,0.08), 0 1px 3px rgba(28,24,16,0.05);
+  --shadow-pop: 0 12px 40px rgba(28,24,16,0.14), 0 2px 6px rgba(28,24,16,0.08);
+}
