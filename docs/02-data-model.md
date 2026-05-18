@@ -71,7 +71,11 @@ class Tree:
 
 - **Paths**: `NodePath = tuple[int, ...]`. `tree.get((1, 0))` returns
   `tree.root.children[1].children[0]`. `tree.path_of(node)` walks
-  parent pointers back to the root.
+  parent pointers back to the root, finding each level's position by
+  **identity** (`is`), not equality. `Node` uses dataclass-generated
+  `__eq__`, so two structurally-identical sibling subtrees compare
+  equal — `list.index` would collapse them to the same path. See
+  [08-design-decisions.md §24](08-design-decisions.md).
 - **Dotted lookup**: `tree.find_by_label("economy.gdp_ppp.value")`.
 - **Traversal**: `tree.walk()`, `tree.postorder()`, `tree.leaves()`.
 - **Pretty-print**: `tree.to_ascii()` — used in tests / debugging.

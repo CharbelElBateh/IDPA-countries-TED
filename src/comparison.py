@@ -24,6 +24,24 @@ from src.ted import get_algorithm
 logger = logging.getLogger(__name__)
 
 
+def similarity_metrics(ted: float, t1_size: int, t2_size: int) -> dict[str, float]:
+    """Three similarity metrics from the IDPA course slides (Ch. 5).
+
+    i.   Raw TED integer:     ``TED(T1, T2)``
+    ii.  Normalized inverse:  ``1 / (1 + TED(T1, T2))``
+    iii. Standard ratio:      ``1 - TED(T1, T2) / (|T1| + |T2|)``
+    where ``|T|`` is the number of nodes in tree ``T``.
+    """
+    denom = t1_size + t2_size
+    return {
+        "ted_raw":        float(ted),
+        "sim_inverse":    1.0 / (1.0 + ted),
+        "sim_ratio":      1.0 - (ted / denom) if denom > 0 else 0.0,
+        "t1_size":        t1_size,
+        "t2_size":        t2_size,
+    }
+
+
 @dataclass
 class DirectionResult:
     """One direction of a comparison: t1 → t2 (forward) or t2 → t1 (reverse)."""
@@ -34,12 +52,21 @@ class DirectionResult:
     source_marks: dict[str, str] = field(default_factory=dict)
     target_marks: dict[str, str] = field(default_factory=dict)
 
+    @property
+    def metrics(self) -> dict[str, float]:
+        return similarity_metrics(
+            self.script.total_cost,
+            self.source_tree.size(),
+            self.target_tree.size(),
+        )
+
     def to_dict(self) -> dict[str, Any]:
         from frontend.formatting import tree_to_dict
         return {
             "script":      self.script.to_dict(),
             "total_cost":  self.script.total_cost,
             "op_counts":   self.script.counts_by_op(),
+            "metrics":     self.metrics,
             "source":      tree_to_dict(self.source_tree.root),
             "target":      tree_to_dict(self.target_tree.root),
             "patched":     tree_to_dict(self.patched_tree.root),
@@ -100,6 +127,15 @@ def compare(country1: str, country2: str, *,
     t1 = _load_tree(country1, store, cfg, tax)
     t2 = _load_tree(country2, store, cfg, tax)
 
+    # Synthetic test trees change frequently while debugging — never
+    # serve them from cache; always recompute.
+    is_synthetic = any(
+        (doc or {}).get("source") == "synthetic"
+        for doc in (store.get_country(country1), store.get_country(country2))
+    )
+    if is_synthetic:
+        use_cache = False
+
     # Try cache first.
     cached = None
     if use_cache:
@@ -141,6 +177,11 @@ def _load_tree(name: str, store: MongoStore,
     doc = store.get_country(name)
     if doc is None:
         raise KeyError(f"No country {name!r} in MongoDB")
+    # Synthetic / hand-crafted trees skip the Wikipedia-infobox pipeline
+    # and are reconstructed verbatim from the stored ``tree_dict``.
+    if doc.get("source") == "synthetic" and doc.get("tree_dict"):
+        from src.synthetic_tree import node_from_dict
+        return Tree(node_from_dict(doc["tree_dict"]), name=name)
     return build_country_tree(name, doc["infobox"], config=cfg, taxonomies=tax)
 
 
@@ -198,8 +239,8 @@ def _marks_from_mapping(source: Tree, target: Tree,
             continue
         p = source.path_of(n)
         key = _dotted(n)
-        if p in mapped_src_paths:
-            t_path = src_to_tgt[p]
+        t_path = src_to_tgt.get(p)
+        if t_path is not None:
             try:
                 t_node = target.get(t_path)
             except IndexError:
@@ -210,15 +251,23 @@ def _marks_from_mapping(source: Tree, target: Tree,
             source_marks[key] = "delete"
 
     target_marks: dict[str, str] = {}
-    # Reverse lookup: target_path → source_path
-    tgt_to_src = {v: k for k, v in src_to_tgt.items()}
+    # Reverse lookup: target_path → source_path. A malformed mapping (e.g.
+    # the same source path appearing with two different targets — possible
+    # when LD-pair Chawathe's depth-only constraints let two sibling
+    # alignments share the same parent index after the strict-parent
+    # filter) loses entries during inversion. Using ``.get(p)`` instead of
+    # ``[p]`` falls back to treating those targets as inserts, which is
+    # correct: we couldn't recover a coherent source mapping for them.
+    tgt_to_src: dict[tuple[int, ...], tuple[int, ...]] = {}
+    for s_path, t_path in src_to_tgt.items():
+        tgt_to_src.setdefault(t_path, s_path)
     for n in target.walk():
         if n is target.root:
             continue
         p = target.path_of(n)
         key = _dotted(n)
-        if p in mapped_tgt_paths:
-            s_path = tgt_to_src[p]
+        s_path = tgt_to_src.get(p)
+        if s_path is not None:
             try:
                 s_node = source.get(s_path)
             except IndexError:
@@ -288,7 +337,10 @@ def _dotted(node) -> str:
     while cur.parent is not None:
         sibs = [c for c in cur.parent.children if c.label == cur.label]
         if len(sibs) > 1:
-            parts.append(f"{cur.label}[{sibs.index(cur)}]")
+            # Identity-based index — Node uses dataclass equality, so
+            # structurally-identical siblings would collide via ``index``.
+            idx = next(i for i, c in enumerate(sibs) if c is cur)
+            parts.append(f"{cur.label}[{idx}]")
         else:
             parts.append(cur.label)
         cur = cur.parent

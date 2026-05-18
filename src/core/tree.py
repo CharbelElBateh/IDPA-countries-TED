@@ -77,12 +77,29 @@ class Tree:
         return node
 
     def path_of(self, node: Node) -> NodePath:
-        """Return the path of ``node`` by walking up parent pointers."""
+        """Return the path of ``node`` by walking up parent pointers.
+
+        Uses *identity* (``is``) when finding ``cur`` in
+        ``parent.children``: ``Node`` is a dataclass with default
+        equality, so two structurally-identical sibling subtrees
+        compare equal and ``list.index`` would return the first match
+        (collapsing distinct nodes to the same path). Common in
+        hand-crafted test trees like ``A(B, B)``.
+        """
         indices: list[int] = []
         cur = node
         while cur.parent is not None:
             parent = cur.parent
-            indices.append(parent.children.index(cur))
+            idx = next(
+                (i for i, c in enumerate(parent.children) if c is cur),
+                None,
+            )
+            if idx is None:
+                raise ValueError(
+                    f"node {cur.label!r} not found in its parent's children "
+                    f"(stale parent pointer?)"
+                )
+            indices.append(idx)
             cur = parent
         return tuple(reversed(indices))
 

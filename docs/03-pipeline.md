@@ -5,6 +5,12 @@ How a raw Mongo document becomes a typed, structurally-grouped `Tree`.
 The end-to-end orchestrator is `src.builder.build_country_tree(name,
 infobox)`. The stages below are executed in order, top to bottom.
 
+> **Note:** synthetic test trees (documents with `source == "synthetic"`)
+> skip this entire pipeline. They are reconstructed directly via
+> `src/synthetic_tree.py:node_from_dict(doc["tree_dict"])` and only
+> exist for testing TED interactively. See
+> [08-design-decisions.md §26](08-design-decisions.md).
+
 ```
 raw wptools infobox dict
         │

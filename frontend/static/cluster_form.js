@@ -103,12 +103,7 @@
       params.max_iter = parseInt(fd.get("max_iter"), 10);
       params.random_seed = parseInt(fd.get("random_seed"), 10);
     } else if (algo === "hierarchical_agglomerative") {
-      const dt = fd.get("distance_threshold");
-      if (dt && dt.toString().trim() !== "") {
-        params.distance_threshold = parseFloat(dt);
-      } else {
-        params.k = parseInt(fd.get("k_agg"), 10);
-      }
+      params.k = parseInt(fd.get("k_agg"), 10);
       params.linkage = fd.get("linkage");
     }
 
@@ -137,7 +132,6 @@
   });
 
   function setRunning(running) {
-    runBtn.disabled = running;
     runBtn.textContent = running ? "Running…" : "▶ Run clustering";
   }
   function showStatus(msg, level) {

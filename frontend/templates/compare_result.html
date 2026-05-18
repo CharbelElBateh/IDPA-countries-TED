@@ -40,6 +40,40 @@
   </div>
 </div>
 
+<div class="card mb-3">
+  <h3 style="margin-top:0;">Similarity metrics</h3>
+  <p class="muted" style="font-size:13px; margin-top:-6px;">
+    |T<sub>A</sub>| = {{ forward_metrics.t1_size }} nodes ·
+    |T<sub>B</sub>| = {{ forward_metrics.t2_size }} nodes
+  </p>
+  <table class="metrics-table">
+    <thead>
+      <tr>
+        <th>Metric</th>
+        <th class="mono">A → B</th>
+        <th class="mono">B → A</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Raw TED &nbsp;<span class="muted mono">TED(T1, T2)</span></td>
+        <td class="mono">{{ '%.2f'|format(forward_metrics.ted_raw) }}</td>
+        <td class="mono">{{ '%.2f'|format(reverse_metrics.ted_raw) }}</td>
+      </tr>
+      <tr>
+        <td>Normalized inverse &nbsp;<span class="muted mono">1 / (1 + TED)</span></td>
+        <td class="mono">{{ '%.4f'|format(forward_metrics.sim_inverse) }}</td>
+        <td class="mono">{{ '%.4f'|format(reverse_metrics.sim_inverse) }}</td>
+      </tr>
+      <tr>
+        <td>Standard ratio &nbsp;<span class="muted mono">1 − TED / (|T1| + |T2|)</span></td>
+        <td class="mono">{{ '%.4f'|format(forward_metrics.sim_ratio) }}</td>
+        <td class="mono">{{ '%.4f'|format(reverse_metrics.sim_ratio) }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
 <div class="row between mb-2">
   <div class="row">
     <div class="btn-group">

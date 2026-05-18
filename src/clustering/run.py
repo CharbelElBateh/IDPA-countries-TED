@@ -151,9 +151,16 @@ def run_clustering(
 def _build_all_trees(store: MongoStore,
                      cfg: dict[str, Any],
                      taxonomies: Any) -> dict[str, Tree]:
-    """Load every country doc from Mongo and build its tree."""
+    """Load every country doc from Mongo and build its tree.
+
+    Synthetic / hand-crafted test trees (``source == "synthetic"``) are
+    skipped: they have no real infobox and exist only for testing the
+    TED pipeline interactively from the UI.
+    """
     out: dict[str, Tree] = {}
     for doc in store.iter_countries():
+        if doc.get("source") == "synthetic":
+            continue
         name = doc.get("name") or doc.get("_id")
         if not name:
             continue

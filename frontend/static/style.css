@@ -861,6 +861,31 @@ code, .code {
 .gbox.relabel { background: var(--diff-rel-bg); color: #6e4d10;        border: 1px solid var(--diff-rel); }
 
 /* edit script table */
+.metrics-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+.metrics-table th,
+.metrics-table td {
+  text-align: left;
+  padding: 6px 10px;
+  border-bottom: 1px solid var(--border, #eee);
+}
+.metrics-table th {
+  font-weight: 600;
+  color: var(--muted, #666);
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+.metrics-table td.mono,
+.metrics-table th.mono {
+  font-family: var(--font-mono);
+  text-align: right;
+  white-space: nowrap;
+}
+
 .escript {
   margin-top: 14px;
 }

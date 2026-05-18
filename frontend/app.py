@@ -46,6 +46,11 @@ def _cached_country_tree(name: str):
     doc = store.get_country(name)
     if doc is None:
         return None
+    # Synthetic trees: reconstruct directly, skip the infobox pipeline.
+    if doc.get("source") == "synthetic" and doc.get("tree_dict"):
+        from src.core import Tree
+        from src.synthetic_tree import node_from_dict
+        return Tree(node_from_dict(doc["tree_dict"]), name=name)
     cfg = load_config()
     taxonomies = load_registry()
     return build_country_tree(name, doc["infobox"],
@@ -129,6 +134,61 @@ def create_app() -> Flask:
     def api_countries_list():
         return jsonify(_list_countries())
 
+    @app.route("/api/trees", methods=["POST"])
+    def api_trees_add():
+        """Add a hand-crafted test tree (bracket notation) to MongoDB.
+
+        Body: ``{"name": "<id>", "bracket": "root(a, b(c, d), e)"}``.
+        Stored alongside countries with ``source="synthetic"`` so the
+        existing /compare flow picks it up automatically.
+        """
+        from frontend.formatting import tree_to_dict
+        from src.synthetic_tree import parse_bracket_tree
+
+        payload = request.get_json(force=True, silent=True) or {}
+        name = (payload.get("name") or "").strip()
+        bracket = (payload.get("bracket") or "").strip()
+        if not name:
+            return jsonify({"error": "name is required"}), 400
+        if not bracket:
+            return jsonify({"error": "bracket is required"}), 400
+
+        try:
+            tree = parse_bracket_tree(bracket, name=name)
+        except ValueError as exc:
+            return jsonify({"error": f"parse error: {exc}",
+                            "name": name}), 400
+
+        store = MongoStore()
+        if not store.ping():
+            return jsonify({"error": "MongoDB unreachable"}), 503
+
+        existing = store.get_country(name) is not None
+        store.ensure_indexes()
+        store.upsert_country(
+            name=name,
+            infobox={},
+            template=None,
+            wikitext=bracket,
+            source="synthetic",
+            extra={"tree_dict": tree_to_dict(tree.root)},
+        )
+        clear_caches()
+        return jsonify({
+            "name":    name,
+            "nodes":   tree.size(),
+            "height":  tree.height(),
+            "updated": existing,
+        })
+
+    @app.route("/api/countries/<name>", methods=["DELETE"])
+    def api_countries_delete(name: str):
+        """Remove a country/tree document from Mongo (useful while testing)."""
+        store = MongoStore()
+        deleted = store.collection.delete_one({"_id": name}).deleted_count
+        clear_caches()
+        return jsonify({"deleted": int(deleted), "name": name})
+
     @app.route("/api/countries/<name>")
     def api_country_doc(name: str):
         store = MongoStore()
@@ -184,10 +244,24 @@ def create_app() -> Flask:
                                    code=501,
                                    message=str(exc)), 501
         except KeyError as exc:
+            msg = str(exc)
+            # Only treat "country missing in Mongo" as a real 404. Any
+            # other KeyError (a dict lookup inside an algorithm, a path
+            # mismatch in mark-extraction, etc.) is a true server bug —
+            # log the traceback and surface it as 500 so we can diagnose
+            # instead of hiding behind a generic 404.
+            if "No country" not in msg:
+                logger.exception(
+                    "compare(%s, %s, algo=%s, cm=%s) raised KeyError; "
+                    "treating as 500", c1, c2, algorithm, cost_model)
+                return render_template("error.html",
+                                       active_tab="compare",
+                                       code=500,
+                                       message=f"KeyError {msg} — see server log"), 500
             return render_template("error.html",
                                    active_tab="compare",
                                    code=404,
-                                   message=str(exc)), 404
+                                   message=msg), 404
         return render_template(
             "compare_result.html",
             active_tab="compare",
@@ -198,6 +272,8 @@ def create_app() -> Flask:
             reverse_cost=result.reverse.script.total_cost,
             forward_ops=result.forward.script.counts_by_op(),
             reverse_ops=result.reverse.script.counts_by_op(),
+            forward_metrics=result.forward.metrics,
+            reverse_metrics=result.reverse.metrics,
             from_cache=result.from_cache,
         )
 

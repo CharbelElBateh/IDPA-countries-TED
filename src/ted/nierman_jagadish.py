@@ -1,110 +1,3 @@
-"""Nierman & Jagadish (WebDB 2002) — recursive top-down subtree similarity.
-
-Reference: A. Nierman & H. V. Jagadish, "Evaluating Structural Similarity in
-XML Documents", WebDB 2002, pp. 61-66.
-
-================================================================
-Mapping the code to the slide pseudocode (img_1.png)
-================================================================
-
-Slide:
-
-    Input:  A and B          // XML document trees to be compared
-    Output: TED(A, B)        // Edit distance between A and B
-
-    Begin
-        M = Degree(A)        // number of first-level subtrees of A     line 1
-        N = Degree(B)                                                   line 2
-        Dist[][] = new [0..M][0..N]                                     line 3
-        Dist[0][0] = Cost_Upd(R(A), R(B))     // root update cost       line 4
-
-        For (i = 1; i <= M; i++) {                                      line 5
-            Dist[i][0] = Dist[i-1][0] + Cost_DelTree(A_i)
-        }
-        For (j = 1; j <= N; j++) {                                      line 6
-            Dist[0][j] = Dist[0][j-1] + Cost_InsTree(B_j)
-        }
-
-        For (i = 1; i <= M; i++)                                        line 7
-        {
-            For (j = 1; j <= N; j++)                                    line 9
-            {
-                Dist[i][j] = min{
-                    Dist[i-1][j-1] + TED(A_i, B_j),    // recursive!    line 12
-                    Dist[i-1][j]   + Cost_DelTree(A_i),                 line 13
-                    Dist[i][j-1]   + Cost_InsTree(B_j)                  line 14
-                }
-            }
-        }
-        Return  Dist[M][N]   // ≡ TED(A, B)                             line 18
-    End
-
-How the code realizes each slide line:
-
-* ``similarity(a, b)`` is the function ``TED(A, B)`` from the slide,
-  invoked recursively. The very first call is ``similarity(t1.root,
-  t2.root)`` in the ``compute`` method.
-* Slide lines 1-2 (M, N = Degree(A), Degree(B)) -> ``n, m = len(c1), len(c2)``
-  where ``c1, c2`` are the children of ``a, b``. (Degree = number of
-  immediate children of the root, which is what the children-alignment
-  table is sized on.)
-* Slide line 3 (``Dist[][] = new[0..M][0..N]``)   -> ``F = [[0.0] * (m + 1) for _ in range(n + 1)]``
-* Slide line 4 (``Dist[0][0] = Cost_Upd(R(A), R(B))``) — IMPLEMENTATION
-  NOTE: we don't initialize ``F[0][0]`` to ``root_cost``; we compute
-  ``root_cost = cost_relabel_pair(a, b)`` separately and add it to the
-  final value as ``root_cost + F[n][m]``. These are arithmetically
-  identical because the root cost is a constant that propagates
-  unchanged through every cell of the DP — pulling it outside the table
-  saves nothing computationally, but makes the code easier to read
-  ("alignment cost over children" vs. "root edit cost" cleanly split).
-* Slide lines 5-6 (init delete/insert rows over subtrees) ->
-  ``for i in range(1, n + 1): F[i][0] = F[i-1][0] + cost_delete_subtree(c1[i-1])``
-  ``for j in range(1, m + 1): F[0][j] = F[0][j-1] + cost_insert_subtree(c2[j-1])``
-* Slide lines 7-17 (the main double loop with the three-way min) -> the
-  inner ``for i ... for j`` loop with three branches:
-    - ``m_cost = F[i-1][j-1] + similarity(c1[i-1], c2[j-1])``  // slide line 12, recursive
-    - ``d_cost = F[i-1][j] + cost_delete_subtree(c1[i-1])``    // slide line 13
-    - ``i_cost = F[i][j-1] + cost_insert_subtree(c2[j-1])``    // slide line 14
-  The min{} picks the cheapest; the ``BT`` table remembers which branch
-  was chosen so the script builder can later reconstruct the mapping.
-* Slide line 18 (``Return Dist[M][N]``)         -> ``memo[key] = (root_cost + F[n][m], ...)``
-
-Leaf-vs-leaf and leaf-vs-internal corner cases:
-
-* Two leaves: there are no children to align, so ``D(leaf, leaf) =
-  cost_relabel_pair`` and we stop the recursion. (Slide doesn't enumerate
-  this base case explicitly — it falls out of M=0/N=0.)
-* Leaf vs. internal: M=0 and N>0 (or vice versa) — the alignment table
-  degenerates to a single row/column of inserts/deletes, and the result
-  is ``root_cost + Σ Cost_InsTree(B_j)`` (or the mirror image).
-
-Cross-kind extension:
-
-* If ``a`` and ``b`` have different kinds (one structural, one leaf),
-  we don't try to relabel — we price the pair as a full delete + full
-  insert (``cost_delete_subtree(a) + cost_insert_subtree(b)``). The
-  surrounding alignment then naturally picks the delete-then-insert
-  path, and ``_extract_mapping`` drops the cross-kind pair so the script
-  builder emits a real delete + insert.
-
-Subtree-containment extension (NOT in slide — controllable in config):
-
-* When ``config.subtree_similarity.enabled`` is true (default), we
-  precompute structure+content signatures for every subtree of both
-  trees. ``cost_delete_subtree`` / ``cost_insert_subtree`` then charge
-  only a single weighted move cost (instead of the per-node sum) when
-  the subtree being moved is also present in the other tree. This is
-  our local extension; turning it off recovers the strict slide
-  algorithm.
-
-Complexity: O(|T1| * |T2| * d) where d is the maximum out-degree, due
-to memoization on ``(id(a), id(b))`` — every subtree pair is computed
-exactly once. The slide's pseudocode is the "one level" recurrence; the
-recursive call expands into the full quadratic-in-tree-size DP.
-
-This file is fully self-contained — no shared TED core module.
-"""
-
 from __future__ import annotations
 
 from typing import Any
@@ -134,20 +27,10 @@ class NiermanJagadishTED(TEDAlgorithm):
 
         # Subtree-containment switch (see ``config/pipeline.json``).
         sub_cfg = config.get("subtree_similarity", {})
-        containment_enabled = bool(sub_cfg.get("enabled", True))
         move_factor = float(sub_cfg.get("move_cost_factor", 1.0))
 
-        # When enabled, precompute structure+content signatures for every
-        # subtree of both trees so we can recognize that an "inserted"
-        # subtree is just a moved copy of one already present in the
-        # source. Moves cost a single base op (× field weight × factor)
-        # rather than the per-node sum.
-        if containment_enabled:
-            t1_subtree_sigs: set = {_subtree_signature(n) for n in t1.walk()}
-            t2_subtree_sigs: set = {_subtree_signature(n) for n in t2.walk()}
-        else:
-            t1_subtree_sigs = set()
-            t2_subtree_sigs = set()
+        t1_subtree_sigs: set = {_subtree_signature(n) for n in t1.walk()}
+        t2_subtree_sigs: set = {_subtree_signature(n) for n in t2.walk()}
 
         # ----- per-node weighted op costs -----
         def cost_delete_node(node: Node) -> float:
@@ -169,18 +52,14 @@ class NiermanJagadishTED(TEDAlgorithm):
                              cost_model=cost_model)
             return d * w
 
-        # Whole-subtree delete/insert costs.
-        # If the subtree's structure+content also lives in the other tree,
-        # treat it as a *move* and charge a single weighted op; otherwise
-        # charge the sum of per-node costs.
         def cost_delete_subtree(node: Node) -> float:
-            if containment_enabled and _subtree_signature(node) in t2_subtree_sigs:
+            if _subtree_signature(node) in t2_subtree_sigs:
                 return (move_factor * delete_base
                         * field_weight(_label_path(node), weights))
             return sum(cost_delete_node(n) for n in node.walk())
 
         def cost_insert_subtree(node: Node) -> float:
-            if containment_enabled and _subtree_signature(node) in t1_subtree_sigs:
+            if _subtree_signature(node) in t1_subtree_sigs:
                 return (move_factor * insert_base
                         * field_weight(_label_path(node), weights))
             return sum(cost_insert_node(n) for n in node.walk())
@@ -198,11 +77,6 @@ class NiermanJagadishTED(TEDAlgorithm):
                 return memo[key][0]
 
             if a.kind != b.kind:
-                # Cross-kind pair: not a real match — price it as a full
-                # delete of one side + full insert of the other so the
-                # surrounding alignment picks the delete-then-insert path.
-                # The script-construction step won't add this to the
-                # mapping (see ``_extract_mapping``).
                 cost = cost_delete_subtree(a) + cost_insert_subtree(b)
                 memo[key] = (cost, None)
                 return cost
@@ -227,7 +101,6 @@ class NiermanJagadishTED(TEDAlgorithm):
                 F[0][j] = F[0][j - 1] + cost_insert_subtree(c2[j - 1])
                 BT[0][j] = ("I", j - 1)
 
-            # Slide lines 7-17: the main double loop, three-way min{}
             for i in range(1, n + 1):
                 for j in range(1, m + 1):
                     # Slide line 13: Dist[i-1][j] + Cost_DelTree(A_i)
@@ -245,13 +118,10 @@ class NiermanJagadishTED(TEDAlgorithm):
                     else:
                         BT[i][j] = ("I", j - 1)
 
-            # Slide line 18: Return Dist[M][N] ≡ TED(A, B)
-            # (with the root_cost from line 4 added back in, per docstring)
             memo[key] = (root_cost + F[n][m],
                          {"F": F, "BT": BT, "c1": c1, "c2": c2})
             return memo[key][0]
 
-        # ----- main entry: compute distance + extract mapping -----
         similarity(t1.root, t2.root)
         pairs = _extract_mapping(t1.root, t2.root, memo)
         return _build_script(t1, t2, pairs, memo,
@@ -396,7 +266,12 @@ def _build_script(
         cost = cost_delete_node(node)
         script.add(Action(op="delete", path=path, cost=cost,
                           old_label=node.label, new_node=node.copy()))
-        w.parent.remove_child(w.parent.children.index(w))
+        # Identity, not equality: two structurally-identical siblings
+        # would compare equal under Node.__eq__ (dataclass default),
+        # and list.index would return the first match.
+        w.parent.remove_child(
+            next(i for i, c in enumerate(w.parent.children) if c is w)
+        )
         for desc in node.walk():
             t1_to_w.pop(id(desc), None)
 

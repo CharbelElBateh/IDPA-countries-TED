@@ -26,14 +26,49 @@
 
 <form id="cluster-form">
 
+  {# ─────────────────────────────────────────── distance matrix card ─── #}
+  {# The cost model is NOT an algorithm hyperparameter — it controls how
+     the pairwise distance matrix D is computed (leaf-type distance
+     scales: currency log range, coordinate full-distance km, etc.).
+     The same D is then fed to every clustering algorithm below. #}
+  <div class="params-card">
+    <div class="params-row">
+      <div class="pleft">
+        <span class="label">Distance matrix</span>
+        <p class="hint">Controls how per-leaf-type distances are computed
+          (Levenshtein scales, log range for currency, full-distance km
+          for coordinates, year window, …). Produces the N×N matrix
+          <code>D</code> that is fed to every algorithm below — the same
+          cost model yields the same <code>D</code> for k-means and
+          agglomerative.</p>
+      </div>
+      <div class="pright">
+        <div class="field">
+          <label>Cost model
+            <span class="muted" style="text-transform: none;">
+              (leaf distance scales)
+            </span>
+          </label>
+          <select class="select" name="cost_model" id="cost_model">
+            {% for cm in cost_models %}
+              <option value="{{ cm }}">{{ cm }}</option>
+            {% endfor %}
+          </select>
+        </div>
+      </div>
+    </div>
+  </div>
+
   {# ─────────────────────────────────────────── parameters card ─── #}
   <div class="params-card">
     <div class="params-row">
       <div class="pleft">
         <span class="label">Algorithm</span>
-        <p class="hint">Two implementations. k-means partitions around k
-          centroids (the distance matrix is MDS-embedded into Euclidean
-          space first); agglomerative gives a merge tree.</p>
+        <p class="hint">Two implementations on the same <code>D</code>.
+          k-means partitions around k centroids (<code>D</code> is
+          MDS-embedded into Euclidean space first since k-means needs
+          coordinates to compute means); agglomerative gives a merge
+          tree, operating on <code>D</code> directly.</p>
       </div>
       <div class="pright">
         <span class="seg" id="algo-seg">
@@ -42,14 +77,6 @@
                   data-algo="{{ algo.name }}">{{ algo.name }}</span>
           {% endfor %}
         </span>
-        <div class="field">
-          <label>Cost model</label>
-          <select class="select" name="cost_model" id="cost_model">
-            {% for cm in cost_models %}
-              <option value="{{ cm }}">{{ cm }}</option>
-            {% endfor %}
-          </select>
-        </div>
         <input type="hidden" name="algorithm" id="algorithm" value="kmeans">
       </div>
     </div>
@@ -59,8 +86,8 @@
       <div class="pleft">
         <span class="label">k-means knobs</span>
         <p class="hint">Choose the number of clusters. Lloyd's algorithm
-          with k-means++ seeding, restarted <code>n_init</code> times;
-          the lowest-inertia run wins.</p>
+          with uniform random init from data points (slide-spec),
+          restarted <code>n_init</code> times; the lowest-SSE run wins.</p>
       </div>
       <div class="pright">
         <div class="field k">
@@ -90,9 +117,10 @@
          style="display: none;">
       <div class="pleft">
         <span class="label">Linkage knobs</span>
-        <p class="hint">Linkage criterion controls how cluster
-          distances are aggregated during merges. Distance threshold
-          overrides k by cutting the dendrogram at a given height.</p>
+        <p class="hint">Linkage criterion controls how cluster distances
+          are aggregated during merges (slides 79-81):
+          <code>single</code> = min pair, <code>complete</code> = max
+          pair, <code>average</code> = mean pair (UPGMA).</p>
       </div>
       <div class="pright">
         <div class="field k">
@@ -107,13 +135,6 @@
             <option value="complete">complete</option>
             <option value="single">single</option>
           </select>
-        </div>
-        <div class="field">
-          <label>distance threshold
-            <span class="muted" style="text-transform: none;">(overrides k)</span>
-          </label>
-          <input class="input mono" type="number" step="0.01"
-                 name="distance_threshold" placeholder="optional">
         </div>
       </div>
     </div>

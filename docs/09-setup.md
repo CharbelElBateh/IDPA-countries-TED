@@ -57,7 +57,7 @@
 .venv\Scripts\python.exe -m frontend.app --port 5050
 ```
 
-Open `http://127.0.0.1:5050`. Three tabs: Countries / Compare / Patch.
+Open `http://127.0.0.1:5050`. Four tabs: Countries / Compare / Patch / Cluster.
 
 The Flask app is non-debug by default; static-file changes need a
 hard browser refresh (Ctrl+F5). Restart the Python process to pick
@@ -91,8 +91,24 @@ After changing an algorithm or cost model:
 ### Compute one comparison from the CLI
 
 ```powershell
-.venv\Scripts\python.exe -c "from src.comparison import compare; r = compare('Lebanon', 'Switzerland', algorithm='nierman_jagadish', cost_model='symmetric'); print(r.forward.script.total_cost, r.forward.script.counts_by_op())"
+.venv\Scripts\python.exe -c "from src.comparison import compare; r = compare('Lebanon', 'Switzerland', algorithm='nierman_jagadish', cost_model='symmetric'); print(r.forward.script.total_cost, r.forward.script.counts_by_op()); print(r.forward.metrics)"
 ```
+
+`r.forward.metrics` is the three-similarity-metrics dict
+(`ted_raw`, `sim_inverse`, `sim_ratio`, `t1_size`, `t2_size`) —
+see [04-algorithms.md](04-algorithms.md) and
+[08-design-decisions.md §25](08-design-decisions.md).
+
+### Add a synthetic test tree from the CLI
+
+```powershell
+.venv\Scripts\python.exe -c "from src.storage.mongo_store import MongoStore; from src.synthetic_tree import parse_bracket_tree; from frontend.formatting import tree_to_dict; t = parse_bracket_tree('A(B,C(D,E))', name='T1'); MongoStore().upsert_country(name='T1', infobox={}, template=None, wikitext='A(B,C(D,E))', source='synthetic', extra={'tree_dict': tree_to_dict(t.root)})"
+```
+
+Then `T1` is available in the `/compare` dropdowns alongside the 192
+Wikipedia countries. Synthetic trees are excluded from clustering and
+bypass the comparison cache — see
+[08-design-decisions.md §26-§27](08-design-decisions.md).
 
 ### Build one country tree
 
@@ -117,6 +133,9 @@ Get-NetTCPConnection -LocalPort 5050 -ErrorAction SilentlyContinue | ForEach-Obj
 | `KeyError: Unknown cost model 'X'` | Only `symmetric` and `asymmetric` are configured. Check `config/pipeline.json:ted_costs.models`. |
 | Patched tree size doesn't match target | The script construction has regressed — re-check the strict-parent-preserving filter (Chawathe) or the cross-kind handling (N&J). |
 | "Both" still shows in the algorithm dropdown | Hard-refresh; we removed it. |
+| `KeyError: (0,)` on compare with hand-crafted trees containing identical sibling subtrees | Should be fixed in `Tree.path_of` + delete steps (identity not equality). If it returns, search for any new `.children.index(...)` call that uses `==` instead of `is`. See [08-design-decisions.md §24](08-design-decisions.md). |
+| Synthetic tree appears in a cluster run | Confirm `_build_all_trees` filter is in place; the doc has `source == "synthetic"`. |
+| Stale TED result after editing a synthetic tree | Confirm `compare()` is bypassing cache for synthetic trees; restart Flask if you just updated `src/comparison.py`. |
 
 ## Files to know
 

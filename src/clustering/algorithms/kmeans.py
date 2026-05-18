@@ -1,83 +1,36 @@
-"""K-means (Lloyd's) partitional clustering, exactly as taught.
-
-Reference: course slides "Ch. 10 — Data Clustering, 5.1 Partitional
-Clustering: K-means" (img_2.png + Kmeans.txt). The slide's spec is the
-classical Lloyd algorithm with **random initialization**.
+"""K-means (Lloyd's) partitional clustering, per course slide Ch.10 §5.1.
 
 ================================================================
-Mapping the code to the slide pseudocode
+Algorithm (img_2.png)
 ================================================================
 
-Slide (img_2.png, simplified):
+    Init:    Pick k initial centroids m_1, ..., m_k uniformly at random
+             from the data objects.
+    Assign:  C_i = { x_p : Sim(x_p, m_i) >= Sim(x_p, m_j) for all j }
+             In distance form: assign x_p to argmin_i ||x_p - m_i||.
+    Update:  m_i^(t+1) = (1 / |C_i^(t)|) * sum_{x_p in C_i^(t)} x_p
+    Stop:    (1) no objects changed cluster between t and t+1, OR
+             (2) SSE drop below tol, where
+                 SSE^(t) = sum_{i=1..k} sum_{x_p in C_i^(t)} ||x_p - m_i^(t)||^2
 
-    Initialization:  Given k chosen by user
-                     Randomly choose initial k centroids m_1^(t0), ..., m_k^(t0)
-                     (typically among the available data objects)
+================================================================
+File map
+================================================================
+    _classical_mds  -> project glue (non-Euclidean D -> Euclidean X)
+    _random_init    -> Init
+    _lloyd          -> Assign / Update / Stop loop  (+ empty-cluster reseed)
+    KMeans.compute  -> n_init restarts, keep lowest-SSE result
 
-    Assignment:      Given the k centroids at iteration t
-                     For every data object x_p, compute Sim(x_p, m_i^(t)) for all i
-                     Assign x_p to cluster C_i corresponding to the most similar m_i:
-                         C_i^(t) = { x_p / Sim(x_p, m_i^(t)) >= Sim(x_p, m_j^(t))
-                                     for all j, 1 <= j <= k }
+================================================================
+Why MDS first
+================================================================
 
-    Update:          Re-compute centroids as means of data objects in each cluster:
-                         m_i^(t+1) = (1 / |C_i^(t)|) * sum_{x_p in C_i^(t)} x_p
-
-    Convergence:     Either (1) no (or few) objects changed clusters between
-                     iterations  t  and  t+1   (threshold = max changes allowed), OR
-                     (2) higher intra-cluster similarity at t+1 than at t —
-                     measured by Sum of Squared Error (SSE):
-                         SSE^(t) = sum_{i=1..k} sum_{x_p in C_i^(t)} Dist(x_p, m_i^(t))^2
-                     Higher intra-cluster similarity  =  lower SSE.
-
-How the code realizes each slide step:
-
-* Initialization        -> ``_random_init`` — slide says "Randomly choose
-                           initial k centroids ... typically among the
-                           available data objects". We sample k DISTINCT
-                           data points uniformly at random, exactly as
-                           described. (We deliberately do *not* use
-                           k-means++ D^2-weighted sampling; that's a
-                           known improvement but it's not what the
-                           slide teaches.) Multiple restarts (`n_init`)
-                           are kept because the slide doesn't forbid
-                           them and they make a random-init Lloyd run
-                           more reliable.
-* Assignment            -> ``_lloyd`` inner loop, the ``np.argmin`` line:
-                           for each point we compute Euclidean distance
-                           to every centroid (cheapest similarity
-                           measure when the coordinates are real numbers)
-                           and assign to the closest one. "Closest" is
-                           the inverse of "most similar".
-* Update                -> ``_lloyd`` centroid recomputation: for each
-                           cluster c, ``centroids[c] = members.mean(axis=0)``
-                           — the slide's m_i^(t+1) = mean of points in
-                           C_i^(t).
-* Convergence           -> two complementary checks:
-                           - ``np.array_equal(new_labels, labels)``
-                             implements criterion (1) with threshold = 0
-                             ("no objects changed" — the strictest form
-                             of "few or no objects changed").
-                           - When ``params['tol']`` is provided, we also
-                             check criterion (2): SSE drop between
-                             iterations < tol. SSE is computed exactly
-                             as the slide formula above.
-
-Non-Euclidean inputs:
-
-Our distance matrix is *type-aware* and non-Euclidean (Levenshtein for
-text, EMD over taxonomies for distributions, log-currency, haversine,
-...). K-means needs points in Euclidean space (it averages coordinates
-to form centroids), so before the Lloyd loop we embed the N x N
-distance matrix into Euclidean space via classical (Torgerson) MDS,
-keeping all axes with strictly positive eigenvalues (capped at 16
-dimensions for stability). The "data objects" in the slide become
-points in this MDS space; the algorithm itself is unchanged. This step
-is project glue, NOT part of the slide algorithm.
-
-Complexity: O(n * k * dim * iters * n_init) where ``dim`` is the number
-of MDS axes (<= 16) and ``iters`` is bounded by ``max_iter`` (default
-300). For n = 192 and k <= 20 this is trivially fast.
+The slide assumes the data already lives in Euclidean space because
+Update averages coordinates. Our distance matrix is type-aware
+(Levenshtein, EMD, log-currency, haversine, ...) and not generally
+Euclidean. Classical (Torgerson) MDS embeds the N x N distance matrix
+into Euclidean R^m (m capped at 16 for stability). The Lloyd loop is
+unchanged after the embedding.
 """
 
 from __future__ import annotations
@@ -95,21 +48,20 @@ logger = logging.getLogger(__name__)
 
 @register
 class KMeans(ClusterAlgorithm):
-    """Lloyd's k-means with random initialization, on a classical-MDS embedding."""
+    """Lloyd's k-means with random init, on a classical-MDS embedding."""
 
     name = "kmeans"
     description = (
         "K-means (Lloyd's): partitions countries into k groups around k "
-        "centroids (means). Initialization is uniform random sampling of "
-        "k data objects, per the course slide. The non-Euclidean distance "
-        "matrix is first embedded into Euclidean space via classical MDS, "
-        "then standard Lloyd iterations (Assignment / Update / Convergence) "
-        "run with n_init restarts."
+        "centroids. Random init from data objects (slide-spec). The "
+        "non-Euclidean distance matrix is first embedded with classical "
+        "MDS, then Lloyd iterations (Assign / Update / Stop) run with "
+        "n_init restarts; the run with the lowest final SSE wins."
     )
 
     def compute(
         self,
-        distance_matrix: np.ndarray,
+        distance_matrix: np.ndarray,             # D, shape (n, n)
         names: list[str],
         *,
         params: dict[str, Any],
@@ -119,9 +71,7 @@ class KMeans(ClusterAlgorithm):
         n_init = int(params.get("n_init", 10))
         max_iter = int(params.get("max_iter", 300))
         seed = int(params.get("random_seed", 0))
-        # tol: optional SSE-delta convergence threshold (slide criterion 2).
-        # 0.0 means rely on assignment-stability only (criterion 1).
-        tol = float(params.get("tol", 0.0))
+        tol = float(params.get("tol", 0.0))      # 0 -> label-stability only
 
         if k <= 0:
             raise ValueError("k must be >= 1")
@@ -132,153 +82,119 @@ class KMeans(ClusterAlgorithm):
         if k == 1 or n == 1:
             return {name: 0 for name in names}, []
 
-        # Project glue: embed the non-Euclidean distance matrix into
-        # Euclidean coords (classical MDS). Slide assumes data already
-        # lives in Euclidean space.
-        coords = _classical_mds(distance_matrix)
+        # Project glue: D (n x n, non-Euclidean) -> X (n x m, Euclidean).
+        X = _classical_mds(distance_matrix)
 
-        # n_init restarts — each one is an independent Lloyd run with a
-        # fresh random initialization. We keep the result with the
-        # lowest SSE (best intra-cluster similarity, per slide).
+        # n_init restarts; keep the run with the lowest final SSE.
         best_labels: np.ndarray | None = None
         best_sse = np.inf
         for r in range(max(1, n_init)):
-            labels, sse = _lloyd(coords, k, max_iter=max_iter,
-                                 seed=seed + r, tol=tol)
+            labels, sse = _lloyd(X, k, max_iter=max_iter, seed=seed + r, tol=tol)
             if sse < best_sse:
                 best_sse = sse
                 best_labels = labels
 
         assert best_labels is not None
-        labels = {names[i]: int(best_labels[i]) for i in range(n)}
-        return labels, []
+        return {names[i]: int(best_labels[i]) for i in range(n)}, []
 
 
 # =============================================================== MDS embedding
 def _classical_mds(D: np.ndarray) -> np.ndarray:
-    """Classical (Torgerson) MDS: distance matrix -> Euclidean coordinates.
+    """Classical (Torgerson) MDS: distance matrix -> Euclidean coords.
 
-    Project-specific glue (not part of the slide algorithm). Allows
-    k-means — which fundamentally needs Euclidean coordinates to compute
-    centroid means — to operate on our type-aware non-Euclidean distance
-    matrices. Drops axes with non-positive eigenvalues (the standard
-    truncation for non-Euclidean inputs); caps dimensionality at
-    ``min(n - 1, 16)`` for numerical stability.
+    Formula
+    -------
+        J = I - (1/n) * 1 1^T                        (centering matrix)
+        B = -1/2 * J . D**2 . J                      (Gram matrix)
+        B = V . Lambda . V^T                         (eigendecomposition)
+        X = V[:, :m] * sqrt(Lambda[:m])              (m = # positive eigenvalues, capped 16)
+
+    Returns
+    -------
+    X : (n, m) Euclidean coordinates, m <= min(n-1, 16).
     """
     n = D.shape[0]
-    D2 = np.asarray(D, dtype=float) ** 2
-    J = np.eye(n) - np.ones((n, n)) / n
-    B = -0.5 * J @ D2 @ J
-    eigvals, eigvecs = np.linalg.eigh(B)
-    order = np.argsort(eigvals)[::-1]
+    D2 = np.asarray(D, dtype=float) ** 2             # squared distances, (n, n)
+    J = np.eye(n) - np.ones((n, n)) / n              # centering matrix, (n, n)
+    B = -0.5 * J @ D2 @ J                            # double-centered Gram, (n, n)
+
+    eigvals, eigvecs = np.linalg.eigh(B)             # ascending order
+    order = np.argsort(eigvals)[::-1]                # -> descending
     eigvals = eigvals[order]
     eigvecs = eigvecs[:, order]
-    pos = eigvals > 1e-9
-    m = int(min(pos.sum(), n - 1, 16))
+
+    # Drop axes with non-positive eigenvalues (D is not perfectly Euclidean).
+    m = int(min((eigvals > 1e-9).sum(), n - 1, 16))
     if m <= 0:
         return np.zeros((n, 1))
-    L = np.sqrt(eigvals[:m])
-    return eigvecs[:, :m] * L
+    return eigvecs[:, :m] * np.sqrt(eigvals[:m])     # X = V sqrt(Lambda)
 
 
-# =============================================================== Initialization
+# =============================================================== Init
 def _random_init(X: np.ndarray, k: int, rng: np.random.Generator) -> np.ndarray:
-    """Slide-spec initialization: pick k centroids uniformly at random
-    from the available data objects.
-
-    The slide says: "Randomly choose initial k centroids (means) at
-    iteration t_0: m_1^(t_0), ..., m_k^(t_0) ... typically among the
-    available data objects". We sample k DISTINCT row indices (no
-    replacement) from the N rows of X and return those rows as the
-    initial centroids.
-
-    This is the simplest valid initialization. k-means++ D^2 sampling
-    would spread the seeds more evenly, but it's an extension not
-    covered by the slide, so we deliberately don't use it.
-    """
-    n = X.shape[0]
-    # rng.choice with replace=False guarantees k DISTINCT data objects,
-    # matching the slide's "Randomly choose initial k centroids".
-    indices = rng.choice(n, size=k, replace=False)
-    return X[indices].copy()
+    """Slide-spec init: pick k DISTINCT data rows as initial centroids."""
+    indices = rng.choice(X.shape[0], size=k, replace=False)
+    return X[indices].copy()                         # (k, dim)
 
 
 # =============================================================== Lloyd's loop
 def _lloyd(
-    X: np.ndarray,
+    X: np.ndarray,                                   # (n, dim) Euclidean coords
     k: int,
     *,
     max_iter: int,
     seed: int,
     tol: float = 0.0,
 ) -> tuple[np.ndarray, float]:
-    """One k-means run: Assignment -> Update -> Convergence (slide steps).
-
-    Parameters
-    ----------
-    X : (n, dim) Euclidean coords (output of classical MDS).
-    k : number of clusters.
-    max_iter : safety cap on iterations.
-    seed : RNG seed for reproducible random init.
-    tol : optional SSE-delta convergence threshold. If positive, also
-        stop when ``|SSE^(t-1) - SSE^(t)| <= tol``. Slide's second
-        convergence criterion. ``0.0`` -> rely on assignment stability
-        only (the first criterion).
+    """One k-means run: Assign / Update / Stop.
 
     Returns
     -------
-    labels : (n,) int array — cluster id per point.
-    sse :    final Sum of Squared Error, used to pick the best of the
-             ``n_init`` restarts (lower = higher intra-cluster similarity).
+    labels : (n,) int — cluster id per point.
+    sse    : final Sum of Squared Error (lower = tighter clusters).
     """
     rng = np.random.default_rng(seed)
-    # ---- Initialization (slide step 1) ----------------------------------
-    centroids = _random_init(X, k, rng)
-    labels = np.zeros(X.shape[0], dtype=int)
+    n = X.shape[0]
+    centroids = _random_init(X, k, rng)              # M, shape (k, dim)
+    labels = np.zeros(n, dtype=int)
     prev_sse = np.inf
 
     for _ in range(max_iter):
-        # ---- Assignment (slide step 2) -----------------------------------
-        # For every x_p compute Euclidean distance to every centroid; assign
-        # to the closest (highest similarity = lowest distance).
-        # C_i^(t) = { x_p : x_p closer to m_i than any other m_j }
+        # -------- ASSIGN ---------------------------------------------------
+        # dists[p, i] = || X[p] - centroids[i] ||_2,        shape (n, k)
+        # new_labels[p] = argmin_i dists[p, i],             shape (n,)
         dists = np.linalg.norm(X[:, None, :] - centroids[None, :, :], axis=2)
         new_labels = np.argmin(dists, axis=1)
 
-        # ---- Convergence criterion 1 (slide): no objects changed ---------
+        # -------- STOP (1): no point changed cluster -----------------------
         if np.array_equal(new_labels, labels):
             labels = new_labels
             break
         labels = new_labels
 
-        # ---- Update (slide step 3) ---------------------------------------
-        # m_i^(t+1) = (1 / |C_i^(t)|) * sum_{x_p in C_i^(t)} x_p
-        # The empty-cluster reseed is a defensive fix that the slide
-        # doesn't discuss — without it, an empty cluster c would yield
-        # mean of zero points (NaN) and crash the next iteration.
+        # -------- UPDATE: m_i = (1 / |C_i|) * sum_{x in C_i} x -------------
         for c in range(k):
             members = X[labels == c]
             if len(members) == 0:
-                far = int(np.argmax(np.min(
-                    np.linalg.norm(X[:, None, :] - centroids[None, :, :],
-                                   axis=2), axis=1)))
-                centroids[c] = X[far]
+                # Defensive: empty cluster -> reseed to the point farthest
+                # from any current centroid (slide doesn't specify; without
+                # this, mean of zero points is NaN and breaks next iter).
+                d_min = np.min(
+                    np.linalg.norm(X[:, None, :] - centroids[None, :, :], axis=2),
+                    axis=1,
+                )
+                centroids[c] = X[int(np.argmax(d_min))]
             else:
                 centroids[c] = members.mean(axis=0)
 
-        # ---- Convergence criterion 2 (slide): SSE-delta below threshold --
-        # SSE^(t) = sum_{i=1..k} sum_{x_p in C_i^(t)} Dist(x_p, m_i^(t))^2
+        # -------- STOP (2): SSE drop below tol -----------------------------
+        # SSE = sum_i sum_{x in C_i} || x - m_i ||^2
         if tol > 0.0:
-            sse = float(np.sum(
-                np.linalg.norm(X - centroids[labels], axis=1) ** 2
-            ))
+            sse = float(np.sum(np.linalg.norm(X - centroids[labels], axis=1) ** 2))
             if abs(prev_sse - sse) <= tol:
                 break
             prev_sse = sse
 
-    # Final SSE — used by the orchestrator to choose the best of the
-    # n_init restarts (lowest SSE = highest intra-cluster similarity).
-    sse = float(np.sum(
-        np.linalg.norm(X - centroids[labels], axis=1) ** 2
-    ))
+    # Final SSE — used by the outer restart loop to pick the best run.
+    sse = float(np.sum(np.linalg.norm(X - centroids[labels], axis=1) ** 2))
     return labels, sse

@@ -41,8 +41,9 @@
             │  served via /api
             ▼
    ┌──────────────────┐
-   │ frontend (Flask) │   3 tabs: Countries / Compare / Patch
-   │  + D3 tree viz   │
+   │ frontend (Flask) │   4 tabs: Countries / Compare / Patch / Cluster
+   │  + D3 tree viz   │   + similarity-metrics card on Compare result
+   │  + Add-tree UI   │   (bracket notation → synthetic doc in `countries`)
    └──────────────────┘
 ```
 
@@ -78,7 +79,10 @@ IDPA-Project/
 │   │   ├── registry.py         # @register + get_algorithm
 │   │   ├── chawathe.py         # Zhang-Shasha, self-contained
 │   │   └── nierman_jagadish.py # recursive subtree similarity, self-contained
+│   ├── clustering/             # k-means + hierarchical agglomerative
+│   ├── synthetic_tree.py       # bracket-notation parser + dict round-trip
 │   └── comparison.py           # orchestrator: trees + algorithm → ComparisonResult
+│                               # + similarity_metrics(ted, |T1|, |T2|)
 ├── frontend/
 │   ├── app.py                  # Flask routes
 │   ├── formatting.py           # tree_to_dict + value formatters
@@ -101,13 +105,17 @@ IDPA-Project/
 1. User picks two countries, an algorithm, and a cost model.
 2. Browser hits `/compare/<c1>/<c2>?algorithm=…&cost_model=…`.
 3. Server calls `src.comparison.compare`:
-   - Loads `Tree` for each country (`build_country_tree`).
-   - Checks `edit_scripts` collection by `_id` —
+   - Loads `Tree` for each country (`build_country_tree`, or
+     `node_from_dict(doc["tree_dict"])` for synthetic trees).
+   - If either side is synthetic, `use_cache = False` (test trees are
+     edited often; serving stale scripts is a hazard).
+   - Otherwise checks `edit_scripts` collection by `_id` —
      `c1__c2__algo__cost_model`.
    - If cached: deserialize `EditScript.from_dict`.
    - Else: instantiate the algorithm via `get_algorithm(name)`,
      run `compute()`, store the result in Mongo.
-   - Builds `ComparisonResult` containing both directions + diff marks.
+   - Builds `ComparisonResult` containing both directions, the three
+     similarity metrics per direction, and the diff marks.
 4. Server returns an HTML shell; the browser fetches
    `/api/compare/<c1>/<c2>?…` to populate the two D3 trees with the
    per-node mark dict.

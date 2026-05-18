@@ -416,7 +416,12 @@ def _build_script(
         cost = cost_delete(info1.index_of[id(node)])
         script.add(Action(op="delete", path=path, cost=cost,
                           old_label=node.label, new_node=node.copy()))
-        w.parent.remove_child(w.parent.children.index(w))
+        # Identity, not equality: two structurally-identical siblings
+        # would compare equal under Node.__eq__ (dataclass default),
+        # and list.index would return the first match.
+        w.parent.remove_child(
+            next(i for i, c in enumerate(w.parent.children) if c is w)
+        )
         for desc in node.walk():
             t1_to_w.pop(id(desc), None)
 

@@ -41,7 +41,92 @@
       showing all {{ total_count }}
     {% endif %}
   </span>
+  <button type="button" class="btn sm" id="btn-add-tree"
+          style="margin-left: auto;">
+    + Add tree
+  </button>
 </form>
+
+<div id="add-tree-panel" class="card mb-4" style="display: none;">
+  <h3 style="margin-top: 0;">Add a test tree</h3>
+  <p class="muted" style="font-size: 13px; margin-top: -6px;">
+    Define a tree in bracket notation — the standard format from TED
+    textbooks. Labels can use <code>[A-Za-z0-9_.-]</code>. Examples:
+    <code>A(B,C(D,E))</code> ·
+    <code>root(a, b(c, d), e)</code> ·
+    <code>x</code> (single-node tree).
+    Stored as a synthetic entry and usable in the
+    <a href="{{ url_for('compare_form') }}">Compare</a> page.
+  </p>
+  <form id="add-tree-form" style="display: flex; flex-direction: column; gap: 8px;">
+    <div class="row" style="gap: 8px;">
+      <input class="input" type="text" name="name" id="add-tree-name"
+             placeholder="Tree name (e.g. T1)…" required
+             style="max-width: 240px;">
+      <button class="btn primary sm" type="submit" id="add-tree-submit">
+        Save tree
+      </button>
+      <span class="muted mono" id="add-tree-status"
+            style="font-size: 12px; align-self: center;"></span>
+    </div>
+    <textarea class="input" id="add-tree-bracket" name="bracket"
+              placeholder="root(a, b(c, d), e)" required rows="3"
+              style="font-family: var(--font-mono, monospace);
+                     font-size: 13px; resize: vertical;"></textarea>
+  </form>
+</div>
+
+<script>
+  (function () {
+    const toggleBtn = document.getElementById('btn-add-tree');
+    const panel     = document.getElementById('add-tree-panel');
+    const form      = document.getElementById('add-tree-form');
+    const nameInput = document.getElementById('add-tree-name');
+    const bracketIn = document.getElementById('add-tree-bracket');
+    const submit    = document.getElementById('add-tree-submit');
+    const status    = document.getElementById('add-tree-status');
+
+    toggleBtn.addEventListener('click', () => {
+      const shown = panel.style.display !== 'none';
+      panel.style.display = shown ? 'none' : 'block';
+      if (!shown) nameInput.focus();
+    });
+
+    form.addEventListener('submit', async (ev) => {
+      ev.preventDefault();
+      const name    = nameInput.value.trim();
+      const bracket = bracketIn.value.trim();
+      if (!name || !bracket) return;
+      submit.disabled = true;
+      status.style.color = '';
+      status.textContent = 'parsing & storing…';
+      try {
+        const resp = await fetch('/api/trees', {
+          method:  'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body:    JSON.stringify({ name, bracket }),
+        });
+        const data = await resp.json();
+        if (!resp.ok) {
+          status.style.color = 'crimson';
+          status.textContent = 'failed: ' + (data.error || resp.statusText);
+          submit.disabled = false;
+          return;
+        }
+        status.style.color = 'green';
+        status.textContent =
+          (data.updated ? 'updated' : 'added') +
+          ' "' + data.name + '" — ' + data.nodes + ' nodes, height ' +
+          data.height + ' — reloading…';
+        setTimeout(() => window.location.reload(), 700);
+      } catch (err) {
+        status.style.color = 'crimson';
+        status.textContent = 'network error: ' + err.message;
+        submit.disabled = false;
+      }
+    });
+  })();
+</script>
 
 {% if not countries %}
   <div class="empty">

@@ -19,10 +19,20 @@ Four tabs in the web UI: **Countries · Compare · Patch · Cluster**.
 | 4. Patch | `src/core/edit_script.py` | Apply / invert any edit script |
 | 5. Cluster | `src/clustering/` | k-means or hierarchical AGG on a single selected field |
 
-Distances are **type-aware**: Levenshtein for text, log-scale for
-currency, EMD over hand-curated taxonomies for distributions (religion /
-language / ethnicity), haversine for coordinates, etc. See
-`src/distances.py`.
+Distances are **type-aware** and every per-type function returns a
+value in `[0, 1]` (min-clamped) so a weighted mean across heterogeneous
+fields is commensurable:
+
+- `number` / `percent` — relative diff `abs(a − b) / max(abs(a), abs(b), ε)` / `abs(a − b) / 100`.
+- `year` / `date` — `abs(a − b) / Y` and `days / (Y·365.25)`; `Y` defaults to 100.
+- `currency` — log-scale, `abs(log₁₀ a − log₁₀ b) / S` with `S = 4` (10 000× ratio = 1.0); falls back to `number` for non-positive values.
+- `coordinates` — haversine km (Earth radius 6371) over `D = 20 000` km.
+- `text`, `wikilink` — Levenshtein on `.lower().strip()` strings, normalized by the longer length.
+- `distribution` — tree-EMD over a hand-curated taxonomy (`religion` / `language` / `ethnicity` / `government`).
+
+Cross-kind or cross-type pairs (and distributions on different
+taxonomies) collapse to `type_mismatch_relabel`. See `src/distances.py`
+and the full table in `docs/04-algorithms.md`.
 
 ---
 
@@ -156,11 +166,31 @@ A–Z index of all 192 UN member states, with ISO-3 chips, alpha-rail
 quick-jump, and per-country detail pages showing the full structural
 tree (TOC + nested `<details>` blocks + type-composition side panel).
 
+A **"+ Add tree"** button lets you create hand-crafted test trees in
+bracket notation (e.g. `A(B,C(D,E))`) directly from the UI. These
+synthetic trees show up alongside real countries in the Compare and
+Patch dropdowns, but are **excluded from clustering** (no real
+infobox fields) and **bypass the comparison cache** (always
+recomputed, since you'll be editing them as you test). Parsing lives
+in `src/synthetic_tree.py`; storage is the same `countries`
+collection with `source = "synthetic"`.
+
 ### Compare
 Pick any two countries, an algorithm (`chawathe` or `nierman_jagadish`),
 and a cost model (`symmetric` or `asymmetric`). Get a side-by-side
 diff with red/green/yellow ✗/+/~ marks, the edit-script table, and
 A→B / B→A direction toggle.
+
+A **Similarity metrics** card directly under the header shows the
+three slide-spec numbers (Ch. 5) for both directions:
+
+| metric | formula |
+|---|---|
+| Raw TED | `TED(T1, T2)` |
+| Normalized inverse | `1 / (1 + TED(T1, T2))` |
+| Standard ratio | `1 − TED(T1, T2) / (|T1| + |T2|)` |
+
+For asymmetric cost models the A→B and B→A columns differ.
 
 ### Patch
 Apply any `EditScript` (paste JSON / upload `.json` file / pick a
@@ -263,7 +293,8 @@ IDPA-Project/
 │   ├── comparison.py              # orchestrator for the Compare tab
 │   ├── config.py                  # pipeline.json loader
 │   ├── ted/                       # chawathe / nierman_jagadish
-│   ├── clustering/                # ★ new — k-means, AGG, MDS, evaluation
+│   ├── clustering/                # k-means, AGG, MDS, evaluation
+│   ├── synthetic_tree.py          # bracket-notation parser + dict round-trip
 │   └── storage/
 │       └── mongo_store.py         # countries / edit_scripts /
 │                                  # cluster_runs / distance_matrices
@@ -360,6 +391,9 @@ Get-NetTCPConnection -LocalPort 5050 -ErrorAction SilentlyContinue |
 | `pip install` hangs in Claude/agent terminal | Run it in a real PowerShell window instead |
 | Clustering finishes with N outliers and tiny `n` | A selected field is rare; check `data/analysis/infobox_summary.md` for coverage |
 | World map missing tiles for some countries | Check `data/country_numeric_codes.json` — the world-atlas topo keys by ISO numeric |
+| `KeyError: (0,)` on Compare with identical sibling subtrees | Fixed in `Tree.path_of` (identity not equality). If it returns, look for any new `.children.index(...)` call — see `docs/08-design-decisions.md` §24 |
+| Synthetic tree appears in a cluster run | `_build_all_trees` filter must skip `source == "synthetic"`; confirm the doc has that field set |
+| Stale TED result after editing a synthetic tree | `compare()` should set `use_cache = False` when either side is synthetic — restart Flask if you just edited `src/comparison.py` |
 
 ---
 

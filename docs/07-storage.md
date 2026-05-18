@@ -62,6 +62,44 @@ One document per UN member state, keyed by the canonical English name
 }
 ```
 
+### Synthetic test trees (same collection)
+
+Hand-crafted trees added from the `/countries` "+ Add tree" UI share
+this collection, distinguished by `source = "synthetic"`. The
+`infobox` field is empty and a `tree_dict` field carries the
+serialized tree (round-trip of `frontend.formatting.tree_to_dict`).
+
+```json
+{
+  "_id":         "T1",
+  "name":        "T1",
+  "infobox":     {},
+  "template":    null,
+  "wikitext":    "A(B,C(D,E))",      // original bracket-notation input
+  "source":      "synthetic",
+  "tree_dict":   {
+    "kind":     "structural",
+    "label":    "A",
+    "children": [ ... ]
+  },
+  "ingested_at": <UTC datetime>
+}
+```
+
+Loaders short-circuit on `source == "synthetic"`:
+
+- `src/comparison.py:_load_tree` — `Tree(node_from_dict(doc["tree_dict"]), name=name)`,
+  skipping `build_country_tree`.
+- `frontend.app._cached_country_tree` — same shortcut.
+- `src/clustering/run.py:_build_all_trees` — **skips** synthetic
+  documents so they don't enter the distance matrix or any cluster
+  run.
+- `src/comparison.py:compare` — forces `use_cache = False` when
+  either side is synthetic (the `edit_scripts` collection is not
+  trusted for hand-crafted trees because they're frequently edited).
+
+See [08-design-decisions.md §26-§27](08-design-decisions.md).
+
 ### Indexes
 
 - Unique on `name`.
